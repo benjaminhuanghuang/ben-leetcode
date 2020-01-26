@@ -44,5 +44,5 @@
 - Run test
 ```
   npm run test
-  npm run test 
+  npm run test 0001_Two_Sum/solution.spec.js
 ```
