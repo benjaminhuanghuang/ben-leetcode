@@ -15,3 +15,34 @@
 ## JavaScript
 
 
+
+
+## Run Test
+### Cpp
+### Java
+### Go
+- Install package
+```
+  go get github.com/stretchr/testify/assert
+```
+- Run Test
+```
+  go test ./...
+  go test ./1323_Maximum_69_Number
+```
+## Python
+
+## JavaScript
+- Install package
+```
+  npm i -D @babel/preset-env jest
+```
+- Create .babelrc
+
+- Create npm script in package.json
+
+- Run test
+```
+  npm run test
+  npm run test 
+```

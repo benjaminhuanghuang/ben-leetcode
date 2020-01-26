@@ -1,0 +1,16 @@
+{
+  "name": "ben-leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.3",
+    "jest": "^25.1.0"
+  }
+}
