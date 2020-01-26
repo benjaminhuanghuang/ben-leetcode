@@ -1,0 +1,52 @@
+/*
+541. Reverse String II
+
+Given a string and an integer k, you need to reverse the first k characters for every 2k characters 
+counting from the start of the string. If there are less than k characters left, reverse all of 
+them. If there are less than 2k but greater than or equal to k characters, then reverse the first k 
+characters and left the other as original.
+
+Example:
+Input: s = "abcdefg", k = 2
+Output: "bacdfeg"
+Restrictions:
+The string consists of lower English letters only.
+Length of the given string and k will in the range [1, 10000]
+ */
+using System;
+public class Solution541
+{
+    public string ReverseStr(string s, int k)
+    {
+        if (s == null || s.Length == 0)
+            return s;
+
+        char[] charArray = s.ToCharArray();
+        int start = 0;
+        int end = Math.Min(k - 1, s.Length - 1);
+        bool needReverse = true;
+        while (start < s.Length - 1)
+        {
+            if (needReverse)
+            {
+                Reverse(charArray, start, end);
+            }
+            needReverse = !needReverse;
+            start = Math.Min(start + k, s.Length - 1);
+            end = Math.Min(end + k, s.Length - 1);
+        }
+        return new String(charArray);
+    }
+
+    private void Reverse(char[] charArr, int start, int end)
+    {
+        while (start < end)
+        {
+            char temp = charArr[start];
+            charArr[start] = charArr[end];
+            charArr[end] = temp;
+            start++;
+            end--;
+        }
+    }
+}
