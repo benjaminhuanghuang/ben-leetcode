@@ -16,7 +16,7 @@ def copyCppSolutions():
 
     targetFiePath = os.path.join(targetFolder, "solution.cpp")
     print("Copy {} to {}".format(cppFilePath, targetFiePath))
-    
+    copyfile(cppFilePath, targetFiePath)
 
 
 def getTargetFolder(solutionNum):
