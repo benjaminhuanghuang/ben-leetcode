@@ -31,17 +31,22 @@
   go test ./1323_Maximum_69_Number
 ```
 ## Python
-
+- Run tests
+```
+  python -m unittest *_test.py           # run test in a folder
+```
 ## JavaScript
-- Install package
+- Install package for testing and ES6
 ```
   npm i -D @babel/preset-env jest
 ```
-- Create .babelrc
+- Support ES6
+  
+  .babelrc
 
 - Create npm script in package.json
 
-- Run test
+- Run test using Jest
 ```
   npm run test
   npm run test 0001_Two_Sum/solution.spec.js
