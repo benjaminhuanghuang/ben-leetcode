@@ -22,13 +22,7 @@ type LeetCodeProblemDifficulty struct {
 	Level int `json:"level"`
 }
 
-type LanguageSetting struct {
-	Language         string
-	FileExtension    string
-	SolutionFileName string
-	TestFileName     string
-	Replaces         map[string]string
-}
+//-------------------------------------
 
 type LeetCodeProblemDetailAPIResponse struct {
 	Data LeetCodeProblemDetailData `json:"data"`

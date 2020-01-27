@@ -1,92 +1,14 @@
 package common
 
 import (
-	"bytes"
-	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"net/http"
 	"os"
 	"path"
 	"regexp"
 	"strconv"
 	"strings"
 )
-
-func GetAllProblemsInfo() ([]LeetCodeProblem, error) {
-	response, err := http.Get(LEETCODE_PROBLEMS_API_URL)
-
-	if err != nil {
-		return nil, err
-	}
-
-	jsonBody, err := ioutil.ReadAll(response.Body)
-	if err != nil {
-		return nil, err
-	}
-	// fmt.Printf("%s", jsonBody)
-	var responseObject APIResponse
-	json.Unmarshal(jsonBody, &responseObject)
-	return responseObject.Problems, nil
-}
-
-func GetProblemDetailBySlug(titleSlug string) (LeetCodeProblemDetail, error) {
-	payload := fmt.Sprintf(`{
-		"operationName": "questionData",
-		"variables": {
-			"titleSlug": "%s"
-		},
-		"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId  questionFrontendId title titleSlug difficulty content codeSnippets{      lang      langSlug   code   }}}"
-	}`, titleSlug)
-
-	req, err := http.NewRequest("POST", LEETCODE_GRPAHQL_API_URL, bytes.NewBuffer([]byte(payload)))
-	req.Header.Set("Content-type", "application/json")
-	if err != nil {
-		return LeetCodeProblemDetail{}, err
-	}
-	client := &http.Client{}
-	resp, err := client.Do(req)
-	if err != nil {
-		panic(err)
-	}
-	jsonBody, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return LeetCodeProblemDetail{}, err
-	}
-	// fmt.Printf("%s", jsonBody)
-	var responseObject LeetCodeProblemDetailAPIResponse
-	json.Unmarshal(jsonBody, &responseObject)
-	return responseObject.Data.Question, nil
-}
-
-func GetProblemDetailById(Id int) (LeetCodeProblemDetail, error) {
-	payload := fmt.Sprintf(`{
-		"operationName": "questionData",
-		"variables": {
-			"titleSlug": "%d"
-		},
-		"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId   questionFrontendId title titleSlug difficulty codeSnippets{      lang      langSlug   code   }}}"
-	}`, Id)
-
-	req, err := http.NewRequest("POST", LEETCODE_GRPAHQL_API_URL, bytes.NewBuffer([]byte(payload)))
-	req.Header.Set("Content-type", "application/json")
-	if err != nil {
-		return LeetCodeProblemDetail{}, err
-	}
-	client := &http.Client{}
-	resp, err := client.Do(req)
-	if err != nil {
-		panic(err)
-	}
-	jsonBody, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return LeetCodeProblemDetail{}, err
-	}
-	// fmt.Printf("%s", jsonBody)
-	var responseObject LeetCodeProblemDetailAPIResponse
-	json.Unmarshal(jsonBody, &responseObject)
-	return responseObject.Data.Question, nil
-}
 
 func CreateSolutionForProblem(problem LeetCodeProblemDetail) {
 	solutionFolder, err := CreateSolutionFolder(problem)
@@ -135,10 +57,11 @@ func CreateSolution(solutionFolder string, problem LeetCodeProblemDetail, settin
 	solutionTempalteFile := path.Join(ROOT_PATH, "code_skeleton", setting.FileExtension, setting.SolutionFileName)
 	destinationFile := path.Join(solutionFolder, setting.SolutionFileName)
 	GenerateSolutionFile(solutionTempalteFile, destinationFile, problem, setting)
-
-	testTempalteFile := path.Join(ROOT_PATH, "code_skeleton", setting.FileExtension, setting.TestFileName)
-	destinationFile = path.Join(solutionFolder, setting.TestFileName)
-	GenerateSolutionFile(testTempalteFile, destinationFile, problem, setting)
+	if setting.NeedTest {
+		testTempalteFile := path.Join(ROOT_PATH, "code_skeleton", setting.FileExtension, setting.TestFileName)
+		destinationFile = path.Join(solutionFolder, setting.TestFileName)
+		GenerateSolutionFile(testTempalteFile, destinationFile, problem, setting)
+	}
 }
 
 /*
@@ -173,6 +96,7 @@ func GenerateSolutionFile(sourceFile string, destinationFile string, problem Lee
 	for _, codeSnippet := range problem.CodeSnippets {
 		if codeSnippet.Language == setting.Language {
 			fileContent = strings.Replace(fileContent, "{CODE}", codeSnippet.Code, 1)
+			break
 		}
 	}
 

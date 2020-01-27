@@ -10,7 +10,7 @@ func Test_GetAllProblemInfo(t *testing.T) {
 	problems, _ := GetAllProblems()
 
 	// fmt.Println(len(p))
-	assert.Equal(t, tc.ans, tc.ans)
+	assert.Greater(t, 1000, len(problems))
 }
 
 func Test_GetProblemDetailBySlug(t *testing.T) {
