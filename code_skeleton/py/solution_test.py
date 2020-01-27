@@ -2,7 +2,7 @@
 '''
 {TITLE}
 
-Level: {LEVLE}
+Level: {LEVEL}
 
 {URL}
 '''

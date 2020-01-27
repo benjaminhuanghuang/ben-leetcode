@@ -23,10 +23,21 @@ func Test_GetProblemDetailBySlug(t *testing.T) {
 	assert.Equal(t, id, p.ID)
 }
 
-func Test_GetProblemDetailById(t *testing.T) {
+func Test_GetProblemDetailByFrontId_1355(t *testing.T) {
 	id := 1335
 	titleSlug := "minimum-difficulty-of-a-job-schedule"
-	p, _ := GetProblemDetailByFrontendId(1335)
+	p, _ := GetProblemDetailByFrontendId(id)
+
+	// fmt.Printf("%v\n", p)
+	assert.Equal(t, strconv.Itoa(id), p.FrontendID)
+	assert.Equal(t, titleSlug, p.TitleSlug)
+}
+
+
+func Test_GetProblemDetailByFrontId_1332(t *testing.T) {
+	id := 1332
+	titleSlug := "remove-palindromic-subsequences"
+	p, _ := GetProblemDetailByFrontendId(id)
 
 	// fmt.Printf("%v\n", p)
 	assert.Equal(t, strconv.Itoa(id), p.FrontendID)

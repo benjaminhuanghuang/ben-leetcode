@@ -6,11 +6,13 @@ import (
 )
 
 func main() {
-	problemIds := []int{1322}
+	problemIds := []int{1332}
 	for _, id := range problemIds {
-		p, err := GetProblemInfoById(id)
-		if err == nil {
-			CreateSolutionForProblem(p)
-		}
+		p, err := GetProblemDetailByFrontendId(id)
+		if err != nil {
+			fmt.Printf("%v\n", err)
+		}	
+		fmt.Println("Craete solution for ", p.Title)
+		CreateSolutionForProblem(p)
 	}
 }
