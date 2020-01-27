@@ -31,23 +31,17 @@ func GetAllProblemsInfo() ([]LeetCodeProblem, error) {
 
 func GetProblemInfoBySlug() (LeetCodeProblem, error) {
 	titleSlug := "two-sum"
-	body := fmt.Sprintf(`"operationName": "questionData",
-												"variables": {
-													"titleSlug": %s
-												},
-  											"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {
-														questionId
-														questionFrontendId
-														titleSlug
-														codeSnippets{
-															lang
-															langSlug
-															code
-														}
-													}
-												}
-											}`, titleSlug)
+	body := fmt.Sprintf(`{
+		"operationName": "questionData",
+		"variables": {
+			"titleSlug": "%s"
+		},
+		"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId   questionFrontendId title titleSlug codeSnippets{      lang      langSlug   code   }}}"
+	}`, titleSlug)
+
+	fmt.Println(body)
 	req, err := http.NewRequest("POST", "https://leetcode.com/graphql", bytes.NewBuffer([]byte(body)))
+	req.Header.Set("Content-type", "application/json")
 	if err != nil {
 		return LeetCodeProblem{}, err
 	}

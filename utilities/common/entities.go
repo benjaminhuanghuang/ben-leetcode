@@ -23,9 +23,25 @@ type LeetCodeProblemDifficulty struct {
 }
 
 type LanguageSetting struct {
+	Language         string
 	FileExtension    string
 	SolutionFileName string
 	TestFileName     string
 	Replaces         map[string]string
 }
 
+
+type LeetCodeProblemDetail struct{
+	ID  string `json:"questionId"`
+	Title string `json:"title"`
+	TitleSlug string`json:"titleSlug"`
+	Content string`json:"content"`
+	Difficulty string`json:"difficulty"`
+	CodeSnippets []LeetCodeCodeSnippet`json:"codeSnippets"`
+}
+
+type LeetCodeCodeSnippet struct{
+	Language string`json:"lang"`
+	LanguageSlug string`json:"langSlug"`
+	Code string`json:"code"`
+}
