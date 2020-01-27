@@ -9,8 +9,8 @@ import (
 	"os"
 	"path"
 	"regexp"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 func GetAllProblemsInfo() ([]LeetCodeProblem, error) {
@@ -63,7 +63,7 @@ func GetProblemInfoById(Id int) (LeetCodeProblemDetail, error) {
 	payload := fmt.Sprintf(`{
 		"operationName": "questionData",
 		"variables": {
-			"titleSlug": "%s"
+			"titleSlug": "%d"
 		},
 		"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId   questionFrontendId title titleSlug difficulty codeSnippets{      lang      langSlug   code   }}}"
 	}`, Id)
@@ -183,7 +183,7 @@ func GenerateSolutionFile(sourceFile string, destinationFile string, problem Lee
 	}
 }
 
-func formatProblemID(id string)string{
+func formatProblemID(id string) string {
 	num, _ := strconv.Atoi(id)
 	return fmt.Sprintf("%04d", num)
 }
