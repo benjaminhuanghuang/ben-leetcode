@@ -3,6 +3,7 @@ package common
 import (
 	"bytes"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"net/http"
@@ -61,33 +62,14 @@ func GetProblemDetailBySlug(titleSlug string) (LeetCodeProblemDetail, error) {
 }
 
 /*
-	GetProblemDetailBySlug calls Leetcode GraphQL API https://leetcode.com/graphql to get problem detail by title slug
+GetProblemDetailByFrontendId calls Leetcode GraphQL API https://leetcode.com/graphql to get problem detail by title slug
 */
-func GetProblemDetailById(Id int) (LeetCodeProblemDetail, error) {
-	payload := fmt.Sprintf(`{
-		"operationName": "questionData",
-		"variables": {
-			"titleSlug": "%d"
-		},
-		"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId   questionFrontendId title titleSlug difficulty codeSnippets{      lang      langSlug   code   }}}"
-	}`, Id)
-
-	req, err := http.NewRequest("POST", LEETCODE_GRPAHQL_API_URL, bytes.NewBuffer([]byte(payload)))
-	req.Header.Set("Content-type", "application/json")
-	if err != nil {
-		return LeetCodeProblemDetail{}, err
+func GetProblemDetailByFrontendId(Id int) (LeetCodeProblemDetail, error) {
+	problems, _ := GetAllProblems()
+	for _, p := range problems {
+		if p.Stat.FrontendID == Id {
+			return GetProblemDetailBySlug(p.Stat.TitleSlug)
+		}
 	}
-	client := &http.Client{}
-	resp, err := client.Do(req)
-	if err != nil {
-		panic(err)
-	}
-	jsonBody, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return LeetCodeProblemDetail{}, err
-	}
-	// fmt.Printf("%s", jsonBody)
-	var responseObject LeetCodeProblemDetailAPIResponse
-	json.Unmarshal(jsonBody, &responseObject)
-	return responseObject.Data.Question, nil
+	return LeetCodeProblemDetail{}, errors.New("Can not find problem")
 }

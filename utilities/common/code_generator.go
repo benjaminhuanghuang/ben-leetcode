@@ -50,7 +50,7 @@ func GenerateSolutionFolderName(problem LeetCodeProblemDetail) string {
 	var title = strings.TrimSpace(problem.Title)
 	space := regexp.MustCompile(`\s+`)
 	title = space.ReplaceAllString(title, "_")
-	return fmt.Sprintf("%s_%s", formatProblemID(problem.ID), title)
+	return fmt.Sprintf("%s_%s", formatProblemID(problem.FrontendID), title)
 }
 
 func CreateSolution(solutionFolder string, problem LeetCodeProblemDetail, setting LanguageSetting) {
@@ -82,7 +82,7 @@ func GenerateSolutionFile(sourceFile string, destinationFile string, problem Lee
 	}
 
 	// Add title
-	fileContent := strings.Replace(string(input), "{TITLE}", fmt.Sprintf("%s. %s", problem.ID, problem.Title), 1)
+	fileContent := strings.Replace(string(input), "{TITLE}", fmt.Sprintf("%s. %s", problem.FrontendID, problem.Title), 1)
 	// Add yrl
 	fileContent = strings.Replace(fileContent, "{URL}", LEETCODE_PROBLEMS_BASE_URL+problem.TitleSlug, 1)
 	// Level
@@ -115,7 +115,7 @@ func formatProblemID(id string) string {
 func createReplaceString(name string, problem LeetCodeProblemDetail) string {
 	switch name {
 	case "PROBLEM_ID":
-		return formatProblemID(problem.ID)
+		return formatProblemID(problem.FrontendID)
 	default:
 		return ""
 	}

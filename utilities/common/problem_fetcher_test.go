@@ -1,9 +1,9 @@
 package common
 
 import (
-	"testing"
-
 	"github.com/stretchr/testify/assert"
+	"strconv"
+	"testing"
 )
 
 func Test_GetAllProblemInfo(t *testing.T) {
@@ -23,12 +23,12 @@ func Test_GetProblemDetailBySlug(t *testing.T) {
 	assert.Equal(t, id, p.ID)
 }
 
-func test_GetProblemDetailById(t *testing.T) {
+func Test_GetProblemDetailById(t *testing.T) {
 	id := 1335
 	titleSlug := "minimum-difficulty-of-a-job-schedule"
-	p, _ := GetProblemDetailById(1335)
+	p, _ := GetProblemDetailByFrontendId(1335)
 
 	// fmt.Printf("%v\n", p)
-	assert.Equal(t, id, p.ID)
+	assert.Equal(t, strconv.Itoa(id), p.FrontendID)
 	assert.Equal(t, titleSlug, p.TitleSlug)
 }

@@ -16,6 +16,7 @@ type LeetCodeProblemStat struct {
 	Title     string `json:"question__title"`
 	TitleSlug string `json:"question__title_slug"`
 	IsNew     bool   `json:"is_new_question"`
+	FrontendID int	 `json:"frontend_question_id"`
 }
 
 type LeetCodeProblemDifficulty struct {
@@ -33,7 +34,8 @@ type LeetCodeProblemDetailData struct {
 }
 
 type LeetCodeProblemDetail struct {
-	ID           string                `json:"questionFrontendId"`
+	ID           string                `json:"questionId"`
+	FrontendID   string                `json:"questionFrontendId"`
 	Title        string                `json:"title"`
 	TitleSlug    string                `json:"titleSlug"`
 	Content      string                `json:"content"`
