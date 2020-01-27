@@ -39,7 +39,7 @@ type LeetCodeProblemDetailData struct {
 }
 
 type LeetCodeProblemDetail struct{
-	ID  string `json:"questionId"`
+	ID  string `json:"questionFrontendId"`
 	Title string `json:"title"`
 	TitleSlug string`json:"titleSlug"`
 	Content string`json:"content"`

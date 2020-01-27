@@ -1,6 +1,8 @@
 /*
 {TITLE}
 
+Level: {LEVEL}
+
 {URL}
 */
 namespace Ben.LeetCode.Test

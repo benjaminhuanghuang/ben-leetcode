@@ -10,6 +10,7 @@ import (
 	"path"
 	"regexp"
 	"strings"
+	"strconv"
 )
 
 func GetAllProblemsInfo() ([]LeetCodeProblem, error) {
@@ -127,7 +128,7 @@ func GenerateSolutionFolderName(problem LeetCodeProblemDetail) string {
 	var title = strings.TrimSpace(problem.Title)
 	space := regexp.MustCompile(`\s+`)
 	title = space.ReplaceAllString(title, "_")
-	return fmt.Sprintf("%04d_%s", problem.ID, title)
+	return fmt.Sprintf("%s_%s", formatProblemID(problem.ID), title)
 }
 
 func CreateSolution(solutionFolder string, problem LeetCodeProblemDetail, setting LanguageSetting) {
@@ -158,13 +159,21 @@ func GenerateSolutionFile(sourceFile string, destinationFile string, problem Lee
 	}
 
 	// Add title
-	fileContent := strings.Replace(string(input), "{TITLE}", fmt.Sprintf("%04d. %s", problem.ID, problem.Stat.Title), 1)
+	fileContent := strings.Replace(string(input), "{TITLE}", fmt.Sprintf("%s. %s", problem.ID, problem.Title), 1)
 	// Add yrl
 	fileContent = strings.Replace(fileContent, "{URL}", LEETCODE_PROBLEMS_BASE_URL+problem.TitleSlug, 1)
+	// Level
+	fileContent = strings.Replace(fileContent, "{LEVLE}", problem.Difficulty, 1)
 
 	// Replace
 	for k, v := range setting.Replaces {
 		fileContent = strings.Replace(fileContent, k, createReplaceString(v, problem), 1)
+	}
+	// Code
+	for _, codeSnippet := range problem.CodeSnippets {
+		if codeSnippet.Language == setting.Language {
+			fileContent = strings.Replace(fileContent, "{CODE}", codeSnippet.Code, 1)
+		}
 	}
 
 	err = ioutil.WriteFile(destinationFile, []byte(fileContent), 0666)
@@ -174,12 +183,15 @@ func GenerateSolutionFile(sourceFile string, destinationFile string, problem Lee
 	}
 }
 
+func formatProblemID(id string)string{
+	num, _ := strconv.Atoi(id)
+	return fmt.Sprintf("%04d", num)
+}
+
 func createReplaceString(name string, problem LeetCodeProblemDetail) string {
 	switch name {
-	case "PROBLEM_NUMBER":
-		return fmt.Sprintf("%04d", problem.ID)
-	case "PROBLEM_LEVEL":
-		return problem.Difficulty
+	case "PROBLEM_ID":
+		return formatProblemID(problem.ID)
 	default:
 		return ""
 	}

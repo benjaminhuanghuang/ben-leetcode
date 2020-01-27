@@ -13,7 +13,7 @@ var SETTINGS = []LanguageSetting{
 		"go",
 		"solution.go",
 		"solution_test.go",
-		map[string]string{"{REPLACE_1}": "PROBLEM_NUMBER"},
+		map[string]string{"{REPLACE_1}": "PROBLEM_ID"},
 	},
 	{
 		"C++",

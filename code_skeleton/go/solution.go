@@ -1,6 +1,8 @@
 /*
 {TITLE}
 
+Level: {LEVEL}
+
 {URL}
 */
 package leetcode{REPLACE_1}

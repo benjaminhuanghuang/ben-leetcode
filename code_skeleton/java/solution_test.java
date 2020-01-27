@@ -1,6 +1,8 @@
 /*
 {TITLE}
 
+Level: {LEVEL}
+
 {URL}
 */
 package cn.huang.leetcode;
