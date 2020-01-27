@@ -9,6 +9,11 @@ import (
 	"strings"
 )
 
+func GetProblemInfo(url string) ProblemItem {
+	p := ProblemItem{}
+	return p
+}
+
 func CreateSolutionForProblem(problem ProblemItem) {
 	solutionFolder, err := CreateSolutionFolder(problem)
 	if err != nil {
