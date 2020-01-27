@@ -1,6 +1,9 @@
 package common
 
 const LEETCODE_URL = "https://leetcode.com"
+const LEETCODE_PROBLEMS_BASE_URL = "https://leetcode.com/problems/"
+const LEETCODE_PROBLEMS_API_URL = "https://leetcode.com/api/problems/algorithms/"
+const LEETCODE_GRPAHQL_API_URL = "https://leetcode.com/graphql"
 
 const ROOT_PATH = "/Users/bhuang/ben-github/ben-leetcode/"
 

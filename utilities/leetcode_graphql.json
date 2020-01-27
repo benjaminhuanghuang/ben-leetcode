@@ -1,0 +1,15 @@
+{
+  "operationName": "questionData",
+  "variables": {
+    "titleSlug": "remove-palindromic-subsequences"
+  },
+  "query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId \n    questionFrontendId \n titleSlug\n codeSnippets{\n      lang\n      langSlug\n      code\n      __typename\n    }\n }\n}"
+}
+
+
+{
+  "variables": {
+    "titleSlug": "remove-palindromic-subsequences"
+  },
+  "query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId \n    questionFrontendId \n titleSlug\n }\n}"
+}
