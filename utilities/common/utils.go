@@ -72,7 +72,7 @@ func CreateSolutionForProblem(problem LeetCodeProblem) {
 	}
 
 	for _, setting := range SETTINGS {
-		fmt.Println("Create solution for " + setting.FileExtension)
+		// fmt.Println("Create solution for " + setting.FileExtension)
 		CreateSolution(solutionFolder, problem, setting)
 	}
 }
