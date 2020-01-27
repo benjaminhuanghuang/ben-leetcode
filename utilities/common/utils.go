@@ -29,7 +29,7 @@ func GetAllProblemsInfo() ([]LeetCodeProblem, error) {
 	return responseObject.Problems, nil
 }
 
-func GetProblemInfoBySlug() (LeetCodeProblem, error) {
+func GetProblemInfoBySlug() (LeetCodeProblemDetail, error) {
 	titleSlug := "two-sum"
 	body := fmt.Sprintf(`{
 		"operationName": "questionData",
@@ -43,19 +43,22 @@ func GetProblemInfoBySlug() (LeetCodeProblem, error) {
 	req, err := http.NewRequest("POST", "https://leetcode.com/graphql", bytes.NewBuffer([]byte(body)))
 	req.Header.Set("Content-type", "application/json")
 	if err != nil {
-		return LeetCodeProblem{}, err
+		return LeetCodeProblemDetail{}, err
 	}
 	client := &http.Client{}
 	resp, err := client.Do(req)
 	if err != nil {
 		panic(err)
 	}
-
-	fmt.Println(">>>> response Status:", resp.Status)
-	fmt.Println(">>>> response Headers:", resp.Header)
-	p, _ := ioutil.ReadAll(resp.Body)
-	fmt.Printf("%s", p)
-	return LeetCodeProblem{}, nil
+	jsonBody, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return LeetCodeProblemDetail{}, err
+	}
+	// fmt.Printf("%s", jsonBody)
+	var responseObject LeetCodeProblemDetailAPIResponse
+	json.Unmarshal(jsonBody, &responseObject)
+	fmt.Printf("%v\n", responseObject.Data.Question)
+	return responseObject.Data.Question, nil
 }
 
 func CreateSolutionForProblem(problem LeetCodeProblem) {

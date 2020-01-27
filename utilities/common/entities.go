@@ -30,6 +30,13 @@ type LanguageSetting struct {
 	Replaces         map[string]string
 }
 
+type LeetCodeProblemDetailAPIResponse struct {
+	Data LeetCodeProblemDetailData `json:"data"`
+}
+
+type LeetCodeProblemDetailData struct {
+	Question LeetCodeProblemDetail`json:"question"`
+}
 
 type LeetCodeProblemDetail struct{
 	ID  string `json:"questionId"`
