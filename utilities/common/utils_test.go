@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func test_CreateSolutionForProblem(t *testing.T) {
+func Test_CreateSolutionForProblem(t *testing.T) {
 	problem := ProblemItem{
 		Number: 1332,
 		Title:  "Remove Palindromic Subsequences",
@@ -16,7 +16,7 @@ func test_CreateSolutionForProblem(t *testing.T) {
 	CreateSolutionForProblem(problem)
 }
 
-func Test_GetProblemInfo(t *testing.T) {
+func test_GetProblemInfo(t *testing.T) {
 	url := "https://leetcode.com/problems/remove-palindromic-subsequences/"
 	p := GetProblemInfo(url)
 

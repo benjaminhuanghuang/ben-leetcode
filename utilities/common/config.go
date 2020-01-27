@@ -31,8 +31,8 @@ var SETTINGS = []LanguageSetting{
 	},
 	{
 		"java",
-		"solution.py",
-		"solution_test.py",
+		"solution.java",
+		"solution_test.java",
 		map[string]string{},
 	},
 }

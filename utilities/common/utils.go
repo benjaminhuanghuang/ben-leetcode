@@ -22,6 +22,7 @@ func CreateSolutionForProblem(problem ProblemItem) {
 	}
 
 	for _, setting := range SETTINGS {
+		fmt.Println("Create solution for " + setting.FileExtension)
 		CreateSolution(solutionFolder, problem, setting)
 	}
 }
@@ -73,7 +74,7 @@ func CreateSolution(solutionFolder string, problem ProblemItem, setting Language
 */
 func GenerateSolutionFile(sourceFile string, destinationFile string, problem ProblemItem, setting LanguageSetting) {
 	_, err := os.Stat(destinationFile)
-	if os.IsExist(err) {
+	if err == nil {
 		fmt.Printf("File %s is existed \n", destinationFile)
 		return
 	}
