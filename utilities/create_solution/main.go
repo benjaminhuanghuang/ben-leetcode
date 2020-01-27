@@ -16,6 +16,7 @@ func main() {
 
 	p, err := GetProblemInfoBySlug("minimum-difficulty-of-a-job-schedule")
 	if err == nil {
+		fmt.Printf("%v\n",p)
 		CreateSolutionForProblem(p)
 	}
 

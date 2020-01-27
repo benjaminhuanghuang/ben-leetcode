@@ -1,6 +1,8 @@
 /*
 {TITLE}
 
+Level: {LEVEL}
+
 {URL}
 */
 #include <gtest/gtest.h>

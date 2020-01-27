@@ -36,7 +36,7 @@ func GetProblemInfoBySlug(titleSlug string) (LeetCodeProblemDetail, error) {
 		"variables": {
 			"titleSlug": "%s"
 		},
-		"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId   questionFrontendId title titleSlug codeSnippets{      lang      langSlug   code   }}}"
+		"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId  questionFrontendId title titleSlug difficulty content codeSnippets{      lang      langSlug   code   }}}"
 	}`, titleSlug)
 
 	req, err := http.NewRequest("POST", LEETCODE_GRPAHQL_API_URL, bytes.NewBuffer([]byte(payload)))
@@ -65,7 +65,7 @@ func GetProblemInfoById(Id int) (LeetCodeProblemDetail, error) {
 		"variables": {
 			"titleSlug": "%s"
 		},
-		"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId   questionFrontendId title titleSlug codeSnippets{      lang      langSlug   code   }}}"
+		"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId   questionFrontendId title titleSlug difficulty codeSnippets{      lang      langSlug   code   }}}"
 	}`, Id)
 
 	req, err := http.NewRequest("POST", LEETCODE_GRPAHQL_API_URL, bytes.NewBuffer([]byte(payload)))
@@ -163,7 +163,7 @@ func GenerateSolutionFile(sourceFile string, destinationFile string, problem Lee
 	// Add yrl
 	fileContent = strings.Replace(fileContent, "{URL}", LEETCODE_PROBLEMS_BASE_URL+problem.TitleSlug, 1)
 	// Level
-	fileContent = strings.Replace(fileContent, "{LEVLE}", problem.Difficulty, 1)
+	fileContent = strings.Replace(fileContent, "{LEVEL}", problem.Difficulty, 1)
 
 	// Replace
 	for k, v := range setting.Replaces {
