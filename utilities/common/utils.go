@@ -29,15 +29,28 @@ func GetAllProblemsInfo() ([]LeetCodeProblem, error) {
 	return responseObject.Problems, nil
 }
 
-func GetProblemInfo() (LeetCodeProblem, error) {
+func GetProblemInfoBySlug() (LeetCodeProblem, error) {
 	titleSlug := "two-sum"
-	body := fmt.Sprintf(`{"operationName":"getQuestionDetail","variables":{"titleSlug":"%s"},"query":"query getQuestionDetail(Undefined control sequence \ntitleSlug) {\n    questionId\n    questionFrontendId\n    questionTitle\n    translatedTitle\n    questionTitleSlug\n    content\n    translatedContent\n    difficulty\n    stats\n    allowDiscuss\n    contributors {\n      username\n      profileUrl\n      __typename\n    }\n    similarQuestions\n    mysqlSchemas\n    randomQuestionUrl\n    sessionId\n    categoryTitle\n    submitUrl\n    interpretUrl\n    codeDefinition\n    sampleTestCase\n    enableTestMode\n    metaData\n    langToValidPlayground\n    enableRunCode\n    enableSubmit\n    judgerAvailable\n    infoVerified\n    envInfo\n    urlManager\n    article\n    questionDetailUrl\n    libraryUrl\n    companyTags {\n      name\n      slug\n      translatedName\n      __typename\n    }\n    companyTagStats\n    topicTags {\n      name\n      slug\n      translatedName\n      __typename\n    }\n    __typename\n  }\n  interviewed {\n    interviewedUrl\n    companies {\n      id\n      name\n      slug\n      __typename\n    }\n    timeOptions {\n      id\n      name\n      __typename\n    }\n    stageOptions {\n      id\n      name\n      __typename\n    }\n    __typename\n  }\n  subscribeUrl\n  isPremium\n  loginUrl\n}\n"}`, titleSlug)
+	body := fmt.Sprintf(`"operationName": "questionData",
+												"variables": {
+													"titleSlug": %s
+												},
+  											"query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {
+														questionId
+														questionFrontendId
+														titleSlug
+														codeSnippets{
+															lang
+															langSlug
+															code
+														}
+													}
+												}
+											}`, titleSlug)
 	req, err := http.NewRequest("POST", "https://leetcode.com/graphql", bytes.NewBuffer([]byte(body)))
 	if err != nil {
 		return LeetCodeProblem{}, err
 	}
-	req.Header.Set("Content-Type", "application/json")
-
 	client := &http.Client{}
 	resp, err := client.Do(req)
 	if err != nil {
@@ -47,7 +60,7 @@ func GetProblemInfo() (LeetCodeProblem, error) {
 	fmt.Println(">>>> response Status:", resp.Status)
 	fmt.Println(">>>> response Headers:", resp.Header)
 	p, _ := ioutil.ReadAll(resp.Body)
-	fmt.Println(p)
+	fmt.Printf("%s", p)
 	return LeetCodeProblem{}, nil
 }
 

@@ -6,18 +6,22 @@ import (
 	// "github.com/stretchr/testify/assert"
 )
 
-func test_CreateSolutionForProblem(t *testing.T) {
-	problem := LeetCodeProblem{
-		ID:    1332,
-		Title: "Remove Palindromic Subsequences",
-		Url:   "https://leetcode.com/problems/remove-palindromic-subsequences/",
+func Test_CreateSolutionForProblem(t *testing.T) {
+	problem := LeetCodeProblem {
+		Stat: LeetCodeProblemStat {
+			ID:    1332,
+			Title: "Remove Palindromic Subsequences",
+			TitleSlug:   "remove-palindromic-subsequences",
+		},
+		Difficulty: LeetCodeProblemDifficulty{
+			Level : 1,
+		},
 	}
-
 	CreateSolutionForProblem(problem)
 }
 
-func Test_GetProblemInfo(t *testing.T) {
-	p, _ := GetProblemInfo()
+func Test_GetProblemInfoBySlug(t *testing.T) {
+	p, _ := GetProblemInfoBySlug()
 
 	fmt.Print(p)
 }
