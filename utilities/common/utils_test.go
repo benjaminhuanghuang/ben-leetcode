@@ -20,14 +20,21 @@ func Test_CreateSolutionForProblem(t *testing.T) {
 	CreateSolutionForProblem(problem)
 }
 
+
+func Test_GetAllProblemInfo(t *testing.T) {
+	p, _ := GetAllProblemsInfo()
+
+	fmt.Println(len(p))
+}
+
 func Test_GetProblemInfoBySlug(t *testing.T) {
 	p, _ := GetProblemInfoBySlug()
 
 	fmt.Print(p)
 }
 
-func Test_GetAllProblemJson(t *testing.T) {
-	p, _ := GetAllProblemsInfo()
+func Test_GetProblemInfoBySlug(t *testing.T) {
+	p, _ := GetProblemInfoBySlug()
 
-	fmt.Println(len(p))
+	fmt.Print(p)
 }

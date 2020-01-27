@@ -1,6 +1,8 @@
 /*
 {TITLE}
 
+Level: {LEVLE}
+
 {URL}
 */
 #include <vector>
@@ -19,10 +21,4 @@ using namespace std;
   Solution: 
 */
 
-class Solution
-{
-public:
-  void method(){
-
-  }
-};
+{CODE}

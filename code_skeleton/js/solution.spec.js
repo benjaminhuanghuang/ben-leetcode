@@ -1,6 +1,8 @@
 /*
 {TITLE}
 
+Level: {LEVLE}
+
 {URL}
 */
 import { twoSum } from './solution';

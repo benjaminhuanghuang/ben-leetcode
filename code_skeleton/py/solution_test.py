@@ -2,6 +2,8 @@
 '''
 {TITLE}
 
+Level: {LEVLE}
+
 {URL}
 '''
 import unittest

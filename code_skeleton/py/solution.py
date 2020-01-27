@@ -1,9 +1,11 @@
 '''
 {TITLE}
 
+Level: {LEVLE}
+
 {URL}
 '''
-
-class Solution:
-  def method(self, input: List[int], val: int) -> int:
-    pass
+'''
+  Solution: 
+'''
+{CODE}

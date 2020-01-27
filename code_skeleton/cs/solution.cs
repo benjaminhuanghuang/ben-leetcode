@@ -1,17 +1,15 @@
 /*
 {TITLE}
 
+Level: {LEVLE}
+
 {URL}
 */
 using System.Collections.Generic;
+/*
+  Solution: 
+*/
 namespace Ben.LeetCode
 {
-  class Solution
-  {
-    public int minDifficulty(int input)
-    {
-
-      return 0;
-    }
-  }
+  {CODE}
 }
