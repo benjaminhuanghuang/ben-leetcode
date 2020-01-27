@@ -7,3 +7,9 @@ type ProblemItem struct {
 	Url    string
 	Tag    string
 }
+type LanguageSetting struct {
+	FileExtension    string
+	SolutionFileName string
+	TestFileName     string
+	Replaces         map[string]string
+}

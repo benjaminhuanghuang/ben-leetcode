@@ -10,26 +10,25 @@ import (
 )
 
 func CreateSolutionForProblem(problem ProblemItem) {
-	solutionFolder, err := GenerateSolutionFolderName(problem)
+	solutionFolder, err := CreateSolutionFolder(problem)
 	if err != nil {
 		fmt.Printf("Can not create solution folder : %v", err)
 		return
 	}
 
-	CreateGoSolution(solutionFolder, problem)
+	for _, setting := range SETTINGS {
+		CreateSolution(solutionFolder, problem, setting)
+	}
 }
 
 func CreateSolutionFolder(problem ProblemItem) (string, error) {
-	folderName, err := GenerateSolutionFolderName(problem)
-	if err != nil {
-		return "", err
-	}
+	folderName := GenerateSolutionFolderName(problem)
 
 	folderPath := path.Join(ROOT_PATH, folderName)
-	_, err = os.Stat(folderPath)
-	if os.IsExist(err) {
+	_, err := os.Stat(folderPath)
+	if err == nil {
 		fmt.Println(folderPath + "is existed.")
-		return "", err
+		return folderPath, nil
 	}
 
 	err = os.Mkdir(folderPath, os.ModePerm)
@@ -45,21 +44,21 @@ func CreateSolutionFolder(problem ProblemItem) (string, error) {
 	GenerateSolutionFolderName creates solution folder name based on problem number and problem number
 	1  -> 0001_problem_1
 */
-func GenerateSolutionFolderName(problem ProblemItem) (string, error) {
+func GenerateSolutionFolderName(problem ProblemItem) string {
 	var title = strings.TrimSpace(problem.Title)
 	space := regexp.MustCompile(`\s+`)
 	title = space.ReplaceAllString(title, "_")
-	return fmt.Sprintf("%04d_%s", problem.Number, title), nil
+	return fmt.Sprintf("%04d_%s", problem.Number, title)
 }
 
-func CreateGoSolution(solutionFolder string, problem ProblemItem) {
-	tempalteFile := path.Join(ROOT_PATH, "code_keleton", "go", "solution.go")
-	destinationFile := path.Join(solutionFolder, "solution.go")
-	GenerateGoSolutionFile(tempalteFile, destinationFile, problem)
+func CreateSolution(solutionFolder string, problem ProblemItem, setting LanguageSetting) {
+	solutionTempalteFile := path.Join(ROOT_PATH, "code_skeleton", setting.FileExtension, setting.SolutionFileName)
+	destinationFile := path.Join(solutionFolder, setting.SolutionFileName)
+	GenerateSolutionFile(solutionTempalteFile, destinationFile, problem, setting)
 
-	tempalteFile = path.Join(ROOT_PATH, "code_keleton", "go", "solution_test.go")
-	destinationFile = path.Join(solutionFolder, "solution_test.go")
-	GenerateGoSolutionFile(tempalteFile, destinationFile, problem)
+	testTempalteFile := path.Join(ROOT_PATH, "code_skeleton", setting.FileExtension, setting.TestFileName)
+	destinationFile = path.Join(solutionFolder, setting.TestFileName)
+	GenerateSolutionFile(testTempalteFile, destinationFile, problem, setting)
 }
 
 /*
@@ -67,7 +66,7 @@ func CreateGoSolution(solutionFolder string, problem ProblemItem) {
 	1. Copy code template to destination
 	2. Generate some file content
 */
-func GenerateGoSolutionFile(sourceFile string, destinationFile string, problem ProblemItem) {
+func GenerateSolutionFile(sourceFile string, destinationFile string, problem ProblemItem, setting LanguageSetting) {
 	_, err := os.Stat(destinationFile)
 	if os.IsExist(err) {
 		fmt.Printf("File %s is existed \n", destinationFile)
@@ -78,16 +77,29 @@ func GenerateGoSolutionFile(sourceFile string, destinationFile string, problem P
 		fmt.Printf("Can not read file %s : %v: \n", sourceFile, readErr)
 		return
 	}
-	const LEETCODE_URL = "https://leetcode.com"
-	// Add url and package name
-	lines := strings.Split(string(input), "\n")
-	lines[0] = fmt.Sprintf("// %s%s", LEETCODE_URL, problem.Url)
-	lines[1] = "package leetcode" + strings.Split(destinationFile, "_")[0]
-	output := strings.Join(lines, "\n")
 
-	err = ioutil.WriteFile(destinationFile, []byte(output), 0666)
+	// Add title
+	fileContent := strings.Replace(string(input), "{TITLE}", fmt.Sprintf("%04d. %s", problem.Number, problem.Title), 1)
+	// Add yrl
+	fileContent = strings.Replace(fileContent, "{URL}", problem.Url, 1)
+
+	// Replace
+	for k, v := range setting.Replaces {
+		fileContent = strings.Replace(fileContent, k, createReplaceString(v, problem), 1)
+	}
+
+	err = ioutil.WriteFile(destinationFile, []byte(fileContent), 0666)
 	if err != nil {
 		fmt.Printf("Can not write file %s : %v \n", destinationFile, err)
 		return
+	}
+}
+
+func createReplaceString(name string, problem ProblemItem) string {
+	switch name {
+	case "PROBLEM_NUMBER":
+		return fmt.Sprintf("%04d", problem.Number)
+	default:
+		return ""
 	}
 }

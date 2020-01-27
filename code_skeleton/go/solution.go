@@ -1,5 +1,9 @@
-// https://leetcode.com/problems/two-sum/
-package leetcode0000
+/*
+{TITLE}
+
+{URL}
+*/
+package leetcode{REPLACE_1}
 /*
 	
- */
+*/

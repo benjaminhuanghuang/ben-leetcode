@@ -1,5 +1,8 @@
-// https://leetcode.com/problems/two-sum/
+/*
+{TITLE}
 
+{URL}
+*/
 /**
  * @param {number[]} nums
  * @param {number} target

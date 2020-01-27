@@ -1,4 +1,9 @@
-package leetcode0000
+/*
+{TITLE}
+
+{URL}
+*/
+package leetcode{REPLACE_1}
 
 import (
 	"testing"

@@ -31,6 +31,10 @@
   go test ./1323_Maximum_69_Number
 ```
 ## Python
+- Create venv
+```
+  python3 -m venv venv3
+```
 - Run tests
 ```
   python -m unittest *_test.py           # run test in a folder
