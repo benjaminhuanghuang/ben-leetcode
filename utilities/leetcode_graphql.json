@@ -13,3 +13,11 @@
   },
   "query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {questionId \n    questionFrontendId \n titleSlug\n }\n}"
 }
+
+
+Query
+query questionData($titleSlug: String!){
+  question(titleSlug: $titleSlug) {
+      questionId 
+  }
+}

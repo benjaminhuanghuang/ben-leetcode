@@ -30,7 +30,7 @@ func GetAllProblemsInfo() ([]LeetCodeProblem, error) {
 	return responseObject.Problems, nil
 }
 
-func GetProblemInfoBySlug(titleSlug string) (LeetCodeProblemDetail, error) {
+func GetProblemDetailBySlug(titleSlug string) (LeetCodeProblemDetail, error) {
 	payload := fmt.Sprintf(`{
 		"operationName": "questionData",
 		"variables": {
@@ -59,7 +59,7 @@ func GetProblemInfoBySlug(titleSlug string) (LeetCodeProblemDetail, error) {
 	return responseObject.Data.Question, nil
 }
 
-func GetProblemInfoById(Id int) (LeetCodeProblemDetail, error) {
+func GetProblemDetailById(Id int) (LeetCodeProblemDetail, error) {
 	payload := fmt.Sprintf(`{
 		"operationName": "questionData",
 		"variables": {
