@@ -2,7 +2,7 @@
 - [花花酱 Binary Search II SP 5](https://www.youtube.com/watch?v=v57lNF2mb_s)
 - [花花酱 Binary Search II SP17](https://www.youtube.com/watch?v=J-IQxfYRTto)
 
-问题描述： Given a function g, returns the **smallest**  m in the range that g(m) is true
+问题描述： Given a function g(), returns the **smallest**  m in the range that g(m) is true
 
 要点：小心溢出
 
@@ -37,7 +37,7 @@ int binary_search(int l, int r)
 }
 ```
 ## 左闭右闭
-   Returns the smallest m in range [l, r] such that g(m) is true.
+  Returns the smallest m in range [l, r] such that g(m) is true.
   Returns r if not found
 ```
 int binary_search(int l, int r)

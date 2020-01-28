@@ -29,7 +29,7 @@
 - Run Test
 ```
   go test ./...
-  go test ./1323_Maximum_69_Number
+  go test ./1323_Maximum_69_Number/solution_test.go
 ```
 ## Python
 - Create venv

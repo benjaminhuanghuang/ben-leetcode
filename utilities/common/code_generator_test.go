@@ -15,3 +15,10 @@ func Test_CreateSolutionForProblem(t *testing.T) {
 	}
 	CreateSolutionForProblem(problem)
 }
+
+
+func Test_CreateSolution(t *testing.T) {
+	id := 136
+	p, _ := GetProblemDetailByFrontendId(id)
+	CreateSolutionForProblem(p)
+}
