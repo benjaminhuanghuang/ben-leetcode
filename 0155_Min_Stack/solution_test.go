@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/min-stack
 package leetcode0155
+
 import (
 	"testing"
 
@@ -7,17 +8,13 @@ import (
 )
 
 func Test_OK(t *testing.T) {
-	testCases := []struct {
-		input []int
-		ans   []int
-	}{
-		{
-			[]int{2, 7, 11, 15},
-			[]int{2, 7, 11, 15},
-		},
-	}
+	minStack := Constructor()
+	minStack.Push(-2)
+	minStack.Push(0)
+	minStack.Push(-3)
+	assert.Equal(t, -3, minStack.GetMin())
 
-	for _, tc := range testCases {
-		assert.Equal(t, tc.ans, tc.ans)
-	}
+	minStack.Pop()
+	assert.Equal(t, 0, minStack.Top())
+	assert.Equal(t, -2, minStack.GetMin())
 }
