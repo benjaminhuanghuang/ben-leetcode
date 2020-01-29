@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/majority-element
 package leetcode0169
+
 import (
 	"testing"
 
@@ -9,11 +10,15 @@ import (
 func Test_OK(t *testing.T) {
 	testCases := []struct {
 		input []int
-		ans   []int
+		ans   int
 	}{
 		{
-			[]int{2, 7, 11, 15},
-			[]int{2, 7, 11, 15},
+			[]int{3, 2, 3},
+			3,
+		},
+		{
+			[]int{2, 2, 1, 1, 1, 2, 2},
+			3,
 		},
 	}
 

@@ -1,8 +1,11 @@
 /*
 283. Move Zeroes
 
-https://leetcode.com/problems/move-zeroes/
+Level: Easy
+
+https://leetcode.com/problems/move-zeroes
 */
+
 #include <vector>
 
 using namespace std;

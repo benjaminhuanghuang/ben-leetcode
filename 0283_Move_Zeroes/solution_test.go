@@ -1,5 +1,13 @@
-// https://leetcode.com/problems/move-zeroes
+/*
+283. Move Zeroes
+
+Level: Easy
+
+https://leetcode.com/problems/move-zeroes
+*/
+
 package leetcode0283
+
 import (
 	"testing"
 
@@ -12,12 +20,13 @@ func Test_OK(t *testing.T) {
 		ans   []int
 	}{
 		{
-			[]int{2, 7, 11, 15},
-			[]int{2, 7, 11, 15},
+			[]int{0, 1, 0, 3, 12},
+			[]int{1, 3, 12, 0, 0},
 		},
 	}
 
 	for _, tc := range testCases {
-		assert.Equal(t, tc.ans, tc.ans)
+		moveZeroes(tc.input)
+		assert.Equal(t, tc.ans, tc.input)
 	}
 }
