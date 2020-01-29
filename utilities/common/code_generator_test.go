@@ -7,7 +7,7 @@ import (
 
 func Test_CreateSolutionForProblem(t *testing.T) {
 	problem := LeetCodeProblemDetail{
-		FrontendID:           "1332",
+		FrontendID:   "1332",
 		Title:        "Remove Palindromic Subsequences",
 		TitleSlug:    "remove-palindromic-subsequences",
 		Difficulty:   "Easy",
@@ -16,9 +16,8 @@ func Test_CreateSolutionForProblem(t *testing.T) {
 	CreateSolutionForProblem(problem)
 }
 
-
 func Test_CreateSolution(t *testing.T) {
-	id := 448
+	id := 155
 	p, _ := GetProblemDetailByFrontendId(id)
 	CreateSolutionForProblem(p)
 }
