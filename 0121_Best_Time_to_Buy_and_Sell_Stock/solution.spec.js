@@ -5,16 +5,21 @@ Level: Easy
 
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 */
-import { twoSum } from './solution';
+import { maxProfit } from './solution';
 
-describe('Solution 0001 test', () => {;
+describe('Solution 121 test', () => {;
   beforeEach(() => {
     
   });
 
   it('test case', () => {
-    const input = [2, 7, 11, 15]
-    const target = 9;
-    expect(twoSum(input, target)).toEqual([1,0]);
+    const input = [7,1,5,3,6,4]
+    const ans = 5;
+    expect(maxProfit(input)).toEqual(ans);
+  });
+  it('test case 2', () => {
+    const input = [7,6,4,3,1]
+    const ans = 0;
+    expect(maxProfit(input)).toEqual(ans);
   });
 });
