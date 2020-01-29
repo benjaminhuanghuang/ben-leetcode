@@ -9,15 +9,19 @@ import (
 func Test_OK(t *testing.T) {
 	testCases := []struct {
 		input []int
-		ans   []int
+		ans   int
 	}{
 		{
-			[]int{2, 7, 11, 15},
-			[]int{2, 7, 11, 15},
+			[]int{7, 1, 5, 3, 6, 4},
+			5,
+		},
+		{
+			[]int{7, 6, 4, 3, 1},
+			0,
 		},
 	}
 
 	for _, tc := range testCases {
-		assert.Equal(t, tc.ans, tc.ans)
+		assert.Equal(t, tc.ans, maxProfit(tc.input))
 	}
 }
