@@ -1,7 +1,9 @@
 /*
 543. Diameter of Binary Tree
 
-https://leetcode.com/problems/diameter-of-binary-tree/
+Level: Easy
+
+https://leetcode.com/problems/diameter-of-binary-tree
  */
 #include <string>
 #include <vector>
