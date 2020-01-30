@@ -4,7 +4,12 @@ function TreeNode(val) {
 }
 
 
+function ListNode(val) {
+  this.val = val;
+  this.next = null;
+}
 
 export {
-  TreeNode
+  TreeNode,
+  ListNode
 }
