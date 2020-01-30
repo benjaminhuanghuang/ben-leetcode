@@ -1,5 +1,12 @@
-// https://leetcode.com/problems/ransom-note
-package leetcode0383
 /*
-	
+383. Ransom Note
+
+Level: Easy
+
+https://leetcode.com/problems/ransom-note
+*/
+package leetcode0383
+
+/*
+
  */
