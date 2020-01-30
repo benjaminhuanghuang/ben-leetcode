@@ -25,6 +25,6 @@ func Test_OK(t *testing.T) {
 	}
 
 	for _, tc := range testCases {
-		assert.Equal(t, tc.ans, reconstructQueue(tc.ans))
+		assert.Equal(t, tc.ans, reconstructQueue(tc.input))
 	}
 }
