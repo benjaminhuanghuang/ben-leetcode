@@ -8,8 +8,8 @@ https://leetcode.com/problems/rotate-image
 package leetcode0048
 
 /*
-
- */
+	一圈(layer)一圈的移动, layerNum := n / 2
+*/
 func rotate(matrix [][]int) {
 	n := len(matrix)
 	layerNum := n / 2
