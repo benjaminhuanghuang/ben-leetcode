@@ -19,7 +19,7 @@ func rotate(matrix [][]int) {
 
 		for i := start; i < end; i++ {
 			offset := i - start
-			temp := matrix[start][i] // back the up layer
+			temp := matrix[start][i] // backup the up layer
 			// left to up
 			matrix[start][i] = matrix[end-offset][start]
 			// bottom to left
