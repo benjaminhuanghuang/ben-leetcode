@@ -5,16 +5,16 @@ Level: Medium
 
 https://leetcode.com/problems/queue-reconstruction-by-height
 */
-import { twoSum } from './solution';
+import { reconstructQueue } from './solution';
 
-describe('Solution 0001 test', () => {;
+describe('Solution 0406 test', () => {;
   beforeEach(() => {
     
   });
 
   it('test case', () => {
-    const input = [2, 7, 11, 15]
-    const target = 9;
-    expect(twoSum(input, target)).toEqual([1,0]);
+    const input = [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]
+    const ans = [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]];
+    expect(reconstructQueue(input)).toEqual(ans);
   });
 });
