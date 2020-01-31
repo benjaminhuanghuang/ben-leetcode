@@ -17,7 +17,7 @@ func Test_CreateSolutionForProblem(t *testing.T) {
 }
 
 func Test_CreateSolution(t *testing.T) {
-	id := 108
+	id := 242
 	p, _ := GetProblemDetailByFrontendId(id)
 	CreateSolutionForProblem(p)
 }
