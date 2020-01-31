@@ -18,6 +18,5 @@ public class LC_0412_FizzBuzz {
             }
         }
         return ans;
-
     }
 }
