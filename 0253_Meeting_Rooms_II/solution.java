@@ -30,7 +30,7 @@ public class LC_0253_MeetingRooms_II {
         }
     }
     /*
-    对起始时间进行排序，使用最小堆来记录当前会议的结束时间，当心会议的起始时间大于最小堆中的最早结束时间，说明新会议与堆中的最早结束会议不重叠。
+    对起始时间进行排序，使用最小堆来记录当前会议的结束时间，当新会议的起始时间大于最小堆中的最早结束时间，说明新会议与堆中的最早结束会议不重叠。
      */
     public int minMeetingRooms(Interval[] intervals) {
         Arrays.sort(intervals, new Comparator<Interval>() {
@@ -48,8 +48,12 @@ public class LC_0253_MeetingRooms_II {
         for (int i = 0; i < intervals.length; i++) {
             minHeap.offer(intervals[i].end);
             if (intervals[i].start < minHeap.peek()) {
+                // overlap
                 rooms++;
             } else {
+                //intervals[i].start > minHeap.peek()
+                // Because the intervals are sorted by start time intervals[next].start > intervals[i].start,
+                // So the minHeap.peek() is not useful 
                 minHeap.poll();  // note!
             }
         }
