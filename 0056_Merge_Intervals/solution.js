@@ -20,27 +20,16 @@ var merge = function(intervals) {
   })
 
   let result = [];
-  let start = arr[0];
   
-  for (let i = 1; i < intervals.length; i++) {
-    let current = intervals[i];
-
-    
-    if (start[1] >= current[0]) {
-      // there is a overlap
-      let merged = [];
-      if (start[1] <= current[1]) {
-        merged = [start[0],current[1]];
-      } else {
-        merged = [start[0],start[1]];
-      }
-      start = merged;
-    } else {
-      result.push(start);
-      start = current;
-    }
+  for (let i = 0; i < intervals.length; i++) {
+    let newInterval = [intervals[i][0], intervals[i][1]];
+    while(i < intervals.length - 1 && newInterval[1] >= intervals[i + 1][0]){
+      // when newInterval has overlap with intervals[i + 1]
+      newInterval[1] = Math.max(newInterval[1], intervals[i + 1][1])
+      i++;
+    } 
+    result.push(newInterval) 
   }
-  result.push(start);
   return result;
 };
 

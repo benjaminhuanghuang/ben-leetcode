@@ -18,6 +18,6 @@ func Test_OK(t *testing.T) {
 	}
 
 	for _, tc := range testCases {
-		assert.Equal(t, tc.ans, tc.ans)
+		assert.Equal(t, tc.input, tc.ans)
 	}
 }

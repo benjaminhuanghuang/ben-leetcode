@@ -4,14 +4,8 @@ package leetcode0056
 import "sort"
 
 /*
-
- */
-
-// Interval Definition for an interval.
-type Interval struct {
-	Start int
-	End   int
-}
+https://leetcode.com/problems/merge-intervals
+*/
 
 func merge(intervals [][]int) [][]int {
 	if len(intervals) <= 1 {
@@ -19,22 +13,19 @@ func merge(intervals [][]int) [][]int {
 	}
 
 	sort.Slice(intervals, func(i int, j int) bool {
-		return intervals[i].Start < intervals[j].Start
+		return intervals[i][0] < intervals[j][0]
 	})
 
-	res := make([]Interval, 0, len(intervals))
+	res := make([][]int, 0, len(intervals))
 
-	temp := intervals[0]
-	for i := 1; i < len(its); i++ {
-		if intervals[i].Start <= temp.End {
-			temp.End = max(temp.End, intervals[i].End)
-		} else {
-			res = append(res, temp)
-			temp = intervals[i]
+	for i := 0; i < len(intervals); i++ {
+		newInterval := []int{intervals[i][0], intervals[i][1]}
+		for i < len(intervals)-1 && newInterval[1] >= intervals[i+1][0] {
+			newInterval[1] = max(intervals[i+1][1], newInterval[1])
+			i++
 		}
+		res = append(res, newInterval)
 	}
-	res = append(res, temp)
-
 	return res
 }
 
