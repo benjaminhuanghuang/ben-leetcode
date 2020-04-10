@@ -48,41 +48,63 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /*
-给定一个数组作为一群人的年龄分布，判断这群人中一共可以发送最多多少好友申请。
- */
+https://www.youtube.com/watch?v=MgvCf2SKnzk
+如何优化 Time Limit Exceeded 
+*/
+
+
+
+
 public class LC_0825_FriendsOfAppropriateAges {
-    public int numFriendRequests(int[] ages) {
-        if (ages == null || ages.length <= 1) {
-            return 0;
-        }
-        // 一个map记录此年龄的人可以发送的请求个数
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int ans = 0; // 进行排序，在内部循环的时候会用到
-        Arrays.sort(ages);
-        for (int i = 0; i < ages.length; i++) { // 重用以前数据
-            if (map.containsKey(ages[i])) {
-                ans += map.get(ages[i]);
-                continue;
-            } // 计算此年龄的人可以发送的请求数
-            int sum = 0;
-            for (int j = 0; j < ages.length && ages[j] <= ages[i]; j++) {
-                if (i != j && good(ages[i], ages[j])) {
-                    ++sum;
-                }
-            }
-            map.put(ages[i], sum);
-            ans += sum;
-        }
-        return ans;
+  public int numFriendRequests_TLE(int[] ages) {
+    if (ages == null || ages.length <= 1) {
+      return 0;
     }
 
-    boolean good(int A, int B) {
-        if (B <= 0.5 * A + 7) {
-            return false;
-        }
-        if (B > 100 && A < 100) {
-            return false;
-        }
-        return true;
+    int n = ages.length;
+    int res = 0;
+
+    // O(N^2) , n = 20000, cause TLE
+    for (int i =0;i < n; i++)
+    {
+      for (int j =0;j < n; j++)
+      {
+        if(good(ages[i], ages[j] ))
+          res++;
+      }
     }
+    return res;
+  }
+
+  public int numFriendRequests(int[] ages) {
+    if (ages == null || ages.length <= 1) {
+      return 0;
+    }
+    // 一个map记录此年龄的有多少人
+    HashMap<Integer, Integer> count = new HashMap<>();
+    for (int age : ages){
+      count.put(age, count.getOrDefault(age,0) + 1);
+    }
+    int res = 0;
+    for ( Integer a: count.keySet()){
+      for ( Integer b: count.keySet()){
+        if(good(a, b)){
+          res += count.get(a) * (count.get(b) - a==b?1:0);
+        }
+      }
+    }
+    
+    return res;
+  }
+
+  boolean good(int A, int B) {
+    if (B <= 0.5 * A + 7) {
+      return false;
+    }
+    if (B < B) return false;
+    if (B > 100 && A < 100) {
+      return false;
+    }
+    return true;
+  }
 }
