@@ -34,6 +34,14 @@ var SETTINGS = []LanguageSetting{
 		map[string]string{},
 	},
 	{
+		"C",
+		"c",
+		"solution.c",
+		"solution_test.c",
+		false,
+		map[string]string{},
+	},
+	{
 		"JavaScript",
 		"js",
 		"solution.js",
