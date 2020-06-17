@@ -78,7 +78,7 @@ characteristic：
 -	990. Satisfiability of Equality Equations [Medium]   
 -	996. Number of Squareful Arrays    
 -	997. Find the Town Judge    
-			
+- 1436. Destination City			
 			
 			
 			

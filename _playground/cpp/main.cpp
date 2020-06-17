@@ -26,17 +26,26 @@ vector<string> buildArray(vector<int> &target, int n)
 }
 
 
-int main()
-{
-  vector<int> target = {1, 2};
-  vector<string> arr = buildArray(target, 4);
-
-  for (auto s : arr)
+int maxScore(string s)
   {
-    cout << s << ",";
+    int count_1 = std::count_if(s.begin(), s.end(), [](char c) { return c == '1'; });
+    int res = 0;
+    int count_1_left = 0;
+    int count_0_left = 0;
+    for (auto it = s.begin(); it != s.end(); ++it)
+    {
+      if (*it == '0')
+        count_0_left += 1;
+      else
+        count_1_left += 1;
+
+      res = max(res, count_0_left + count_1 - count_1_left, 0);
+    }
+    return res;
   }
 
-  cout << endl;
-  return 0;
+int main()
+{
+  cout << maxScore("00")<<endl;
 }
 
