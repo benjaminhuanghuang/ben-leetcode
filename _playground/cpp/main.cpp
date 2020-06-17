@@ -1,51 +1,58 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <cmath>
+#include <unordered_set>
 
 using namespace std;
 
-vector<string> buildArray(vector<int> &target, int n)
+string reformat(string s)
 {
-  vector<string> arr;
-  int i = 0;
-  int num = 1;
-  while (num <= n && i < target.size())
+  string letters;
+  string digits;
+
+  for (char c : s)
   {
-    while (num < target[i] )
+    if (isdigit(c))
     {
-      arr.push_back("Push");
-      arr.push_back("Pop");
-      num++;
+      digits += c;
     }
-    //
-    arr.push_back("Push");
-    i++;
-    num++;
+    else
+    {
+      letters += c;
+    }
   }
-  return arr;
+  if (abs((int)letters.length() - (int)digits.length()) > 1)
+  {
+    return "";
+  }
+  string formatted;
+  auto letterIt = letters.begin();
+  auto digitIt = digits.begin();
+
+  if (letters.size() > digits.size())
+  {
+    for (int i = 0; i < digits.size(); i++)
+    {
+      formatted += *(letterIt++);
+      formatted += *(digitIt++);
+    }
+    formatted += *(letterIt++);
+  }
+  else
+  {
+    for (int i = 0; i < letters.size(); i++)
+    {
+      formatted += *(digitIt++);
+      formatted += *(letterIt++);
+    }
+    if (digits.size() > letters.size())
+      formatted += *(digitIt++);
+  }
+
+  return formatted;
 }
-
-
-int maxScore(string s)
-  {
-    int count_1 = std::count_if(s.begin(), s.end(), [](char c) { return c == '1'; });
-    int res = 0;
-    int count_1_left = 0;
-    int count_0_left = 0;
-    for (auto it = s.begin(); it != s.end(); ++it)
-    {
-      if (*it == '0')
-        count_0_left += 1;
-      else
-        count_1_left += 1;
-
-      res = max(res, count_0_left + count_1 - count_1_left, 0);
-    }
-    return res;
-  }
-
 int main()
 {
-  cout << maxScore("00")<<endl;
+  cout << reformat("0aa") << endl;
 }
-
