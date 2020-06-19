@@ -26,11 +26,11 @@ int binary_search(int l, int r)
     
     if (g(m))             // left or right
     {
-      r = m; // new ruang [l, m)
+      r = m; // new range [l, m)
     }
     else
     {
-      l = m + 1; // new ruang [m+1, r)
+      l = m + 1; // new range [m+1, r)
     }
   }
   return l;
@@ -116,3 +116,4 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	875. Koko Eating Bananas
 -	911. Online Election
 -	1011. Capacity To Ship Packages Within D Days
+- 1351. Count Negative Numbers in a Sorted Matrix

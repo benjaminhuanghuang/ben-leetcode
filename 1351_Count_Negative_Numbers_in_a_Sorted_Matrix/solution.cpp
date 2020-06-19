@@ -67,4 +67,36 @@ public:
 
     return negativeNumbers;
   }
+  /*
+
+    Binary Search 
+  */
+  int countNegatives_v3(vector<vector<int>> &grid)
+  {
+    int count = 0;
+    // returns the **smallest**  m in the range that v[mid] >= 0
+    auto get = [](vector<int> &v) {
+      int L = 0, R = v.size();
+      while (L < R)
+      {
+        int mid = L + ((R - L) >> 1);
+        if (v[mid] < 0)
+        {
+          R = mid;
+        }
+        else
+        {
+          L = mid + 1;
+        }
+      }
+      return L;
+    };
+
+    for (vector<int> &row : grid)
+    {
+      int index = get(row);
+      count += row.size() - index;
+    }
+    return count;
+  }
 };
