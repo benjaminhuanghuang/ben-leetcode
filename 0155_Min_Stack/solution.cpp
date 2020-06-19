@@ -7,7 +7,7 @@ https://leetcode.com/problems/min-stack
 */
 #include <vector>
 #include <string>
-#include <unordered_set>
+#include <stack>
 
 #include <algorithm>
 
@@ -16,33 +16,50 @@ https://leetcode.com/problems/min-stack
 
 using namespace std;
 
-
 /*
   Solution: 
 */
 
-class MinStack {
+class MinStack
+{
+private:
+  stack<int> valStack;
+  stack<int> minStack;
+
 public:
-    /** initialize your data structure here. */
-    MinStack() {
-        
+  /** initialize your data structure here. */
+  MinStack()
+  {
+  }
+
+  void push(int x)
+  {
+    valStack.push(x);
+    if (minStack.empty())
+    {
+      minStack.push(x);
     }
-    
-    void push(int x) {
-        
+    else
+    {
+      minStack.push(min(x, minStack.top()));
     }
-    
-    void pop() {
-        
-    }
-    
-    int top() {
-        
-    }
-    
-    int getMin() {
-        
-    }
+  }
+
+  void pop()
+  {
+    valStack.pop();
+    minStack.pop();
+  }
+
+  int top()
+  {
+    return valStack.top();
+  }
+
+  int getMin()
+  {
+    return minStack.top();
+  }
 };
 
 /**

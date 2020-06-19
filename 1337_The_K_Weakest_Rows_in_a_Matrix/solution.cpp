@@ -1,9 +1,9 @@
 /*
-136. Single Number
+1337. The K Weakest Rows in a Matrix
 
 Level: Easy
 
-https://leetcode.com/problems/single-number
+https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix
 */
 #include <vector>
 #include <string>
@@ -16,20 +16,14 @@ https://leetcode.com/problems/single-number
 
 using namespace std;
 
+
 /*
   Solution: 
 */
 
-class Solution
-{
+class Solution {
 public:
-  int singleNumber(vector<int> &nums)
-  {
-    int ans = 0;
-    for (int n : nums)
-    {
-      ans ^= n;
+    vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
+        
     }
-    return ans;
-  }
 };

@@ -55,6 +55,8 @@ lower case 'a' 1100001 61H(97),
 ```  
   
 ## Problems
+- 190. Reverse Bits
+
 - 1018. Binary Prefix Divisible By 5
 
 

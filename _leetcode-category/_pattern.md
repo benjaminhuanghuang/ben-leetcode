@@ -10,4 +10,6 @@
 
 ## Binary Search
 已排序
-
+```
+lower_bound(begin(sortedNums), end(sortedNums), nums[i])
+```
