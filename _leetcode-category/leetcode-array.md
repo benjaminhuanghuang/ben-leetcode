@@ -11,6 +11,8 @@
 ## Stock
 
 
+## Sort and search
+1365. How Many Numbers Are Smaller Than the Current Number
 
 
 ## 最长公共子区间，最长递增子数组

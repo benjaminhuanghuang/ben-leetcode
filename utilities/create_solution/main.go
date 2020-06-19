@@ -1,12 +1,13 @@
 package main
 
 import (
-	. "../common"
 	"fmt"
+
+	. "../common"
 )
 
 func main() {
-	problemIds := []int{1374}
+	problemIds := []int{1351}
 	for _, id := range problemIds {
 		p, err := GetProblemDetailByFrontendId(id)
 		if err != nil {

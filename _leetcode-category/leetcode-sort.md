@@ -7,7 +7,7 @@
 
 
 - 912. Sort an Array
-
+- 1356. Sort Integers by The Number of 1 Bits
 
 ## Merge sort
 
