@@ -6,85 +6,33 @@
 
 using namespace std;
 
-vector<int> luckyNumbers(vector<vector<int>> &matrix)
-{
-  int rows = matrix.size();
-  int cols = matrix[0].size();
-  int minRow[rows];
-  int maxCol[cols];
-  std::fill(maxCol, maxCol + cols, INT_MIN);
-  std::fill(minRow, minRow + rows, INT_MAX);
-
-  for (int row = 0; row < rows; ++row)
+vector<int> kWeakestRows(vector<vector<int>> &mat, int k)
   {
-    for (int col = 0; col < cols; ++col)
+    vector<pair<int, int>> counts; // index, count
+    for (int i = 0; i < mat.size(); i++)
     {
-      minRow[row] = min(matrix[row][col], minRow[row]);
-      maxCol[col] = max(matrix[row][col], maxCol[col]);
+      counts.push_back({i, (int)count(mat[i].begin(), mat[i].end(), 1)});
     }
-  }
-  vector<int> lockyNums;
-  for (int row = 0; row < rows; ++row)
-  {
-    for (int col = 0; col < cols; ++col)
+    // cmp: The value returned indicates whether the first argument is considered to go before the second
+    sort(counts.begin(), counts.end(), [](pair<int, int>& a, pair<int, int>& b) {
+       if (a.second == b.second)
+      {
+        return  a.first < b.first;
+      }
+      return  a.second < b.second;
+    });
+    vector<int> ans;
+    for (int i = 0; i < k; i++)
     {
-      if (minRow[row] == maxCol[col])
-        lockyNums.push_back(minRow[row]);
+      ans.push_back(counts[i].first);
     }
-  }
-  return lockyNums;
-}
-
-string reformat(string s)
-{
-  string letters;
-  string digits;
-
-  for (char c : s)
-  {
-    if (isdigit(c))
-    {
-      digits += c;
-    }
-    else
-    {
-      letters += c;
-    }
-  }
-  if (abs((int)letters.length() - (int)digits.length()) > 1)
-  {
-    return "";
-  }
-  string formatted;
-  auto letterIt = letters.begin();
-  auto digitIt = digits.begin();
-
-  if (letters.size() > digits.size())
-  {
-    for (int i = 0; i < digits.size(); i++)
-    {
-      formatted += *(letterIt++);
-      formatted += *(digitIt++);
-    }
-    formatted += *(letterIt++);
-  }
-  else
-  {
-    for (int i = 0; i < letters.size(); i++)
-    {
-      formatted += *(digitIt++);
-      formatted += *(letterIt++);
-    }
-    if (digits.size() > letters.size())
-      formatted += *(digitIt++);
+    return ans;
   }
 
-  return formatted;
-}
 int main()
 {
   // vector<vector<int>> a= {{21799},{64145},{88382},{60483}};
-  vector<vector<int>> a= {{78006,52517,25163},{45858,23927,10453}};
-  vector<int> ans = luckyNumbers(a);
+  vector<vector<int>> a= {{1,1,0,0,0},{1,1,1,1,0},{1,0,0,0,0},{1,1,0,0,0},{1,1,1,1,1}};
+  vector<int> ans = kWeakestRows(a , 3);
   // cout << luckyNumbers(a) << endl;
 }

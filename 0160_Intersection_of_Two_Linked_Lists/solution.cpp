@@ -16,7 +16,6 @@ https://leetcode.com/problems/intersection-of-two-linked-lists
 
 using namespace std;
 
-
 /*
   Solution: 
 */
@@ -29,9 +28,45 @@ using namespace std;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        
+  ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
+  {
+    if (headA == NULL || headB == NULL)
+      return NULL;
+    auto getLength = [](ListNode *head) {
+      int len = 0;
+      while (head != NULL)
+      {
+        ++len;
+        head = head->next;
+      }
+      return len;
+    };
+
+    int lenA = getLength(headA), lenB = getLength(headB);
+    if (lenA > lenB)
+    {
+      while (lenA != lenB)
+      {
+        headA = headA->next;
+        lenA--;
+      }
     }
+    else
+    {
+      while (lenA != lenB)
+      {
+        headB = headB->next;
+        lenB--;
+      }
+    }
+    while (headA != NULL && headB != NULL && headA != headB)
+    {
+      headA = headA->next;
+      headB = headB->next;
+    }
+    return headA;
+  }
 };
