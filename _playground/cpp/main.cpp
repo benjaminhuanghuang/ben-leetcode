@@ -2,38 +2,41 @@
 #include <vector>
 #include <iostream>
 #include <cmath>
+#include <map>
+#include <unordered_map>
 #include <unordered_set>
 
 using namespace std;
 
-int getDigits(int num)
-{
-  int digits = 0;
-  while (num > 0)
+int maxNumberOfBalloons(string text)
   {
-    num = num / 10;
-    digits++;
-  }
-  return digits;
-}
+    unordered_map<char, int> counter;
 
-int findNumbers(vector<int> &nums)
-{
-  int count = 0;
-  for (int i : nums)
-  {
-    if ((getDigits(i) & 1) == 0)
+    for (char c : text)
     {
+      counter[c]++;
+    }
+
+    int count = 0;
+    while (counter['b'] > 0)
+    {
+      for (char c : "balloon")
+      {
+        if (counter[c] <=0)
+        {
+          return count;
+        }
+        counter[c]--;
+      }
       count++;
     }
+    return count;
   }
-  return count;
-}
 
 int main()
 {
   // vector<vector<int>> a= {{21799},{64145},{88382},{60483}};
-  vector<int> input = {12, 345, 2, 6, 7896};
-  auto ans = findNumbers(input);
+  string input = "nlaebolko";
+  auto ans = maxNumberOfBalloons(input);
   cout << ans << endl;
 }
