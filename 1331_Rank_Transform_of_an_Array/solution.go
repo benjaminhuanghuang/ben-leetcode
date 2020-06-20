@@ -6,9 +6,10 @@ Level: Easy
 https://leetcode.com/problems/rank-transform-of-an-array
 */
 package leetcode1331
+
 /*
-  Solution: 
+  Solution:
 */
 func arrayRankTransform(arr []int) []int {
-    
+	return []int{0}
 }
