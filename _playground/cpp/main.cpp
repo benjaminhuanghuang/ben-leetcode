@@ -8,35 +8,32 @@
 
 using namespace std;
 
-int maxNumberOfBalloons(string text)
+int dayOfYear(string date)
+{
+  int year = stoi(date.substr(0, 4));
+  int month = stoi(date.substr(5, 2));
+  int day = stoi(date.substr(8, 2));
+
+  int days[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+  if (month > 1)
   {
-    unordered_map<char, int> counter;
-
-    for (char c : text)
+    for (int i = 1; i < month; i++)
     {
-      counter[c]++;
-    }
-
-    int count = 0;
-    while (counter['b'] > 0)
-    {
-      for (char c : "balloon")
+      day += days[i - 1];
+      if (i == 2 && ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0))
       {
-        if (counter[c] <=0)
-        {
-          return count;
-        }
-        counter[c]--;
+        day++;
       }
-      count++;
     }
-    return count;
   }
+  return day;
+}
 
 int main()
 {
   // vector<vector<int>> a= {{21799},{64145},{88382},{60483}};
-  string input = "nlaebolko";
-  auto ans = maxNumberOfBalloons(input);
+  string input = "2019-01-09";
+  auto ans = dayOfYear(input);
   cout << ans << endl;
 }

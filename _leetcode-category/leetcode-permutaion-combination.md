@@ -37,6 +37,8 @@ Space complexity O(kn)
 - 31. Next Permutation
 - 46. Permutations
 - 47. Permutations II
+- 1175. Prime Arrangements
+
 
 ## Combination pseudo code
 https://zxi.mytechroad.com/blog/searching/leetcode-78-subsets/ [一定要看]
