@@ -37,9 +37,9 @@ public:
     while (counter['b'] > 0)
     {
       // for (char c : "balloon")    // '\0' in "balloon" cause error
-      for (char c : string("balloon"))  
+      for (char c : string("balloon"))
       {
-        if (counter[c] <=0)
+        if (counter[c] <= 0)
         {
           return count;
         }
@@ -48,5 +48,46 @@ public:
       count++;
     }
     return count;
+  }
+
+  int maxNumberOfBalloons_v2(string text)
+  {
+    unordered_map<char, int> record;
+    for (auto letter : text)
+    {
+      record[letter]++;
+    }
+
+    int result = 0;
+    while (true)
+    {
+      if (record['b'] < 1)
+        break;
+      else
+        record['b']--;
+
+      if (record['a'] < 1)
+        break;
+      else
+        record['a']--;
+
+      if (record['l'] < 2)
+        break;
+      else
+        record['l'] -= 2;
+
+      if (record['o'] < 2)
+        break;
+      else
+        record['o'] -= 2;
+
+      if (record['n'] < 1)
+        break;
+      else
+        record['n']--;
+
+      result++;
+    }
+    return result;
   }
 };
