@@ -7,13 +7,13 @@ import (
 )
 
 func main() {
-	problemIds := []int{1009}
+	problemIds := []int{1483}
 	for _, id := range problemIds {
 		p, err := GetProblemDetailByFrontendId(id)
 		if err != nil {
 			fmt.Printf("%v\n", err)
 		}
-		fmt.Println("Craete solution for ", p.Title)
+		fmt.Println("Create solution for ", p.Title)
 		CreateSolutionForProblem(p)
 	}
 }
