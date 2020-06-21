@@ -14,6 +14,17 @@
 - 0557. Reverse Words in a String III
 
 ## Slow-fast pointers
+```
+  auto slow = head;
+  auto fast = head->next;
+
+  while (fast != NULL && fast->next != NULL)
+  {
+
+  }
+```
+- 141. Linked List Cycle
+
 
 ## Sycle
 

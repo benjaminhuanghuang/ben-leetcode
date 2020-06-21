@@ -11,6 +11,8 @@ import (
 
 /*
 GetAllProblemsInfo calls https://leetcode.com/api/problems/algorithms/ and returns a ploblem list
+2020-6-20 After I joined a leetcode contest, I find this api does not return the newest contest problems.
+
 */
 func GetAllProblems() ([]LeetCodeProblem, error) {
 	response, err := http.Get(LEETCODE_PROBLEMS_API_URL)

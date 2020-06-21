@@ -16,7 +16,6 @@ https://leetcode.com/problems/linked-list-cycle
 
 using namespace std;
 
-
 /*
   Solution: 
 */
@@ -29,9 +28,25 @@ using namespace std;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    bool hasCycle(ListNode *head) {
-        
+  bool hasCycle(ListNode *head)
+  {
+    if (head == NULL)
+      return false;
+    auto slow = head;
+    auto fast = head->next;
+
+    while (fast != NULL && fast->next != NULL)
+    {
+      slow = slow->next;
+      fast = fast->next->next;
+
+      if (slow == fast)
+        return true;
     }
+
+    return false;
+  }
 };
