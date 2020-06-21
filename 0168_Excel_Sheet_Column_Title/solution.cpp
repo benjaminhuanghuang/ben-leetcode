@@ -4,6 +4,8 @@
 Level: Easy
 
 https://leetcode.com/problems/excel-sheet-column-title
+
+- 171: Excel Sheet Column Number
 */
 #include <vector>
 #include <string>

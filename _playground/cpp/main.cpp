@@ -96,16 +96,34 @@ vector<int> avoidFlood(vector<int> &rains)
   return ans;
 }
 
+
+
+int hammingWeight_v2(uint32_t n)
+{
+  int count = 0;
+
+  for (int i =0 ; i< 32 ; i++)
+  {
+    if (n & (1 << i))
+    {
+      count++;
+    }
+
+  }
+  return count;
+}
+
 int main()
 {
   // vector<vector<int>> a= {{21799},{64145},{88382},{60483}};
   // vector<string> input = {"gta", "gta(1)", "gta", "avalon"};
-  vector<int> input{1,2,0,0,2,1};//{10,20,20};//{69, 0, 0, 0, 69};
+  // vector<int> input{1,2,0,0,2,1};//{10,20,20};//{69, 0, 0, 0, 69};
 
-  auto ans = avoidFlood(input);
-
-  for (auto i : ans)
-  {
-    cout << i << endl;
-  }
+  // auto ans = avoidFlood(input);
+  // for (auto i : ans)
+  // {
+  //   cout << i << endl;
+  // }
+  int ans = hammingWeight_v2(0b00000000000000000000000000001011);
+  cout <<ans;
 }
