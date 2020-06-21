@@ -7,8 +7,11 @@
 
 
 - 912. Sort an Array
+- 1029. Two City Scheduling
+- 1030. Matrix Cells in Distance Order    # sort by distance
 - 1337. The K Weakest Rows in a Matrix
 - 1356. Sort Integers by The Number of 1 Bits
+
 
 ## Merge sort
 
