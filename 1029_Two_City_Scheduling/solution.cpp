@@ -22,7 +22,7 @@ public:
 
         int ans = 0;
         for (int i = 0; i < n; i++)
-        {   // first half go to A, second half to B
+        { // first half go to A, second half to B
             ans += i < n / 2 ? costs[i][0] : costs[i][1];
         }
         return ans;

@@ -1,15 +1,30 @@
-#include <string>
+/*
+1009. Complement of Base 10 Integer
+
+Level: Easy
+
+https://leetcode.com/problems/complement-of-base-10-integer
+*/
 #include <vector>
-#include <iostream>
-#include <cmath>
-#include <map>
+#include <string>
 #include <unordered_map>
 #include <unordered_set>
-#include <set>
-#include <utility>
+
+#include <algorithm>
+
+#include "common/ListNode.h"
+#include "common/TreeNode.h"
 
 using namespace std;
-int bitwiseComplement(int N)
+
+/*
+  Solution: 
+*/
+
+class Solution
+{
+public:
+  int bitwiseComplement(int N)
   {
     if (N == 0)
       return 1;
@@ -21,20 +36,13 @@ int bitwiseComplement(int N)
       int mask = 1 << i;
       if ((N & mask) && !find1)
       {
-        find1 =  N & mask;
+        find1 = N & mask;
       }
       if ((N & mask) == 0 && find1)
       {
-        ans += 1 << i;
+        ans += mask;
       }
     }
     return ans;
   }
-
-int main()
-{
-  // vector<vector<int>> a= {{21799},{64145},{88382},{60483}};
-  auto input = 5;
-  auto ans = bitwiseComplement(input);
-  cout << ans << endl;
-}
+};

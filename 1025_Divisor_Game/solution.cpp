@@ -1,15 +1,24 @@
-// https://leetcode.com/problems/divisor-game/
+/*
+  1025. Divisor Game
+
+  https://leetcode.com/problems/divisor-game/
+*/
 
 #include <vector>
 using namespace std;
 /*
   min-max search
   记忆化递归
+  https://blog.csdn.net/CSerwangjun/article/details/89449766
 */
 class Solution
 {
 public:
   bool divisorGame(int N)
+  {
+    return (N % 2 == 0);
+  }
+  bool divisorGame_slow(int N)
   {
     _cache = vector<int>(N + 1, -1);
     return canWin(N);
