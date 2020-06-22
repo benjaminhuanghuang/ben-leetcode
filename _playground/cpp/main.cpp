@@ -54,65 +54,35 @@ After that, it will rain over lakes [1,2]. It's easy to prove that no matter
 which lake you choose to dry in the 3rd day, the other one will flood.
 
 */
-
-vector<int> avoidFlood(vector<int> &rains)
+int guess(int num)
 {
-  vector<int> ans;
+  return num - 6;
+}
+int guessNumber(int n)
+{
+  int l = 1;
+  int r = n;
 
-  unordered_map<int, int> lakeCounter;
-
-  for (int i = 0; i < rains.size(); i++)
+  while (l <= r)
   {
-    if (rains[i] > 0)
+    int mid = l + (r - l) / 2;
+    int comparison = guess(mid);
+
+    if (comparison < 0) // number is lower
     {
-      if (lakeCounter[rains[i]])
-      {
-        return {};
-      }
-      lakeCounter[rains[i]]++;
-      ans.push_back(-1);
+      r = mid - 1;
     }
-    else // is 0
+    else if (comparison > 0) // number is higher
     {
-      int findRain = -1;
-      for (int j = i + 1; j < rains.size(); j++)
-      {
-        if(rains[j] > 0 && lakeCounter[rains[j]]>0){
-          findRain = rains[j];
-          break;
-        }
-      }
-      if (findRain > 0)
-      {
-         ans.push_back(findRain);
-         lakeCounter[findRain]--;
-      }
-      else
-      {
-        ans.push_back(1);
-      }
+      l = mid + 1;
+    }
+    else
+    {
+      return mid;
     }
   }
-  return ans;
+  return l;
 }
-
-
-
-int hammingWeight_v2(uint32_t n)
-{
-  int count = 0;
-
-  for (int i =0 ; i< 32 ; i++)
-  {
-    if (n & (1 << i))
-    {
-      count++;
-    }
-
-  }
-  return count;
-}
-
 int main()
 {
   // vector<vector<int>> a= {{21799},{64145},{88382},{60483}};
@@ -124,6 +94,6 @@ int main()
   // {
   //   cout << i << endl;
   // }
-  int ans = hammingWeight_v2(0b00000000000000000000000000001011);
-  cout <<ans;
+  int ans = guessNumber(10);
+  cout << ans;
 }
