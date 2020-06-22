@@ -99,6 +99,7 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	154. Find Minimum in Rotated Sorted Array II
 -	162. Find Peak Element
 -	240. Search a 2D Matrix II
+- 278. First Bad Version                 # 
 -	287. Find the Duplicate Number
 -	295. Find Median from Data Stream
 -	275. H-Index II
