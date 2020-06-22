@@ -94,7 +94,6 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	69. Sqrt(x)     #
 -	74. Search a 2D Matrix [*]
 -	81. Search in Rotated Sorted Array II
--	
 -	153. Find Minimum in Rotated Sorted Array
 -	154. Find Minimum in Rotated Sorted Array II
 -	162. Find Peak Element
@@ -106,6 +105,7 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	367. Valid Perfect Square                             # find the number
 - 374. Guess Number Higher or Lower                     # find the number
 -	378. Kth Smallest Element in a Sorted Matrix
+- 441. Arranging Coins                                  # find the number
 -	475. Heaters
 -	540. Single Element in a Sorted Array
 -	611. Valid Triangle Number

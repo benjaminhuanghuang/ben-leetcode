@@ -6,5 +6,6 @@
 
 - 290. Word Pattern     # two map(), word2char, char2word
 - 299. Bulls and Cows   # 1 counter, + / -
+- 392. Is Subsequence   # two index
 
 
