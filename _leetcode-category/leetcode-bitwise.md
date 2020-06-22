@@ -1,13 +1,13 @@
 # Bit Manipulation
 
 ## Shift
-- C++
+### C++
 
   "<<" shifts left and adds zeros at the right end.
 
   ">>" shifts right and adds either 0s, if value is an unsigned type, or extends the top bit (to preserve the sign) if its a signed type. In other words, if the number is positive, 0 is used, and if the number is negative, 1 is used.
 
-- Java
+### Java
 
   The signed left shift operator "<<" shifts a bit pattern to the left
 
@@ -15,21 +15,21 @@
 
   The unsigned right shift operator ">>>" shifts a zero into the leftmost position
 
-- C#
+### C#
 
   Same as C++
 
-- Python
+### Python
 
   Same as C++
 
-- JavaScript / TypeScript
+### JavaScript / TypeScript
 
   Same as java
 
   https://www.w3schools.com/js/js_bitwise.asp
 
-- Go
+### Go
 
   Same as C++
 
@@ -56,10 +56,11 @@ lower case 'a' 1100001 61H(97),
   
 ## Problems
 - 190. Reverse Bits
-- 371. Sum of Two Integers           # binary 
 - 1009. Complement of Base 10 Integer
 - 1018. Binary Prefix Divisible By 5
 
+### Meth operation
+- 371. Sum of Two Integers           # binary 
 
 ### Power 
 - 231. Power of Two       # count 1
