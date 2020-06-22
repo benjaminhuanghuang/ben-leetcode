@@ -16,7 +16,6 @@ https://leetcode.com/problems/delete-node-in-a-linked-list
 
 using namespace std;
 
-
 /*
   Solution: 
 */
@@ -29,9 +28,12 @@ using namespace std;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    void deleteNode(ListNode* node) {
-        
-    }
+  void deleteNode(ListNode *node)
+  {
+    node->val = node->next->val;
+    node->next = node->next->next;
+  }
 };

@@ -15,3 +15,18 @@
     return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
   }
 ```
+
+
+## Reverse List
+```
+  ListNode *prev = nullptr;
+  ListNode *curr = head;
+
+  while (curr)
+  {
+    ListNode *next = curr->next;
+    curr->next = prev;
+    prev = curr;
+    curr = next;
+  }
+```

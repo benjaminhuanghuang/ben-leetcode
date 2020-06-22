@@ -28,7 +28,7 @@ public class Solution258 {
 
     public int AddDigits(int num) {
         int next = this.GetNext( num);
-        while(next > 10)
+        while(next >= 10)
         {
             next = this.GetNext(next);            
         }

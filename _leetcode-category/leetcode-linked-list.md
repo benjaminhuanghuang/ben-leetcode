@@ -2,17 +2,23 @@
 
 - 160. Intersection of Two Linked Lists
 - 203. Remove Linked List Elements
-
+- 234. Palindrome Linked List    # fast-slow pointer and reverse
 
 ## Reverse
-- 0344. Reverse String
-- 0541. Reverse String II
-- 0345. Reverse Vowels of a String
-- 0917. Reverse Only Letters
+```
+  ListNode *prev = nullptr;
+  ListNode *curr = head;
 
-- 0151. Reverse Words in a String
-- 0186. Reverse Words in a String II
-- 0557. Reverse Words in a String III
+  while (curr)
+  {
+    ListNode *next = curr->next;
+    curr->next = prev;
+    prev = curr;
+    curr = next;
+  }
+```
+- 206. Reverse Linked List
+- 234. Palindrome Linked List    # fast-slow pointer and reverse
 
 ## Slow-fast pointers
 ```
@@ -25,7 +31,7 @@
   }
 ```
 - 141. Linked List Cycle
-
+- 234. Palindrome Linked List  # fast-slow pointer and reverse
 
 ## Sycle
 
