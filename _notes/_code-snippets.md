@@ -30,3 +30,37 @@
     curr = next;
   }
 ```
+
+## Binary Search
+- Returns the smallest m in range [l, r) such that g(m) is true.
+```
+  while (l < r)
+  {
+    int mid = (r - l) / 2 + l;
+    if (isBadVersion(mid)) // mid is too big
+    {
+      r = mid;
+    }
+    else
+    {
+      l = mid + 1;
+    }
+  }
+  return l;  // NOT r   
+```
+- Returns the smallest m in range [l, r] such that g(m) is true.
+```
+  while (l <= r)
+  {
+    int mid = (r - l) / 2 + l;
+    if (isBadVersion(mid)) // mid is too big
+    {
+      r = mid - 1;
+    }
+    else
+    {
+      l = mid + 1;
+    }
+  }
+  return l;  // NOT r
+```
