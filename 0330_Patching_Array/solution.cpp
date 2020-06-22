@@ -1,9 +1,9 @@
 /*
-292. Nim Game
+330. Patching Array
 
-Level: Easy
+Level: Hard
 
-https://leetcode.com/problems/nim-game
+https://leetcode.com/problems/patching-array
 */
 #include <vector>
 #include <string>
@@ -24,7 +24,7 @@ using namespace std;
 
 class Solution {
 public:
-    bool canWinNim(int n) {
-        return n % 4 > 0;
+    int minPatches(vector<int>& nums, int n) {
+        
     }
 };

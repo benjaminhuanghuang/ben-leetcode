@@ -56,11 +56,13 @@ lower case 'a' 1100001 61H(97),
   
 ## Problems
 - 190. Reverse Bits
-- 231. Power of Two
+- 371. Sum of Two Integers           # binary 
 - 1009. Complement of Base 10 Integer
 - 1018. Binary Prefix Divisible By 5
 
 
-
-
+### Power 
+- 231. Power of Two       # count 1
+- 326. Power of Three     # n % 3
+- 342. Power of Four      # 0x55555555 
 

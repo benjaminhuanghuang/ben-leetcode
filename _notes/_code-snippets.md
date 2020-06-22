@@ -1,3 +1,20 @@
+### C++ split string
+```
+#include <sstream> // stringstream, getline
+
+vector<string> splitSentence(const string &text)
+{
+  string word;
+  vector<string> words;
+  stringstream ss(text);
+  while (getline(ss, word, ' '))
+  {
+    words.push_back(word);
+  }
+  return words;
+}
+```
+
 ### isPrime
 ```
   bool isPrime(int x) {

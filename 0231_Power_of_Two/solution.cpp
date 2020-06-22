@@ -4,6 +4,10 @@
 Level: Easy
 
 https://leetcode.com/problems/power-of-two
+
+- 326. Power of Three     # n % 3
+- 342. Power of Four
+
 */
 #include <vector>
 #include <string>
