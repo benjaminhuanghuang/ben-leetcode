@@ -1,8 +1,9 @@
 ## Math problems
 - 258. Add Digits
 - 263. Ugly Number
-- 371. Sum of Two Integers           # binary 
 
+- 371. Sum of Two Integers           # binary 
+- 453. Minimum Moves to Equal Array Elements   # 解方程
 
 - 553. Optimal Division
 
