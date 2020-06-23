@@ -54,31 +54,22 @@ After that, it will rain over lakes [1,2]. It's easy to prove that no matter
 which lake you choose to dry in the 3rd day, the other one will flood.
 
 */
-int guess(int num)
-{
-  return num - 6;
-}
-int guessNumber(int n)
+int arrangeCoins(int n)
 {
   int l = 1;
   int r = n;
-
   while (l <= r)
   {
-    int mid = l + (r - l) / 2;
-    int comparison = guess(mid);
-
-    if (comparison < 0) // number is lower
+    // Returns the smallest m in range [l, r] such that g(m) is true.
+    int m = l + (r - l) / 2;
+    long total = m * (m + 1) / 2;
+    if (total >= n)
     {
-      r = mid - 1;
-    }
-    else if (comparison > 0) // number is higher
-    {
-      l = mid + 1;
+      r = m - 1;
     }
     else
     {
-      return mid;
+      l = m + 1;
     }
   }
   return l;
@@ -94,6 +85,6 @@ int main()
   // {
   //   cout << i << endl;
   // }
-  int ans = guessNumber(10);
+  int ans = arrangeCoins(5);
   cout << ans;
 }

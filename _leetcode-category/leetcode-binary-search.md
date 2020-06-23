@@ -105,7 +105,7 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	367. Valid Perfect Square                             # find the number
 - 374. Guess Number Higher or Lower                     # find the number
 -	378. Kth Smallest Element in a Sorted Matrix
-- 441. Arranging Coins                                  # find the number
+- 441. Arranging Coins                                  # find the number, Special, return the bigest number <= target
 -	475. Heaters
 -	540. Single Element in a Sorted Array
 -	611. Valid Triangle Number

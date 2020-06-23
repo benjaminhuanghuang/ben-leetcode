@@ -1,4 +1,6 @@
 # Geometry
+- 447. Number of Boomerangs
+
 
 ## 判断两点是否在同一条直线
 注意斜率为0的情况

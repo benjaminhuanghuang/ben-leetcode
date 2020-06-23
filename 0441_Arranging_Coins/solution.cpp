@@ -30,14 +30,28 @@ public:
     int r = n;
     while (l <= r)
     {
-      long m = l + (r - l) / 2;
-      if (m * (m + 1) / 2 > n)
-        r = (int)m - 1;
+      int m = l + (r - l) / 2;
+      long total = (long)m * (m + 1) / 2;
+      if (total == n)
+      {
+        return m; //retrun biggest num <= target
+      }
+      else if (total >= n)
+      {
+        r = m - 1;
+      }
       else
       {
-        l = (int)m + 1;
+        l = m + 1;
       }
     }
-    return l;
+    return r; //retrun biggest num <= target
+  }
+
+  // x(x+1)/2 = n
+  // x = sqrt(2 * n + 1/4) - 1/2
+  int ArrangeCoins_2(int n)
+  {
+    return (int)(sqrt(2 * (long)n + 0.25) - 0.5);
   }
 };
