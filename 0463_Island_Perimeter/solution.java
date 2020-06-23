@@ -33,14 +33,14 @@ public class LC_0463_IslandPerimeter {
         for (int r = 0; r < grid.length; r++) {
             for (int c = 0; c < grid[0].length; c++) {
                 if (grid[r][c] == 1) {
-                    if(r == 0 || (r >0 && grid[r-1][c] == 0))
-                        ans ++;
-                    if(r == grid.length - 1 || (r <grid.length -1 && grid[r+1][c] == 0))
-                        ans ++;
-                    if(c == 0 || (c >0 && grid[r][c-1] == 0))
-                        ans ++;
-                    if(c == grid[0].length-1 || (c < grid[0].length - 1 && grid[r][c+1] == 0))
-                        ans ++;
+                    if (r == 0 || (r > 0 && grid[r - 1][c] == 0))
+                        ans++;
+                    if (r == grid.length - 1 || (r < grid.length - 1 && grid[r + 1][c] == 0))
+                        ans++;
+                    if (c == 0 || (c > 0 && grid[r][c - 1] == 0))
+                        ans++;
+                    if (c == grid[0].length - 1 || (c < grid[0].length - 1 && grid[r][c + 1] == 0))
+                        ans++;
                 }
             }
 
