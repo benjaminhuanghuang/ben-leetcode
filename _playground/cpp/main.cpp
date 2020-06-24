@@ -74,6 +74,36 @@ int arrangeCoins(int n)
   }
   return l;
 }
+
+bool canInput(string word)
+{
+  vector<string> rows = {
+      "qwertyuiopQWERTYUIOP",
+      "asdfghjklASDFGHJKL",
+      "zxcvbnmZXCVBNM"};
+
+  int row = 0;
+
+  for (int i = 0; i < rows.size(); i++)
+  {
+    if (find(rows[i].begin(), rows[i].end(), word[0]) != rows[i].end())
+    {
+      row = i;
+      break;
+    }
+  }
+
+  for (char c : word)
+  {
+    if (rows[row].find(c) == std::string::npos)
+    {
+      return false;
+    }
+  }
+
+  return true;
+}
+
 int main()
 {
   // vector<vector<int>> a= {{21799},{64145},{88382},{60483}};
@@ -85,6 +115,7 @@ int main()
   // {
   //   cout << i << endl;
   // }
-  int ans = arrangeCoins(5);
+  // int ans = arrangeCoins(5);
+  auto ans = canInput("Hello");
   cout << ans;
 }

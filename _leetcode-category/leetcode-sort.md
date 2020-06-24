@@ -1,3 +1,8 @@
+cmp indicates whether the element passed as first argument is considered to go before the second 
+```
+  sort(ranks.begin(), ranks.end(), [](pair<int, int> &a, pair<int, int> &b) { return a.first > b.first; });
+```
+
 ## Qucik sort
 1. Check range
 2. Pick a pivot value in range.
@@ -6,6 +11,7 @@
 
 
 
+- 506. Relative Ranks         # sort [number, index]
 - 912. Sort an Array
 - 1029. Two City Scheduling
 - 1030. Matrix Cells in Distance Order    # sort by distance
