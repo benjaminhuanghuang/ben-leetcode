@@ -58,6 +58,7 @@ lower case 'a' 1100001 61H(97),
 - 190. Reverse Bits
 - 405. Convert a Number to Hexadecimal
 - 461. Hamming Distance                  # a ^ b 基本概念
+- 476. Number Complement                 # Complement with mask, be careful the overflow
 - 1009. Complement of Base 10 Integer
 - 1018. Binary Prefix Divisible By 5
 

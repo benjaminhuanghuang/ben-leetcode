@@ -67,4 +67,25 @@ public class LC_0475_Heaters {
         }
         return maxDicst;
     }
+    /*
+    https://leetcode-cn.com/problems/heaters/solution/475-gong-nuan-qi-by-en-zhao/
+    */
+    public int findRadius_v3(int[] houses, int[] heaters) {
+        Arrays.sort(houses);
+     Arrays.sort(heaters);
+ 
+     int j = 0;
+     int max = -1;
+     for(int i = 0;i < houses.length;i++){
+         if((j + 1 < heaters.length) && (Math.abs(houses[i] - heaters[j]) >= Math.abs(houses[i] - heaters[j + 1]))){
+             j++;
+             i--; // i 保持不变
+         }else{
+             if(max < Math.abs(houses[i] - heaters[j])){
+                 max = Math.abs(houses[i] - heaters[j]);
+             }
+         }
+     }
+     return max;
+     }
 }

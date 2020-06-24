@@ -34,11 +34,12 @@ public:
       {
         if (grid[r][c] == 1)
         {
+          // first row or row -1 is 0
           if (r == 0 || (r > 0 && grid[r - 1][c] == 0))
             ans++;
-          if (r == grid.size() - 1 || (r < grid.size() - 1 && grid[r + 1][c] == 0))
+          if (r == grid.size() - 1 || (r < grid.size() - 1 && grid[r + 1][c] == 0)) // last row or row + 1 is 0
             ans++;
-          if (c == 0 || (c > 0 && grid[r][c - 1] == 0))
+          if (c == 0 || (c > 0 && grid[r][c - 1] == 0))   // first col or col -1 is 0
             ans++;
           if (c == grid[0].size() - 1 || (c < grid[0].size() - 1 && grid[r][c + 1] == 0))
             ans++;
