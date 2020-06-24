@@ -37,4 +37,33 @@ public:
     }
     return false;
   }
+
+  /*
+    two points
+  */
+  bool judgeSquareSum_v2(int c)
+  {
+    if (c < 0)
+      return false;
+
+    int l = 0;
+    int r = std::sqrt(c);
+    while (l <= r)
+    {
+      long sum = (long)l * l + r * r;
+      if (sum < c)
+      {
+        l++;
+      }
+      else if (sum > c)
+      {
+        r--;
+      }
+      else if (sum == c)
+      {
+        return true;
+      }
+    }
+    return false;
+  }
 };

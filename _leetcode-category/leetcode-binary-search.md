@@ -109,7 +109,6 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	475. Heaters
 -	540. Single Element in a Sorted Array
 -	611. Valid Triangle Number
--	633. Sum of Square Numbers
 -	658. Find K Closest Elements
 -	668. Kth Smallest Number in Multiplication Table
 -	729. My Calendar I

@@ -1,6 +1,6 @@
 # Design
 
-### Design problems
+### Design Data structure
 -	146. LRU Cache
 -	155. Min Stack
 -	170. Two Sum III - Data structure design
@@ -18,7 +18,6 @@
 -	307. Range Sum Query - Mutable 
 -	308. Range Sum Query 2D - Mutable "
 -	341. Flatten Nested List Iterator
--	355. Design Twitter
 -	362. Design Hit Counter
 -	379. Design Phone Directory "
 -	380. Insert Delete GetRandom O(1)   [*]
@@ -38,14 +37,22 @@
 -	642. Design Search Autocomplete System
 -	676. Implement Magic Dictionary
 -	677. Map Sum Pairs
+-	705. Design HashSet
+-	706. Design HashMap
 -	707. Design Linked List
 -	710. Random Pick with Blacklist
+
+-	745. Prefix and Suffix Search
+-	895. Maximum Frequency Stack
+
+
+
+## System design
+-	355. Design Twitter
 -	715. Range Module
 -	716. Max Stack
 -	729. My Calendar I
 -	731. My Calendar II
--	745. Prefix and Suffix Search
 -	772. Basic Calculator III
--	895. Maximum Frequency Stack
 -	901. Online Stock Span
 -	911. Online Election
