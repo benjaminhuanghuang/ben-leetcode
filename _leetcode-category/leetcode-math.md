@@ -6,6 +6,8 @@
 - 453. Minimum Moves to Equal Array Elements   # 解方程
 
 - 553. Optimal Division
+- 633. Sum of Square Numbers      # 解方程
+
 
 ## Power
 - 231. Power of Two       # count 1

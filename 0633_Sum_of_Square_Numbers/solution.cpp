@@ -1,0 +1,40 @@
+/*
+633. Sum of Square Numbers
+
+Level: Easy
+
+https://leetcode.com/problems/sum-of-square-numbers
+*/
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
+
+#include <algorithm>
+
+#include "common/ListNode.h"
+#include "common/TreeNode.h"
+
+using namespace std;
+
+/*
+  Solution: 
+
+  a^2 + b^2 = c.
+*/
+
+class Solution
+{
+public:
+  bool judgeSquareSum(int c)
+  {
+    for (int a = 0; a < (int)(sqrt(c) + 1); a++)
+    {
+      int squareOfb = c - a * a;
+      int b = (int)sqrt(squareOfb);
+      if (b * b == squareOfb)
+        return true;
+    }
+    return false;
+  }
+};
