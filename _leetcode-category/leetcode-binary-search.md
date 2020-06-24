@@ -111,6 +111,7 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	611. Valid Triangle Number
 -	658. Find K Closest Elements
 -	668. Kth Smallest Number in Multiplication Table
+- 704. Binary Search                                    # -1
 -	729. My Calendar I
 -	744. Find Smallest Letter Greater Than Target
 -	786. K-th Smallest Prime Fraction
