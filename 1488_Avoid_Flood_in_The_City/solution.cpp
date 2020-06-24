@@ -110,7 +110,7 @@ public:
         }
         last_rain[lake] = i; // Record the last rain day
       }
-      return ans;
     }
+    return ans;
   }
 };

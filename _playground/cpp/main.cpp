@@ -12,40 +12,12 @@ using namespace std;
 /*
 5440. XOR Operation in an Array
 */
-int xorOperation(int n, int start)
-{
-  int ans = 0;
 
-  for (int i = 0; i < n; i++)
-  {
-    ans ^= start + 2 * i;
-  }
-  return ans;
-}
 
 /*
 5441. Making File Names Unique
 */
-vector<string> getFolderNames(vector<string> &names)
-{
-  unordered_map<string, int> counter;
-  unordered_set<string> usedName;
-  vector<string> folders;
 
-  for (string name : names)
-  {
-    int count = counter[name]++;
-    string folerName = count > 0 ? name + "(" + to_string(count) + ")" : name;
-    while (usedName.count(folerName))
-    {
-      count++;
-      folerName = name + "(" + to_string(count) + ")";
-    }
-    folders.push_back(folerName);
-    usedName.insert(folerName);
-  }
-  return folders;
-}
 
 /*
 5442. Avoid Flood in The City
