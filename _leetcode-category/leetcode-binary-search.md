@@ -113,7 +113,7 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	668. Kth Smallest Number in Multiplication Table
 - 704. Binary Search                                    # -1
 -	729. My Calendar I
--	744. Find Smallest Letter Greater Than Target
+-	744. Find Smallest Letter Greater Than Target         # Sorted array
 -	786. K-th Smallest Prime Fraction
 -	875. Koko Eating Bananas
 -	911. Online Election
