@@ -1,6 +1,7 @@
 # Geometry
 - 447. Number of Boomerangs   # 依次选择每个点当做第一个点,排列组合结果数
-- 812. Largest Triangle Area
+- 812. Largest Triangle Area    # Brute Force
+- 836. Rectangle Overlap        # Directly
 
 
 ## 判断两点是否在同一条直线
