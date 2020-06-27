@@ -29,7 +29,7 @@ A.length == 4
 0 <= A[i] <= 9
  */
 public class LC_0949_LargestTimeforGivenDigits {
-    public String largestTimeFromDigits(int[] A) {
+    public String largestTimeFromDigits_Wrong(int[] A) {
         if (A == null || A.length == 0)
             return "";
 

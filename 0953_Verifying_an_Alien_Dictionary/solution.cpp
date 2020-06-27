@@ -17,14 +17,27 @@ https://leetcode.com/problems/verifying-an-alien-dictionary
 
 using namespace std;
 
-
 /*
   Solution: 
+  https://zxi.mytechroad.com/blog/hashtable/leetcode-953-verifying-an-alien-dictionary/
 */
 
-class Solution {
+class Solution
+{
 public:
-    bool isAlienSorted(vector<string>& words, string order) {
-        
+  bool isAlienSorted(vector<string> &words, string order)
+  {
+    vector<char> m(26);
+    for (int i = 0; i < 26; ++i)
+      m[order[i] - 'a'] = 'a' + i;
+      
+    for (int i = 0; i < words.size(); ++i)
+    {
+      for (int j = 0; j < words[i].length(); ++j)
+        words[i][j] = m[words[i][j] - 'a'];
+      if (i > 0 && words[i] < words[i - 1])
+        return false;
     }
+    return true;
+  }
 };

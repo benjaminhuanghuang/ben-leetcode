@@ -9,18 +9,41 @@
 #include <utility>
 
 using namespace std;
-bool rotateString(string A, string B)
-{
-  if (A.size() != B.size())
-    return false;
-  int a = (A + A).find(B);
-  bool c = a > 0;
+char findDigit(vector<int> &A, int limit)
+  {
+    char digit = '-';
+    for (int i = A.size() - 1; i >= 0; i--)
+    {
+      if (A[i] <= limit && A[i] >= 0)
+      {
+        digit = A[i] + '0';
+        A[i] = -1;
+        break;
+      }
+    }
+    return digit;
+  }
 
-  cout << string("a").find("b") << endl;
-  cout << (int)(string("a").find("b")) << endl;
-  bool d = string("a").find("b") > 0;
-  return a > 0;
-}
+  string largestTimeFromDigits(vector<int> &A)
+  {
+    sort(A.begin(), A.end());
+
+    string time{"00:00"};
+
+    //
+    time[0] = findDigit(A, 2);
+    //
+    int limit = time[0] == '2' ? 3 : 9;
+    time[1] = findDigit(A, limit);
+    //
+    time[3] = findDigit(A, 5);
+    //
+    time[4] = findDigit(A, 9);
+
+    if (time.find('-') != string::npos)
+      return "";
+    return time;
+  }
 
 int main()
 {
@@ -34,6 +57,7 @@ int main()
   //   cout << i << endl;
   // }
   // int ans = arrangeCoins(5);
-  auto ans = rotateString("abcde", "abced");
+  vector<int> input = {2,0,6,6};
+  auto ans = largestTimeFromDigits(input);
   cout << ans << endl;
 }
