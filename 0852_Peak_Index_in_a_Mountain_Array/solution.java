@@ -13,9 +13,9 @@ public class LC_0852_PeakIndexinMountainArray {
             mid = left + (right - left) / 2;
             if( A[mid -1] < A[mid] && A[mid]<A[mid+1])
                 left = mid;
-            else if ( A[mid -1] > A[mid] && A[mid]>A[mid+1])
+            else if ( A[mid -1] > A[mid] && A[mid]>A[mid+1])    // right section
                 right = mid;
-            else
+            else   
                 break;
         }
         return mid;

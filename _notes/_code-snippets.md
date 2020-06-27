@@ -81,3 +81,17 @@ vector<string> splitSentence(const string &text)
   }
   return l;  // NOT r
 ```
+
+## Direction
+874. Walking Robot Simulation
+```
+  // north, west, south, east
+  vector<vector<int>> dirs{{0, 1}, {-1, 0}, {0, -1}, {1, 0}};
+  // face north
+  int currDir = 0;
+
+  if (c == -2)    // turn left 90
+    currDir = (currDir + 1 ) % 4;
+  else if (c == -1)  // turn right 90
+    currDir = (currDir - 1 + 4) % 4;
+```

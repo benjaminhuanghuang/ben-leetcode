@@ -115,6 +115,7 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	729. My Calendar I
 -	744. Find Smallest Letter Greater Than Target         # Sorted array
 -	786. K-th Smallest Prime Fraction
+- 852. Peak Index in a Mountain Array                   # Find Peak
 -	875. Koko Eating Bananas
 -	911. Online Election
 -	1011. Capacity To Ship Packages Within D Days
