@@ -7,8 +7,8 @@
 
 - 553. Optimal Division
 - 633. Sum of Square Numbers      # 解方程 , two point
-
-
+- 908. Smallest Range I           # 解方程
+ 
 ## Power
 - 231. Power of Two       # count 1
 - 326. Power of Three     # n % 3
