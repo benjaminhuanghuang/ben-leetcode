@@ -95,3 +95,14 @@ vector<string> splitSentence(const string &text)
   else if (c == -1)  // turn right 90
     currDir = (currDir - 1 + 4) % 4;
 ```
+
+
+## Split string
+```
+  stringstream sb(B);
+  string word;
+  while (sb >> word)
+  {
+    map[word]++;
+  }
+```
