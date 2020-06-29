@@ -42,6 +42,10 @@ public:
     return tempRow[0];
   }
 
+  /*
+    DP
+    https://www.youtube.com/watch?v=ITV2CglqkWU
+  */
   int minimumTotal_huahua(vector<vector<int>> &t)
   {
     int n = t.size();

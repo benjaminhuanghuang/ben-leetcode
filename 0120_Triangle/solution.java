@@ -24,6 +24,34 @@ Bonus point if you are able to do this using only O(n) extra space, where n is t
 
  */
 public class LC_0120_Triangle {
+    public int minimumTotal_Recursion(List<List<Integer>> triangle) {
+        if (triangle.size() == 0 || triangle.get(0).size() ==0 ) {
+            return 0;
+        }
+          
+        int min = dfs(triangle,  0, 0, "", sum);
+
+        return min;
+    }
+
+    private　int dfs(List<List<Integer>> triangle, int i, int j, string path, int sum )
+    {
+        // terminator
+        if(i == triangle.size() - 1)
+        {
+            return sum;
+        }
+        // process
+        path += triangle.get(i).get(j);
+
+        sum += triangle.get(i).get(j);
+        // drill down
+        _dfs(triangle, i + 1, j, path, sum);
+        _dfs(triangle, i + 1, j+1, path, sum)
+        // clear
+
+        return sum;
+    }
     /*
      dp[j] = min(dp[j+1], dp[j]) + triangle[i][j].
      Take
