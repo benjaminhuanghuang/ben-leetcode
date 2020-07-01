@@ -1,10 +1,13 @@
 # Binary Search Tree
 
 
+## Validation
+- 98. Validate Binary Search Tree      
 
+ 
 
 ## Build tree
-- Sorted array <==> binary search tree with minimal height
+Sorted array <==> binary search tree with minimal height
 - 1008. Construct Binary Search Tree from Preorder Traversal
 - 1038. Binary Search Tree to Greater Sum Tree
 
