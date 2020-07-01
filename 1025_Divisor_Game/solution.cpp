@@ -6,6 +6,7 @@
 
 #include <vector>
 using namespace std;
+
 /*
   min-max search
   记忆化递归
@@ -18,7 +19,14 @@ public:
   {
     return (N % 2 == 0);
   }
-  bool divisorGame_slow(int N)
+
+  /*
+    Hua Hua  
+    https://www.youtube.com/watch?v=QRSDXF8ZrmE
+    记忆化递归
+    O(N^2)
+  */
+  bool divisorGame_DP(int N)
   {
     _cache = vector<int>(N + 1, -1);
     return canWin(N);
