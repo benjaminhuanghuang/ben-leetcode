@@ -49,4 +49,22 @@ public:
 
     return false;
   }
+
+  /*
+    Time complexity: O(n)
+
+    Space complexity: O(n)
+  */
+  bool hasCycle_hashset(ListNode *head)
+  {
+    unordered_set<ListNode *> seen;
+    while (head)
+    {
+      if (seen.count(head))
+        return true;
+      seen.insert(head);
+      head = head->next;
+    }
+    return false;
+  }
 };
