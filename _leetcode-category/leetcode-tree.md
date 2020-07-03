@@ -14,6 +14,7 @@
 - 987. Vertical Order Traversal of a Binary Tree    
 
 ## Serialize & Deserialize
+- 297. Serialize and Deserialize Binary Tree
 - 449. Serialize and Deserialize BST
 
 ## Build tree
