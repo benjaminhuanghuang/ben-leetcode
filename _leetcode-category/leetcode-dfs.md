@@ -12,8 +12,9 @@
 
   // clear status
 ```
-- 120. Triangle                  # DP, or DFS
-- 200. Number of Islands         # No back track
+- 120. Triangle                          # DP, or DFS
+- 200. Number of Islands                 # No back track
+- 301. Remove Invalid Parentheses        # r, l 
 - 690. Employee Importance
-- 733. Flood Fill                # typical
+- 733. Flood Fill                        # typical
 - 949. Largest Time for Given Digits

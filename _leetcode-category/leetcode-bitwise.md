@@ -56,6 +56,7 @@ lower case 'a' 1100001 61H(97),
   
 ## Problems
 - 190. Reverse Bits
+- 338. Counting Bits
 - 405. Convert a Number to Hexadecimal
 - 461. Hamming Distance                  # a ^ b 基本概念
 - 476. Number Complement                 # Complement with mask, be careful the overflow

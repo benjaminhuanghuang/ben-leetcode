@@ -5,78 +5,73 @@
 #include <map>
 #include <unordered_map>
 #include <unordered_set>
+#include <stack>
 #include <set>
 #include <utility>
 #include <numeric>
-
 using namespace std;
-bool isPathCrossing(string path)
+
+//-----------------------------------------
+
+string decodeString(string s)
 {
+  if (s.empty())
+    return "";
 
-  set<pair<int, int>> posSet;
-  posSet.insert(pair<int, int>{0, 0});
-  int x = 0;
-  int y = 0;
-  for (char c : path)
+  string ans;
+  // 记录'['之前的数字
+  stack<int> countStack;
+  // 记录'['之前的运算结果
+  stack<string> resStack;
+  int i = 0;
+  int curNum = 0;
+  while (i < s.length())
   {
-    if (c == 'N')
+    char ch = s[i];
+    if (isdigit(ch))
     {
-      y++;
+      while (isdigit(s[i]))
+        curNum = 10 * curNum + (s[i++] - '0');
     }
-    else if (c == 'S')
+    else if (ch == '[')
     {
-      y--;
+      // backup ans ans count and work on []
+      resStack.push(ans);
+      ans = ""; // 注意
+      // 此push可以放在上面的while循环中
+      countStack.push(curNum);
+      curNum = 0; // 注意
+      i++;
     }
-    else if (c == 'E')
+    else if (ch == ']')
     {
-      x++;
-    }
-    else if (c == 'W')
-    {
-      x--;
-    }
-    pair<int,int> pos = pair<int,int>(x,y);
-    if(posSet.count(pos))
-    {
-      return true;
-    }
-    posSet.insert(pos);
-  }
+      // 取出计算结果，和数字
+      string temp = resStack.top();
+      resStack.pop();
 
-  return false;
-}
+      int repeatTimes = countStack.top();
+      countStack.pop();
 
-bool canArrange(vector<int>& arr, int k) {
-  int sum = accumulate(arr.begin(), arr.end(), 0);
-
-  return sum % k == 0;
-
-
-
-}
-
-
-int numSubseq(vector<int>& nums, int target) {
-  sort(nums.begin(), nums.end());
-
-  int sum = 0;
-  int i =0;
-  for(;i < nums.size(); i++)
-  {
-      sum += nums[i];
-      if(sum >= target)
+      for (int j = 0; j < repeatTimes; j++)
       {
-        break;
+        temp.append(ans);
       }
+      ans = temp;
+      i++;
+    }
+    else
+    {
+      // current char is letter
+      ans += s[i];
+      i++;
+    }
   }
-  return 
+  return ans;
 }
-
-
 
 int main()
 {
   //vector<int> input = {2, 0, 6, 6};
-  auto ans = isPathCrossing("NESWW");
+  auto ans = decodeString("222[bc]");
   cout << ans << endl;
 }

@@ -70,7 +70,7 @@ public:
 
     string ans;
     // 记录'['之前的数字
-    stack<char> countStack ;
+    stack<int> countStack;
     // 记录'['之前的运算结果
     stack<string> resStack;
     int i = 0;
@@ -85,7 +85,7 @@ public:
       }
       else if (ch == '[')
       {
-        // backup ans ans count and work on [] 
+        // backup ans ans count and work on []
         resStack.push(ans);
         ans = ""; // 注意
         // 此push可以放在上面的while循环中
@@ -113,6 +113,7 @@ public:
       {
         // current char is letter
         ans += s[i];
+        i++;
       }
     }
     return ans;
