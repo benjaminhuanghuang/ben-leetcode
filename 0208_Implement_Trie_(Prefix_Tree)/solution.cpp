@@ -75,7 +75,7 @@ public:
 
   const TrieNode *find(const string &prefix) const
   {
-    const TrieNode *p = root_.get();   // get point from unique_ptr
+    const TrieNode *p = root_.get(); // get point from unique_ptr
     for (const char c : prefix)
     {
       if (!p->children.count(c))
