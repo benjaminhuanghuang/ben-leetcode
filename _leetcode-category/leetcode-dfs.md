@@ -13,6 +13,7 @@
   // clear status
 ```
 - 120. Triangle                  # DP, or DFS
+- 200. Number of Islands         # No back track
 - 690. Employee Importance
 - 733. Flood Fill                # typical
 - 949. Largest Time for Given Digits

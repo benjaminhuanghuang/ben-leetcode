@@ -4,6 +4,8 @@
 Level: Medium
 
 https://leetcode.com/problems/lru-cache
+
+- 460. LFU Cache
 */
 #include <vector>
 #include <string>
@@ -22,14 +24,15 @@ using namespace std;
   https://www.youtube.com/watch?v=q1Njd3NWvlY
 
   O(1) 不能用 vector
+  list used to inster, delete O(1)
 */
 
 class LRUCache
 {
 public:
-  LRUCache(int capacity)
+  LRUCache(int n)
   {
-    capacity = capacity;
+    capacity = n;
   }
 
   int get(int key)
@@ -46,12 +49,14 @@ public:
   void put(int key, int value)
   {
     const auto it = m.find(key);
-    if (it != m.end())
+    
+    if (it != m.cend()) // Key already exists
     {
       // update
       it->second->second = value;
       // move the node to the front of list
       cache.splice(cache.begin(), cache, it->second);
+      return;
     }
 
     if (cache.size() == capacity)
