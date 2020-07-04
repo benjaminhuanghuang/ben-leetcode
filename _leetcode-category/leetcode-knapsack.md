@@ -50,6 +50,7 @@ dp[i][j] = max{dp[i-1][j-w[i]]+v[i]}     w[j] <=j <=W
 ```
 
 ### Solution 4: DP 降维
+dp[i] 只与dp[i-1]有关，因此可以降维来减少Space complexity
 ![](./_images/dp-reduce-space.png)
 
 
