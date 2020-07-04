@@ -11,6 +11,9 @@ using namespace std;
 /*
   https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-4-median-of-two-sorted-arrays/
 
+  Binary Search
+  Time complexity: O(log(min(n1,n2)))
+  Space complexity: O(1)      
   */
 class Solution
 {
@@ -50,7 +53,7 @@ public:
     const int c2 = min(m1 >= n1 ? INT_MAX : nums1[m1],
                        m2 >= n2 ? INT_MAX : nums2[m2]);
 
-    return (c1 + c2) * 0.5;
+    return (c1 + c2) >> 1;
   }
 };
 /*

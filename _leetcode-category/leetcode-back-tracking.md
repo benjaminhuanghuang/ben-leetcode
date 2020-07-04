@@ -1,18 +1,23 @@
 # Back-tracking 
 
-应用场景
+## Reference
 
-- Permutation & Combination， 如
-  -	46. Permutations
-  -	77. Combinations
-  -	78. Subsets
+
+
+## Search
+-	51. N-Queens
+-	52. N-Queens II
+-	79. Word Search
+- 93. Restore IP Addresses
+- 212. Word Search II
+
+
+## Permutation & Combination
+-	46. Permutations
+-	77. Combinations
+-	78. Subsets
   
-- Search， 如
-  -	51. N-Queens
-  -	52. N-Queens II
-  -	79. Word Search
-  - 93. Restore IP Addresses
-  - 212. Word Search II
+
 
 ## Back-tracing problem
 -	10. Regular Expression Matching
@@ -24,12 +29,9 @@
 -	44. Wildcard Matching
 -	46. Permutations
 -	47. Permutations II
--	51. N-Queens
--	52. N-Queens II
 -	60. Permutation Sequence
 -	77. Combinations
 -	78. Subsets
--	79. Word Search
 -	89. Gray Code
 -	90. Subsets II
 -	93. Restore IP Addresses
