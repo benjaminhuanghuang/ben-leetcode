@@ -18,8 +18,11 @@ https://leetcode.com/problems/perfect-squares
 using namespace std;
 
 /*
-  Solution: D
+  Solution: 
 
+  https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-279-perfect-squares/
+
+  dp[i] 表示正整数i能少能由多个完全平方数组成，最差情况i可以由i个i组成
   dp[i] := ans
   dp[0] = 0
   dp[i] = min{dp[i – j * j] + 1} 1 <= j * j <= i
@@ -43,8 +46,8 @@ public:
     vector<int> dp(n + 1, INT_MAX >> 1);
     dp[0] = 0;
     for (int i = 1; i <= n; ++i)
-      for (int j = 1; j * j <= i; ++j)
-        dp[i] = min(dp[i], dp[i - j * j] + 1);
+      for (int j = 1; j * j <= i; ++j) // j为i之前的完全平方数
+        dp[i] = min(dp[i], dp[i - j * j] + 1); // +1 是因为i被拆成 i-j*j 和 j*j，而j*j是完全平方数
     return dp[n];
   }
 };
