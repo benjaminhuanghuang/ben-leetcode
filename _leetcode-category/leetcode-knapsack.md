@@ -3,6 +3,8 @@
 ## 0-1 Knapsack
 0-1 Knapsack problem is Non-deterministic Polynomial Complete Problem
 
+![](./_images/01-knapsack.png)
+
 ### Solution 1: Search
 Time complex: O(N^2) , 只适用于N较小的情况
 
@@ -37,22 +39,25 @@ Space complex: O(NW)
 ### Solution 3: DP
 dp[i][j] := max value of using first i items that has total weight of j
 
-遍历i之前所有重量为j-w[i]的组合
-dp[i][j] = max{dp[i-1][j-w[i]]+v[i]}     w[j] <=j <=W    
+比较使用，或不使用 item i
+dp[i][j] = max(dp[i-1,j]dp[i-1][j-w[i]]+v[i])  
 
 ```
   def knapscak01(w, v):
     dp = new int[N+1][W+1]
     for i = 1 to N:
       for j = w[i] to W:
-        dp[i][j] = max(dp[i,j], dp[i-1][j-w[i]]+v[i])
+        dp[i][j] = max(dp[i-1,j], dp[i-1][j-w[i]]+v[i])
     return ans
 ```
 
 ### Solution 4: DP 降维
-dp[i] 只与dp[i-1]有关，因此可以降维来减少Space complexity
+dp[i] 只与dp[i-1]有关，因此可以降维来减少Space complexity to O(W) 
+
 ![](./_images/dp-reduce-space.png)
 
+## Unbounded Knapsack
+![](./_images/unbounded-knapsack.png)
 
 
 ## Reference

@@ -13,4 +13,9 @@
 - 322. Coin Change                       # knapsack problem
 - 416. Partition Equal Subset Sum
 - 494. Target Sum
+- 790.
+- 801.
+- 818.
+- 926.
+
 - 1137. N-th Tribonacci Number
