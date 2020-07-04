@@ -106,3 +106,8 @@ vector<string> splitSentence(const string &text)
     map[word]++;
   }
 ```
+
+## If tow numbers have same sign
+```
+  bool sign = !((dividend > 0) ^ (divisor > 0));
+```

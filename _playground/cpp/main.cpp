@@ -13,65 +13,37 @@ using namespace std;
 
 //-----------------------------------------
 
-string decodeString(string s)
-{
-  if (s.empty())
-    return "";
-
-  string ans;
-  // 记录'['之前的数字
-  stack<int> countStack;
-  // 记录'['之前的运算结果
-  stack<string> resStack;
-  int i = 0;
-  int curNum = 0;
-  while (i < s.length())
+int divide(int dividend, int divisor)
   {
-    char ch = s[i];
-    if (isdigit(ch))
-    {
-      while (isdigit(s[i]))
-        curNum = 10 * curNum + (s[i++] - '0');
-    }
-    else if (ch == '[')
-    {
-      // backup ans ans count and work on []
-      resStack.push(ans);
-      ans = ""; // 注意
-      // 此push可以放在上面的while循环中
-      countStack.push(curNum);
-      curNum = 0; // 注意
-      i++;
-    }
-    else if (ch == ']')
-    {
-      // 取出计算结果，和数字
-      string temp = resStack.top();
-      resStack.pop();
+    if (divisor == 0)
+      return INT_MAX;
+    bool isPositive = !((dividend > 0) ^ (divisor > 0));
 
-      int repeatTimes = countStack.top();
-      countStack.pop();
+    long dividendL = abs((long)dividend);   // abs(-2147483648) overflow
+    long divisorL = abs((long)divisor);
 
-      for (int j = 0; j < repeatTimes; j++)
+    long result = 0;           // result can be 2147483648
+    // 
+    while (dividendL >= divisorL)
+    {
+      long cur = 1;
+      long start = divisorL;
+      //用除数每次*2（向左移动一位）去逼近被除数，被除数减去新的除数如此循环。
+      while ((start << 1) <= dividendL)
       {
-        temp.append(ans);
+        start <<= 1;
+        cur <<= 1;
       }
-      ans = temp;
-      i++;
+      dividendL -= start;
+      result += cur;
     }
-    else
-    {
-      // current char is letter
-      ans += s[i];
-      i++;
-    }
+
+    return isPositive ? min(INT_MAX, (int)result) : max(INT_MIN, (int)-result);
   }
-  return ans;
-}
 
 int main()
 {
   //vector<int> input = {2, 0, 6, 6};
-  auto ans = decodeString("222[bc]");
+  auto ans = divide(-2147483648 , -1);
   cout << ans << endl;
 }
