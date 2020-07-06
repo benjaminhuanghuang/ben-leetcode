@@ -10,7 +10,6 @@ Design a mechanism and modify the program to ensure that two() is executed after
 
  */
 
-
 /*
 A std::condition_variable has a method wait(), which blocks, when it is called by a thread. 
 The condition variable is kept blocked until it is released by another thread. 
@@ -21,28 +20,68 @@ The release works via the method notify_one() or the notify_all method. The key 
 #include <mutex>
 
 using namespace std;
+/*
+https://www.youtube.com/watch?v=VoOJdqHe8bE&t=473s
 
-class Foo {
+
+*/
+class Foo
+{
+private:
+    mutex m2, m3;
+
+public:
+    Foo()
+    {
+        m2.lock();
+        m3.lock();
+    }
+
+    void first(function<void()> printFirst)
+    {
+        // printFirst() outputs "first". Do not change or remove this line.
+        printFirst();
+        m2.unlock();
+    }
+
+    void second(function<void()> printSecond)
+    {
+        m2.lock();
+        // printSecond() outputs "second". Do not change or remove this line.
+        printSecond();
+        m3.unlock();
+    }
+
+    void third(function<void()> printThird)
+    {
+        m3.lock();
+        // printThird() outputs "third". Do not change or remove this line.
+        printThird();
+    }
+};
+
+class Foo
+{
 private:
     bool firstDone, secondDone;
     mutex m;
     condition_variable cv1, cv2;
-public:
-    Foo() {
-        firstDone = false;
-        secondDone = false;
-    }
 
-    void first(function<void()> printFirst) {
+public:
+    Foo() : firstDone(false), secondDone(false) {}
+
+    void first(function<void()> printFirst)
+    {
         // printFirst() outputs "first". Do not change or remove this line.
         printFirst();
         firstDone = true;
         cv1.notify_one();
     }
 
-    void second(function<void()> printSecond) {
+    void second(function<void()> printSecond)
+    {
         unique_lock<mutex> lk(m);
-        cv1.wait(lk, [this]{return firstDone;});
+        cv1.wait(lk, [this] { return firstDone; });
         //lk.unlock();
         // printSecond() outputs "second". Do not change or remove this line.
         printSecond();
@@ -50,9 +89,10 @@ public:
         cv2.notify_one();
     }
 
-    void third(function<void()> printThird) {
+    void third(function<void()> printThird)
+    {
         unique_lock<mutex> lk(m);
-        cv2.wait(lk, [this]{return secondDone;});
+        cv2.wait(lk, [this] { return secondDone; });
         // printThird() outputs "third". Do not change or remove this line.
         printThird();
     }
