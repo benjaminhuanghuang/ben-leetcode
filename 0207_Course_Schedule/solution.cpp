@@ -15,6 +15,7 @@ If a cycle exists, no topological ordering exists and therefore it will be impos
 using namespace std;
 
 /*
+  Hua Hua
   https://www.youtube.com/watch?v=M6SBePBMznU
 
   Fastes solution, DFS Topological sort 
@@ -27,6 +28,7 @@ public:
   bool canFinish(int numCourses, vector<vector<int>> &prerequisites)
   {
     // create directed graph
+    // 因为编号是0-n， 可以用vector<vector>，否则要使用 unordered_map
     graph_ = vector<vector<int>>(numCourses);
 
     for (const auto &p : prerequisites)

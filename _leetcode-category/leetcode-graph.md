@@ -1,5 +1,23 @@
 # Graph
+图的存储方式有两种：邻接矩阵(Adjacency Matrix)和邻接表
+
+
+## data structure for Graph
+- directed graph
+```
+  graph = vector<vector<int>>(numCourses);
+```
+or
+```
+ graph = ordered_map<key, vector<int>>;
+```
+
+
+
 常见题目：City, Equation, Friends
+
+
+
 
 无向图, 只记录边的信息，每个边由两个顶点构成
 ```
@@ -10,6 +28,9 @@ vector<vector<int>>& graph
 ```
 unordered_map<string, priority_queue<string, deque<string>, greater<string>>> _tripsGrpah;
 ```
+- DFS find circle
+
+
 
 - Find circle, Union found, in-degres
 

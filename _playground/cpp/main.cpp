@@ -11,56 +11,38 @@
 #include <numeric>
 using namespace std;
 
-void fill(vector<vector<char>> &output , int startCol, char fanchy, char c){
-    for(int row = 0; row< 5; row++)
+int main()
+{
+  /* Enter your code here.  */
+  // int n;
+  // cin >> n;
+  // int nums[n];
+
+  // for (int i = 0; i < n; i++)
+  // {
+  //   cin >> nums[i];
+  // }
+
+  int n = 5;
+  int nums[5] = {1, 5, 3, 8, 2};
+  int count = 0;
+  bool sorted = false;
+
+  while (!sorted)
+  {
+    count++;
+    sorted = true;
+    for (int i = 0; i < n - 1; i++)
     {
-        for(int col = startCol; col< startCol+5; col++)
-        {
-          if((col -startCol) == abs(2-row) || (startCol+ 4 - col ) == abs(2-row))
-          {
-              output[row][col] = fanchy;
-          }
-          else
-          {
-              output[row][col] = '.';
-          }
-        }
-    }
-    output[2][startCol+2] = c;
-}
-int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
-   char input[15];
-    cin >> input;
-    int len = strlen(input);
-    
-    int rows = 5;
-    int cols = 4 *len+1;
-    vector<vector<char>> output(rows, vector<char>(cols));
-    
-    for(int i=0; i < len; i++)
-    {
-      if((i+1)%3 !=0)
+      if (nums[i] > nums[i + 1])
       {
-        fill(output, i * 4,'#',input[i]);
-          
+        swap(nums[i], nums[i + 1]);
+        sorted = false;
       }
     }
-    
-    for(int i=0; i < len; i++)
-    {
-      if((i+1)%3 ==0)
-      {
-         fill(output, i * 4,'*',input[i]);
-      }
-    }
-    
-    for(int r = 0; r < rows; r++){
-        for(int c = 0; c < cols; c++)
-        {
-            cout << output[r][c];
-        }
-        cout<<endl;
-    }
-    return 0;
+  }
+  for (int i = 0; i < n; i++)
+    cout << nums[i] << endl;
+  // cout << count << endl;
+  return 0;
 }
