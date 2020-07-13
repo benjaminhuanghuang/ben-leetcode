@@ -40,7 +40,7 @@ public:
           int x = i + dir[0], y = j + dir[1];
           if (x >= 0 && x < m && y >= 0 && y < n)
           {
-            if (matrix[x][y] < matrix[i][j])
+            if (matrix[x][y] < matrix[i][j])   // 周围cell 比 cell[i,j]小，cell[i,j]入度+1
               ++indegree[i][j];
           }
         }
