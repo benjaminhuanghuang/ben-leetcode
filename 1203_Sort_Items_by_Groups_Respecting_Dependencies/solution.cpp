@@ -12,7 +12,7 @@ https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies
 #include <queue>
 #include <unordered_map>
 #include <unordered_set>
-#include <numeric>
+#include <set>
 #include <algorithm>
 
 #include "common/ListNode.h"
@@ -21,9 +21,13 @@ https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies
 using namespace std;
 
 /*
-  1. 属于同一group的item要排序
-  2. before Items
   Solution: 
+
+  所有无人认领的小组分配一个组号，这个组内只有这一个项目。
+  接下来统计一下每个组之间边关系和入度，因为是统计组之间的，所有组内依赖暂时不考虑，还需要考虑的是如果两个组之间有多条边，我们只计算一次。
+  同时，统计每一个组内部的边关系和入度，因为是统计组内的，所以组间依赖关系暂时不考虑。
+  对组进行拓扑排序，看一下是否有冲突，如果有冲突就返回，否则继续。
+  按照组的拓扑序，对每一个组内部进行拓扑排序。
 */
 
 class Solution
@@ -31,83 +35,86 @@ class Solution
 public:
   vector<int> sortItems(int n, int m, vector<int> &group, vector<vector<int>> &beforeItems)
   {
-    vector<vector<int>> gGraph(m, vector<int>());
-    vector<vector<int>> iGraph(n, vector<int>());
-
+    unordered_map<int, set<int>> group_to_item_hash;
     // item items do not belong to group to new group
-    for (int i = 0; i < group.size(); i++)
+    for (int i = 0; i < n; i++)
     {
       if (group[i] == -1)
       {
-        // i-th item belongs to no group
         group[i] = m++;
       }
+      group_to_item_hash[group[i]].insert(i);
     }
 
-    vector<int> itemInDegree(n, 0);
-    vector<int> groupInDegree(m, 0); // m is increased abrove.
+    // build graph
+    vector<set<int>> group_graph(m, set<int>()), item_graph(n, set<int>());
+    vector<int> group_indegree(m, 0);
+    vector<int> item_indegree(n, 0);
 
-    // build item graph
-    for (int to = 0; to < beforeItems.size(); to++)
+    for (int i = 0; i < n; i++)
     {
-      int toGroup = group[to];
-
-      for (int from : beforeItems[to])
+      if (beforeItems[i].size() == 0)
+        continue;
+      for (auto from : beforeItems[i]) // i is to
       {
-        itemInDegree[to]++;
-        iGraph[from].push_back(to);
-      }
-    }
-    // build group graph
-    for (int to = 0; to < group.size(); to++)
-    {
-      int toGroup = group[to];
-
-      for (int from : beforeItems[to])
-      {
-        int fromGroup = group[to];
-        if (fromGroup != toGroup)
+        if (group[from] != group[i]) // beforeItem is in different group
         {
-          groupInDegree[toGroup]++;
-          gGraph[fromGroup].push_back(to);
+          if (group_graph[group[from]].count(group[i]) == 0)
+          {
+            group_graph[group[from]].insert(group[i]);
+            group_indegree[group[i]]++;
+          }
+        }
+        else
+        {
+          item_graph[from].insert(i);
+          item_indegree[i]++;
         }
       }
     }
 
-    vector<int> iList = tpSort(iGraph, itemInDegree, n);
-    vector<int> gList = tpSort(gGraph, groupInDegree, m);
+    vector<int> group_ordered = tpSort(group_graph, group_indegree);
 
-    if (iList.size() == 0 || gList.size() == 0)
+    if (group_ordered.size() != m)
       return {};
 
-    vector<vector<int>> groupedList(m, vector<int>());
-
-    for (int item : iList)
-    {
-      int grp = group[item];
-
-      groupedList[grp].push_back(item);
-    }
-
     vector<int> ans;
-    for (int grp : gList)
+    for (auto group_id : group_ordered)
     {
-      for (int item : groupedList[grp])
+      queue<int> q;
+      for (auto item_id : group_to_item_hash[group_id])
       {
-        ans.push_back(item);
+        if (item_indegree[item_id] == 0)
+          q.push(item_id);
       }
+      int count = 0;
+      while (!q.empty())
+      {
+        int p = q.front();
+        q.pop();
+        ans.push_back(p);
+        count++;
+        for (auto next : item_graph[p])
+        {
+          item_indegree[next]--;
+          if (item_indegree[next] == 0)
+            q.push(next);
+        }
+      }
+      if (count != group_to_item_hash[group_id].size())
+        return {};
     }
     return ans;
   }
 
-  vector<int> tpSort(vector<vector<int>> &graph, vector<int> &inDegree, int count)
+  vector<int> tpSort(vector<set<int>> &graph, vector<int> &in_degree)
   {
-    vector<int> ans;
+    vector<int> sorted;
     queue<int> q;
 
-    for (int i = 0; i < inDegree.size(); i++)
+    for (int i = 0; i < in_degree.size(); i++)
     {
-      if (inDegree[i] == 0)
+      if (in_degree[i] == 0)
       {
         q.push(i);
       }
@@ -117,17 +124,17 @@ public:
     {
       int cur = q.front();
       q.pop();
-      ans.push_back(cur);
+      sorted.push_back(cur);
 
       for (int next : graph[cur])
       {
-        inDegree[next]--;
-        if (inDegree[next] == 0)
+        in_degree[next]--;
+        if (in_degree[next] == 0)
         {
           q.push(next);
         }
       }
     }
-    return count == ans.size() ? ans : vector<int>();
+    return sorted;
   }
 };

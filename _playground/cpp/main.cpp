@@ -48,8 +48,8 @@ vector<int> sortItems(int n, int m, vector<int> &group, vector<vector<int>> &bef
   vector<vector<int>> gGraph(m, vector<int>());
   vector<vector<int>> iGraph(n, vector<int>());
 
-  // item items do not belong to group to new group
-  for (int i = 0; i < group.size(); i++)
+  // For non-group items, add them to their own unique groups.
+  for (int i = 0; i < n; i++)
   {
     if (group[i] == -1)
     {
