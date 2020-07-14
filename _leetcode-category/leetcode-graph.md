@@ -104,7 +104,10 @@ characteristic：
 -	990. Satisfiability of Equality Equations [Medium]   
 -	996. Number of Squareful Arrays    
 -	997. Find the Town Judge    
+- 1129. Shortest Path with Alternating Colors
+- 1361. Validate Binary Tree Nodes           # indegree
 - 1436. Destination City			
+
 			
 			
 			
