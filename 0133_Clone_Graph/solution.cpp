@@ -33,6 +33,9 @@ Solution: Queue + Hashtable
 
 Time complexity: O(V+E)
 Space complexity: O(V+E)
+
+每copy 一个 node，都把它放入queue中
+
 */
 
 class Solution
@@ -53,6 +56,7 @@ public:
     {
       Node *sourceNode = q.front();
       q.pop();
+      // Process the neighbbors
       for (Node *sourceNeighbor : sourceNode->neighbors)
       {
         if (!copied.count(sourceNeighbor))

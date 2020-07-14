@@ -84,18 +84,31 @@ vector<string> splitSentence(const string &text)
 
 ## Direction
 874. Walking Robot Simulation
+
 ```
   // north, west, south, east
   vector<vector<int>> dirs{{0, 1}, {-1, 0}, {0, -1}, {1, 0}};
-  // face north
-  int currDir = 0;
+  // OR
+  vector<pair<int, int>> dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
-  if (c == -2)    // turn left 90
-    currDir = (currDir + 1 ) % 4;
-  else if (c == -1)  // turn right 90
-    currDir = (currDir - 1 + 4) % 4;
+  for (auto d : dirs){
+    
+  }
 ```
+- 892. Surface Area of 3D Shapes
+```
+vector<int> dirs{0, -1, 0, 1, 0};
 
+for (int i = 0; i < 4; ++i)
+{
+  int tx = x + dirs[i];
+  int ty = y + dirs[i + 1];
+  if (tx < 0 || tx >= m || ty < 0 || ty >= n || grid[ty][tx] != 0)
+    continue;
+  grid[ty][tx] = 2;
+  q.push(ty * 100 + tx);
+}
+```
 
 ## Split string
 ```

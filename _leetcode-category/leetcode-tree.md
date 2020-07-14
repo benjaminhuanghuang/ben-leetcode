@@ -29,8 +29,19 @@
 - 783. Minimum Distance Between BST Nodes
 
 ## Layer / Row access
+```
+  while (q.size())
+  {
+    int size = q.size();
+    while (size--)
+    {
+      
+    }
+  }
+```
 - 513. Find Bottom Left Tree Value
 - 515. Find Largest Value in Each Tree Row
+- 1161. Maximum Level Sum of a Binary Tree
 
 ## Compare
 - 951. Flip Equivalent Binary Trees
