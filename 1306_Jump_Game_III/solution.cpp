@@ -34,8 +34,8 @@ public:
   bool canReach(vector<int> &arr, int start)
   {
     const int n = arr.size();
-    vector<int> seen(n);
-    seen[start] = 1;
+    vector<int> visted(n);
+    visted[start] = 1;
     queue<int> q;
     q.push(start);
     while (q.size())
@@ -47,10 +47,10 @@ public:
       for (int i : {-1, 1})
       {
         int t = cur + i * arr[cur];
-        if (t < 0 || t >= n || seen[t])
+        if (t < 0 || t >= n || visted[t])
           continue;
         q.push(t);
-        seen[t] = 1;
+        visted[t] = 1;
       }
     }
     return false;
