@@ -34,14 +34,13 @@
 -	631. Design Excel Sum Formula 
 - 635. Design Log Storage System
 -	641. Design Circular Deque
--	642. Design Search Autocomplete System
+-	642. Design Search Autocomplete System               # trie
 -	676. Implement Magic Dictionary
 -	677. Map Sum Pairs
 -	705. Design HashSet
 -	706. Design HashMap
 -	707. Design Linked List
 -	710. Random Pick with Blacklist
-
 -	745. Prefix and Suffix Search
 -	895. Maximum Frequency Stack
 
