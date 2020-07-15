@@ -11,6 +11,7 @@
 - 908. Smallest Range I           # 解方程
  
 ## Power
+- 50. Pow(x, n)           # divide conquer
 - 231. Power of Two       # count 1
 - 326. Power of Three     # n % 3
 - 342. Power of Four
