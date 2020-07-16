@@ -13,6 +13,8 @@
   ListNode *prev = nullptr;
   ListNode *curr = head;
 
+
+  // return the tail as header
   while (curr)
   {
     ListNode *next = curr->next;
@@ -20,8 +22,18 @@
     prev = curr;
     curr = next;
   }
+
+  // keep the header
+  for (int i = m; i < n; ++i)
+  {
+    ListNode *t = curr->next;
+    curr->next = t->next;
+    t->next = prev->next;
+    prev->next = t;
+  }
 ```
 - 24. Swap Nodes in Pairs        # head, n1, n2
+- 92. Reverse Linked List II
 - 206. Reverse Linked List
 - 234. Palindrome Linked List    # fast-slow pointer and reverse
 
@@ -39,6 +51,7 @@
 
   }
 ```
+- 109. Convert Sorted List to Binary Search Tree            # three points
 - 141. Linked List Cycle
 - 234. Palindrome Linked List  # fast-slow pointer and reverse
 - 876. Middle of the Linked List
