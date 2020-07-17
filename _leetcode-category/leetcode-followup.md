@@ -36,8 +36,12 @@
 - 78. Subsets   
 - 90. Subsets II   
 
+
+
 - 79. Word Search
 - 212. Word Search II    
+
+
 
 - 82. Remove Duplicates from Sorted List II    
 - 83.	Remove Duplicates from Sorted List  
@@ -67,48 +71,35 @@
 
 - 136. Single Number
 - 137. Single Number II
-- 260. Single Number III   
+- 260. Single Number III         # 
 
 
 
-
-139	
-Word Break    
-		39.8%	Medium	
-	140	
-Word Break II    
-		31.5%	Hard	
+- 139. Word Break    
+- 140. Word Break II    
 
 
 
-
-	141	
-Linked List Cycle    
-		40.9%	Easy	
-	142	
-Linked List Cycle II 
+- 141. Linked List Cycle            # fast-slow pointer
+- 142. Linked List Cycle II         # fast-slow pointer + math
 
 
+- 151.	Reverse Words in a String    
+- 186.	Reverse Words in a String II
 
-	153	
-Find Minimum in Rotated Sorted Array    
-		44.9%	Medium	
-	154	
-Find Minimum in Rotated Sorted Array II    
 
-	186	
-Reverse Words in a String II
+- 153. Find Minimum in Rotated Sorted Array    
+- 154. Find Minimum in Rotated Sorted Array II    
 
-- 198. House Robber
-- 213. House Robber II
+
+- 198. House Robber                 # Recursion -> DP 
+- 213. House Robber II              # Gready 
 
 
 - 207. Course Schedule   
 - 210. Course Schedule II    
 - 630. Course Schedule III    
 
-
- 
 
 
 - 905.	Sort Array By Parity    
@@ -123,50 +114,30 @@ Reverse Words in a String II
 - 131. Palindrome Partitioning    
 - 132. Palindrome Partitioning II    
 
+
 - 139. Word Break    
 - 140. Word Break II    
+
 
 - 207. Course Schedule    
 - 210. Course Schedule II    
 
-	212	
-Word Search II    
-		34.6%	Hard	
-	213	
-House Robber II    
+
+- 217. Contains Duplicate         # sort, or map, or set
+- 219. Contains Duplicate II      # difference of indices < k, brute force -> map
+- 220. Contains Duplicate III     # |i-j| <= k, |nums[i]-nums[j]| <= t, sliding window
 
 
-	212	
-Word Search II    
-		34.6%	Hard	
-	213	
-House Robber II    
-
-
-- 217	Contains Duplicate    
-	
-Contains Duplicate II     
-		37.6%	Easy	
-	220	
-Contains Duplicate III    
-
-
-252	
-Meeting Rooms    
-		54.5%	Easy	
-	253	
-Meeting Rooms II    
+- 252. Meeting Rooms    
+- 253. Meeting Rooms II    
 
 
 - 344. Reverse String    
 - 541. Reverse String II   
 
 
-	380	
-Insert Delete GetRandom O(1)    
-		47.4%	Medium	
-	381	
-Insert Delete GetRandom O(1) - Duplicates allowed    
+- 380. Insert Delete GetRandom O(1)    
+- 381. Insert Delete GetRandom O(1) - Duplicates allowed    
 
 
 
@@ -185,33 +156,24 @@ Arithmetic Slices II - Subsequence
 4Sum II    
 
 
-496	
-Next Greater Element I  
-503	
-Next Greater Element II   
-556	
-Next Greater Element III    
+- 496. Next Greater Element I  
+- 503. Next Greater Element II   
+- 556. Next Greater Element III    
 
-521	
-Longest Uncommon Subsequence I     
-		57.5%	Easy	
-	522	
-Longest Uncommon Subsequence II    
+
+- 521. Longest Uncommon Subsequence I     
+- 522. Longest Uncommon Subsequence II    
 
 
 
 
 - 1510.	Stone Game IV    
 
-	924	
-Minimize Malware Spread    
-	928	
-Minimize Malware Spread II    
+
+- 924. Minimize Malware Spread    
+- 928. Minimize Malware Spread II    
 
 
-	944	
-Delete Columns to Make Sorted  
-955	
-Delete Columns to Make Sorted II    
-	960	
-Delete Columns to Make Sorted III    
+- 944. Delete Columns to Make Sorted  
+- 955. Delete Columns to Make Sorted II    
+- 960. Delete Columns to Make Sorted III    
