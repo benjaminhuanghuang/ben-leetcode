@@ -6,6 +6,7 @@
 - addition
 
 - abs()
+最小值取abs会overflow!
 ```
   int num = abs(-2147483648)  // overflow!
 

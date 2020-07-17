@@ -20,7 +20,7 @@ cmp indicates whether the element passed as first argument is considered to go b
 
 
 ## Merge sort
-
+- 147. Insertion Sort List
 
 ## Customize sort
 - 692. Top K Frequent Words
