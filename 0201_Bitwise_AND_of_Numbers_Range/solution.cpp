@@ -20,14 +20,24 @@ https://leetcode.com/problems/bitwise-and-of-numbers-range
 
 using namespace std;
 
-
 /*
   Solution: 
+  等价于 求 m 与 n 二进制编码中 两者最高位的那些1 形成的数字.
+  最高位1 后面的各位，在AND运算的结果为0
 */
 
-class Solution {
+class Solution
+{
 public:
-    int rangeBitwiseAnd(int m, int n) {
-        
+  int rangeBitwiseAnd(int m, int n)
+  {
+    int bit = 0;
+    while (m != n)
+    {
+      m >> 1;
+      n >> 1;
+      bit++;
     }
+    return m << bit;
+  }
 };

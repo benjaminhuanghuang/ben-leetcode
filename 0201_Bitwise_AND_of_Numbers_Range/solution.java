@@ -6,12 +6,13 @@ package cn.huang.leetcode;
  */
 public class LC_0201_BitwiseANDofNumbersRange {
     /*
-    The key to solve this problem is bitwise AND consecutive numbers. You can use the following example to walk through the code.
-    8  4  2  1
----------------
-5 | 0  1  0  1
-6 | 0  1  1  0
-7 | 0  1  1  1
+    The key to solve this problem is bitwise AND consecutive numbers. 
+    You can use the following example to walk through the code.
+            8  4  2  1
+        ---------------
+        5 | 0  1  0  1
+        6 | 0  1  1  0
+        7 | 0  1  1  1
 
 
 
