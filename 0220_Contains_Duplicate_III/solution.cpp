@@ -77,8 +77,44 @@ public:
     return false;
   }
 };
-
+/*
+    Time complexity: O(nlogk)
+    Space complexity: O(k)
+*/
 class Solution_Set
+{
+public:
+  bool containsNearbyAlmostDuplicate(vector<int> &nums, int k, int t)
+  {
+    if (nums.size() == 0 || k <= 0 || t < 0)
+      return false;
+
+    multiset<int> s;
+
+    for (int i = 0; i < nums.size(); ++i)
+    {
+      auto ceil = s.lower_bound(nums[i]); // first element that is not less than val.
+      if (ceil != s.end() && (long)*ceil - nums[i] <= t)
+        return true;
+
+      if (ceil != s.begin())
+      {
+        auto floor = prev(ceil); //  smaller than val.
+        if (floor != s.end() && nums[i] - (long)*floor <= t)
+          return true;
+      }
+      s.insert(nums[i]);
+
+      if (i >= k)
+      {
+        s.erase(nums[i - k]);
+      }
+    }
+    return false;
+  }
+};
+
+class Solution_SlidingWindow
 {
 public:
   bool containsNearbyAlmostDuplicate(vector<int> &nums, int k, int t)
