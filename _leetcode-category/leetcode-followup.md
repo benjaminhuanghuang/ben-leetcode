@@ -107,6 +107,11 @@
 - 630. Course Schedule III    
 
 
+- 231. Power of Two       # count 1
+- 326. Power of Three     # n % 3
+- 342. Power of Four
+
+
 - 263. Ugly Number    
 - 264. Ugly Number II    
 -	313. Super Ugly Number             # Priority Queue, operator
@@ -115,6 +120,10 @@
 
 - 274. H-Index               # sort	
 - 275. H-Index II            # binary search
+
+
+- 280. Wiggle Sort
+- 324. Wiggle Sort II    
 
 
 - 304. Range Sum Query 2D - Immutable            # preprocessing    

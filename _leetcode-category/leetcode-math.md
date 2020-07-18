@@ -3,6 +3,7 @@
 - 258. Add Digits
 - 263. Ugly Number
 
+- 319. Bulb Switcher                 # 
 - 371. Sum of Two Integers           # binary 
 - 453. Minimum Moves to Equal Array Elements   # 解方程
 
