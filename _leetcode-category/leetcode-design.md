@@ -16,7 +16,7 @@
 -	303. Range Sum Query - Immutable
 -	304. Range Sum Query 2D - Immutable 
 -	307. Range Sum Query - Mutable 
--	308. Range Sum Query 2D - Mutable "
+-	308. Range Sum Query 2D - Mutable 
 -	341. Flatten Nested List Iterator
 -	362. Design Hit Counter
 -	379. Design Phone Directory "
@@ -41,15 +41,15 @@
 -	706. Design HashMap
 -	707. Design Linked List
 -	710. Random Pick with Blacklist
+-	716. Max Stack
 -	745. Prefix and Suffix Search
 -	895. Maximum Frequency Stack
 
 
 
 ## System design
--	355. Design Twitter
+-	355. Design Twitter                  # map, set, sort
 -	715. Range Module
--	716. Max Stack
 -	729. My Calendar I
 -	731. My Calendar II
 -	772. Basic Calculator III

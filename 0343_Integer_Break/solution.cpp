@@ -42,3 +42,31 @@ public:
     return dp[n];
   }
 };
+/*
+都分解为1 2 3这样的组合。
+
+如果组合为4，4又可以分解为2 + 2，如果组合为5，5又可以分解为2 + 3。
+
+如果一个数分解后可以写成全是2或全是3，那么全是3的乘积肯定比全是2的大。
+*/
+class Solution_2
+{
+public:
+  int integerBreak(int n)
+  {
+    if (n <= 3)
+      return n - 1;
+
+    vector<int> dp(n + 1, 0);
+    dp[1] = 1;
+    dp[2] = 2;
+    dp[3] = 3;
+
+    for (int i = 4; i <= n; ++i)
+    {
+      dp[i] = max(2 * dp[i - 2], 3 * dp[i - 3]);
+    }
+
+    return dp[n];
+  }
+};

@@ -124,3 +124,13 @@ for (int i = 0; i < 4; ++i)
 ```
   bool sign = !((dividend > 0) ^ (divisor > 0));
 ```
+
+
+## greatest common divisor 
+  gcd(a, b) = gcd(b, a mod b)
+```  
+  int gcd(int x, int y)
+  {
+    return y == 0 ? x : gcd(y, x % y);
+  }
+```
