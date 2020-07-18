@@ -58,9 +58,12 @@
 - 119. Pascal's Triangle II
 
 
-- 121. Best Time to Buy and Sell Stock     
+- 121. Best Time to Buy and Sell Stock                            # DP
 - 122. Best Time to Buy and Sell Stock II    
 - 123. Best Time to Buy and Sell Stock III    
+- 188. Best Time to Buy and Sell Stock IV    
+- 309. Best Time to Buy and Sell Stock with Cooldown              # DP
+- 714. Best Time to Buy and Sell Stock with Transaction Fee    
 
 
 - 126. Word Ladder II    
@@ -106,11 +109,21 @@
 
 - 263. Ugly Number    
 - 264. Ugly Number II    
+-	313. Super Ugly Number             # Priority Queue, operator
 - 1201. Ugly Number III   
 
 
 - 274. H-Index               # sort	
 - 275. H-Index II            # binary search
+
+
+- 304. Range Sum Query 2D - Immutable            # preprocessing    
+- 307. Range Sum Query - Mutable                 # Fenwick Tree or Segment Tree
+
+
+- 319. Bulb Switcher
+- 672. Bulb Switcher II
+- 1375. Bulb Switcher III
 
 
 - 339. Nested List Weight Sum 

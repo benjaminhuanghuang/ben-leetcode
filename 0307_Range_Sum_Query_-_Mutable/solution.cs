@@ -20,6 +20,12 @@ You may assume the number of calls to update and sumRange function is distribute
 //http://www.cnblogs.com/grandyang/p/4985506.html
 // http://blog.csdn.net/xyt8023y/article/details/49946789
 
+/*
+    树状数组Binary Indexed Tree，又称 Fenwick Tree
+
+    Segment Tree 
+
+*/
 using System.Collections.Generic;
 
 public class NumArrayMutalbe {
