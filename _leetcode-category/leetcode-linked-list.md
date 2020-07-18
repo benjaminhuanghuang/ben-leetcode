@@ -63,7 +63,11 @@
 ```
 ```
 
+
+## Reorder
+
 - 143. Reorder List
+- 328. Odd Even Linked List       #  p = p->next 
 
 
 

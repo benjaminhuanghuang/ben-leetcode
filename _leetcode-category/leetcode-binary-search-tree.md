@@ -3,7 +3,7 @@
 
 ## Validation
 - 98. Validate Binary Search Tree      
-
+- 331. Verify Preorder Serialization of a Binary Tree
  
 
 ## Build tree

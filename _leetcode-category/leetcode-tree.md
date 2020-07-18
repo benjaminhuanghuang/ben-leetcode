@@ -2,6 +2,8 @@
 - 124. Binary Tree Maximum Path Sum
 - 863. All Nodes Distance K in Binary Tree
 
+## Validation
+- 331. Verify Preorder Serialization of a Binary Tree
 
 ## Traversal( Recursion & iteration)
 - 102. Binary Tree Level Order Traversal
