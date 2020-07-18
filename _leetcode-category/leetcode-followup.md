@@ -9,7 +9,11 @@
 - 39.	Combination Sum    
 - 40. Combination Sum II    
 - 216. Combination Sum III  
-- 377.	Combination Sum IV    
+- 377. Combination Sum IV    
+
+
+- 42. Trapping Rain Water    
+- 407. Trapping Rain Water II    
 
 
 - 46.	Permutations    
@@ -42,7 +46,6 @@
 - 212. Word Search II    
 
 
-
 - 82. Remove Duplicates from Sorted List II    
 - 83.	Remove Duplicates from Sorted List  
 
@@ -69,9 +72,9 @@
 
 
 
-- 136. Single Number
-- 137. Single Number II
-- 260. Single Number III         # 
+- 136. Single Number             # ^
+- 137. Single Number II          # 1 element 3 times, %s
+- 260. Single Number III         # 2 elements appear only once
 
 
 
@@ -101,9 +104,25 @@
 - 630. Course Schedule III    
 
 
+- 263. Ugly Number    
+- 264. Ugly Number II    
+- 1201. Ugly Number III   
 
-- 905.	Sort Array By Parity    
-- 922.	Sort Array By Parity II   
+
+- 274. H-Index               # sort	
+- 275. H-Index II            # binary search
+
+
+- 339. Nested List Weight Sum 
+- 364. Nested List Weight Sum II
+
+
+- 374. Guess Number Higher or Lower    
+- 375. Guess Number Higher or Lower II    
+
+
+- 905. Sort Array By Parity    
+- 922. Sort Array By Parity II   
 
 
 - 908. Smallest Range I    

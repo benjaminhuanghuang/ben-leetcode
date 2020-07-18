@@ -22,7 +22,8 @@ using namespace std;
 
 /*
   Solution: memorize
-
+  Huahua
+  http://zxi.mytechroad.com/blog/leetcode/leetcode-241-different-ways-to-add-parentheses/
 */
 
 class Solution
@@ -76,7 +77,7 @@ private:
       ans.push_back(stoi(input));
 
     // memorize the answer for input
-    m_[input].swap(ans);
+    m_[input]=ans; //m_[input].swap(ans);
     return m_[input];
   }
 
