@@ -14,5 +14,6 @@ priority_queue<int, vector<int>, greater<int>> max_q; // min_heap
 ```
 
 ## Problems
-313. Super Ugly Number                # operator overloading
+313. Super Ugly Number                          # operator overloading
+373. Find K Pairs with Smallest Sums            # 
 628. Maximum Product of Three Numbers

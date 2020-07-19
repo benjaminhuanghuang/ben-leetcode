@@ -140,7 +140,7 @@
 
 
 - 374. Guess Number Higher or Lower    
-- 375. Guess Number Higher or Lower II    
+- 375. Guess Number Higher or Lower II         # money
 
 
 - 905. Sort Array By Parity    

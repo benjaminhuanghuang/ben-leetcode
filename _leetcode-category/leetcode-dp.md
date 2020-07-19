@@ -13,6 +13,7 @@
 - 322. Coin Change                       # knapsack problem
 - 343. Integer Break
 - 368. Largest Divisible Subset
+- 375. Guess Number Higher or Lower II
 - 416. Partition Equal Subset Sum
 - 494. Target Sum
 - 790.

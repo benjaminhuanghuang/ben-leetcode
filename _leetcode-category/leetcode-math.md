@@ -16,3 +16,4 @@
 - 231. Power of Two       # count 1
 - 326. Power of Three     # n % 3
 - 342. Power of Four
+- 372. Super Pow          # overflow
