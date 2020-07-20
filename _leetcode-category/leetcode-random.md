@@ -14,6 +14,9 @@
   randNum = rand() % 10;       // [0 - 9]
   randNum = rand() % 10 + 1;   // [1 - 10]
   randNum = rand() % (max - min + 1) ) + min;   // [min, max]
+  
+  int j = rand() % (n - i) + i;      // [i, n)
+  
   // generates a floating-point random number between 0 (inclusive) and 1.0 (exclusive).
   rand() / (RAND_MAX + 1.0) 
   
