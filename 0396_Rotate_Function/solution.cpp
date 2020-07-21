@@ -31,15 +31,15 @@ class Solution
 public:
   int maxRotateFunction(vector<int> &A)
   {
-    const int n = A.size();
-    int sum = 0;
-    int f = 0;
+    const long n = A.size();
+    long sum = 0;
+    long f = 0;
     for (int i = 0; i < n; ++i)
     {
       sum += A[i];
       f += i * A[i];
     }
-    int ans = f;
+    long ans = f;
     for (int i = 0; i < n - 1; ++i)
     {
       f = f + sum - n * A[n - i - 1];
