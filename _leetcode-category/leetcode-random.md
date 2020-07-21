@@ -24,6 +24,7 @@
 
 ## Random problems
 - 382. Linked List Random Node
+- 384. Shuffle an Array
 - 398. Random Pick Index
 - 470. Implement Rand10() Using Rand7()
 - 478. Generate Random Point in a Circle

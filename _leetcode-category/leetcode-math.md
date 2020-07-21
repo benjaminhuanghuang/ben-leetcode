@@ -5,6 +5,7 @@
 
 - 319. Bulb Switcher                 # 
 - 371. Sum of Two Integers           # binary 
+- 396. Rotate Function
 - 453. Minimum Moves to Equal Array Elements   # 解方程
 
 - 553. Optimal Division
