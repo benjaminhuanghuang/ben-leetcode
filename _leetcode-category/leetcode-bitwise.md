@@ -61,6 +61,7 @@ lower case 'a' 1100001 61H(97),
 - 318. Maximum Product of Word Lengths   # & check common charactor
 - 338. Counting Bits
 - 405. Convert a Number to Hexadecimal
+- 421. Maximum XOR of Two Numbers in an Array    # a^b = c, a^c = b，b^c = a;
 - 461. Hamming Distance                  # a ^ b 基本概念
 - 476. Number Complement                 # Complement with mask, be careful the overflow
 - 1009. Complement of Base 10 Integer

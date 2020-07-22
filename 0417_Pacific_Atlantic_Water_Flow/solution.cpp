@@ -73,11 +73,13 @@ private:
 
 /*
   DFS 
+
+  https://zxi.mytechroad.com/blog/searching/417-pacific-atlantic-water-flow/
 */
 class Solution
 {
 public:
-  vector<pair<int, int>> pacificAtlantic(vector<vector<int>> &matrix)
+  vector<vector<int>> pacificAtlantic(vector<vector<int>> &matrix)
   {
     if (matrix.empty())
       return {};
@@ -99,11 +101,11 @@ public:
       dfs(matrix, m - 1, y, 0, a); // right
     }
 
-    vector<pair<int, int>> ans;
+    vector<vector<int>>ans;
     for (int i = 0; i < n; ++i)
       for (int j = 0; j < m; ++j)
         if (p[i][j] && a[i][j])
-          ans.emplace_back(i, j);
+          ans.push_back({i, j});
 
     return ans;
   }

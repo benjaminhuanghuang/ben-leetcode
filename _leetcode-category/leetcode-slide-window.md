@@ -7,6 +7,7 @@
 - 3. Longest Substring Without Repeating Characters    # 
 - 220. Contains Duplicate III                          #  
 - 209. Minimum Size Subarray Sum
+- 424. Longest Repeating Character Replacement
 - 438. Find All Anagrams in a String
 
 
