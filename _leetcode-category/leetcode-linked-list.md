@@ -2,6 +2,7 @@
 - 147. Insertion Sort List
 - 160. Intersection of Two Linked Lists
 - 203. Remove Linked List Elements
+- 430. Flatten a Multilevel Doubly Linked List      # tail
 
 ## Delete
 - 19. Remove Nth Node From End of List          # remove node
