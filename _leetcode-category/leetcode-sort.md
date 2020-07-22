@@ -23,5 +23,7 @@ cmp indicates whether the element passed as first argument is considered to go b
 - 147. Insertion Sort List
 
 ## Customize sort
+- 435. Non-overlapping Intervals
+- 451. Sort Characters By Frequency
 - 692. Top K Frequent Words
 - 937. Reorder Log Files
