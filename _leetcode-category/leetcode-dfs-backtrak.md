@@ -17,3 +17,4 @@
 ## Problems
 - 37. Sudoku Solver
 - 51. N-Queens
+- 473. Matchsticks to Square

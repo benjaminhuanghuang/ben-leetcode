@@ -33,8 +33,10 @@ public:
     const int sum = maxChoosableInteger * (maxChoosableInteger + 1) / 2;
     if (sum < desiredTotal)
       return false;
+
     if (desiredTotal <= 0)
       return true;
+  
     m_ = vector<char>(1 << maxChoosableInteger, 0);
     return canIWin(maxChoosableInteger, desiredTotal, 0);
   }
