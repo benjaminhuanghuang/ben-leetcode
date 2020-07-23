@@ -28,3 +28,4 @@
 - 398. Random Pick Index
 - 470. Implement Rand10() Using Rand7()
 - 478. Generate Random Point in a Circle
+- 497. Random Point in Non-overlapping Rectangles

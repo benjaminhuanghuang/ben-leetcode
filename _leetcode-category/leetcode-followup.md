@@ -149,6 +149,10 @@
 - 324. Wiggle Sort II    
 
 
+- 300. Longest Increasing Subsequence
+- 491. Increasing Subsequences
+
+
 - 304. Range Sum Query 2D - Immutable            # preprocessing    
 - 307. Range Sum Query - Mutable                 # Fenwick Tree or Segment Tree
 

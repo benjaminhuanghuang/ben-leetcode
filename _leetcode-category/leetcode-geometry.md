@@ -2,6 +2,7 @@
 - 223. Rectangle Area
 - 447. Number of Boomerangs   # 依次选择每个点当做第一个点,排列组合结果数
 - 452. Minimum Number of Arrows to Burst Balloons            # Greedy
+- 497. Random Point in Non-overlapping Rectangles            # binary search
 - 812. Largest Triangle Area    # Brute Force
 - 836. Rectangle Overlap        # Directly
 
