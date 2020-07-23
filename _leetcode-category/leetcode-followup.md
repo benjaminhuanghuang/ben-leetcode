@@ -2,6 +2,10 @@
 - 454. 4Sum II  
 
 
+- 2.   Add Two Numbers
+- 445. Add Two Numbers II   
+
+
 - 18.	 4Sum 
 - 454. 4Sum II  
 
@@ -190,19 +194,12 @@
 - 381. Insert Delete GetRandom O(1) - Duplicates allowed    
 
 
-
-407	
-Trapping Rain Water II    
-
-
-445	
-Add Two Numbers II    
-
-	446	
-Arithmetic Slices II - Subsequence    
+- 413. Arithmetic Slices    
+- 446. Arithmetic Slices II - Subsequence  
 
 
-  
+- 453. Minimum Moves to Equal Array Elements
+- 462. Minimum Moves to Equal Array Elements II 
 
 
 - 496. Next Greater Element I  
@@ -213,9 +210,9 @@ Arithmetic Slices II - Subsequence
 - 521. Longest Uncommon Subsequence I     
 - 522. Longest Uncommon Subsequence II    
 
-
-
-
+- 877. Stone Game    
+- 1140. Stone Game II    
+- 1406. Stone Game III    
 - 1510.	Stone Game IV    
 
 
