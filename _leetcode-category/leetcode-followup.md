@@ -1,3 +1,12 @@
+- 1.   Two Sum
+- 454. 4Sum II  
+
+
+- 18.	 4Sum 
+- 454. 4Sum II  
+
+
+
 - 26. Remove Duplicates from Sorted Array
 - 80. Remove Duplicates from Sorted Array II
 
@@ -193,8 +202,7 @@ Add Two Numbers II
 Arithmetic Slices II - Subsequence    
 
 
-	454	
-4Sum II    
+  
 
 
 - 496. Next Greater Element I  
