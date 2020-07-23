@@ -119,10 +119,20 @@
 - 210. Course Schedule II    
 - 630. Course Schedule III    
 
+- 217. Contains Duplicate         # sort, or map, or set
+- 219. Contains Duplicate II      # difference of indices < k, brute force -> map
+- 220. Contains Duplicate III     # |i-j| <= k, |nums[i]-nums[j]| <= t, sliding window
+
+
 
 - 231. Power of Two       # count 1
 - 326. Power of Three     # n % 3
 - 342. Power of Four
+
+
+- 252. Meeting Rooms    
+- 253. Meeting Rooms II    
+
 
 
 - 263. Ugly Number    
@@ -131,8 +141,8 @@
 - 1201. Ugly Number III   
 
 
-- 274. H-Index               # sort	
-- 275. H-Index II            # binary search
+- 274. H-Index                      # sort	
+- 275. H-Index II                   # binary search
 
 
 - 280. Wiggle Sort
@@ -152,42 +162,12 @@
 - 364. Nested List Weight Sum II
 
 
-- 374. Guess Number Higher or Lower    
-- 375. Guess Number Higher or Lower II         # money
-
-
-- 905. Sort Array By Parity    
-- 922. Sort Array By Parity II   
-
-
-- 908. Smallest Range I    
-- 910. Smallest Range II    
-
-
-
-- 131. Palindrome Partitioning    
-- 132. Palindrome Partitioning II    
-
-
-- 139. Word Break    
-- 140. Word Break II    
-
-
-- 207. Course Schedule    
-- 210. Course Schedule II    
-
-
-- 217. Contains Duplicate         # sort, or map, or set
-- 219. Contains Duplicate II      # difference of indices < k, brute force -> map
-- 220. Contains Duplicate III     # |i-j| <= k, |nums[i]-nums[j]| <= t, sliding window
-
-
-- 252. Meeting Rooms    
-- 253. Meeting Rooms II    
-
-
 - 344. Reverse String    
 - 541. Reverse String II   
+
+
+- 374. Guess Number Higher or Lower    
+- 375. Guess Number Higher or Lower II         # money
 
 
 - 380. Insert Delete GetRandom O(1)    
@@ -202,6 +182,10 @@
 - 462. Minimum Moves to Equal Array Elements II 
 
 
+- 461. Hamming Distance                   # bit
+- 477. Total Hamming Distance             # bit
+
+
 - 496. Next Greater Element I  
 - 503. Next Greater Element II   
 - 556. Next Greater Element III    
@@ -210,10 +194,19 @@
 - 521. Longest Uncommon Subsequence I     
 - 522. Longest Uncommon Subsequence II    
 
+
 - 877. Stone Game    
 - 1140. Stone Game II    
 - 1406. Stone Game III    
 - 1510.	Stone Game IV    
+
+
+- 905. Sort Array By Parity    
+- 922. Sort Array By Parity II   
+
+
+- 908. Smallest Range I    
+- 910. Smallest Range II    
 
 
 - 924. Minimize Malware Spread    
