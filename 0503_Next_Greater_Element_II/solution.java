@@ -39,7 +39,7 @@ public class LC_0503_NextGreaterElement_II {
 
     /*
     Monotone Stack 单调栈
-    Time O(n) Space(n)
+    Time O(n) Space O(n)
      */
     public int[] nextGreaterElements(int[] nums) {
         int[] res = new int[nums.length];

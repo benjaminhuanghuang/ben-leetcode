@@ -162,6 +162,10 @@
 - 1375. Bulb Switcher III
 
 
+-	322. Coin Change    
+- 518. Coin Change 2        # DP
+
+
 - 339. Nested List Weight Sum 
 - 364. Nested List Weight Sum II
 

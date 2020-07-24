@@ -27,7 +27,7 @@ https://www.cnblogs.com/grandyang/p/8887985.html
 ## problems
 - 84. Largest Rectangle in Histogram
 - 239. Sliding Window Maximum
-- 503. Next Greater Element II
+- 503. Next Greater Element II               # circular array
 - 739. Daily Temperatures
 - 907. Sum of Subarray Minimums
 
