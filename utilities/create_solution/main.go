@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	problemIds := []int{529}
+	problemIds := []int{535}
 	for _, id := range problemIds {
 		p, err := GetProblemDetailByFrontendId(id)
 		if err != nil {

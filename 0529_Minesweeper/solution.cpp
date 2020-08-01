@@ -24,6 +24,9 @@ using namespace std;
   Solution: DFS
     Time complexity: O(m*n)
     Space complexity: O(m* n)
+
+  未点开时状态为 M 或 E
+  点开后 状态 为 M->X   E-> nubmer or B 
 */
 
 class Solution
@@ -36,7 +39,7 @@ public:
     function<void(int, int)> dfs = [&](int x, int y) {
       if (board[y][x] != 'E')
         return;
-      int c = 0;
+      int c = 0; 
       for (int tx = x - 1; tx <= x + 1; ++tx)
         for (int ty = y - 1; ty <= y + 1; ++ty)
           if (tx >= 0 && tx < n && ty >= 0 && ty < m)
@@ -55,7 +58,7 @@ public:
           if (tx >= 0 && tx < n && ty >= 0 && ty < m)
             dfs(tx, ty);
     };
-    
+
     int x = click[1];
     int y = click[0];
     dfs(x, y);

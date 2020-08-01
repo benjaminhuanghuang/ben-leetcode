@@ -28,7 +28,6 @@
 -	432. All O`one Data Structure
 -	460. LFU Cache
 -	468. Validate IP Address 
--	535. Encode and Decode TinyURL
 -	588. Design In-Memory File System
 -	622. Design Circular Queue
 -	631. Design Excel Sum Formula 
@@ -49,6 +48,7 @@
 
 ## System design
 -	355. Design Twitter                  # map, set, sort
+- 535. Encode and Decode TinyURL
 -	715. Range Module
 -	729. My Calendar I
 -	731. My Calendar II
