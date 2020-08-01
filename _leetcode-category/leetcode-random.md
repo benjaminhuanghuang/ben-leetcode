@@ -30,3 +30,4 @@
 - 478. Generate Random Point in a Circle
 - 497. Random Point in Non-overlapping Rectangles
 - 519. Random Flip Matrix
+- 528. Random Pick with Weight
