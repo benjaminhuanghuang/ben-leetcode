@@ -36,15 +36,16 @@ class Solution
 public:
   int leastBricks(vector<vector<int>> &wall)
   {
+    // start position counter
     unordered_map<int, int> count;
     int max_count = 0;
     for (const auto &bricks : wall)
     {
-      int s = 0;
+      int start = 0;
       for (int i = 0; i < bricks.size() - 1; ++i)
       {
-        s += bricks[i];
-        max_count = max(max_count, ++count[s]);
+        start += bricks[i];
+        max_count = max(max_count, ++count[start]);
       }
     }
     return wall.size() - max_count;

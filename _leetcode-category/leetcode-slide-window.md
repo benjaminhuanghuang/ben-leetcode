@@ -9,6 +9,7 @@
 - 209. Minimum Size Subarray Sum
 - 424. Longest Repeating Character Replacement
 - 438. Find All Anagrams in a String
+- 567. Permutation in String                           # slide window check permutation
 
 
 
