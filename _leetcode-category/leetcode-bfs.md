@@ -54,6 +54,7 @@
 ```
 
 - 433. Minimum Genetic Mutation                     # BFS Shortest Path
+- 542. 01 Matrix
 - 690. Employee Importance
 - 1129. Shortest Path with Alternating Colors
 - 1162. As Far from Land as Possible      # queue
