@@ -48,7 +48,7 @@
 
 ## System design
 -	355. Design Twitter                  # map, set, sort
-- 535. Encode and Decode TinyURL
+- 535. Encode and Decode TinyURL       # map, 62 base number
 -	715. Range Module
 -	729. My Calendar I
 -	731. My Calendar II
