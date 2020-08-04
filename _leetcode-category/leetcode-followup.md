@@ -120,8 +120,8 @@
 - 630. Course Schedule III    
 
 - 217. Contains Duplicate         # sort, or map, or set
-- 219. Contains Duplicate II      # difference of indices < k, brute force -> map
-- 220. Contains Duplicate III     # |i-j| <= k, |nums[i]-nums[j]| <= t, sliding window
+- 219. Contains Duplicate II      # difference of indices < k , brute force -> map
+- 220. Contains Duplicate III     # |i-j| <= k , |nums[i]-nums[j]| <= t, sliding window
 
 
 
@@ -201,6 +201,10 @@
 
 - 521. Longest Uncommon Subsequence I     
 - 522. Longest Uncommon Subsequence II    
+
+
+-	622. Design Circular Queue                           # data, header, size
+-	641. Design Circular Deque                           # data, header, tail size , k 
 
 
 - 877. Stone Game    

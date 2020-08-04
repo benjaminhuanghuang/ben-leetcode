@@ -19,6 +19,7 @@
 - 474. Ones and Zeroes
 - 494. Target Sum
 - 518. Coin Change 2 
+- 646. Maximum Length of Pair Chain
 - 790.
 - 801.
 - 818.
