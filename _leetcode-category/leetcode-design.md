@@ -29,7 +29,7 @@
 -	460. LFU Cache
 -	468. Validate IP Address 
 -	588. Design In-Memory File System
--	622. Design Circular Queue
+-	622. Design Circular Queue                           # data, header, size
 -	631. Design Excel Sum Formula 
 - 635. Design Log Storage System
 -	641. Design Circular Deque

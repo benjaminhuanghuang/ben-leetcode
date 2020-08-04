@@ -12,47 +12,40 @@
 #include <numeric>
 using namespace std;
 
-bool containsNearbyAlmostDuplicate(vector<int> &nums, int k, int t)
-{
-  if (nums.size() == 0 || k <= 0 || t < 0)
-    return false;
-
-  multiset<int> s; // smallest to largest by default.
-
-  for (int i = 0; i < nums.size(); ++i)
+vector<int> parse(string_view s)
   {
-    if (nums.size() == 0 || k <= 0 || t < 0)
-      return false;
-
-    multiset<int> s;
-
-    for (int i = 0; i < nums.size(); ++i)
+    int a{0}, b{0};
+    int sign = 1;
+    long t = 0;
+    bool d = false;
+    for (char c : s)
     {
-      auto ceil = s.lower_bound(nums[i]); // first element that is not less than val.
-      if (ceil != s.end() && (long)*ceil - nums[i] <= t)
-        return true;
-
-      if (ceil != s.begin())
+      if (isdigit(c))
       {
-        auto floor = prev(ceil); //  smaller than val.
-        if (floor != s.end() && nums[i] - (long)*floor <= t)
-          return true;
+        d = true;
+        t = t * 10 + c - '0';
       }
-      s.insert(nums[i]);
-
-      if (i >= k)
+      else
       {
-        s.erase(nums[i - k]);
+        if (c == 'x')
+          a += (d ? t : 1) * sign;
+        else
+        {
+          b += t * sign;
+          sign = c == '+' ? 1 : -1;
+        }
+        d = false;
+        t = 0;
       }
     }
-    return false;
+    b += t * sign;
+    return {a, b};
   }
-}
 
 int main()
 {
   vector<int> input = {1, 5, 9, 1, 5, 9};
-  auto ans = containsNearbyAlmostDuplicate(input, 2, 3);
-  cout << ans << endl;
+  auto l = parse(string_view("1+2+3x+5"));
+  cout << l[0] << " "<<l[1] << endl;
   return 0;
 }

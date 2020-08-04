@@ -21,3 +21,6 @@ Two strings are isomorphic if the characters in s can be replaced to get t.
 n. 回文
 
 Given a singly linked list, determine if it is a palindrome.
+
+- coefficient
+系数
