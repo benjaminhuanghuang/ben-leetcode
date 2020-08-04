@@ -1,4 +1,3 @@
-package cn.huang.leetcode;
 /*
 
 626. Exchange Seats
@@ -35,9 +34,7 @@ For the sample input, the output is:
 Note:
 If the number of students is odd, there is no need to change the last one's seat.
  */
-public class LC_0626_ExchangeSeats {
-    /*
-        select case when id = (select max(id) from seat) and mod(id, 2) = 1 then id when id < (select max(id) from seat) and mod(id, 2) = 1
-        then id + 1 when mod(id, 2) = 0 then id - 1 end as id, student from seat order by id
-     */
-}
+
+select case when id = (select max(id) from seat) and mod(id, 2) = 1 then id when id < (select max(id) from seat) and mod(id, 2) = 1
+then id + 1 when mod(id, 2) = 0 then id - 1 end as id, student from seat order by id
+

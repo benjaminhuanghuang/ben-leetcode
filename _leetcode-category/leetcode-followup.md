@@ -160,7 +160,7 @@
 - 319. Bulb Switcher
 - 672. Bulb Switcher II
 - 1375. Bulb Switcher III
-
+- 1529. Bulb Switcher IV  
 
 -	322. Coin Change    
 - 518. Coin Change 2        # DP

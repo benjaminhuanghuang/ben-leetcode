@@ -4,6 +4,7 @@
 - 452. Minimum Number of Arrows to Burst Balloons            # Greedy
 - 497. Random Point in Non-overlapping Rectangles            # binary search
 - 812. Largest Triangle Area    # Brute Force
+- 593. Valid Square
 - 836. Rectangle Overlap        # Directly
 
 
