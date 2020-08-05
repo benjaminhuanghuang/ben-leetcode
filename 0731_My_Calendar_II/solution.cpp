@@ -20,20 +20,38 @@ https://leetcode.com/problems/my-calendar-ii
 
 using namespace std;
 
-
 /*
   Solution: 
 */
 
-class MyCalendarTwo {
+class MyCalendarTwo
+{
 public:
-    MyCalendarTwo() {
-        
+  MyCalendarTwo()
+  {
+  }
+
+  bool book(int start, int end)
+  {
+    for (const auto &kv : overlaps_)
+      if (max(start, kv.first) < min(end, kv.second))
+        return false;
+
+    for (const auto &kv : booked_)
+    {
+      const int ss = max(start, kv.first);
+      const int ee = min(end, kv.second);
+      if (ss < ee)
+        overlaps_.emplace_back(ss, ee);
     }
-    
-    bool book(int start, int end) {
-        
-    }
+
+    booked_.emplace_back(start, end);
+    return true;
+  }
+
+private:
+  vector<pair<int, int>> booked_;
+  vector<pair<int, int>> overlaps_;
 };
 
 /**
