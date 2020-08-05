@@ -52,7 +52,7 @@ private:
   unordered_map<string, int> sums_;
 };
 
-class MapSum
+class MapSum_Trie
 {
 public:
   /** Initialize your data structure here. */

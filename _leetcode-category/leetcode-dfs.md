@@ -18,5 +18,6 @@
 - 301. Remove Invalid Parentheses        # r, l 
 - 491. Increasing Subsequences           # **
 - 690. Employee Importance
+- 698. Partition to K Equal Sum Subsets
 - 733. Flood Fill                        # typical
 - 949. Largest Time for Given Digits
