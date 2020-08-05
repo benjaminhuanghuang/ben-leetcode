@@ -56,6 +56,7 @@
 - 433. Minimum Genetic Mutation                     # BFS Shortest Path
 - 542. 01 Matrix
 - 690. Employee Importance
+- 752. Open the Lock                                # BFS search
 - 1129. Shortest Path with Alternating Colors
 - 1162. As Far from Land as Possible      # queue
 - 1306. Jump Game III                     # bfs search 

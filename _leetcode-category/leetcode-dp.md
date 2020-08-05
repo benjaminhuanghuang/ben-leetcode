@@ -8,6 +8,7 @@
 - 70. Climbing Stairs
 - 120. Triangle                          # typical
 - 139. Word Break                        # recursion with memoization
+- 198. House Robber
 - 279. Perfect Squares
 - 300. Longest Increasing Subsequence    # recursion + memoization
 - 322. Coin Change                       # knapsack problem
@@ -21,6 +22,7 @@
 - 518. Coin Change 2 
 - 646. Maximum Length of Pair Chain
 - 650. 2 Keys Keyboard
+- 740. Delete and Earn                            # 198
 - 790.
 - 801.
 - 818.
