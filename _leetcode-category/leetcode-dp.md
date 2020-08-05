@@ -20,6 +20,7 @@
 - 494. Target Sum
 - 518. Coin Change 2 
 - 646. Maximum Length of Pair Chain
+- 650. 2 Keys Keyboard
 - 790.
 - 801.
 - 818.

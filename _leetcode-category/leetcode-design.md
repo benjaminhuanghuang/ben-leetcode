@@ -34,7 +34,7 @@
 - 635. Design Log Storage System
 -	641. Design Circular Deque                           # 
 -	642. Design Search Autocomplete System               # trie
--	676. Implement Magic Dictionary
+-	676. Implement Magic Dictionary                      #
 -	677. Map Sum Pairs
 -	705. Design HashSet
 -	706. Design HashMap
