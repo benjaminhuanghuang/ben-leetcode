@@ -38,7 +38,7 @@
 -	677. Map Sum Pairs
 -	705. Design HashSet
 -	706. Design HashMap
--	707. Design Linked List
+-	707. Design Linked List                              #
 -	710. Random Pick with Blacklist
 -	716. Max Stack
 -	745. Prefix and Suffix Search
