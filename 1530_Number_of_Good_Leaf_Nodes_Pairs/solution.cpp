@@ -32,12 +32,10 @@ using namespace std;
  * };
  */
 
-
 /*
   Solution: 
   https://zxi.mytechroad.com/blog/tree/leetcode-1530-number-of-good-leaf-nodes-pairs/
 */
-
 
 class Solution
 {
@@ -73,6 +71,34 @@ public:
       for (int j = i + 1; j < leaves.size(); ++j)
         ans += isGood(leaves[j]);
     }
+    return ans;
+  }
+};
+
+
+class Solution {
+public:
+  int countPairs(TreeNode* root, int distance) {
+    int ans = 0;
+    function<vector<int>(TreeNode*)> dfs 
+      = [&](TreeNode* c) -> vector<int> {
+      // f[i] = number of leaves node at distance i.
+      vector<int> f(distance + 1);
+      if (!c) return f;      
+      if (!c->left && !c->right) {        
+        f[0] = 1; // a single leaf node
+        return f;
+      }
+      const vector<int>& l = dfs(c->left);
+      const vector<int>& r = dfs(c->right);
+      for (int i = 0; i + 1 <= distance; ++i)
+        for (int j = 0; i + j + 2 <= distance; ++j)
+          ans += l[i] * r[j];
+      for (int i = 0; i < distance; ++i)
+        f[i + 1] = l[i] + r[i];
+      return f;
+    };
+    dfs(root);
     return ans;
   }
 };

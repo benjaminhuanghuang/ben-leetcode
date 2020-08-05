@@ -6,6 +6,11 @@ https://leetcode.com/problems/majority-element/
 #include <vector>
 
 using namespace std;
+
+
+/*
+O(nlogn) 
+*/
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
