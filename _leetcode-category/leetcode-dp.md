@@ -29,4 +29,5 @@
 - 926.
 - 1043. Partition Array for Maximum Sum
 - 1137. N-th Tribonacci Number
+- 1524. Number of Sub-arrays With Odd Sum
 
