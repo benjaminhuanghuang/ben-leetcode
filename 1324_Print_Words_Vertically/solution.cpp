@@ -29,37 +29,37 @@ class Solution
 public:
   vector<string> printVertically(string s)
   {
-    vector<string> v;
-    string t;
-    int m = 0;
+    vector<string> words;
+    string word;
+    int max_word_len = 0;
     for (int i = 0; i <= s.length(); i++)
     {
-      if (i == s.length() || s[i] == ' ')
+      if (i == s.length() || s[i] == ' ') // end of word
       {
-        if (m < t.length())
-          m = t.length();
-        v.push_back(t);
-        t.clear();
+        if (max_word_len < word.length())
+          max_word_len = word.length();
+        words.push_back(word);
+        word.clear();
       }
       else
       {
-        t += s[i];
+        word += s[i];
       }
     }
 
     vector<string> ans;
-    for (int j = 0; j < m; j++)
+    for (int j = 0; j < max_word_len; j++)
     {
-      for (int i = 0; i < v.size(); i++)
-        if (j < v[i].length())
-          t += v[i][j];
+      for (int i = 0; i < words.size(); i++)
+        if (j < words[i].length())
+          word += words[i][j];
         else
-          t += ' ';
+          word += ' ';
 
-      while (t.back() == ' ')
-        t.pop_back();
-      ans.push_back(t);
-      t.clear();
+      while (word.back() == ' ')
+        word.pop_back();
+      ans.push_back(word);
+      word.clear();
     }
 
     return ans;
