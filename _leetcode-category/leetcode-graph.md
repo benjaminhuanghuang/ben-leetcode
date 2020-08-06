@@ -1,6 +1,17 @@
 # Graph
 图的存储方式有两种：邻接矩阵(Adjacency Matrix)和邻接表
 
+- Undirected graph
+ 只记录边的信息，每个边由两个顶点构成
+```
+vector<vector<int>>& graph
+```
+
+- Directed graph
+```
+unordered_map<string, priority_queue<string, deque<string>, greater<string>>> _tripsGrpah;
+```
+
 
 ## data structure for Graph
 - directed graph
@@ -14,23 +25,10 @@ or
 
 
 
-常见题目：City, Equation, Friends
+## 常见题目
+- City, Equation, Friends
 
-
-
-
-无向图, 只记录边的信息，每个边由两个顶点构成
-```
-vector<vector<int>>& graph
-```
-
-有向图
-```
-unordered_map<string, priority_queue<string, deque<string>, greater<string>>> _tripsGrpah;
-```
 - DFS find circle
-
-
 
 - Find circle, Union found, in-degres
 
@@ -94,6 +92,7 @@ characteristic：
 -	743. Network Delay Time    
 -	765. Couples Holding Hands    
 -	785. Is Graph Bipartite?    
+- 797. All Paths From Source to Target
 -	802. Find Eventual Safe States    
 -	839. Similar String Groups    
 -	841. Keys and Rooms    

@@ -11,3 +11,4 @@
 - 661. Image Smoother
 - 867. Transpose Matrix
 - 1260. Shift 2D Grid
+- 1329. Sort the Matrix Diagonally
