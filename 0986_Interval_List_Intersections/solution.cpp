@@ -29,6 +29,9 @@ class Solution
 public:
   vector<vector<int>> intervalIntersection(vector<vector<int>> &A, vector<vector<int>> &B)
   {
+    /*
+      list of intervals is pairwise disjoint and in sorted order.
+    */
     size_t i = 0;
     size_t j = 0;
     vector<vector<int>> ans;
@@ -37,7 +40,7 @@ public:
       const int start = max(A[i][0], B[j][0]);
       const int end = min(A[i][1], B[j][1]);
       if (start <= end)
-        ans.emplace_back(start, end);
+        ans.push_back({start, end});
       if (A[i][1] < B[j][1])
         ++i;
       else
