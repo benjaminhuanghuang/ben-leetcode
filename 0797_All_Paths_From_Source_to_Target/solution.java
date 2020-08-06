@@ -30,7 +30,6 @@ public class LC_0797_AllPathsFromSourcetoTarget {
         return solve(graph, 0);
     }
 
-
     public List<List<Integer>> solve(int[][] graph, int node) {
         int N = graph.length;
         List<List<Integer>> ans = new ArrayList();
@@ -69,6 +68,29 @@ public class LC_0797_AllPathsFromSourcetoTarget {
             List<Integer> newPath = new ArrayList(path);
             newPath.add(next);
             dfs(graph, newPath, ans);
+        }
+    }
+}
+
+public class LC_0797_AllPathsFromSourcetoTarget {
+    public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> tmp = new ArrayList<>();
+        tmp.add(0);
+        helper(res, graph, 0, tmp);
+        return res;
+    }
+
+    private void helper(List<List<Integer>> res, int[][] graph, int cur, List<Integer> tmp) {
+        if (cur == graph.length - 1) {
+            res.add(new ArrayList(tmp));
+            return;
+        }
+
+        for (int i : graph[cur]) {
+            tmp.add(i);
+            helper(res, graph, i, tmp);
+            tmp.remove(tmp.size() - 1);
         }
     }
 }

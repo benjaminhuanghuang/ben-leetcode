@@ -19,4 +19,4 @@ var allPathsSourceTarget = function(graph) {
 };
 
 
-export { twoSum };
+export { allPathsSourceTarget };

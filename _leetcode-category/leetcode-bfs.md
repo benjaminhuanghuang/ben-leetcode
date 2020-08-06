@@ -59,6 +59,7 @@
 - 752. Open the Lock                                # BFS search
 - 1129. Shortest Path with Alternating Colors
 - 1162. As Far from Land as Possible      # queue
+- 1305. All Elements in Two Binary Search Trees
 - 1306. Jump Game III                     # bfs search 
 - 1462. Course Schedule IV
 

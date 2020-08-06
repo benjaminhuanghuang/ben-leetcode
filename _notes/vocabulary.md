@@ -24,3 +24,6 @@ Given a singly linked list, determine if it is a palindrome.
 
 - coefficient
 系数
+
+
+- factorial of n 
