@@ -43,7 +43,7 @@
 -	716. Max Stack
 -	745. Prefix and Suffix Search
 -	895. Maximum Frequency Stack
-
+- 1381. Design a Stack With Increment Operation        #
 
 
 ## System design
