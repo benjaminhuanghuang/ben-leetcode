@@ -22,6 +22,11 @@ using namespace std;
 
 /*
   Solution: Prefix
+  利用 b ^ b ^ a = 0 ^ a = a
+
+  A[i] ^ ..... A[j] 
+    = (A[0] ^ ..... A[i-1]) ^ (A[0] ^ ..... A[i-1]) ^ (A[i] ^ ..... A[j])
+    = (A[0] ^ ..... A[i]) ^ (A[0] ^ ..... A[j])
 */
 
 class Solution

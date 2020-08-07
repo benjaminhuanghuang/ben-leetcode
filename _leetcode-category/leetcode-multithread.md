@@ -18,3 +18,4 @@ only 1 thread can enter the resource
 - 1114.
 - 1115.
 - 1116.
+- 1195. Fizz Buzz Multithreaded
