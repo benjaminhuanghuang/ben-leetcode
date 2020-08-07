@@ -5,6 +5,7 @@
 - 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 - 1315. Sum of Nodes with Even-Valued Grandparent
 - 1325. Delete Leaves With a Given Value                    # delete leaf nodes
+- 1448. Count Good Nodes in Binary Tree
 
 
 ## Validation
