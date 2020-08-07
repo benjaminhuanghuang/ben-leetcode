@@ -68,10 +68,12 @@ lower case 'a' 1100001 61H(97),
 - 1009. Complement of Base 10 Integer
 - 1018. Binary Prefix Divisible By 5
 - 1104. Path In Zigzag Labelled Binary Tree
-- 1442. Count Triplets That Can Form Two Arrays of Equal XOR
+- 1442. Count Triplets That Can Form Two Arrays of Equal XOR    # O(N^4) -> O(N)
+
 
 ### Meth operation
 - 371. Sum of Two Integers           # binary 
+
 
 ### Power 
 - 231. Power of Two       # count 1
