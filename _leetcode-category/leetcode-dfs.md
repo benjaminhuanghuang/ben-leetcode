@@ -12,6 +12,29 @@
 
   // clear status
 ```
+## DFS Tempalte
+```
+  class dfs_solution {
+  private:
+    dfsHelper( data, ){
+      if(condition)
+      {
+        return;
+      }
+      do_something();
+      for(){
+        dfsHelper();
+      }
+    }
+
+  public:
+    main() {
+      res = dfsHelper(data, )
+    }
+  }
+```
+
+
 - 120. Triangle                          # DP, or DFS
 - 130. Surrounded Regions
 - 200. Number of Islands                 # No back track
@@ -22,3 +45,4 @@
 - 733. Flood Fill                        # typical
 - 797. All Paths From Source to Target   # backtracking 
 - 949. Largest Time for Given Digits
+- 1415. The k-th Lexicographical String of All Happy Strings of Length n

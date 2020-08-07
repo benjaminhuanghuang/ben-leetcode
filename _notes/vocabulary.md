@@ -14,7 +14,7 @@ write a function to determine if t is an anagram of s.
 adj. [物] 同构的；同形的
 
 Two strings are isomorphic if the characters in s can be replaced to get t.
-
+s = "paper", t = "title"
 
 - Palindrome
 
@@ -27,3 +27,4 @@ Given a singly linked list, determine if it is a palindrome.
 
 
 - factorial of n 
+- Lexicographical
