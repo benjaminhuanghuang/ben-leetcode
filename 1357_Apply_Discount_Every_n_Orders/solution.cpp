@@ -1,5 +1,5 @@
 /*
-1357. Apply Discount Every n Orders
+1357. Apply Discount Every n Orders [Facebook]
 
 Level: Medium
 
@@ -20,20 +20,41 @@ https://leetcode.com/problems/apply-discount-every-n-orders
 
 using namespace std;
 
-
 /*
   Solution: 
 */
 
-class Cashier {
+class Cashier
+{
 public:
-    Cashier(int n, int discount, vector<int>& products, vector<int>& prices) {
-        
+  Cashier(int n, int discount, vector<int> &products, vector<int> &prices)
+  {
+    l = n;
+    disc = discount;
+    int z = products.size();
+    for (int i = 0; i < z; i++)
+      mp[products[i]] = prices[i];
+  }
+
+  double getBill(vector<int> product, vector<int> amount)
+  {
+    k++;
+    double sum = 0;
+    int m = product.size();
+    for (int i = 0; i < m; i++)
+    {
+      sum += (amount[i] * mp[product[i]]);
     }
-    
-    double getBill(vector<int> product, vector<int> amount) {
-        
+    if (k % l == 0)
+    {
+      sum = sum - ((disc * sum)) / 100.0;
     }
+    return sum;
+  }
+
+private:
+  int k = 0, l, disc;
+  unordered_map<int, int> mp;
 };
 
 /**
