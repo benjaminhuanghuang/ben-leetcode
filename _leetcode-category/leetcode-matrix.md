@@ -9,6 +9,7 @@
 - 498. Diagonal Traverse                   # i +j is even, goes up, i +j is odd, goes down
 - 566. Reshape the Matrix
 - 661. Image Smoother
+- 861. Score After Flipping Matrix
 - 867. Transpose Matrix
 - 1260. Shift 2D Grid
 - 1314. Matrix Block Sum

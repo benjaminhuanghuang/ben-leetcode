@@ -4,6 +4,8 @@
 - 1261. Find Elements in a Contaminated Binary Tree
 - 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 - 1315. Sum of Nodes with Even-Valued Grandparent
+- 1325. Delete Leaves With a Given Value                    # delete leaf nodes
+
 
 ## Validation
 - 331. Verify Preorder Serialization of a Binary Tree      # stack
