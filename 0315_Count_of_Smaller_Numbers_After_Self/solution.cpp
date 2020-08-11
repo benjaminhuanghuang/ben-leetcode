@@ -1,9 +1,9 @@
 /*
-1268. Search Suggestions System
+315. Count of Smaller Numbers After Self
 
-Level: Medium
+Level: Hard
 
-https://leetcode.com/problems/search-suggestions-system
+https://leetcode.com/problems/count-of-smaller-numbers-after-self
 */
 #include <iostream>
 #include <vector>
@@ -23,12 +23,11 @@ using namespace std;
 
 /*
   Solution: 
-  https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-1268-search-suggestions-system/
 */
 
 class Solution {
 public:
-    vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
+    vector<int> countSmaller(vector<int>& nums) {
         
     }
 };
