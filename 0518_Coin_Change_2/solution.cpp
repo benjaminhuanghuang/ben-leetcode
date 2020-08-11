@@ -4,6 +4,8 @@
 Level: Medium
 
 https://leetcode.com/problems/coin-change-2
+
+# 322
 */
 #include <iostream>
 #include <vector>
@@ -19,6 +21,37 @@ https://leetcode.com/problems/coin-change-2
 #include "common/TreeNode.h"
 
 using namespace std;
+
+/*
+  n = number of types of coins
+  m = desired amount
+  f[i][j] = the number of combinations to make up amount j with fist i types of coins
+
+  Induction rule
+  f[i][j] = sum(f[i-1][j], 
+                f[i-1][j-coins[i-1]],
+                f[i-1][j-coins[i-1]*2]
+                f[i-1][j-coins[i-1]*3]
+                )
+*/
+class Solution
+{
+public:
+  int change(int amount, vector<int> &coins)
+  {
+    vector<vector<int>> dp(coins.size() + 1, vector<int>(amount + 1, 0));
+    dp[0][0] = 1;
+    for (int i = 1; i <= coins.size(); ++i)
+    {
+      dp[i][0] = 1;
+      for (int j = 1; j <= amount; ++j)
+      {
+        dp[i][j] = dp[i - 1][j] + (j >= coins[i - 1] ? dp[i][j - coins[i - 1]] : 0);
+      }
+    }
+    return dp[coins.size()][amount];
+  }
+};
 
 /*
   Solution: 
