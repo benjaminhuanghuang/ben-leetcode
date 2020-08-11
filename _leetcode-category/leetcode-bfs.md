@@ -61,5 +61,6 @@
 - 1162. As Far from Land as Possible      # queue
 - 1305. All Elements in Two Binary Search Trees
 - 1306. Jump Game III                     # bfs search 
+- 1466. Reorder Routes to Make All Paths Lead to the City Zero
 - 1462. Course Schedule IV
 
