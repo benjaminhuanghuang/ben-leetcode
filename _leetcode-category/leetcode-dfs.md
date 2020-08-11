@@ -16,20 +16,22 @@
 ```
   class dfs_solution {
   private:
-    dfsHelper( data, ){
+    dfsHelper( data, index, combination, ans ){
       if(condition)
       {
         return;
       }
       do_something();
       for(){
+        combination.push()
         dfsHelper();
+        combination.pop()
       }
     }
 
   public:
     main() {
-      res = dfsHelper(data, )
+      res = dfsHelper(data,  0, empay_combination, ans)
     }
   }
 ```

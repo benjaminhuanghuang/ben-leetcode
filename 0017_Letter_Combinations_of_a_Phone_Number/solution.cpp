@@ -8,7 +8,10 @@ https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 #include <string>
 
 using namespace std;
-
+/*
+    Time complexity : O(branches ^ depth) = O(4^N) 
+    Space complextity: call stack = depth
+*/
 class Solution
 {
 public:
