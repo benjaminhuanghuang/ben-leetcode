@@ -33,7 +33,7 @@ public:
     for (char c : s)
     {
       if (ans.length() &&
-          abs(ans.back() - c) == abs('a' - 'A'))
+          abs(ans.back() - c) == 'a' - 'A')
         ans.pop_back();
       else
         ans.push_back(c);

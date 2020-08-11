@@ -46,6 +46,7 @@
 - 1381. Design a Stack With Increment Operation        #
 
 
+
 ## System design
 -	355. Design Twitter                  # map, set, sort
 - 535. Encode and Decode TinyURL       # map, 62 base number
@@ -56,3 +57,5 @@
 -	901. Online Stock Span
 -	911. Online Election
 - 933. Number of Recent Calls
+- 1396. Design Underground System
+- 1472. Design Browser History
