@@ -26,9 +26,13 @@ Note:
  */
 public class LC_0076_MinimumWindowSubstring {
     /*
-    https://www.youtube.com/watch?v=dzdtzymjM7A
+     * https://www.youtube.com/watch?v=dzdtzymjM7A
      */
     public String minWindow(String s, String t) {
+        if (s.length() < t.length())
+            return "";
+
+        // distince char -> frequency
         int[] dict = new int[128];
         for (char c : t.toCharArray()) {
             dict[c]++;
@@ -44,19 +48,19 @@ public class LC_0076_MinimumWindowSubstring {
                 // if s[i] is char in t string
                 restChartCount--;
             }
-            dict[s.charAt(i)]--;   // 在s中且不在t中的的字符的count会变为负值
+            dict[s.charAt(i)]--; // 在s中且不在t中的的字符的count会变为负值
 
-            while (restChartCount == 0) //When restChartCount == 0, substring S[start : i] contains string T
+            while (restChartCount == 0) // When restChartCount == 0, substring S[start : i] contains string T
             {
-                if (min > i - start + 1)   // find res shorter than last res or find res firstly
+                if (min > i - start + 1) // find res shorter than last res or find res firstly
                 {
                     min = i - start + 1;
                     res = s.substring(start, start + min);
                 }
 
                 if (++dict[s.charAt(start)] > 0) {
-                    //++dict[s.charAt(start)] > 0 说明这是t中的字符，
-                    //  remove first char from the sub string
+                    // ++dict[s.charAt(start)] > 0 说明这是t中的字符，
+                    // remove first char from the sub string
                     restChartCount++;
                 }
                 start++;
@@ -67,9 +71,46 @@ public class LC_0076_MinimumWindowSubstring {
     }
 
     /*
-            https://www.youtube.com/watch?v=9qFR2WQGqkU&t=1195s
+     * https://www.youtube.com/watch?v=9qFR2WQGqkU&t=1195s
      */
     public String minWindow2(String s, String t) {
-        return null;
+        if (s.length() < t.length())
+            return "";
+
+        // distince char -> frequency
+        int[] dict = new int[128];
+        for (char c : t.toCharArray()) {
+            dict[c]++;
+        }
+
+        int slow = 0;
+        int minLen = Integer.MAX_VALUE;
+        int matchCount = 0;
+        String res = "";
+
+        for (int fast = 0; fast < s.length(); fast++) {
+            if (dict[s.charAt(fast)] == 0) {
+                continue;
+            }
+            dict[s.charAt(i)]--; // 在s中且不在t中的的字符的count会变为负值
+
+            while (restChartCount == 0) // When restChartCount == 0, substring S[start : i] contains string T
+            {
+                if (min > i - start + 1) // find res shorter than last res or find res firstly
+                {
+                    min = i - start + 1;
+                    res = s.substring(start, start + min);
+                }
+
+                if (++dict[s.charAt(start)] > 0) {
+                    // ++dict[s.charAt(start)] > 0 说明这是t中的字符，
+                    // remove first char from the sub string
+                    restChartCount++;
+                }
+                start++;
+
+            }
+        }
+        return res;
     }
 }

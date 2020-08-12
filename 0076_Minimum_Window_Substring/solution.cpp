@@ -14,7 +14,7 @@ using namespace std;
     // 最后记录所有可能的情况中窗口最小的。
     // 用dict来表示滑窗， 字符加入滑窗，从dict[c] - 1，从滑窗中删去字符，dict[c] +1
 
- https://www.youtube.com/watch?v=dzdtzymjM7A
+    https://www.youtube.com/watch?v=dzdtzymjM7A
  */
 class Solution
 {
