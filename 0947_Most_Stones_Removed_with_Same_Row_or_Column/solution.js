@@ -1,0 +1,22 @@
+/*
+947. Most Stones Removed with Same Row or Column
+
+Level: Medium
+
+https://leetcode.com/problems/most-stones-removed-with-same-row-or-column
+*/
+
+/*
+  Solution: 
+*/
+
+/**
+ * @param {number[][]} stones
+ * @return {number}
+ */
+var removeStones = function(stones) {
+    
+};
+
+
+export { removeStones };

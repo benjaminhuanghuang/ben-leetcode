@@ -50,3 +50,4 @@
 - 1020. Number of Enclaves               #  DFS / Connected Components
 - 1415. The k-th Lexicographical String of All Happy Strings of Length n
 - 1219. Path with Maximum Gold
+- 1376. Time Needed to Inform All Employees
