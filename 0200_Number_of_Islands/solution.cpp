@@ -29,6 +29,8 @@ public:
     
     Time complexity: O(mn)
     Space complexity: O(mn)
+
+
   */
   int numIslands(vector<vector<char>> &grid)
   {
@@ -51,7 +53,7 @@ private:
   {
     if (x < 0 || y < 0 || x >= n || y >= m || grid[y][x] == '0')
       return;
-    grid[y][x] = '0';
+    grid[y][x] = '0';   // visited
     dfs(grid, x + 1, y, m, n);
     dfs(grid, x - 1, y, m, n);
     dfs(grid, x, y + 1, m, n);
