@@ -7,5 +7,6 @@
 - 495. Teemo Attacking
 - 529. Minesweeper                          # DFS, BFS
 - 688. Knight Probability in Chessboard
+- 789. Escape The Ghosts
 - 1222. Queens That Can Attack the King
 - 1275. Find Winner on a Tic Tac Toe Game

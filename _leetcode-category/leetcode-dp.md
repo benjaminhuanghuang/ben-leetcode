@@ -29,6 +29,7 @@
 - 926.
 - 931. Minimum Falling Path Sum
 - 983. Minimum Cost For Tickets
+- 1105. Filling Bookcase Shelves
 - 1043. Partition Array for Maximum Sum
 - 1137. N-th Tribonacci Number
 - 1143. Longest Common Subsequence

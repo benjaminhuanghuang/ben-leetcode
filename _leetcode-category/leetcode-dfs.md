@@ -47,5 +47,6 @@
 - 733. Flood Fill                        # typical
 - 797. All Paths From Source to Target   # backtracking 
 - 949. Largest Time for Given Digits
+- 1020. Number of Enclaves               #  DFS / Connected Components
 - 1415. The k-th Lexicographical String of All Happy Strings of Length n
 - 1219. Path with Maximum Gold

@@ -31,5 +31,6 @@ https://www.cnblogs.com/grandyang/p/8887985.html
 - 739. Daily Temperatures
 - 901. Online Stock Span
 - 907. Sum of Subarray Minimums
+- 1019. Next Greater Node In Linked List
 - 1475. Final Prices With a Special Discount in a Shop
 

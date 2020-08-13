@@ -11,7 +11,8 @@ using namespace std;
 
 /*
   https://zxi.mytechroad.com/blog/uncategorized/leetcode-weekly-contest-130/
-
+  3 / -2 = -1 ... 1
+  -3 / -2 = 1 ... -1
 
 */
 class Solution
@@ -50,7 +51,7 @@ public:
   }
 
 private:
-  string baseNegK(int N, int K)
+  string baseNegK(int N, int K)   // K = -2
   {
     vector<char> ans;
     while (N)
