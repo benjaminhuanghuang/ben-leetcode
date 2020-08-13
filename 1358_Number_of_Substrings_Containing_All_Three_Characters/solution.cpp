@@ -20,14 +20,48 @@ https://leetcode.com/problems/number-of-substrings-containing-all-three-characte
 
 using namespace std;
 
-
 /*
   Solution: 
+  https://zxi.mytechroad.com/blog/string/1358-number-of-substrings-containing-all-three-characters/
 */
 
-class Solution {
+class Solution
+{
 public:
-    int numberOfSubstrings(string s) {
-        
+  int numberOfSubstrings(string s)
+  {
+    vector<int> l{-1, -1, -1};
+    int ans = 0;
+    for (size_t i = 0; i < s.length(); ++i)
+    {
+      l[s[i] - 'a'] = i;
+      ans += 1 + *min_element(begin(l), end(l));
     }
+    return ans;
+  }
+};
+
+/*
+  [j, i] sliding window
+*/
+class Solution
+{
+public:
+  int numberOfSubstrings(string s)
+  {
+    vector<int> counter{0, 0, 0};
+    int ans = 0;
+    int j = 0;
+    for (size_t i = 0; i < s.length(); ++i)
+    {
+      counter[s[i] - 'a']++;
+      while (j < i && counter[0] > 0 && counter[1] > 0 && counter[2] > 0)
+      {
+        counter[s[j] - 'a']--;
+        j++;
+      }
+      ans += j;
+    }
+    return ans;
+  }
 };
