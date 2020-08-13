@@ -11,6 +11,7 @@
 - 424. Longest Repeating Character Replacement
 - 438. Find All Anagrams in a String
 - 567. Permutation in String                           # slide window check permutation
+- 1493. Longest Subarray of 1's After Deleting One Element
 - 1525. Number of Good Ways to Split a String
 
 
