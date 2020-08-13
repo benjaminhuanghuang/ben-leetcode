@@ -8,6 +8,7 @@
 - 529. Minesweeper                          # DFS, BFS
 - 688. Knight Probability in Chessboard
 - 789. Escape The Ghosts
+- 846. Hand of Straights
 - 1209. Remove All Adjacent Duplicates in String II   # 连连看
 - 1222. Queens That Can Attack the King
 - 1275. Find Winner on a Tic Tac Toe Game
