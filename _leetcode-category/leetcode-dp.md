@@ -28,6 +28,7 @@
 - 818.
 - 926.
 - 931. Minimum Falling Path Sum
+- 983. Minimum Cost For Tickets
 - 1043. Partition Array for Maximum Sum
 - 1137. N-th Tribonacci Number
 - 1277. Count Square Submatrices with All Ones
