@@ -9,10 +9,14 @@ https://leetcode.com/problems/convert-to-base-2/
 
 using namespace std;
 
+/*
+  https://zxi.mytechroad.com/blog/uncategorized/leetcode-weekly-contest-130/
+
+
+*/
 class Solution
 {
 public:
-  //https://zxi.mytechroad.com/blog/uncategorized/leetcode-weekly-contest-130/
   string baseNeg2_huahua(int N)
   {
     if (N == 0)

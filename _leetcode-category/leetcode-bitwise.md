@@ -66,6 +66,7 @@ lower case 'a' 1100001 61H(97),
 - 461. Hamming Distance                  # a ^ b 基本概念
 - 476. Number Complement                 # Complement with mask, be careful the overflow
 - 1009. Complement of Base 10 Integer
+- 1017. Convert to Base -2
 - 1018. Binary Prefix Divisible By 5
 - 1104. Path In Zigzag Labelled Binary Tree
 - 1310. XOR Queries of a Subarray                               # prefix
