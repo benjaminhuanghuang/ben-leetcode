@@ -17,4 +17,6 @@
 ## Problems
 - 37. Sudoku Solver
 - 51. N-Queens
+- 200. Number of Islands
 - 473. Matchsticks to Square
+- 1254. Number of Closed Islands           # 200
