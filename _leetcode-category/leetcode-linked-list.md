@@ -4,6 +4,8 @@
 - 203. Remove Linked List Elements
 - 430. Flatten a Multilevel Doubly Linked List      # tail
 - 725. Split Linked List in Parts
+- 817. Linked List Components
+
 
 ## Delete
 - 19. Remove Nth Node From End of List          # remove node

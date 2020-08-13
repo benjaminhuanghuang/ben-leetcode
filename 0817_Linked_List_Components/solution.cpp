@@ -20,9 +20,10 @@ https://leetcode.com/problems/linked-list-components
 
 using namespace std;
 
-
 /*
   Solution: 
+
+
 */
 
 /**
@@ -35,9 +36,20 @@ using namespace std;
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    int numComponents(ListNode* head, vector<int>& G) {
-        
+  int numComponents(ListNode *head, vector<int> &G)
+  {
+    unordered_set<int> g(G.begin(), G.end());
+    int ans = 0;
+    while (head)
+    {
+      // head->nex is null or head->next->val is not in set, that means Find an end of componenet
+      if (g.count(head->val) && (!head->next || !g.count(head->next->val)))
+        ++ans;
+      head = head->next;
     }
+    return ans;
+  }
 };

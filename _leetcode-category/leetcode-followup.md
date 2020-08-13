@@ -238,3 +238,7 @@
 - 944. Delete Columns to Make Sorted  
 - 955. Delete Columns to Make Sorted II    
 - 960. Delete Columns to Make Sorted III    
+
+
+- 1047. Remove All Adjacent Duplicates In String    
+- 1209. Remove All Adjacent Duplicates in String II 
