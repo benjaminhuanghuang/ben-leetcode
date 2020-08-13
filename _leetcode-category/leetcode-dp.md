@@ -31,6 +31,7 @@
 - 983. Minimum Cost For Tickets
 - 1043. Partition Array for Maximum Sum
 - 1137. N-th Tribonacci Number
+- 1143. Longest Common Subsequence
 - 1277. Count Square Submatrices with All Ones
 - 1524. Number of Sub-arrays With Odd Sum
 

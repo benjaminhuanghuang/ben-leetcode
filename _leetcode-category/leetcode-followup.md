@@ -194,6 +194,11 @@
 - 477. Total Hamming Distance             # bit
 
 
+- 485. Max Consecutive Ones    
+- 487. Max Consecutive Ones II
+- 1004. Max Consecutive Ones III   
+
+
 - 496. Next Greater Element I  
 - 503. Next Greater Element II   
 - 556. Next Greater Element III    
