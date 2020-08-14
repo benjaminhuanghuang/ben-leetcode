@@ -57,6 +57,20 @@ int binary_search(int l, int r)
   return l;
 }
 ```
+
+- upper bound
+```
+let l = 0, r = n;
+while (l < r) {
+  const mid = Math.floor((l + r) / 2);
+  if (list[mid][0] <= timestamp) {
+    l = mid + 1;
+  } else {
+    r = mid;
+  }
+}
+return list[r - 1][1];  // list[r - 1][1] 也可以
+```
 ## Java Arrays.binarySearch
 index of the search key, if it is contained in the array; otherwise, (-(insertion point) - 1). 
 

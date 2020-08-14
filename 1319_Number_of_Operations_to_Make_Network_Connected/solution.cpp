@@ -49,7 +49,9 @@ public:
   }
 };
 
-
+/*
+  Solution: DFS
+*/
 class Solution {
 public:
   int makeConnected(int n, vector<vector<int>>& connections) {
@@ -66,7 +68,7 @@ public:
       for (int nxt : g[cur])
         if (!seen[nxt]++) dfs(nxt);      
     };
-    
+
     for (int i = 0; i < n; ++i)
       if (!seen[i]++ && ++count)
         dfs(i);        
