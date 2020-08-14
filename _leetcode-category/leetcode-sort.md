@@ -27,3 +27,4 @@ cmp indicates whether the element passed as first argument is considered to go b
 - 451. Sort Characters By Frequency
 - 692. Top K Frequent Words
 - 937. Reorder Log Files
+- 1366. Rank Teams by Votes                # js version

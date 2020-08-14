@@ -23,6 +23,7 @@
 - 646. Maximum Length of Pair Chain
 - 650. 2 Keys Keyboard
 - 740. Delete and Earn                            # 198
+- 764. Largest Plus Sign                          # 
 - 790.
 - 801.
 - 818.

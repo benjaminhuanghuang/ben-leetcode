@@ -22,7 +22,11 @@ using namespace std;
 
 /*
   Solution: 
-  Idea is that L moves backwards (XL->LX) and R moves forwards (RX->XR) so L is decremented and R is incremented. Parallely at the same position of end string, L will be incremented and R will be decremented. At any point, if the count of L or R becomes -ve then return false.
+  把換的方式想成 L 只能往左移，R 只能往右移 (並且碰到 L or R 就不能再移動了)
+  
+  Idea is that L moves backwards (XL->LX) and R moves forwards (RX->XR) so L is decremented and R is incremented. 
+  Parallely at the same position of end string, L will be incremented and R will be decremented. 
+  At any point, if the count of L or R becomes -ve then return false.
 
   Note that L cannot move beyond R and R cannot move beyond L. Like mentioned in the HINT.
 

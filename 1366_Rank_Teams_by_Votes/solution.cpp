@@ -1,5 +1,5 @@
 /*
-1366. Rank Teams by Votes
+1366. Rank Teams by Votes [Google]
 
 Level: Medium
 
@@ -20,14 +20,30 @@ https://leetcode.com/problems/rank-teams-by-votes
 
 using namespace std;
 
-
 /*
-  Solution: 
+  Solution: Sort by rank
 */
 
-class Solution {
+class Solution
+{
 public:
-    string rankTeams(vector<string>& votes) {
-        
-    }
+  string rankTeams(vector<string> &votes)
+  {
+    const int n = votes[0].length();
+    string ans(votes[0]);
+    // char: {position: votes}
+    vector<vector<int>> rank(26, vector<int>(n));
+
+    for (const auto &vote : votes)
+      for (int i = 0; i < n; ++i)
+        ++rank[vote[i] - 'A'][i];
+
+    sort(begin(ans), end(ans), [&](const char i, const char j) {
+      if (rank[i - 'A'] != rank[j - 'A'])
+        return rank[i - 'A'] > rank[j - 'A'];
+      return i < j;
+    });
+
+    return ans;
+  }
 };
