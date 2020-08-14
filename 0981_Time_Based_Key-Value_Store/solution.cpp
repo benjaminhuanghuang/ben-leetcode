@@ -50,7 +50,7 @@ public:
   }
 
 private:
-  unordered_map<string, map<int, string>> s_;
+  unordered_map<string, map<int, string>> s_;  // key: {timestamp, value}
 };
 
 /**

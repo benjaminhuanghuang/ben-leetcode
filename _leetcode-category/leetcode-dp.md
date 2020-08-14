@@ -24,7 +24,7 @@
 - 650. 2 Keys Keyboard
 - 740. Delete and Earn                            # 198
 - 764. Largest Plus Sign                          # 
-- 790.
+- 790. Domino and Tromino Tiling
 - 801.
 - 818.
 - 926.
