@@ -21,6 +21,65 @@ https://leetcode.com/problems/html-entity-parser
 using namespace std;
 
 /*
+  Solution: Sliding window
+*/
+class Solution
+{
+private:
+  unordered_map<string, string> translator{
+      {"&quot;", "\""},
+      {"&apos;", "'"},
+      {"&amp;", "&"},
+      {"&gt;", ">"},
+      {"&lt;", "<"},
+      {"&frasl;", "/"}};
+
+public:
+  string entityParser(string text)
+  {
+    string res = "";
+    for (int i = 0; i < text.length(); i++)
+    {
+      // & 开头
+      if (text[i] == '&')
+      {
+        int ss = i + 1; // search semicoloon
+        while (ss < text.length() && text[ss] != ';')
+        {
+          ++ss;
+        }
+
+        // ; 结尾
+        if (ss < text.length() && text[ss] == ';')
+        {
+          string symbol = text.substr(i, ss - i + 1);
+          if (translator.count(symbol))
+          {
+            string replace = translator[symbol];
+            res += replace;
+            i = ss + 1;
+            continue;
+          }
+        }
+
+        if (ss == text.length())
+        {
+          return res + text.substr(i);
+        }
+        else
+        {
+          res += text.substr(i, ss - i + 1);
+          i = ss + 1;
+          continue;
+        }
+      }
+      res += text[i];
+    }
+    return res;
+  }
+};
+
+/*
   Solution: 
 */
 
@@ -30,8 +89,13 @@ public:
   string entityParser(string text)
   {
     unordered_map<string, string> m{
-        {"&quot;", "\""}, {"&apos;", "'"}, {"&amp;", "&"}, {"&gt;", ">"}, {"&lt;", "<"}, {"&frasl;", "/"}};
-    
+        {"&quot;", "\""},
+        {"&apos;", "'"},
+        {"&amp;", "&"},
+        {"&gt;", ">"},
+        {"&lt;", "<"},
+        {"&frasl;", "/"}};
+
     string ans;
     string buf;
     for (char c : text)

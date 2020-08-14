@@ -3,6 +3,27 @@
 ## Reference
 - [How to Solve Sliding Window Problems](https://medium.com/outco/how-to-solve-sliding-window-problems-28d67601a66)
 
+## Code template
+``` 
+  main(string str) {
+    int i;
+
+    for (i =0;i< str.length() ;i ++>)
+    {
+
+        int j = i;
+
+        while( j < string.length() && SOME_CONDITION_J()>)
+        {
+          j++;
+        }
+
+        ....
+    }
+  }
+```
+
+
 ## Problems
 - 3. Longest Substring Without Repeating Characters    # 
 - 76. Minimum Window Substring
