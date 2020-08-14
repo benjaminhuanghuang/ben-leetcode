@@ -22,7 +22,7 @@ https://leetcode.com/problems/time-based-key-value-store
 using namespace std;
 
 /*
-  Solution: 
+  Solution:  binary search, Upper bound
 */
 
 class TimeMap
