@@ -40,7 +40,8 @@ var btreeGameWinningMove = function (root, n, x) {
     }
     return l + r + 1;
   };
-
+  dfs(root);
+  
   return Math.max(Math.max(left, right), n - left - right - 1) > n /2 ;
 };
 

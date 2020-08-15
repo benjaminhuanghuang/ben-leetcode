@@ -20,7 +20,6 @@ https://leetcode.com/problems/binary-tree-coloring-game
 
 using namespace std;
 
-
 /*
   Solution: 
 */
@@ -36,9 +35,29 @@ using namespace std;
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    bool btreeGameWinningMove(TreeNode* root, int n, int x) {
-        
-    }
+  bool btreeGameWinningMove(TreeNode *root, int n, int x)
+  {
+    int red_left;
+    int red_right;
+
+    // get count of nodes
+    function<int(TreeNode *)> count = [&](TreeNode *node) {
+      if (!node)
+        return 0;
+      int l = count(node->left);
+      int r = count(node->right);
+      if (node->val == x)
+      {
+        red_left = l;
+        red_right = r;
+      }
+      return 1 + l + r;
+    };
+    count(root);
+
+    return max(max(red_left, red_right), n - red_left - red_right - 1) > n /2 ;
+  }
 };

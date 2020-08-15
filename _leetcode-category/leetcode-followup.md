@@ -235,6 +235,10 @@
 - 928. Minimize Malware Spread II    
 
 
+- 939. Minimum Area Rectangle    	
+- 963. Minimum Area Rectangle II    
+
+
 - 944. Delete Columns to Make Sorted  
 - 955. Delete Columns to Make Sorted II    
 - 960. Delete Columns to Make Sorted III    
