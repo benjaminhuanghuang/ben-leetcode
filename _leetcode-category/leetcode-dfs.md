@@ -45,7 +45,7 @@
 - 690. Employee Importance
 - 698. Partition to K Equal Sum Subsets
 - 733. Flood Fill                        # typical
-- 797. All Paths From Source to Target   # backtracking 
+- 851. Loud and Rich
 - 949. Largest Time for Given Digits
 - 1020. Number of Enclaves               #  DFS / Connected Components
 - 1415. The k-th Lexicographical String of All Happy Strings of Length n

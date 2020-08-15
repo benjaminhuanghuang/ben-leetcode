@@ -6,7 +6,7 @@
 - 812. Largest Triangle Area    # Brute Force
 - 593. Valid Square
 - 836. Rectangle Overlap        # Directly
-
+- 939. Minimum Area Rectangle         # diagonal
 
 ## 判断两点是否在同一条直线
 注意斜率为0的情况
