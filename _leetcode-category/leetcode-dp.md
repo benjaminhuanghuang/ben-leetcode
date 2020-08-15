@@ -25,7 +25,8 @@
 - 740. Delete and Earn                            # 198
 - 764. Largest Plus Sign                          # 
 - 790. Domino and Tromino Tiling
-- 801.
+- 799. Champagne Tower
+- 801. Minimum Swaps To Make Sequences Increasing
 - 818.
 - 926.
 - 931. Minimum Falling Path Sum
