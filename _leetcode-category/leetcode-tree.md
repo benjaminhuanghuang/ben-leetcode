@@ -4,6 +4,7 @@
 - 1080. Insufficient Nodes in Root to Leaf Paths              
 - 1110. Delete Nodes And Return Forest                        # set
 - 1261. Find Elements in a Contaminated Binary Tree
+- 1339. Maximum Product of Splitted Binary Tree               # Sum
 - 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 - 1315. Sum of Nodes with Even-Valued Grandparent
 - 1325. Delete Leaves With a Given Value                    # delete leaf nodes
