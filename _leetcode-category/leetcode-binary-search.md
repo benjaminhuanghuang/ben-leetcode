@@ -24,7 +24,7 @@ int binary_search(int l, int r)
     
     if(f(m)) return m;    // optional
     
-    if (g(m))             // left or right
+    if (f(m))             // 如果满足条件，收缩右边界
     {
       r = m; // new range [l, m)
     }
@@ -134,4 +134,5 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	911. Online Election                                  # 
 - 981. Time Based Key-Value Store                       # Upper bound
 -	1011. Capacity To Ship Packages Within D Days
+- 1283. Find the Smallest Divisor Given a Threshold
 - 1351. Count Negative Numbers in a Sorted Matrix

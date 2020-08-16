@@ -20,7 +20,6 @@ https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths
 
 using namespace std;
 
-
 /*
   Solution: 
 */
@@ -36,9 +35,33 @@ using namespace std;
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    TreeNode* sufficientSubset(TreeNode* root, int limit) {
-        
+  TreeNode *sufficientSubset(TreeNode *root, int limit)
+  {
+    cut(root, limit, root->val);
+    return root;
+  }
+
+private:
+  void cut(TreeNode *&root, int limit, int sum)
+  {
+    if (root->left == NULL && root->right == NULL)
+    {
+      if (sum < limit)
+        root = NULL;
+      return;
     }
+    if (root->left)
+    {
+      cut(root->left, limit, sum + root->left->val);
+    }
+    if (root->right)
+    {
+      cut(root->right, limit, sum + root->right->val);
+    }
+    if (root->left == NULL && root->right == NULL)
+      root = NULL;
+  }
 };

@@ -57,6 +57,7 @@
 - 542. 01 Matrix
 - 690. Employee Importance
 - 752. Open the Lock                                # BFS search
+- 994. Rotting Oranges
 - 1129. Shortest Path with Alternating Colors
 - 1162. As Far from Land as Possible      # queue
 - 1305. All Elements in Two Binary Search Trees
