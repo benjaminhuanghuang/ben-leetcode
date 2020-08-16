@@ -58,5 +58,6 @@
 -	901. Online Stock Span
 -	911. Online Election
 - 933. Number of Recent Calls
+- 1348. Tweet Counts Per Frequency
 - 1396. Design Underground System
 - 1472. Design Browser History
