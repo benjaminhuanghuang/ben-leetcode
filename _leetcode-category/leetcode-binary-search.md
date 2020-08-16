@@ -136,3 +136,4 @@ private static int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
 -	1011. Capacity To Ship Packages Within D Days
 - 1283. Find the Smallest Divisor Given a Threshold
 - 1351. Count Negative Numbers in a Sorted Matrix
+- 1552. Magnetic Force Between Two Balls

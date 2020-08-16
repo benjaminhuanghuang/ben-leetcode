@@ -40,4 +40,5 @@
 - 1155. Number of Dice Rolls With Target Sum
 - 1277. Count Square Submatrices with All Ones
 - 1524. Number of Sub-arrays With Odd Sum
+- 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 
