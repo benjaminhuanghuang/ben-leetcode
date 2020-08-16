@@ -27,6 +27,7 @@
 - 790. Domino and Tromino Tiling
 - 799. Champagne Tower
 - 801. Minimum Swaps To Make Sequences Increasing
+- 813. Largest Sum of Averages
 - 818.
 - 926.
 - 931. Minimum Falling Path Sum

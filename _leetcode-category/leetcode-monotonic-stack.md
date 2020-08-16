@@ -33,7 +33,7 @@ https://www.cnblogs.com/grandyang/p/8887985.html
 - 901. Online Stock Span
 - 907. Sum of Subarray Minimums
 - 1019. Next Greater Node In Linked List
-- 1081. Smallest Subsequence of Distinct Characters
+- 1081. Smallest Subsequence of Distinct Characters            # #316
 - 1475. Final Prices With a Special Discount in a Shop
 
 
