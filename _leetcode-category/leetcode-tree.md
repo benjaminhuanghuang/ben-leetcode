@@ -21,7 +21,7 @@
 - 173. Binary Search Tree Iterator 
 - 590. N-ary Tree Postorder Traversal    
 - 589. N-ary Tree Preorder Traversal    
-- 987. Vertical Order Traversal of a Binary Tree    
+- 987. Vertical Order Traversal of a Binary Tree                # 
 - 1302. Deepest Leaves Sum
 
 ## Serialize & Deserialize
