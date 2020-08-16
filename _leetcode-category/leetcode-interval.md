@@ -4,6 +4,7 @@
 - 435. Non-overlapping Intervals
 - 436. Find Right Interval
 - 986. Interval List Intersections
+- 1024. Video Stitching 
 - 1288. Remove Covered Intervals
 
 
