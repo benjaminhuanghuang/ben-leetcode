@@ -32,12 +32,13 @@
 - 926.
 - 931. Minimum Falling Path Sum
 - 983. Minimum Cost For Tickets
-- 1105. Filling Bookcase Shelves
 - 1043. Partition Array for Maximum Sum
+- 1105. Filling Bookcase Shelves
 - 1137. N-th Tribonacci Number
 - 1139. Largest 1-Bordered Square
 - 1143. Longest Common Subsequence
 - 1155. Number of Dice Rolls With Target Sum
+- 1191. K-Concatenation Maximum Sum
 - 1277. Count Square Submatrices with All Ones
 - 1513. Number of Substrings With Only 1s
 - 1524. Number of Sub-arrays With Odd Sum
