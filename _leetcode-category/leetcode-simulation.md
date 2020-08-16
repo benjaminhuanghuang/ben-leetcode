@@ -2,6 +2,7 @@
 
 - 554. Brick Wall
 - 735. Asteroid Collision             # stack
+- 838. Push Dominoes
 - 874. Walking Robot Simulation
 - 911. Online Election
 - 1276. Number of Burgers with No Waste of Ingredients
