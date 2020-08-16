@@ -35,6 +35,7 @@
 - 1105. Filling Bookcase Shelves
 - 1043. Partition Array for Maximum Sum
 - 1137. N-th Tribonacci Number
+- 1139. Largest 1-Bordered Square
 - 1143. Longest Common Subsequence
 - 1155. Number of Dice Rolls With Target Sum
 - 1277. Count Square Submatrices with All Ones
