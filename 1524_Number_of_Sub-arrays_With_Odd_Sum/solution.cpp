@@ -21,9 +21,10 @@ https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum
 using namespace std;
 
 /*
-  Solution: 
+  Solution: DP + prefix
   https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-1524-number-of-sub-arrays-with-odd-sum/
 
+  https://www.youtube.com/watch?v=1ZlZiATRKA4
 */
 
 class Solution
