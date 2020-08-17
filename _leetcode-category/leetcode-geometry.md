@@ -7,6 +7,7 @@
 - 593. Valid Square
 - 836. Rectangle Overlap        # Directly
 - 939. Minimum Area Rectangle         # diagonal
+- 1401. Circle and Rectangle Overlapping
 
 ## 判断两点是否在同一条直线
 注意斜率为0的情况

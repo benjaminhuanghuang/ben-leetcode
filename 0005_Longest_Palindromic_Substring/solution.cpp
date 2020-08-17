@@ -8,6 +8,7 @@ https://leetcode.com/problems/longest-palindromic-substring/
 using namespace std;
 /*
   DP
+  https://www.youtube.com/watch?v=ZnzvU03HtYk
 */
 class Solution
 {
