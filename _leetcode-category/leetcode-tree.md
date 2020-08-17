@@ -8,6 +8,7 @@
 - 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 - 1315. Sum of Nodes with Even-Valued Grandparent
 - 1325. Delete Leaves With a Given Value                    # delete leaf nodes
+- 1367. Linked List in Binary Tree                 #  recursion
 - 1448. Count Good Nodes in Binary Tree
 - 1457. Pseudo-Palindromic Paths in a Binary Tree
 
