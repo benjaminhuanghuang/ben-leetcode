@@ -29,6 +29,7 @@
 - 801. Minimum Swaps To Make Sequences Increasing
 - 813. Largest Sum of Averages
 - 818.
+- 845. Longest Mountain in Array
 - 926.
 - 931. Minimum Falling Path Sum
 - 983. Minimum Cost For Tickets
