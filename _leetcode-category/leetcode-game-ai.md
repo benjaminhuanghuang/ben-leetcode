@@ -9,6 +9,7 @@
 - 688. Knight Probability in Chessboard
 - 789. Escape The Ghosts
 - 794. Valid Tic-Tac-Toe State
+- 822. Card Flipping Game
 - 846. Hand of Straights
 - 1145. Binary Tree Coloring Game
 - 1209. Remove All Adjacent Duplicates in String II   # 连连看

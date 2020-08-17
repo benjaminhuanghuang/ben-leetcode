@@ -36,7 +36,6 @@
 - 1004. Max Consecutive Ones III                      
 - 1208. Get Equal Substrings Within Budget
 - 1358. Number of Substrings Containing All Three Characters         # j is count
-- 1423. Maximum Points You Can Obtain from Cards
 - 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 - 1248. Count Number of Nice Subarrays                               # # 1358
 - 1456. Maximum Number of Vowels in a Substring of Given Length      # !

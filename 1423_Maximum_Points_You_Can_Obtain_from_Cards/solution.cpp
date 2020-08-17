@@ -21,7 +21,9 @@ https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards
 using namespace std;
 
 /*
-  Solution: Sliding Window
+  Solution: 
+  cur： 如果全部从头部开始拿，会得多少分
+  每次换一张牌，比较大小
 */
 
 class Solution
@@ -34,7 +36,7 @@ public:
     int ans = cur;
     for (int i = 0; i < k; ++i)
     {
-      cur = cur - cardPoints[k - i - 1] + cardPoints[n - i - 1];
+      cur = cur - cardPoints[k - 1 - i] + cardPoints[n - 1 - i];
       ans = max(ans, cur);
     }
     return ans;
