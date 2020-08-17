@@ -33,7 +33,9 @@
 - 438. Find All Anagrams in a String
 - 567. Permutation in String                           # slide window check permutation
 - 1004. Max Consecutive Ones III                      
+- 1208. Get Equal Substrings Within Budget
 - 1358. Number of Substrings Containing All Three Characters         # j is count
+- 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 - 1248. Count Number of Nice Subarrays                               # # 1358
 - 1456. Maximum Number of Vowels in a Substring of Given Length      # !
 - 1493. Longest Subarray of 1's After Deleting One Element
