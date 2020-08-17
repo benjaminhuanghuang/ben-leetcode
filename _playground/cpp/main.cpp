@@ -12,32 +12,51 @@
 #include <numeric>
 using namespace std;
 
-int getHeight(int label)
+struct ListNode
 {
-  int h = 0;
-  while (label > 0)
-  {
-    label = label >> 1;
-    h++;
-  }
-  return h;
-}
-vector<int> pathInZigZagTree(int label)
+  int val;
+  ListNode *next;
+  ListNode() : val(0), next(nullptr) {}
+  ListNode(int x) : val(x), next(nullptr) {}
+  ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+ListNode *removeZeroSumSublists(ListNode *head)
 {
-  vector<int> ans;
-  while (label)
+  ListNode dummy(0);
+  dummy.next = head;
+  ListNode *prev = &dummy;
+  ListNode *curr = prev->next;
+  unordered_map<int, ListNode *> m{{0, prev}};
+  int s = 0;
+  while (curr)
   {
-    ans.push_back(label);
-    int h = getHeight(label) - 1;
-    int prev = ((1 << h) + (1 << (h + 1)) - 1 - label) / 2;
-    label = prev;
+    s += curr->val;
+    if (m.count(s))
+    {
+      m[s]->next = curr->next; // skip
+    }
+    else
+      m[s] = curr;
+
+    prev = curr;
+    curr = curr->next;
   }
-  return {end(ans), begin(ans)};
+  return dummy.next;
 }
 
 int main()
 {
-  auto ans = pathInZigZagTree(14);
-  cout << ans.size() << endl;
+
+  vector<int> vals = {1, 3, 2, -3, -2, 5, 5, -5, 1};
+  ListNode *a = new ListNode(1);
+  ListNode *head = a;
+  for (int i = 1; i < vals.size(); i++)
+  {
+    head->next = new ListNode(vals[i]);
+    head = head->next;
+  }
+
+  auto result = removeZeroSumSublists(a);
   return 0;
 }

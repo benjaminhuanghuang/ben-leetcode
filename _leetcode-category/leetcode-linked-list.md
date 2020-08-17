@@ -12,6 +12,7 @@
 
 - 82. Remove Duplicates from Sorted List II       # pointer for unique
 - 83. Remove Duplicates from Sorted List
+- 1171. Remove Zero Sum Consecutive Nodes from Linked List
 
 ## Reverse
 ```
