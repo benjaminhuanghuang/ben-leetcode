@@ -204,6 +204,10 @@
 - 556. Next Greater Element III    
 
 
+- 498. Diagonal Traverse 
+- 1424. Diagonal Traverse II    
+
+
 - 521. Longest Uncommon Subsequence I     
 - 522. Longest Uncommon Subsequence II    
 

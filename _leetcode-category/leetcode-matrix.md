@@ -14,3 +14,4 @@
 - 1260. Shift 2D Grid
 - 1314. Matrix Block Sum
 - 1329. Sort the Matrix Diagonally
+- 1424. Diagonal Traverse II               # (i+j) is key 

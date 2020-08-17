@@ -32,9 +32,11 @@
 - 424. Longest Repeating Character Replacement
 - 438. Find All Anagrams in a String
 - 567. Permutation in String                           # slide window check permutation
+- 904. Fruit Into Baskets
 - 1004. Max Consecutive Ones III                      
 - 1208. Get Equal Substrings Within Budget
 - 1358. Number of Substrings Containing All Three Characters         # j is count
+- 1423. Maximum Points You Can Obtain from Cards
 - 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 - 1248. Count Number of Nice Subarrays                               # # 1358
 - 1456. Maximum Number of Vowels in a Substring of Given Length      # !
