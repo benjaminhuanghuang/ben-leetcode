@@ -12,6 +12,7 @@ characteristic：
 - 947. Most Stones Removed with Same Row or Column
 - 959. Regions Cut By Slashes 
 -	990. Satisfiability of Equality Equations 
+- 1202. Smallest String With Swaps
 - 1319. Number of Operations to Make Network Connected
 
 
