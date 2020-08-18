@@ -40,6 +40,7 @@
 - 1143. Longest Common Subsequence
 - 1155. Number of Dice Rolls With Target Sum
 - 1191. K-Concatenation Maximum Sum
+- 1218. Longest Arithmetic Subsequence of Given Difference
 - 1277. Count Square Submatrices with All Ones
 - 1513. Number of Substrings With Only 1s
 - 1524. Number of Sub-arrays With Odd Sum

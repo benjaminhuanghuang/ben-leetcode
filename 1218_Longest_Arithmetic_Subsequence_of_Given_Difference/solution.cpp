@@ -20,14 +20,20 @@ https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference
 
 using namespace std;
 
-
 /*
-  Solution: 
+  https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-1218-longest-arithmetic-subsequence-of-given-difference/
+  Solution: DP
 */
 
-class Solution {
+class Solution
+{
 public:
-    int longestSubsequence(vector<int>& arr, int difference) {
-        
-    }
+  int longestSubsequence(vector<int> &arr, int difference)
+  {
+    unordered_map<int, int> dp;
+    int ans = 0;
+    for (int x : arr)
+      ans = max(ans, dp[x] = dp[x - difference] + 1);
+    return ans;
+  }
 };
