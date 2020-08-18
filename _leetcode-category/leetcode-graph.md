@@ -84,6 +84,7 @@ traverse one adjacent node very deeply before ever going onto the immediate neig
 -	854. K-Similar Strings    
 - 886. Possible Bipartition [Medium][#785]
 -	928. Minimize Malware Spread II    
+- 934. Shortest Bridge                                # 多起点，多终点最短路径
 -	959. Regions Cut By Slashes [Medium]    
 -	990. Satisfiability of Equality Equations [Medium]   
 -	996. Number of Squareful Arrays    
