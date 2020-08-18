@@ -12,51 +12,35 @@
 #include <numeric>
 using namespace std;
 
-struct ListNode
+int maxFreq(string s, int maxLetters, int minSize, int maxSize)
 {
-  int val;
-  ListNode *next;
-  ListNode() : val(0), next(nullptr) {}
-  ListNode(int x) : val(x), next(nullptr) {}
-  ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
+  int ans = 0;
+  unordered_set<char> Set;
 
-ListNode *removeZeroSumSublists(ListNode *head)
-{
-  ListNode dummy(0);
-  dummy.next = head;
-  ListNode *prev = &dummy;
-  ListNode *curr = prev->next;
-  unordered_map<int, ListNode *> m{{0, prev}};
-  int s = 0;
-  while (curr)
+  int start = 0;
+  int end = 0;
+
+  while (end < s.size())
   {
-    s += curr->val;
-    if (m.count(s))
+    while (end - start + 1 < minSize && end < s.size() && Set.size() <= maxLetters)
     {
-      m[s]->next = curr->next; // skip
+      end++;
+      Set.insert(s[end]);
     }
-    else
-      m[s] = curr;
 
-    prev = curr;
-    curr = curr->next;
+    if (end - start + 1 <= maxSize)
+    {
+      ans++;
+    }
+
+    Set.erase(s[start]);
+    start++;
   }
-  return dummy.next;
+  return ans;
 }
 
 int main()
 {
-
-  vector<int> vals = {1, 3, 2, -3, -2, 5, 5, -5, 1};
-  ListNode *a = new ListNode(1);
-  ListNode *head = a;
-  for (int i = 1; i < vals.size(); i++)
-  {
-    head->next = new ListNode(vals[i]);
-    head = head->next;
-  }
-
-  auto result = removeZeroSumSublists(a);
+  auto result = maxFreq("aababcaab", 2, 3,4);
   return 0;
 }

@@ -36,7 +36,7 @@ public:
       ++cnt[s[i]];
     if (cnt.size() <= maxLetters)
       ++freqs[s.substr(0, minSize)];
-      
+
     for (int l = 0, r = minSize; r < N; ++l, ++r)
     {
       ++cnt[s[r]];
@@ -54,6 +54,9 @@ public:
   }
 };
 
+/*
+  Reason: did not distinguish "aab" and "aba"
+*/
 class Solution_Wrong
 {
 public:
@@ -67,22 +70,19 @@ public:
 
     while (end < s.size())
     {
-      if (end - start + 1 > maxSize)
-      {
-        start++;
-        Set.erase(s[start]);
-        continue;
-      }
-
-      while (end - start + 1 < minSize)
+      while (end - start + 1 < minSize && end < s.size() && Set.size() <= maxLetters)
       {
         end++;
         Set.insert(s[end]);
       }
 
-      if (Set.size() <= maxLetters)
+      if (end - start + 1 <= maxSize)
+      {
         ans++;
-      end++;
+      }
+
+      Set.erase(s[start]);
+      start++;
     }
     return ans;
   }
