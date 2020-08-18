@@ -22,6 +22,8 @@ using namespace std;
 
 /*
   Solution: 
+
+  没有用到 maxSize， 因为要求 maximum number of ocurrences， 所以 length越短越好
 */
 class Solution
 {
