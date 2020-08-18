@@ -32,6 +32,7 @@
 - 845. Longest Mountain in Array
 - 926.
 - 931. Minimum Falling Path Sum
+- 935. Knight Dialer
 - 983. Minimum Cost For Tickets
 - 1043. Partition Array for Maximum Sum
 - 1105. Filling Bookcase Shelves
