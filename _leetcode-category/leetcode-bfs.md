@@ -1,4 +1,6 @@
 # BFS
+## Search 
+![](./_images/bfs-template.png)
 ## Code template
 - Path length
 ```
@@ -61,7 +63,8 @@
 - 994. Rotting Oranges
 - 1091. Shortest Path in Binary Matrix
 - 1129. Shortest Path with Alternating Colors
-- 1162. As Far from Land as Possible      # queue
+- 1162. As Far from Land as Possible                # queue
+- 1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix     # BFS Search
 - 1305. All Elements in Two Binary Search Trees
 - 1306. Jump Game III                     # bfs search 
 - 1311. Get Watched Videos by Your Friends

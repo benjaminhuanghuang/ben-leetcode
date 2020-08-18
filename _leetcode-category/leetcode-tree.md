@@ -1,7 +1,8 @@
 # Tree
 - 124. Binary Tree Maximum Path Sum
 - 863. All Nodes Distance K in Binary Tree
-- 1080. Insufficient Nodes in Root to Leaf Paths              
+- 1080. Insufficient Nodes in Root to Leaf Paths     
+- 1028. Recover a Tree From Preorder Traversal                # value and depth   
 - 1110. Delete Nodes And Return Forest                        # set
 - 1261. Find Elements in a Contaminated Binary Tree
 - 1339. Maximum Product of Splitted Binary Tree               # Sum

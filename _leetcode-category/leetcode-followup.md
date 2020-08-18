@@ -221,6 +221,10 @@
 - 732. My Calendar III    
 
 
+- 741. Cherry Pickup    
+- 1463. Cherry Pickup II   
+
+
 - 877. Stone Game    
 - 1140. Stone Game II    
 - 1406. Stone Game III    
