@@ -16,11 +16,11 @@
 ## Validation
 - 331. Verify Preorder Serialization of a Binary Tree      # stack
 
-## Traversal( Recursion & iteration)
+## Traversal( Recusive & iterative)
 - 102. Binary Tree Level Order Traversal
 - 103. Binary Tree Zigzag Level Order Traversal
 - 144. Binary Tree Preorder Traversal
-- 145. Binary Tree Postorder Traversal   
+- 145. Binary Tree Postorder Traversal                    # iterative & Recusive, Huahua 
 - 173. Binary Search Tree Iterator 
 - 590. N-ary Tree Postorder Traversal    
 - 589. N-ary Tree Preorder Traversal    
