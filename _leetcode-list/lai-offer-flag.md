@@ -2,11 +2,10 @@
 
 
 | # Name   |      Comments  | Relevant problem    |  Company |
-|----------|:-------------:|------:|------:|
-| 17. [Letter Combinations of A Phone Number](https://www.youtube.com/watch?v=uMmFXWs_ZMY) |   |   |  |
-| 23. Merge K Sorted Lists |   |   |  |
-"23. Merge K Sorted Lists
-https://www.youtube.com/watch?v=Uz4fTr34270"
+|----------|:--------------:|--------------------:|---------:|
+|17. [Letter Combinations of A Phone Number](https://www.youtube.com/watch?v=uMmFXWs_ZMY) |   |   |  |
+|23. [Merge K Sorted Lists](https://www.youtube.com/watch?v=Uz4fTr34270)|   |   |  |
+
 
 "33. Search in Rotated Stored Array
 https://www.youtube.com/watch?v=7SC0hWGeyBo"
