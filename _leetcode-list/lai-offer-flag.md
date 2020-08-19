@@ -3,8 +3,8 @@
 
 | # Name   |      Comments  | Relevant problem    |  Company |
 |----------|:--------------:|--------------------:|---------:|
-|17. [Letter Combinations of A Phone Number](https://www.youtube.com/watch?v=uMmFXWs_ZMY) |   |   |  |
-|23. [Merge K Sorted Lists](https://www.youtube.com/watch?v=Uz4fTr34270)|   |   |  |
+|17. [Letter Combinations of A Phone Number](https://www.youtube.com/watch?v=uMmFXWs_ZMY) |dfs back tracking    |   |  |
+|23. [Merge K Sorted Lists](https://www.youtube.com/watch?v=Uz4fTr34270)|  |   |  |
 
 
 "33. Search in Rotated Stored Array
@@ -24,10 +24,9 @@ https://www.youtube.com/watch?v=WicS0ANkAdY&t=1s"
 200. Number of Islands
 219. Contains Duplicate II
 220. Contains Duplicate III
-224. Basic Calculator
-"243/244/245. Shortest Word Distance
-https://www.youtube.com/watch?v=URtu6Wqq_Mk"
-"277. Find the Celebrity
+|224. [Basic Calculator]()|stack| #227  |   |  |
+|243/244/245. [Shortest Word Distance](https://www.youtube.com/watch?v=URtu6Wqq_Mk)|stack| #227  |   |  |
+|277. Find the Celebrity
 https://www.youtube.com/watch?v=QDehNYXlCAg"
 309. Best Time to Buy and Sell Stock with Cooldown
 311. Sparse Matrix Multiplication[locked]
