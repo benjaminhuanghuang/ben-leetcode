@@ -53,6 +53,7 @@
 - 1406. Stone Game III
 - 1411. Number of Ways to Paint N × 3 Grid
 - 1463. Cherry Pickup II                                    #
+- 1478. Allocate Mailboxes
 - 1513. Number of Substrings With Only 1s
 - 1524. Number of Sub-arrays With Odd Sum
 - 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target

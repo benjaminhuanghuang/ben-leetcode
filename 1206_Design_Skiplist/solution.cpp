@@ -12,6 +12,7 @@ https://leetcode.com/problems/design-skiplist
 #include <queue>
 #include <unordered_map>
 #include <unordered_set>
+#include <set>
 #include <numeric>
 #include <algorithm>
 
@@ -20,28 +21,37 @@ https://leetcode.com/problems/design-skiplist
 
 using namespace std;
 
-
 /*
   Solution: 
 */
 
-class Skiplist {
+class Skiplist
+{
+  multiset<int> sec;
+
 public:
-    Skiplist() {
-        
-    }
-    
-    bool search(int target) {
-        
-    }
-    
-    void add(int num) {
-        
-    }
-    
-    bool erase(int num) {
-        
-    }
+  Skiplist()
+  {
+  }
+
+  bool search(int target)
+  {
+    return (sec.find(target) != sec.end());
+  }
+
+  void add(int num)
+  {
+    sec.insert(num);
+  }
+
+  bool erase(int num)
+  {
+    multiset<int>::iterator it = sec.find(num);
+    bool ret = (it != sec.end());
+    if (ret)
+      sec.erase(it);
+    return ret;
+  }
 };
 
 /**
