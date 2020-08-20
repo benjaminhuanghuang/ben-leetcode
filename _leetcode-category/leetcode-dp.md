@@ -48,6 +48,7 @@
 - 1223. Dice Roll Simulation
 - 1262. Greatest Sum Divisible by Three                     #
 - 1277. Count Square Submatrices with All Ones
+- 1411. Number of Ways to Paint N × 3 Grid
 - 1463. Cherry Pickup II                                    #
 - 1513. Number of Substrings With Only 1s
 - 1524. Number of Sub-arrays With Odd Sum

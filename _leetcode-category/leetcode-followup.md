@@ -10,7 +10,6 @@
 - 454. 4Sum II  
 
 
-
 - 26. Remove Duplicates from Sorted Array
 - 80. Remove Duplicates from Sorted Array II
 
@@ -243,6 +242,10 @@
 - 928. Minimize Malware Spread II    
 
 
+- 931. Minimum Falling Path Sum     
+- 1289. Minimum Falling Path Sum II
+
+
 - 939. Minimum Area Rectangle    	
 - 963. Minimum Area Rectangle II    
 
@@ -254,3 +257,7 @@
 
 - 1047. Remove All Adjacent Duplicates In String    
 - 1209. Remove All Adjacent Duplicates in String II 
+
+
+- 1087. Brace Expansion
+- 1096. Brace Expansion II

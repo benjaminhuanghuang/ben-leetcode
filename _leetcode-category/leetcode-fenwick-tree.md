@@ -1,5 +1,9 @@
 # Binary Indexed Tree / Fenwick Tree
 
+# Tutorial
+- [花花酱 Fenwick Tree / Binary Indexed Tree](https://www.youtube.com/watch?v=WbafSgetDDk)
+
+
 
 ## Problems
 - 315. Count of Smaller Numbers After Self
