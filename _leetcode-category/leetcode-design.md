@@ -42,7 +42,7 @@
 -	710. Random Pick with Blacklist
 -	716. Max Stack
 -	745. Prefix and Suffix Search
--	895. Maximum Frequency Stack
+-	895. Maximum Frequency Stack                         #
 - 981. Time Based Key-Value Store
 - 1381. Design a Stack With Increment Operation        #
 
