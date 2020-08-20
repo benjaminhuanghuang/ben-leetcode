@@ -40,6 +40,7 @@
 - 120. Triangle                          # DP, or DFS
 - 130. Surrounded Regions
 - 200. Number of Islands                 # [!] No back track
+- 282. Expression Add Operators          # #494
 - 301. Remove Invalid Parentheses        # r, l 
 - 491. Increasing Subsequences           # **
 - 690. Employee Importance

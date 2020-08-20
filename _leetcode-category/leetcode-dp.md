@@ -12,6 +12,8 @@
 - 198. House Robber
 - 279. Perfect Squares
 - 300. Longest Increasing Subsequence    # recursion + memoization
+- 312. Burst Balloons
+- 321. Create Maximum Number
 - 322. Coin Change                       # knapsack problem
 - 343. Integer Break
 - 368. Largest Divisible Subset
