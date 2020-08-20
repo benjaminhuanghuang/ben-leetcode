@@ -23,6 +23,7 @@ using namespace std;
 
 /*
   Solution: 
+  http://zxi.mytechroad.com/blog/geometry/732-my-calendar-iii/
 */
 
 class MyCalendarThree {
