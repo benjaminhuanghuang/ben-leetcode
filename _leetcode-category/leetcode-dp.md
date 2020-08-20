@@ -49,6 +49,8 @@
 - 1262. Greatest Sum Divisible by Three                     #
 - 1277. Count Square Submatrices with All Ones
 - 1312. Minimum Insertion Steps to Make a String Palindrome
+- 1335. Minimum Difficulty of a Job Schedule
+- 1406. Stone Game III
 - 1411. Number of Ways to Paint N × 3 Grid
 - 1463. Cherry Pickup II                                    #
 - 1513. Number of Substrings With Only 1s
