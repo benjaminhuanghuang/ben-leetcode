@@ -45,6 +45,7 @@
 - 1155. Number of Dice Rolls With Target Sum
 - 1191. K-Concatenation Maximum Sum
 - 1218. Longest Arithmetic Subsequence of Given Difference
+- 1220. Count Vowels Permutation
 - 1223. Dice Roll Simulation
 - 1262. Greatest Sum Divisible by Three                     #
 - 1277. Count Square Submatrices with All Ones
@@ -52,6 +53,7 @@
 - 1335. Minimum Difficulty of a Job Schedule
 - 1406. Stone Game III
 - 1411. Number of Ways to Paint N × 3 Grid
+- 1444. Number of Ways of Cutting a Pizza
 - 1463. Cherry Pickup II                                    #
 - 1478. Allocate Mailboxes
 - 1513. Number of Substrings With Only 1s
