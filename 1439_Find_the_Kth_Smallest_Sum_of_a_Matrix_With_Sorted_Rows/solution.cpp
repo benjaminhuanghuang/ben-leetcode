@@ -22,7 +22,9 @@ https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-
 using namespace std;
 
 /*
-  Solution: 
+  Solution: Priority Queue
+
+  https://zxi.mytechroad.com/blog/searching/leetcode-1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
 */
 
 class Solution
