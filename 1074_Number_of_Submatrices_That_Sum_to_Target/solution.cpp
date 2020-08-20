@@ -34,6 +34,8 @@ using namespace std;
 
 /*
 https://xindubawukong.github.io/2019/08/19/Leetcode-1074-Number-of-Submatrices-That-Sum-to-Target/
+
+https://www.acwing.com/solution/LeetCode/content/2366/
 */
 
 class Solution
