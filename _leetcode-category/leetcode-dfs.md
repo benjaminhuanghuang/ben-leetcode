@@ -46,6 +46,7 @@
 - 690. Employee Importance
 - 698. Partition to K Equal Sum Subsets
 - 733. Flood Fill                        # typical
+- 805. Split Array With Same Average
 - 851. Loud and Rich
 - 949. Largest Time for Given Digits
 - 1020. Number of Enclaves               #  DFS / Connected Components
@@ -54,3 +55,4 @@
 - 1415. The k-th Lexicographical String of All Happy Strings of Length n
 - 1219. Path with Maximum Gold
 - 1376. Time Needed to Inform All Employees
+
