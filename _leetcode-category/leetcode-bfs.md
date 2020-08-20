@@ -65,6 +65,7 @@
 - 1129. Shortest Path with Alternating Colors
 - 1162. As Far from Land as Possible                # queue
 - 1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix     # BFS Search
+- 1298. Maximum Candies You Can Get from Boxes
 - 1305. All Elements in Two Binary Search Trees
 - 1306. Jump Game III                     # bfs search 
 - 1311. Get Watched Videos by Your Friends
