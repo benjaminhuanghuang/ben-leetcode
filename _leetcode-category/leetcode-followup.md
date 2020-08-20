@@ -43,6 +43,9 @@
 
 - 55. Jump Game    
 - 45. Jump Game II   
+- 1306. Jump Game III    
+- 1340.	Jump Game V   
+- 1345. Jump Game IV  
 
 
 - 62. Unique Paths
@@ -51,7 +54,6 @@
 
 - 78. Subsets   
 - 90. Subsets II   
-
 
 
 - 79. Word Search

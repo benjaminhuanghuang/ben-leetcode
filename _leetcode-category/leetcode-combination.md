@@ -4,41 +4,17 @@
 
 permutation是有序的；从n个不同的元素中取出m个元素，按照一定的顺序排成一列，叫做从n个不同元素中取出m个元素的一个permutation(排列)
 
-combination是无序的；从n个不同的元素中取出m个元素并成一组，叫做从n个不同元素中取出m个元素的一个combination(组合)
-
-
 The number of permutations of n objects taken r at a time
 ```
     P（n, r) = n!/(n-r)!
 ```
+combination是无序的；从n个不同的元素中取出m个元素并成一组，叫做从n个不同元素中取出m个元素的一个combination(组合)
+
 If the order didn't matter we would have what is the definition of a combination
 The number of combinations of n objects taken r at a time is determined by the following formula:
 ```
     C(n,r) =n!/[(n−r)!r!]
 ```
-## Permutation pseudo code
-Time complexity O(n!)  Factorial of n
-Space complexity O(kn)
-```
-  P (nums, depth, n, used, curr, answer):
-      if depth == n:
-          answer.append(curr)
-          return
-      for i = 0 to len(nums):
-          if used[i] used:   # nums[i] was used
-              continue
-          used[i] = True
-          curr.push(nums[i])
-          P (nums, depth, n, used, curr, answer)
-          curr.pop()
-          used[i] = False
-```
-### Permutation problems
-- 31. Next Permutation
-- 46. Permutations
-- 47. Permutations II
-- 1175. Prime Arrangements
-
 
 ## Combination pseudo code
 https://zxi.mytechroad.com/blog/searching/leetcode-78-subsets/ [一定要看]
@@ -62,6 +38,8 @@ Space complexity O(kn)
 - 77. Combinations
 - 78. Subsets
 - 526. Beautiful Arrangement
+
+
 
 ## Back-tracking 
 Time complexity: 
@@ -87,6 +65,7 @@ void dfs(const string& input, int pos, string& combination, vector<string>& ans)
 ### Back-tracking problems
 - 22. Generate Parentheses
 - 77. 
+- 1286. Iterator for Combination
 
 ## Problems
 - 0017. Letter Combinations of a Phone Number
@@ -96,3 +75,4 @@ void dfs(const string& input, int pos, string& combination, vector<string>& ans)
 - 0047. Permutation II
 - 0078. Subsets
 - 1079. Letter Tile Possibilities
+- 1286. Iterator for Combination
