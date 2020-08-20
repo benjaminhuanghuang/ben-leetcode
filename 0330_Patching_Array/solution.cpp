@@ -17,14 +17,29 @@ https://leetcode.com/problems/patching-array
 
 using namespace std;
 
-
 /*
   Solution: 
+  https://www.cnblogs.com/grandyang/p/5165821.html
 */
 
-class Solution {
+class Solution
+{
 public:
-    int minPatches(vector<int>& nums, int n) {
-        
+  int minPatches(vector<int> &nums, int n)
+  {
+    long miss = 1, res = 0, i = 0;
+    while (miss <= n)
+    {
+      if (i < nums.size() && nums[i] <= miss)
+      {
+        miss += nums[i++];
+      }
+      else
+      {
+        miss += miss;
+        ++res;
+      }
     }
+    return res;
+  }
 };

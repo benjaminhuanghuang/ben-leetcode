@@ -32,6 +32,7 @@
 - 424. Longest Repeating Character Replacement
 - 438. Find All Anagrams in a String
 - 567. Permutation in String                           # slide window check permutation
+- 862. Shortest Subarray with Sum at Least K
 - 904. Fruit Into Baskets
 - 1004. Max Consecutive Ones III                      
 - 1208. Get Equal Substrings Within Budget
