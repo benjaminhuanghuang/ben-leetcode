@@ -61,6 +61,10 @@
 - 82. Remove Duplicates from Sorted List II    
 - 83.	Remove Duplicates from Sorted List  
 
+	
+- 91. Decode Ways    
+- 639. Decode Ways II    
+
 
 - 92. Reverse Linked List II    
 - 206. Reverse Linked List
