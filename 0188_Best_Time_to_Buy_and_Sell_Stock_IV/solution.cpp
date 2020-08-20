@@ -23,6 +23,18 @@ using namespace std;
 /*
   Solution: 
   https://blog.csdn.net/u012614906/article/details/61206474
+
+  利用买股票问题的第三个变式，可以构造两个dp数组。
+
+  sell[i]表示第i次卖出后最大持有的金钱
+
+  buy[i]表示第i次买入后最大持有的金钱
+
+  卖出的钱由买入的钱加上当前股票卖出的钱，买入的钱由前一次卖出的钱减去当前买股票花去的，因此可以得到两个转移方程
+
+      sell[j] = max(sell[j], buy[j] + prices[i]);
+      buy[j] = max(buy[j], sell[j-1] - prices[i]);
+  
 */
 
 class Solution
