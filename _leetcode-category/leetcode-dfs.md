@@ -51,6 +51,7 @@
 - 949. Largest Time for Given Digits
 - 1020. Number of Enclaves               #  DFS / Connected Components
 - 1034. Coloring A Border
+- 1240. Tiling a Rectangle with the Fewest Squares
 - 1255. Maximum Score Words Formed by Letters
 - 1415. The k-th Lexicographical String of All Happy Strings of Length n
 - 1219. Path with Maximum Gold
