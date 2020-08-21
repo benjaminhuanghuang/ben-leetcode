@@ -33,6 +33,7 @@
 - 813. Largest Sum of Averages
 - 818.
 - 845. Longest Mountain in Array
+- 920. Number of Music Playlists
 - 926.
 - 931. Minimum Falling Path Sum
 - 935. Knight Dialer

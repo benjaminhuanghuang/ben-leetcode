@@ -124,10 +124,14 @@
 - 210. Course Schedule II    
 - 630. Course Schedule III    
 
+
 - 217. Contains Duplicate         # sort, or map, or set
 - 219. Contains Duplicate II      # difference of indices < k , brute force -> map
 - 220. Contains Duplicate III     # |i-j| <= k , |nums[i]-nums[j]| <= t, sliding window
 
+
+- 223. Rectangle Area    
+- 850. Rectangle Area II
 
 
 - 231. Power of Two       # count 1
