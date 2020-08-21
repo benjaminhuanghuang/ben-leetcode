@@ -55,6 +55,7 @@
 - 1411. Number of Ways to Paint N × 3 Grid
 - 1444. Number of Ways of Cutting a Pizza
 - 1463. Cherry Pickup II                                    #
+- 1473. Paint House III
 - 1478. Allocate Mailboxes
 - 1510. Stone Game IV
 - 1513. Number of Substrings With Only 1s

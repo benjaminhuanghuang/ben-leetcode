@@ -1,4 +1,9 @@
-//https://leetcode.com/problems/stream-of-characters/
+/*
+  1032. Stream of Characters
+
+  https://leetcode.com/problems/stream-of-characters/
+
+*/
 #include <vector>
 #include <string>
 #include <memory>
