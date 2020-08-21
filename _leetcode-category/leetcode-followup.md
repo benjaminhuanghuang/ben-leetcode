@@ -139,6 +139,10 @@
 - 253. Meeting Rooms II    
 
 
+- 256. Paint House    
+- 265. Paint House II    
+- 1473. Paint House III  
+
 
 - 263. Ugly Number    
 - 264. Ugly Number II    

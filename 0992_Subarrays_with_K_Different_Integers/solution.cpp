@@ -18,7 +18,11 @@ using namespace std;
 /*
   https://zxi.mytechroad.com/blog/leetcode/leetcode-weekly-123/
   https://zxi.mytechroad.com/blog/two-pointers/leetcode-992-subarrays-with-k-different-integers/
-  Solution: 
+  Solution: Two pointers + indirection
+
+    Let f(x) denote the number of subarrays with x or less distinct numbers.
+    ans = f(K) – f(K-1)
+    It takes O(n) Time and O(n) Space to compute f(x) 
 */
 class Solution {
 public:
