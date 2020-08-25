@@ -93,6 +93,7 @@ traverse one adjacent node very deeply before ever going onto the immediate neig
 - 1361. Validate Binary Tree Nodes           # indegree
 - 1436. Destination City			
 - 1466. Reorder Routes to Make All Paths Lead to the City Zero    # BFS
+- 1557. Minimum Number of Vertices to Reach All Nodes    # in degree
 			
 			
 			
