@@ -31,22 +31,43 @@ public:
   {
     string ans;
     int len = 0;
-    while(true)
+    while (true)
     {
       int digit = n % 10;
 
       ans = to_string(digit) + ans;
       len++;
       n = n / 10;
-      if (n == 0){
+      if (n == 0)
+      {
         break;
       }
-      else{
-        if (len % 3 == 0){
+      else
+      {
+        if (len % 3 == 0)
+        {
           ans = '.' + ans;
         }
       }
     }
+    return ans;
+  }
+};
+
+class Solution
+{
+public:
+  string thousandSeparator(int n)
+  {
+    string ans;
+    int count = 0;
+    do
+    {
+      if (count++ % 3 == 0 && ans.size())
+        ans = "." + ans;
+      ans = to_string(n % 10) + ans;
+      n /= 10;
+    } while (n);
     return ans;
   }
 };
