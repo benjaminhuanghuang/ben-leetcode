@@ -1,4 +1,10 @@
 # String
+
+
+## 
+28. Implement strStr()
+
+
 ## String / words reverse
 - 0344. Reverse String
 - 0541. Reverse String II

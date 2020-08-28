@@ -12,10 +12,10 @@ https://leetcode.com/problems/course-schedule-ii/
 using namespace std;
 
 /*
-https://www.youtube.com/watch?v=Qqgck2ijUjU
-Graph + DFS Topological sorting 24ms
-Time complexity: O(V+E)
-Space complexity:
+  https://www.youtube.com/watch?v=Qqgck2ijUjU
+  Graph + DFS Topological sorting 24ms
+  Time complexity: O(V+E)
+  Space complexity:
 */
 class Solution
 {
@@ -47,9 +47,9 @@ public:
 private:
   bool dfs_check_cycle(int cur, vector<vector<int>> &graph, vector<int> &v, vector<int> &ans)
   {
-    if (v[cur] == 1)
+    if (v[cur] == 1)  // visiting
       return true;
-    if (v[cur] == 2)
+    if (v[cur] == 2)  // visited
       return false;
 
     v[cur] = 1; // 标记当前node 为 visiting
@@ -65,7 +65,7 @@ private:
 };
 
 /*
-  60ms
+  BFS, use queue and indegree
 */
 class Solution2
 {
