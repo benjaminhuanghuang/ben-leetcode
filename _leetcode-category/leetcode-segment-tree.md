@@ -1,4 +1,5 @@
 # Segment Tree
+https://www.youtube.com/watch?v=rYBtViWXYeI&t=347s
 
 ## Problems
 -	218.	The Skyline Problem

@@ -61,9 +61,31 @@ n在q的左边，那么，下一个节点就是q（中序遍历，left -> curren
 
 ### 7. Build Order:
 topological sort:
+
 Leetcode 210. Course Schedule II    
 Use BFS, queue and indegree
 
 
 
 ### 8 首个共同祖先  设计并实现一个算法，找出二叉树中某两个节点的第一个共同祖先。不得将其他的节点存储在另外的数据结构中。注意：这不一定是二叉搜索树。
+
+With Links to Parents
+- Solution 1 : 
+- Solution 2 : 
+
+Without Links to Parents
+- Solution 1 :  若p和q都在某节点的左边，就到左子树中查找共同祖先，若都在右边，则在右子树中查找共同祖先。要是p和q不在同一边，那就表示已经找到第一个共同祖先
+
+- Solution 2 : Recursion
+
+
+### 9 BST Sequences: 输出所有可能生成此树的数组
+
+
+### 1O Check Subtree: 
+matchTree
+
+
+### 11 Random Node：
+
+### 12 Paths with Sum:

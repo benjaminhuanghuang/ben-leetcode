@@ -25,6 +25,14 @@ You may assume the number of calls to update and sumRange function is distribute
 
     Segment Tree 
 
+    Time complexity:
+
+        init O(nlogn)
+
+        query: O(logn)
+
+        update: O(logn)
+
 */
 using System.Collections.Generic;
 

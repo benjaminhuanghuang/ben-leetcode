@@ -33,8 +33,10 @@ Solution 2: BFS
 
 ## Graph
 ### Topological sort
-Solution 1: dfs
-Solution 1: bfs 
+Solution 1: dfs, visited 
+Solution 1: bfs, indegree and queue
 
 - 207. Course Schedule      # toplogical sort or dfs find cycle
+
 - 210. Course Schedule II 
+https://www.youtube.com/watch?v=Qqgck2ijUjU
