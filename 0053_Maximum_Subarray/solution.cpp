@@ -7,6 +7,30 @@ https://leetcode.com/problems/maximum-subarray/
 #include <vector>
 
 using namespace std;
+
+/*
+ prefix sum
+*/
+class Solution
+{
+public:
+  int maxSubArray(vector<int> &nums)
+  {
+    int maxSum = INT32_MIN;
+
+    int prefixSum = 0;
+    int minPrefixSum = 0;  // 不用使用max，因为对于第一个元素， minPrefixSum 不存在，即为0
+
+    for (int i = 1; i < nums.size(); i++)
+    {
+      prefixSum += nums[i];
+      maxSum = max(maxSum, prefixSum - minPrefixSum);
+      minPrefixSum = min(minPrefixSum, prefixSum);
+    }
+    return maxSum;
+  }
+};
+
 /*
     从头遍历这个数组。对于数组中的其中一个元素，它只有两个选择：
 
