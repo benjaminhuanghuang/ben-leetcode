@@ -11,6 +11,7 @@ https://leetcode.com/problems/binary-tree-maximum-path-sum
 #include <unordered_set>
 
 #include <algorithm>
+#include <climits>
 
 #include "common/ListNode.h"
 #include "common/TreeNode.h"
@@ -47,6 +48,7 @@ public:
         return (int)res;
     }
 
+    // 以root 为顶点的所有直上直下的path中 sum 最大的一路径的值
     long maxPathSumHelper(TreeNode* root)
     {
         if (root == nullptr) 

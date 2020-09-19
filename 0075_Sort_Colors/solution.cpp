@@ -8,36 +8,59 @@ https://leetcode.com/problems/sort-colors/
 
 using namespace std;
 
+/*
+  Solution : Two pointers
+  Time complexity: O(n)
+  Space complexity: O(1)
+*/
 class Solution
 {
 public:
   void sortColors(vector<int> &nums)
   {
-    if (nums.empty())
+    const int n = nums.size();
+    int l = 0;      // last 0
+    int r = n - 1;  // first 2
+    for (int i = 0; i < n; ++i)
     {
-      return;
-    }
-    int lastRed = 0, firstBlue = nums.size() - 1;
-    int i = 0;
-    while (i <= firstBlue)
-    {
-      if (nums[i] == 0 && i != lastRed)
+      if (nums[i] == 0)
       {
-        swap(nums, lastRed++, i);
+        swap(nums[i], nums[l++]);
       }
-      else if (nums[i] == 2 && i != firstBlue)
+      else if (nums[i] == 2 && i < r)
       {
-        swap(nums, i, firstBlue--);
+        swap(nums[i--], nums[r--]);
       }
-      else
-        ++i;
     }
   }
+};
 
-  void swap(vector<int> &nums, int i, int j)
+/*
+https://www.youtube.com/watch?v=yTwW8WiGrKw&ab_channel=%E6%9D%A5Offer-LaiOffer
+三个挡板，
+*/
+class Solution
+{
+public:
+  void sortColors(vector<int> &nums)
   {
-    int temp = nums[i];
-    nums[i] = nums[j];
-    nums[j] = temp;
+    const int n = nums.size();
+    int l = 0;      // last 0
+    int r = n - 1;  // first 2
+    int i = 0;      // curr index
+    while (i <=r)   //  counter example : [1, 0] , when i = 0 
+    {
+      if (nums[i] == 0)
+      {
+        swap(nums[i++], nums[l++]);
+      }
+      else if(nums[i] == 1){
+        i++;
+      }
+      else
+      {
+        swap(nums[i], nums[r--]);
+      }
+    }
   }
 };

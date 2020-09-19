@@ -13,6 +13,8 @@ using namespace std;
   https://www.youtube.com/watch?v=lWEIIFFflQY
 
   注意所有的区间都是闭区间
+
+  Time Complex: O(logN)
 */
 class Solution
 {
@@ -32,7 +34,8 @@ public:
       {
         return mid;
       }
-      else if (nums[l] <= nums[mid]) // mid located in left part, which is increasing
+      
+      if (nums[l] <= nums[mid]) // mid located in left part, which is increasing
       {
         if (nums[l] <= target && target < nums[mid]) //  target located between left and mid
           r = mid - 1;

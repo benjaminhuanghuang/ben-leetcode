@@ -20,7 +20,7 @@ public:
   {
     if (intervals.empty())
       return {};
-    // sort
+    // sort by start
     std::sort(intervals.begin(), intervals.end(),
               [](const vector<int> &a, const vector<int> &b) {
                 return a[0] < b[0];
@@ -35,7 +35,7 @@ public:
       }
       else
       {
-        // merge to last one
+        // merge to last one, expend the end of ans.bakc()s
         ans.back()[1] = max(ans.back()[1], interval[1]);
       }
     }

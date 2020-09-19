@@ -1,4 +1,5 @@
 ## String
+- 28. Implement strStr()
 
 
 ## Array
@@ -40,3 +41,9 @@ Solution 1: bfs, indegree and queue
 
 - 210. Course Schedule II 
 https://www.youtube.com/watch?v=Qqgck2ijUjU
+
+
+
+
+## Trie
+- 208. Implement Trie (Prefix Tree)

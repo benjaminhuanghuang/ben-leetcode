@@ -12,7 +12,7 @@ using namespace std;
     Time complexity : O(branches ^ depth) = O(4^N) 
     Space complextity: call stack = depth
 */
-class Solution
+class Solution_DFS
 {
 public:
     vector<string> letterCombinations(string digits)
@@ -53,6 +53,7 @@ private:
         {
             combination.push_back(c);
             dfs(digits, digitMap, pos + 1, combination, ans);
+            // recover
             combination.pop_back();
         }
     }
