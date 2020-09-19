@@ -26,7 +26,7 @@ public:
       { //traveling current level
         TreeNode *curr = q.front();
         q.pop();
-        if (i == size - 1)
+        if (i == size - 1)     // push the last one of the level
           res.push_back(curr->val);
         if (curr->left)
           q.push(curr->left);
@@ -37,7 +37,9 @@ public:
     return res;
   }
 };
-
+/*
+ DFS visiting order: self, right, left
+*/
 class Solution_DFS
 {
 public:
@@ -53,7 +55,7 @@ private:
   {
     if (root == nullptr)
       return;
-    if (depth == result.size())
+    if (depth == result.size())  // when enter a new level
     {
       result.push_back(root->val);
     }

@@ -5,6 +5,7 @@ https://leetcode.com/problems/contains-duplicate-ii/s
 */
 #include <vector>
 #include <unordered_map>
+#include <unordered_set>
 
 using namespace std;
 
@@ -36,6 +37,11 @@ public:
   }
 };
 
+/*
+  hash map  value:index
+  Time complexity O(N)
+  Space complexity O(N)
+*/
 class Solution
 {
 public:
@@ -51,6 +57,34 @@ public:
           return true;
       }
       m[nums[i]] = i;
+    }
+    return false;
+  }
+};
+
+
+/*
+  Sliding window
+  Time complexity O(N)
+  Space complexity O(K)
+*/
+class Solution
+{
+public:
+  bool containsNearbyDuplicate(vector<int> &nums, int k)
+  {
+    unordered_set<int> s;
+    for (int i = 0; i < nums.size(); ++i)
+    {
+      if (s.count(nums[i]))
+      {
+        return true;
+      }
+      s.insert(nums[i]);
+      if(i >=k)
+      {
+        s.erase(nums[i-k]);
+      }
     }
     return false;
   }

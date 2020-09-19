@@ -92,13 +92,24 @@ Graph
 
 
 ## 161 - One Edit Distance (https://www.youtube.com/watch?v=U-klJfWOvt8)
+分情况
+isOnRemove(s, t);  slow, fast two points
+isOnChange(s, t);  only one difference
+
+## 199. Binary Tree Right Side View (https://www.youtube.com/watch?v=f72I2qz9K7k)
+- DFS solution
+
+- BFS 
 
 
-## 199. Binary Tree Right Side View
 
 ## 200. Number of Islands
 
 ## 219. Contains Duplicate II
+- Solution Naive
+- Solution2 Hashmap
+- Solution3 Sliding window
+
 
 ## 220. Contains Duplicate III
 
