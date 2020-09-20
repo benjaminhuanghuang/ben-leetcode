@@ -6,6 +6,7 @@ https://leetcode.com/problems/building-h2o/
 
 #include <thread>
 #include <mutex>
+#include <functional>
 
 using namespace std;
 /*

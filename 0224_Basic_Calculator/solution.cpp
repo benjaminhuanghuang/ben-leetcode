@@ -14,6 +14,7 @@ https://leetcode.com/problems/basic-calculator
 #include <unordered_set>
 #include <numeric>
 #include <algorithm>
+#include <functional>
 
 #include "common/ListNode.h"
 #include "common/TreeNode.h"

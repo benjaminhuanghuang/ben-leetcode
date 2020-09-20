@@ -33,7 +33,6 @@
 -	631. Design Excel Sum Formula 
 - 635. Design Log Storage System
 -	641. Design Circular Deque                           # 
--	642. Design Search Autocomplete System               # trie
 -	676. Implement Magic Dictionary                      #
 -	677. Map Sum Pairs
 -	705. Design HashSet
@@ -51,6 +50,7 @@
 ## System design
 -	355. Design Twitter                  # map, set, sort
 - 535. Encode and Decode TinyURL       # map, 62 base number
+-	642. Design Search Autocomplete System               # trie
 -	715. Range Module
 -	729. My Calendar I
 -	731. My Calendar II
@@ -59,6 +59,7 @@
 -	911. Online Election
 - 933. Number of Recent Calls
 - 1206. Design Skiplist
+- 1268. Search Suggestions System                 # trie
 - 1348. Tweet Counts Per Frequency
 - 1396. Design Underground System
 - 1472. Design Browser History

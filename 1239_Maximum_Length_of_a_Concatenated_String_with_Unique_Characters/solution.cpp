@@ -15,6 +15,7 @@ https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-uniqu
 #include <set>
 #include <numeric>
 #include <algorithm>
+#include <functional>
 
 #include "common/ListNode.h"
 #include "common/TreeNode.h"

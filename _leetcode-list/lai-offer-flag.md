@@ -97,26 +97,44 @@ isOnRemove(s, t);  slow, fast two points
 isOnChange(s, t);  only one difference
 
 ## 199. Binary Tree Right Side View (https://www.youtube.com/watch?v=f72I2qz9K7k)
-- DFS solution
-
-- BFS 
+- BFS  Solution
 
 
+## 200. Number of Islands (https://www.youtube.com/watch?v=hhBiPyr1Byo)
+- Solution: DPS
+Count the '1', and Mark the adjacent cell to 0, traver
 
-## 200. Number of Islands
+Ask: Should recover the input
 
-## 219. Contains Duplicate II
+
+## 219. Contains Duplicate II (https://www.youtube.com/watch?v=tWdMNboG-gI)
 - Solution Naive
-- Solution2 Hashmap
-- Solution3 Sliding window
+  Time complexity O(N*K) Space complexity O(1)
 
+- Solution2 Hashmap: key:value, val: index
+  Time O(N) N Space O(N)  
+
+- Solution3 Sliding window + set
+   Time O(N) N Space O(K)  
 
 ## 220. Contains Duplicate III
+- Solution Naive
+  Time complexity O(N*K) Space complexity O(1)
 
-## 224. [Basic Calculator]()|stack| #227  |   |  |
-## 243/244/245. [Shortest Word Distance](https://www.youtube.com/watch?v=URtu6Wqq_Mk)|stack| #227  |   |  |
-## 277. Find the Celebrity
-https://www.youtube.com/watch?v=QDehNYXlCAg"
+- Solution3 Sliding window + tree set
+   Time O(N*Log(K)) N Space O(K)  
+
+
+## 224. Basic Calculator(https://www.youtube.com/watch?v=9c0WHgIsk5g)
+- 227. 	Basic Calculator II   
+分析：ExpressionTokenizer, ExpressionToken
+
+
+## 243/244/245. [Shortest Word Distance](https://www.youtube.com/watch?v=URtu6Wqq_Mk)
+
+
+## 277. Find the Celebrity (https://www.youtube.com/watch?v=QDehNYXlCAg)
+
 ## 309. Best Time to Buy and Sell Stock with Cooldown
 ## 311. Sparse Matrix Multiplication[locked]
 ## 322. Coin Change
@@ -129,12 +147,9 @@ https://www.youtube.com/watch?v=QDehNYXlCAg"
 ## 503. Next Greater Element II
 ## 516. Longest Palindromic Subsequence
 ## 518 - Coin Change II
-## 560. Subarray Sum Equals K
-https://www.youtube.com/watch?v=aYfwus5T3Bs"
-## 632. Smallest Range
-https://www.youtube.com/watch?v=csJXQZFYklE"
+## 560. Subarray Sum Equals K (https://www.youtube.com/watch?v=aYfwus5T3Bs)
+## 632. Smallest Range (https://www.youtube.com/watch?v=csJXQZFYklE)
 ## 652. Find Duplicate Subtrees
-## 692. Top K Frequent Words
-https://www.youtube.com/watch?v=0MTNMM7KSRM&t=586s"
+## 692. Top K Frequent Words (https://www.youtube.com/watch?v=0MTNMM7KSRM&t=586s)
 
     

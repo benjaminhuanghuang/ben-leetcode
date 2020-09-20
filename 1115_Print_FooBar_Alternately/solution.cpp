@@ -13,6 +13,7 @@ The release works via the method notify_one() or the notify_all method. The key 
  */
 #include <thread>
 #include <mutex>
+#include <functional>
 
 using namespace std;
 /*
