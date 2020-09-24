@@ -128,14 +128,24 @@ Ask: Should recover the input
 ## 224. Basic Calculator(https://www.youtube.com/watch?v=9c0WHgIsk5g)
 - 227. 	Basic Calculator II   
 分析：ExpressionTokenizer, ExpressionToken
-
+operator stack
+operand stack
 
 ## 243/244/245. [Shortest Word Distance](https://www.youtube.com/watch?v=URtu6Wqq_Mk)
+分析
+- 244  
+map<word, index>
+cache result <word, word, distance>
 
 
 ## 277. Find the Celebrity (https://www.youtube.com/watch?v=QDehNYXlCAg)
+Step1: find a candiate by one pass, make sure other people are not a celebrity
+
+Step2: make sure if the candidate is a celebrity by one pass
+
 
 ## 309. Best Time to Buy and Sell Stock with Cooldown
+
 ## 311. Sparse Matrix Multiplication[locked]
 ## 322. Coin Change
 ## 332. Reconstruct Itinerary

@@ -11,6 +11,7 @@ https://leetcode.com/problems/validate-binary-search-tree
 #include <unordered_set>
 
 #include <algorithm>
+#include <climits>
 
 #include "common/ListNode.h"
 #include "common/TreeNode.h"

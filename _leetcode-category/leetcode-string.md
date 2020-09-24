@@ -6,6 +6,7 @@
 
 
 ## String / words reverse
+- 28. Implement strStr()    
 - 0344. Reverse String
 - 0541. Reverse String II
 - 0345. Reverse Vowels of a String

@@ -105,8 +105,8 @@ public:
       {
         sign = -1;
       }
-      else if (c == '(')
-      {
+      else if (c == '(')  // current ans + ()
+      { 
         stack.push(ans);
         stack.push(sign);
         ans = 0;

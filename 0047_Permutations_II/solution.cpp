@@ -6,6 +6,7 @@ https://leetcode.com/problems/permutations-ii/
 */
 
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -24,7 +25,7 @@ public:
   {
     vector<vector<int>> ans;
     vector<int> curr;
-    sort(nums.begin(), nums.end());
+    sort(nums.begin(), nums.end());    // 和46 的不同
     vector<int> used(nums.size());
 
     dfs(nums, used, curr, ans);
@@ -44,7 +45,7 @@ private:
     for (int i = 0; i < nums.size(); i++)
     {
       // Same number can be only used once at each depth.
-      if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1])
+      if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1])   //和46的不同
         continue;
 
       if (used[i])

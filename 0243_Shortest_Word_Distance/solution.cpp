@@ -15,6 +15,7 @@ You may assume that word1 does not equal to word2, and word1 and word2 are both 
 */
 #include <vector>
 #include <string>
+#include <climits>
 
 using namespace std;
 
@@ -23,6 +24,7 @@ class Solution {
 public:
     int shortestDistance(vector<string>& words, string word1, string word2) {
         // find word at position
+        // position is index of word1 or word2
         int position = -1, res = INT_MAX;
         for (int i = 0; i < words.size(); ++i) {
             if (words[i] == word1 || words[i] == word2) {

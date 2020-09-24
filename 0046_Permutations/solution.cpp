@@ -8,6 +8,7 @@ https://leetcode.com/problems/permutations/
 */
 
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
