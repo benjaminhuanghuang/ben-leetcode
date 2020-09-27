@@ -273,6 +273,7 @@ public:
 - 449. Serialize and Deserialize BST
 
 ## Build tree
+- 106. Construct Binary Tree from Inorder and Postorder Traversal
 - 889. Construct Binary Tree from Preorder and Postorder Traversal
 
 ## Transform

@@ -45,6 +45,8 @@ public:
 
     // build result
   }
+
+
   /*
     https://www.youtube.com/watch?v=XqA8bBoEdIY HuaHua
     K 个list
@@ -62,8 +64,8 @@ public:
     // A priority queue is a container adaptor that provides constant time lookup of the largest (by default) element,
     //      at the expense of logarithmic insertion and extraction.
     // Compare parameter is defined such that it returns true if its first argument comes before its second
-    auto comp = [](ListNode *a, ListNode *b) { return a->val > b->val; };
-    priority_queue<ListNode, vector<ListNode *>, decltype(comp)> 
+    auto comp = [](ListNode *a, ListNode *b) { return a->val > b->val; };  
+    priority_queue<ListNode, vector<ListNode *>, decltype(comp)>  // 小的元素方前面
       pq(comp);
 
     for (ListNode *list : lists)
