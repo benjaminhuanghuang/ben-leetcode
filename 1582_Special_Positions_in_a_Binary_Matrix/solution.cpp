@@ -1,3 +1,10 @@
+/*
+1582. Special Positions in a Binary Matrix
+
+Level: Easy
+
+https://leetcode.com/problems/special-positions-in-a-binary-matrix
+*/
 #include <iostream>
 #include <vector>
 #include <string>
@@ -9,6 +16,8 @@
 #include <algorithm>
 #include <functional>
 
+#include "common/ListNode.h"
+#include "common/TreeNode.h"
 
 using namespace std;
 
@@ -16,6 +25,9 @@ using namespace std;
   Solution: 
 */
 
+class Solution
+{
+public:
   int numSpecial(vector<vector<int>> &mat)
   {
     int ans = 0;
@@ -57,12 +69,4 @@ using namespace std;
 
     return ans;
   }
-
-
-int main()
-{
-  vector<vector<int>> a = {{1,0,0},{0,0,1},{1,0,0}};
-  auto result = numSpecial(a);
-  cout << result <<endl;
-  return 0;
-}
+};

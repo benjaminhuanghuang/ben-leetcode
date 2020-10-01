@@ -22,6 +22,7 @@ using namespace std;
 
   http://zxi.mytechroad.com/blog/string/leetcode-301-remove-invalid-parentheses/
 
+  Time complexity O(2^(l+r))
 */
 
 class Solution
@@ -47,6 +48,9 @@ public:
   }
 
 private:
+  /*
+    Time complexity O(N)
+  */
   bool isValid(const string &s)
   {
     int count = 0;

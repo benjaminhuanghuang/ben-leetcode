@@ -147,13 +147,20 @@ Step2: make sure if the candidate is a celebrity by one pass
 ## 309. Best Time to Buy and Sell Stock with Cooldown
 
 ## 311. Sparse Matrix Multiplication[locked]
-## 322. Coin Change
-## 332. Reconstruct Itinerary
 
-## 450. Delete Node in a BST
+## 322. Coin Change[https://www.youtube.com/watch?v=htdBJul3xoc]
+
+## 332. Reconstruct Itinerary[https://www.youtube.com/watch?v=LKSdX31pXjY]
+Build graph, dfs
+
+## 450. Delete Node in a BST[https://www.youtube.com/watch?v=RDythl5S0fc]
+Solution
+  
 ## 250 - Count Univalue Subtrees 
+Recursion
 
 ## 496. Next Greater Element I
+
 ## 503. Next Greater Element II
 ## 516. Longest Palindromic Subsequence
 ## 518 - Coin Change II
