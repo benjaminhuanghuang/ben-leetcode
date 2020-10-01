@@ -47,7 +47,7 @@ public:
           findCol = col;
         }
       }
-      if (rowSum == 1 && findCol > 0)
+      if (rowSum == 1 && findCol >= 0)
       {
         cols.push_back(findCol);
       }
