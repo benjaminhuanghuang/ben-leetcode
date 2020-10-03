@@ -5,6 +5,9 @@ https://leetcode.com/problems/smallest-range/
 #include <vector>
 #include <unordered_map>
 #include <queue>
+#include <algorithm>
+#include <climits>
+
 using namespace std;
 
 /*

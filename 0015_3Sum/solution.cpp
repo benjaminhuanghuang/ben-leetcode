@@ -4,6 +4,7 @@
 https://leetcode.com/problems/3sum/
 */
 #include <vector>
+#include <algorithm>
 
 /*
 https://zxi.mytechroad.com/blog/two-pointers/leetcode-15-3sum/

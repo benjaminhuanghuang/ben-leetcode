@@ -162,11 +162,30 @@ Recursion
 ## 496. Next Greater Element I
 
 ## 503. Next Greater Element II
-## 516. Longest Palindromic Subsequence
-## 518 - Coin Change II
-## 560. Subarray Sum Equals K (https://www.youtube.com/watch?v=aYfwus5T3Bs)
-## 632. Smallest Range (https://www.youtube.com/watch?v=csJXQZFYklE)
-## 652. Find Duplicate Subtrees
-## 692. Top K Frequent Words (https://www.youtube.com/watch?v=0MTNMM7KSRM&t=586s)
 
+
+
+## 516. Longest Palindromic Subsequence [https://www.youtube.com/watch?v=v8irqkTcJ6s&ab_channel=%E6%9D%A5Offer-LaiOffer]
+DP
+https://docs.google.com/presentation/d/1KhxVVgI8jzc-g7unDNKFiHY6XDNVSK6LNsadxB14K3U/edit#slide=id.g4dab135aa1_0_105
+
+## 518 - Coin Change II[https://www.youtube.com/watch?v=ZKAILBWl08g&t=672s&ab_channel=%E6%9D%A5Offer-LaiOffer]
+DP
+
+
+
+## 560. Subarray Sum Equals K (https://www.youtube.com/watch?v=aYfwus5T3Bs)
+prefixSum and HashMap
+
+
+## 632. Smallest Range (https://www.youtube.com/watch?v=csJXQZFYklE)
+priority queue / heap
+
+
+## 652. Find Duplicate Subtrees
+Tree, calucate id
+
+
+## 692. Top K Frequent Words (https://www.youtube.com/watch?v=0MTNMM7KSRM&t=586s)
+priority queue / heap
     
