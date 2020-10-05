@@ -1,7 +1,8 @@
 /*
 243. Shortest Word Distance
 
-Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.
+Given a list of words and two words word1 and word2, return the shortest distance 
+between these two words in the list.
 
 For example,
 Assume that words = ["practice", "makes", "perfect", "coding", "makes"].
@@ -19,7 +20,11 @@ You may assume that word1 does not equal to word2, and word1 and word2 are both 
 
 using namespace std;
 
-
+/*
+    go throught the string. 
+    use position to record the index of word1 or word2 in the string.
+    
+*/
 class Solution {
 public:
     int shortestDistance(vector<string>& words, string word1, string word2) {

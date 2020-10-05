@@ -4,7 +4,7 @@
  https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
  */
 #include <vector>
-#include <functions>
+#include <functional>
 
 using namespace std;
 
@@ -21,6 +21,7 @@ class Solution
 public:
   TreeNode *sortedArrayToBST(vector<int> &nums)
   {
+    //- the helper function
     function<TreeNode *(int l, int r)> build = [&](int l, int r) {
       if (l > r)
         return static_cast<TreeNode *>(nullptr);

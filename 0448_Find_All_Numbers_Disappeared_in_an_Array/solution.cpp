@@ -31,7 +31,7 @@ public:
     {
       int index = abs(nums[i]) - 1;
       if (nums[index] > 0)
-        nums[index] *= -1;
+        nums[index] = -nums[index];
     }
     vector<int> ans;
     for (size_t i = 0; i != nums.size(); ++i)

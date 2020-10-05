@@ -18,6 +18,10 @@ https://leetcode.com/problems/license-key-formatting
 using namespace std;
 
 /*
+  Input: S = "2-5g-3-J", K = 2
+
+  Output: "2-5G-3J"
+
   Solution: 
 */
 
@@ -26,8 +30,7 @@ class Solution
 public:
   string licenseKeyFormatting(string S, int K)
   {
-     string licenseKeyFormatting(string S, int K) {
-        string ans;
+    string ans;
     int groupLen = 0;
     for (int i = S.size() - 1; i >= 0; i--)
     {

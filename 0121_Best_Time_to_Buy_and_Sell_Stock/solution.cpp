@@ -6,6 +6,7 @@ Level: Easy
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 */
 #include <vector>
+#include <climits>
 
 using namespace std;
 

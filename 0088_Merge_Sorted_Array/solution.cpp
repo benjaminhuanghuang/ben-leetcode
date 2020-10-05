@@ -19,6 +19,7 @@ class Solution
 public:
   void merge(vector<int> &A, int m, vector<int> &B, int n)
   {
+    // From end to start
     int ia = m - 1, ib = n - 1, icur = m + n - 1;
     while (ia >= 0 && ib >= 0)
     {

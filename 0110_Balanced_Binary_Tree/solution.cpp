@@ -46,6 +46,9 @@ public:
   }
 
 private:
+  /*
+    get 2 informaiton in the helper function : height and isBalance
+  */
   int height(TreeNode *root, bool *balanced)
   {
     if (!root)
