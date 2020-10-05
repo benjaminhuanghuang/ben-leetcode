@@ -144,7 +144,7 @@ Step1: find a candiate by one pass, make sure other people are not a celebrity
 Step2: make sure if the candidate is a celebrity by one pass
 
 
-## 309. Best Time to Buy and Sell Stock with Cooldown
+## 309. Best Time to Buy and Sell Stock with Cooldown [https://www.youtube.com/watch?v=Ggzbo9eVrLU]
 
 ## 311. Sparse Matrix Multiplication[locked]
 

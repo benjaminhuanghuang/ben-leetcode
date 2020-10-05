@@ -5,6 +5,7 @@ https://leetcode.com/problems/two-sum/
 */
 #include <vector>
 #include <unordered_map>
+#include <algorithm>
 #include <assert.h> /* assert */
 
 using namespace std;
@@ -28,6 +29,37 @@ public:
       else
       {
         indies[nums[i]] = i;
+      }
+    }
+    // generalized initializer lists are a C++11 extension
+    return {};
+  }
+};
+
+class Solution_Sorted
+{
+public:
+  vector<int> twoSum(vector<int> &nums, int target)
+  {
+    //sort(nums.begin(), nums.end());
+
+    int l = 0;
+    int r = nums.size() - 1;
+
+    while (l < r)
+    {
+      int sum = nums[l] + nums[r];
+      if (sum == target)
+      {
+        return {l, r};
+      }
+      else if (sum < target)
+      {
+        l++;
+      }
+      else
+      {
+        r--;
       }
     }
     // generalized initializer lists are a C++11 extension

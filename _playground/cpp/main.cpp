@@ -14,7 +14,32 @@ using namespace std;
 /*
   Solution: 
 */
+ vector<int> twoSum(vector<int> &nums, int target)
+  {
+    sort(nums.begin(), nums.end());
 
+    int l = 0;
+    int r = nums.size() - 1;
+
+    while (l < r)
+    {
+      int sum = nums[l] + nums[r];
+      if (sum == target)
+      {
+        return {l, r};
+      }
+      else if (sum < target)
+      {
+        l++;
+      }
+      else
+      {
+        r--;
+      }
+    }
+    // generalized initializer lists are a C++11 extension
+    return {};
+  }
 int numSpecial(vector<vector<int>> &mat)
 {
   int ans = 0;
@@ -59,8 +84,9 @@ int numSpecial(vector<vector<int>> &mat)
 
 int main()
 {
-  vector<vector<int>> a = {{1, 0, 0}, {0, 1, 0}, {1, 0, 0}};
-  auto result = numSpecial(a);
-  cout << result << endl;
+  vector<int> nums = {3, 2,4};
+  int target = 6;
+  auto result = twoSum(nums, target);
+  cout << result.size() << endl;
   return 0;
 }

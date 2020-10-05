@@ -2,7 +2,7 @@
 7. Reverse Integer
 https://leetcode.com/problems/reverse-integer/
 */
-#include <limits>
+#include <climits>
 
 class Solution_overflow
 {
@@ -55,22 +55,25 @@ public:
   {
     //flag marks if x is negative
     bool flag = false;
-    if (x < 0)
+    long val = x;
+    if (val < 0)
     {
-      x = 0 - x;
+      val = -val;              // overflow
       flag = true;
     }
 
-    int res = 0;
-    int p = x;
-
-    while (p > 0)
+    long res = 0;
+  
+    while (val > 0)
     {
-      int mod = p % 10;
-      p = p / 10;
-      res = res * 10 + mod;   // overflow
+      int digit = val % 10;
+      val = val / 10;
+      res = res * 10 + digit;   // overflow
     }
 
+    if(res > INT_MAX){
+      res = 0;
+    }
     if (flag)
     {
       res = 0 - res;
