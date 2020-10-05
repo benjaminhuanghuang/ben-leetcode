@@ -21,7 +21,7 @@ public:
     stack<char> st;
     for (char c : s)
     {
-      if (!p.count(c))
+      if (!p.count(c)) // is left part
       {
         st.push(c);
       }

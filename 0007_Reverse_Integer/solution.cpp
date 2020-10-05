@@ -23,7 +23,7 @@ public:
       n = n * 10 + digit; // overflow when x = 1534236469
       k = k / 10;
     }
-    if (n > std::numeric_limits<int>::max())
+    if (n > INT_MAX)
       return 0;
     if (isNegative)
       n = -n;

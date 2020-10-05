@@ -1,10 +1,14 @@
 /*
 53. Maximum Subarray
 
+Given an integer array nums, find the contiguous subarray (containing at least one 
+number) which has the largest sum and return its sum.
+
 https://leetcode.com/problems/maximum-subarray/
 */
 
 #include <vector>
+#include <climits>
 
 using namespace std;
 
@@ -16,7 +20,7 @@ class Solution
 public:
   int maxSubArray(vector<int> &nums)
   {
-    int maxSum = INT32_MIN;
+    int maxSum = INT_MIN;
 
     int prefixSum = 0;
     int minPrefixSum = 0;  // 不用使用max，因为对于第一个元素， minPrefixSum 不存在，即为0

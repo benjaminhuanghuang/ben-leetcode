@@ -14,32 +14,24 @@ using namespace std;
 /*
   Solution: 
 */
- vector<int> twoSum(vector<int> &nums, int target)
+int removeDuplicates(vector<int> &nums)
+{
+  const int len = nums.size();
+  if (len <= 1)
+    return len;
+
+  int end = 0;
+  int i = 1;
+  while (i < len)
   {
-    sort(nums.begin(), nums.end());
-
-    int l = 0;
-    int r = nums.size() - 1;
-
-    while (l < r)
+    if (nums[i] != nums[end])
     {
-      int sum = nums[l] + nums[r];
-      if (sum == target)
-      {
-        return {l, r};
-      }
-      else if (sum < target)
-      {
-        l++;
-      }
-      else
-      {
-        r--;
-      }
+      nums[++end] = nums[i];
     }
-    // generalized initializer lists are a C++11 extension
-    return {};
+    i++;
   }
+  return end + 1;
+}
 int numSpecial(vector<vector<int>> &mat)
 {
   int ans = 0;
@@ -84,9 +76,9 @@ int numSpecial(vector<vector<int>> &mat)
 
 int main()
 {
-  vector<int> nums = {3, 2,4};
+  vector<int> nums = {3, 2, 4};
   int target = 6;
-  auto result = twoSum(nums, target);
-  cout << result.size() << endl;
+  auto result = removeDuplicates(nums);
+  cout << result << endl;
   return 0;
 }
