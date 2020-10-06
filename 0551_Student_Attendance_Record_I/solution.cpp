@@ -21,7 +21,10 @@ public:
       if (c == 'L')
         ++l;
       else
+      {
+        // set late to 0 when present
         l = 0;
+      }
       if (a > 1 || l > 2)
         return false;
     }
@@ -33,9 +36,11 @@ public:
 https://zxi.mytechroad.com/blog/string/leetcode-551-student-attendance-record-i/
 Regex
 */
-class Solution {
+class Solution
+{
 public:
-  bool checkRecord(string s) {
+  bool checkRecord(string s)
+  {
     return !std::regex_search(s, std::regex("A.*A|LLL"));
   }
 };

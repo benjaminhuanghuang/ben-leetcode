@@ -7,7 +7,8 @@ https://leetcode.com/problems/repeated-string-match/
 using namespace std;
 
 /*
-当A重复一定次数后，长度比B长了，那么就可以停止了！因为如果这种情况下B都不是A的子串，那么循环再多也没用。
+当A重复一定次数后，长度比B长了，那么就可以停止了！
+因为如果这种情况下B都不是A的子串，那么循环再多也没用。
 因为对于B来说，A所有可能的重复都已经出现了。
 */
 class Solution
@@ -45,6 +46,7 @@ public:
     {
       return count;
     }
+    
     t.append(A);
     count++;
     if (t.find(B) != string::npos)

@@ -28,7 +28,7 @@ private:
       return 0;
     int left = maxDepth(root->left);
     int right = maxDepth(root->right);
-    diameter = max(diameter, left + right);
+    diameter = max(diameter, left + right);  //diameter 是edge的数量而不是node的数量，因此不用 + 1
     return 1 + max(left, right);
   }
   int diameter = 0;

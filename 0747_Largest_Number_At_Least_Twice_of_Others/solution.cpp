@@ -7,7 +7,7 @@ https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 
 using namespace std;
 
-class Solution
+class Solution_Naive
 {
 public:
   int dominantIndex(vector<int> &nums)
@@ -40,26 +40,25 @@ public:
   {
     int maxNum = -1;     //最大数
     int maxIndex;        //最大数的下标
-    int lastMaxNum = -1; //上一个最大数
+    int secondMaxNum = -1; 
     for (int i = 0; i < nums.size(); i++)
     {
-      if (nums[i] >= lastMaxNum)
+      if(nums[i] > maxNum)
       {
-        //先看一看当前的是否大于上一个最大值
-        lastMaxNum = nums[i];
-        //先让上一个最大值等于当前的
-        if (nums[i] > maxNum)
-        { //如果这个比最大值还大的话，更换当前最大值和上一个最大值
-          lastMaxNum = maxNum;
-          maxNum = nums[i];
-          maxIndex = i;
-        }
+        int tmp = maxNum;
+        maxNum= nums[i];
+        secondMaxNum = tmp;
+        maxIndex = i;
+      }
+      else if (nums[i] >= secondMaxNum)
+      {
+        secondMaxNum = nums[i];
       }
     }
-    if (maxNum < 2 * lastMaxNum)
+    if (maxNum >=  2 * secondMaxNum)
     {
-      return -1;
+      return maxIndex;
     }
-    return maxIndex;
+    return -1;
   }
 };

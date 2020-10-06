@@ -5,6 +5,7 @@ https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 */
 
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -15,7 +16,7 @@ public:
     {
         vector<int> sortedNums(nums);
         sort(begin(sortedNums), end(sortedNums));
-        int start = nums.size();//注意起始位置！！
+        int start = nums.size();// set start to MAX value
         int end = 0;
      
         for (int i = 0; i < sortedNums.size(); ++i)
@@ -26,6 +27,6 @@ public:
                 end = max(end, i);
             }
         }
-         return (end - start >= 0 ? end - start + 1 : 0);
+         return (end >= start ? end - start + 1 : 0);
     }
 };
