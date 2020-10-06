@@ -4,6 +4,7 @@
 https://leetcode.com/problems/merge-intervals/
 */
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 

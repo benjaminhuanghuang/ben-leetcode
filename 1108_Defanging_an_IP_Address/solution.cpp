@@ -31,7 +31,7 @@ public:
       if (c == '.')
         ans += "[.]";
       else
-        ans += '.';
+        ans += c;
     }
 
     return ans;

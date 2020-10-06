@@ -15,6 +15,9 @@ Solution: Two pointers + Merge two sorted arrays
 
 Time complexity: O(n)
 Space complexity: O(1)
+
+对于负数，从右向左
+对于正数，从左向右
 */
 
 class Solution
@@ -33,6 +36,33 @@ public:
         *it = pow(*right--, 2);
       else
         *it = pow(*left++, 2);
+    }
+    return ans;
+  }
+};
+
+class Solution
+{
+public:
+  vector<int> sortedSquares(vector<int> &A)
+  {
+    vector<int> ans(A.size());
+    int left = 0;
+    int right = A.size() - 1;
+    int i = A.size() - 1;
+    while (i >= 0)
+    {
+      if ( right> left && abs(A[right]) > abs(A[left]))
+      {
+        ans[i] = A[right] * A[right];
+        right --; 
+      }
+      else
+      {
+        ans[i] = A[left] * A[left];
+        right --; 
+      }
+      i--;
     }
     return ans;
   }

@@ -21,17 +21,26 @@ class Solution
 public:
   int maxDistToClosest(vector<int> &seats)
   {
-    int start, idx, res = 0, n = seats.size();
-    for (start = idx = 0; idx < n; ++idx)
-      if (seats[idx] == 1)
+    int startOfZero = 0;
+
+    int res = 0, n = seats.size();
+
+    for (int i = 0; i < n; ++i)
+    {
+      // skip the 0s
+      if (seats[i] == 1)
       {
-        if (start == 0)
-          res = max(res, idx - start);
+        if (startOfZero == 0)
+        {
+          // startOfZero is 0，means 当前这段连续的空位是靠着墙的，所以我们要用连续空位的长度 i-start  
+          res = max(res, i - startOfZero);
+        }
         else
-          res = max(res, (idx - start + 1) / 2);
-        start = idx + 1;
+          res = max(res, (i - startOfZero + 1) / 2);
+        startOfZero = i + 1;
       }
-    res = max(res, n - start);
+    }
+    res = max(res, n - startOfZero);
     return res;
   }
 };
