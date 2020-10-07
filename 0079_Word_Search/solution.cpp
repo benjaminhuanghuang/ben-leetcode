@@ -20,7 +20,7 @@ using namespace std;
 http://zxi.mytechroad.com/blog/leetcode/leetcode-79-word-search/
 
 Time complexity: O(m*n*4^l)
-search 4 direction, l = len(word)
+search 4 direction, l = len(word) , Time = 4 * 4 * 4....
 Space complexity: O(m*n+ l), m*n 为输入，l为递归深度
 */
 class Solution

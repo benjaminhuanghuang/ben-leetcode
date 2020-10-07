@@ -21,10 +21,10 @@ using namespace std;
   Solution: 
 */
 
-class Solution
+class Solution_Slow
 {
 public:
-  vector<int> numSmallerByFrequency_slow(vector<string> &queries, vector<string> &words)
+  vector<int> numSmallerByFrequency(vector<string> &queries, vector<string> &words)
   {
     vector<int> qs, ws;
     for (string &q : queries)
@@ -48,24 +48,49 @@ public:
     }
     return res;
   }
-  vector<int> numSmallerByFrequency(vector<string>& queries, vector<string>& words) {
-        vector<int> wordVals;
-        for(auto w: words) wordVals.push_back(getFrequency(w));
 
-        sort(wordVals.begin(), wordVals.end());   // Key point
-        vector<int> op(queries.size(), 0);
-        int k=0;
-        for(auto q: queries) {
-            int fV = getFrequency(q);
-            auto it = upper_bound(wordVals.begin(), wordVals.end(), fV);
-            if(it!= wordVals.end()) 
-                op[k] = wordVals.end()-it;
-            else
-                op[k] = 0;
-            k++;
-        }
-        return op;
+private:
+  int getFrequency(string &word)
+  {
+    vector<int> counts(26, 0);
+    for (char w : word)
+    {
+      counts[w - 'a']++;
     }
+    for (int i = 0; i < 26; ++i)
+    {
+      if (counts[i] != 0)
+        return counts[i];
+    }
+    return 0;
+  }
+};
+
+class Solution
+{
+public:
+  vector<int> numSmallerByFrequency(vector<string> &queries, vector<string> &words)
+  {
+    vector<int> wordVals;
+    for (auto w : words)
+      wordVals.push_back(getFrequency(w));
+
+    sort(wordVals.begin(), wordVals.end()); // Key point
+    vector<int> op(queries.size(), 0);
+    int k = 0;
+    for (auto q : queries)
+    {
+      int fV = getFrequency(q);
+      auto it = upper_bound(wordVals.begin(), wordVals.end(), fV);
+      if (it != wordVals.end())
+        op[k] = wordVals.end() - it;
+      else
+        op[k] = 0;
+      k++;
+    }
+    return op;
+  }
+
 private:
   int getFrequency(string &word)
   {

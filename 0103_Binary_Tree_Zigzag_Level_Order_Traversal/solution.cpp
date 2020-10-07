@@ -6,6 +6,8 @@ https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 
 #include <vector>
 #include <queue>
+#include <algorithm>
+
 using namespace std;
 
 #include "common/TreeNode.h"

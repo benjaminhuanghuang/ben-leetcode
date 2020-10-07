@@ -5,6 +5,7 @@ https://leetcode.com/problems/combination-sum/
 */
 
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 

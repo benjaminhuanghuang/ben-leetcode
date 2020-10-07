@@ -22,6 +22,7 @@ using namespace std;
 
 /*
   Solution: 
+  对每一位进行   sum % 3
 */
 
 class Solution
@@ -35,6 +36,7 @@ public:
       int sum = 0;
       for (int j = 0; j < nums.size(); ++j)
       {
+        // 第 i 位
         sum += (nums[j] >> i) & 1;
       }
       res |= (sum % 3) << i;

@@ -27,8 +27,8 @@ class Solution2
 public:
   bool isValidSudoku(vector<vector<char>> &board)
   {
-    //  记录 某行, 某列，某block是否包含某个数字
-    int row[9][9] = {0};
+    // flags 记录 某行, 某列，某block是否包含某个数字
+    int row[9][9] = {0};  // 每一列9个数字哪个已经用了
     int col[9][9] = {0};
     int square[9][9] = {0};   // block index: (y/3)*3 + x/3
 

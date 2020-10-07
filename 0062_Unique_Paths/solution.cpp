@@ -11,6 +11,14 @@ using namespace std;
 /*
 http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-62-unique-paths/
 DP
+
+the recursion pseudocode:
+  paths(m, n):
+    if(m<0 or n<0) return 0;
+    if m ==1 and n == 1
+      return 1
+    return paths(m-1, n) + paths(m, n -1)
+
 */
 class Solution
 {
@@ -23,14 +31,10 @@ public:
     for (int y = 1; y <= n; ++y)
       for (int x = 1; x <= m; ++x)
       {
-        if (x == 1 && y == 1)
-        {
-          continue;
-        }
+        if (y == 1 || x == 1)
+          f[y][x] = 1;
         else
-        {
           f[y][x] = f[y - 1][x] + f[y][x - 1];
-        }
       }
 
     return f[n][m];

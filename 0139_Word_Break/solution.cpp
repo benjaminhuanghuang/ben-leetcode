@@ -47,9 +47,9 @@ public:
 
   bool wordBreak(const string &s, const unordered_set<string> &dict)
   {
-    if (mem.count(s))
+    if (mem.count(s))  // 已经求解过
       return mem[s];
-    if (dict.count(s)) //memorize and return
+    if (dict.count(s)) // 可以分解成 s + " "， 有解
     {
       // split to "" and s
       return mem[s] = true;

@@ -34,7 +34,6 @@ public:
       {
         return mid;
       }
-      
       if (nums[l] <= nums[mid]) // mid located in left part, which is increasing
       {
         if (nums[l] <= target && target < nums[mid]) //  target located between left and mid

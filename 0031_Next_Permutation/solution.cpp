@@ -4,6 +4,7 @@
 https://leetcode.com/problems/next-permutation/
 */
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 /*
@@ -31,6 +32,7 @@ public:
   void nextPermutation(vector<int> &nums)
   {
     int i = nums.size() - 2;
+    // 找到从递减到递增的转折点
     while (i >= 0 && nums[i + 1] <= nums[i])
       --i;
 

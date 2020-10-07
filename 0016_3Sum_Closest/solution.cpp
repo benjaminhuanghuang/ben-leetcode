@@ -4,6 +4,8 @@
 https://leetcode.com/problems/3sum-closest/
 */
 #include <vector>
+#include <algorithm>
+#include <climits>
 
 using namespace std;
 

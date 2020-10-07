@@ -37,6 +37,40 @@ private:
 
 /*
 
+Iterative, using stack 1
+
+ */
+class Solution
+{
+public:
+  vector<int> inorderTraversal(TreeNode *root)
+  {
+    if (root == nullptr)
+      return {};
+    vector<int> ans;
+    stack<TreeNode *> s;
+    while (root || !s.empty())
+    {
+      if (root)
+      {
+        s.push(root);
+        root = root->left;
+      }
+      else
+      {
+        TreeNode *node = s.top();
+        s.pop();
+        // 这里不需要 check null
+        ans.push_back(node->val);
+        root = node->right;
+      }
+    }
+    return ans;
+  }
+};
+
+/*
+
 Iterative, using stack
 
  */

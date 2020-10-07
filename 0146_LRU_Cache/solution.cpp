@@ -20,11 +20,18 @@ https://leetcode.com/problems/lru-cache
 using namespace std;
 
 /*
+  Least  Recently Used
+
   Solution: 
   https://www.youtube.com/watch?v=q1Njd3NWvlY
 
   O(1) 不能用 vector
   list used to inster, delete O(1)
+
+  https://www.youtube.com/watch?v=q1Njd3NWvlY&ab_channel=HuaHua
+
+  Hashtable + liked list 
+
 */
 
 class LRUCache
@@ -74,8 +81,8 @@ public:
 
 private:
   int capacity;
-  list<pair<int, int>> cache;
-  // get lisk node by key
+  list<pair<int, int>> cache;// key : value
+  // get lisk node by key   // key :iterator
   unordered_map<int, list<pair<int, int>>::iterator> m;
 };
 

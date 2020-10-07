@@ -38,7 +38,6 @@ public:
                 s.push(node);
                 node = node->left;
             }
-            
         }
         return result;
     }
