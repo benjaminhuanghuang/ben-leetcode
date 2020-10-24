@@ -37,8 +37,10 @@ public:
     vector<vector<int>> ans;
     while (i < A.size() && j < B.size())
     {
+      // Intersections
       const int start = max(A[i][0], B[j][0]);
       const int end = min(A[i][1], B[j][1]);
+
       if (start <= end)
         ans.push_back({start, end});
       if (A[i][1] < B[j][1])
