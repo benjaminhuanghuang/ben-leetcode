@@ -26,6 +26,13 @@ using namespace std;
   Solution: 
   https://zxi.mytechroad.com/blog/data-structure/leetcode-1146-snapshot-array/
   
+  array, 
+  snap() 对array 生成快照， 
+  brute-force 解法会每次 snap() 保存 整个array，这样会有大量的冗余操作
+
+  Use a vector to store maps, one map per element. vals_[index]<snap_id, value>
+
+  The map stores {snap_id -> val}, use upper_bound to find the first version > snap_id and use previous version’s value.
 */
 
 class SnapshotArray {
@@ -35,7 +42,8 @@ public:
   void set(int index, int val) {
     vals_[index][id_] = val;
   }
- 
+  
+  // id = snap times - 1
   int snap() { return id_++; }
  
   int get(int index, int snap_id) const {

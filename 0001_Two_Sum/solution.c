@@ -1,70 +1,113 @@
-struct hash_map
-{
-  int key;                   /* key */
-  int value;                 /* value */
-  UT_hash_handle hh;         /* makes this structure hashable */
+#include <stdlib.h>
+
+/* simple method */
+int* twoSum_basic(int* nums, int numsSize, int target, int* returnSize){
+    *returnSize = 0;
+    for(int i=0; i<numsSize; i++){
+        for(int j=i+1; j<numsSize; j++){
+            if(nums[i]+nums[j] == target){
+                int* ret = (int*)malloc(2*sizeof(int));
+                if(ret ==NULL)
+                    return NULL;
+                *returnSize = 2;
+                ret[0] = i;
+                ret[1] = j;
+                return ret;
+            }
+        }
+    }
+    return NULL;
+}
+
+ /* hash map method */
+
+struct hash_data{
+    int index;
+    // int data;
 };
-typedef struct hash_map map;
-map* ht = NULL;                 /* a NULL struct for hash map initialization */
-
-void htAdd(int key, int value)
+struct hash_table
 {
-  map* s;
-  HASH_FIND_INT(ht, &key, s);  /* id already in the hash? */
-  if (s==NULL)
-  {
-    s = (map*)malloc(sizeof(map));
-    s->key = key;
-    HASH_ADD_INT(ht, key, s);  /* id: name of key field */
-  }
-  s->value = value;
-}
+    struct hash_data* element;
+    const int* nums;
+    int count;
+};
 
-map* htFind(int key)
-{
-    map* s;
-    HASH_FIND_INT(ht, &key, s);  /* s: output pointer */
-    return s;
-}
-
-void htCleanup()
-{
-    map* cur, *tmp;
-    HASH_ITER(hh, ht, cur, tmp)
-    {
-        HASH_DEL(ht, cur);  /* delete it (users advances to next) */
-        free(cur);            /* free it */
+int hash_init(struct hash_table* table, int count){
+    if(count<=0)
+        return -1;
+    table->element = (struct hash_data*)malloc(sizeof(struct hash_data)*count);
+    if(table->element==NULL)
+        return -1;
+    for(int i=0; i<count; i++){
+        table->element[i].index = -1;
+        //table->element[i].data = 0;
     }
+    table->count = count;
+    return 0;
 }
 
-void htPrint() {
-    map* s;
-    for(s=ht; s != NULL; s=(map*)(s->hh.next))
-        printf("key %d:  value %d\n", s->key, s->value);
-}
-
-int* twoSum(int* nums, int numsS, int target) {
-  int i, *r;
-  map* hRes; /* hash find result */
-  ht = NULL; /* initialize the hash map  */
-  r = (int*)malloc(2* sizeof(int));
-
-  for(i = 0; i<numsS; i++)
-    htAdd(nums[i], i);
-
-  //htPrint();
-  
-  for(i = 0; i<numsS; i++)
-  {
-    hRes = htFind(target- nums[i]);
-    if(hRes && hRes->value != i)
-    {
-      r[0] = i + 1;
-      r[1] = hRes->value + 1;
-      return r;
+void hash_free(struct hash_table* table){
+    if(table->element!=NULL){
+        free(table->element);
+        table->element = NULL;
     }
-  }
-
-  htCleanup();
-  return NULL;
+    table->count = 0;
 }
+
+int hash_addr(int data, int table_count){
+    int addr = data % table_count;
+    return (addr>=0)?addr:(addr+table_count);
+}
+
+void hash_insert(struct hash_table* table, int data, int index){
+    int addr = hash_addr(data, table->count);
+    while(table->element[addr].index>=0){
+        addr = (addr+1)%table->count;
+    }
+    table->element[addr].index = index;
+    //table->element[addr].data = data;
+}
+
+struct hash_data* hash_find(struct hash_table* table, int data){
+    int primary;
+    int addr = primary = hash_addr(data, table->count);
+    do{
+        if(table->element[addr].index<0)
+            return NULL;
+        if(table->nums[table->element[addr].index] == data){
+            return &table->element[addr];
+        }
+        addr = (addr+1)%table->count;
+    }while(addr!=primary);
+    return NULL;
+}
+
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int* twoSum(int* nums, int numsSize, int target, int* returnSize){
+    int * ret = NULL;
+    int addr;
+    struct hash_table table;
+    struct hash_data *p_data;
+    if(hash_init(&table, numsSize+numsSize/5)<0){
+        return twoSum_basic(nums, numsSize, target, returnSize);
+    };
+    table.nums = nums;
+    *returnSize = 0;
+    for(int i=0; i<numsSize; i++){
+        if ((p_data=hash_find(&table,target-nums[i]))!=NULL){
+                if((ret = (int*)malloc(2*sizeof(int)))==NULL){
+                    break;
+                }
+                ret[0] = p_data->index;
+                ret[1] = i;
+                *returnSize = 2;
+                return ret;
+        }
+        hash_insert(&table, nums[i], i);
+    }
+    hash_free(&table);
+    return NULL;
+}
+

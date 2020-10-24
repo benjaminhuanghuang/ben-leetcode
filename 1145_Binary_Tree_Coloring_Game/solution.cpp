@@ -14,6 +14,7 @@ https://leetcode.com/problems/binary-tree-coloring-game
 #include <unordered_set>
 #include <numeric>
 #include <algorithm>
+#include <functional>
 
 #include "common/ListNode.h"
 #include "common/TreeNode.h"
