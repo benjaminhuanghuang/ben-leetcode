@@ -81,7 +81,7 @@ public:
 
       for (int j = i + 1; j < n - 2; j++)
       {
-        if (j > i + 1 && num[j] == num[j - 1])
+        if (j > i + 1 && num[j] == num[j - 1]) // skip repeat number
           continue;
         int l = j + 1, r = n - 1;
         while (l < r)

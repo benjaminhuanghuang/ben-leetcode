@@ -3,6 +3,8 @@
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
  */
 #include <vector>
+#include <algorithm>
+
 using namespace std;
 
 #include "common/TreeNode.h"
