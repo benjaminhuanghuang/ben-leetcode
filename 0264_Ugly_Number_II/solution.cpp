@@ -14,6 +14,7 @@ https://leetcode.com/problems/ugly-number-ii
 #include <unordered_set>
 #include <numeric>
 #include <algorithm>
+#include <climits>
 
 #include "common/ListNode.h"
 #include "common/TreeNode.h"

@@ -34,7 +34,7 @@ public:
       {
         q.push(i);
       }
-      else
+      else  // ')'
       {
         if (q.empty())
         {

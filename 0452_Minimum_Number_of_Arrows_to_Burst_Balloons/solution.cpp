@@ -35,10 +35,14 @@ public:
   {
     if (points.empty())
       return 0;
+    
+    // Sort by end
     sort(points.begin(), points.end(),
          [&](const vector<int> &a, const vector<int> &b) {
            return a[1] < b[1];
          });
+
+    // find all inverval which start < current_right     
     int right = points.front()[1];
     int ans = 1;
     for (const auto &point : points)

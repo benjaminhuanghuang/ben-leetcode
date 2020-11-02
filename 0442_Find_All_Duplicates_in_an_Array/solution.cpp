@@ -4,6 +4,7 @@
 https://leetcode.com/problems/find-all-duplicates-in-an-array/
 */
 #include <vector>
+#include <cmath>
 
 using namespace std;
 /*

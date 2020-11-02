@@ -55,7 +55,7 @@ public:
     const int c2 = min(m1 >= n1 ? INT_MAX : nums1[m1],
                        m2 >= n2 ? INT_MAX : nums2[m2]);
 
-    return (c1 + c2) >> 1;
+    return (c1 + c2) / 2.0;
   }
 };
 /*

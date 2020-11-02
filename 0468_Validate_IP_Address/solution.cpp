@@ -4,6 +4,7 @@
 https://leetcode.com/problems/validate-ip-address/
 */
 #include <string>
+#include <algorithm>
 
 using namespace std;
 

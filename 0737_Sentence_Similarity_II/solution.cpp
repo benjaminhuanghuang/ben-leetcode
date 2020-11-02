@@ -33,6 +33,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <iostream>   // for string ==
+#include <climits>
 
 #include "common/DSU.h"
 

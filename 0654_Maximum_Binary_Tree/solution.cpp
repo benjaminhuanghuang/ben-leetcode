@@ -3,6 +3,8 @@
 https://leetcode.com/problems/maximum-binary-tree/
  */
 #include <vector>
+#include <algorithm>
+
 using namespace std;
 
 #include "common/TreeNode.h"

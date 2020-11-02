@@ -48,7 +48,7 @@ public:
         prev = curr;
       }
       else
-      {
+      { //end
         ans[s.top()] += curr - prev + 1;
         s.pop();
         prev = curr + 1;

@@ -14,6 +14,7 @@ https://leetcode.com/problems/bulb-switcher
 #include <unordered_set>
 #include <numeric>
 #include <algorithm>
+#include <cmath>
 
 #include "common/ListNode.h"
 #include "common/TreeNode.h"
