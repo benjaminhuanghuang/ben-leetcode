@@ -7,6 +7,7 @@ https://leetcode.com/problems/find-and-replace-pattern/
 #include <vector>
 #include <string>
 #include <unordered_map>
+#include <climits>
 
 using namespace std;
 

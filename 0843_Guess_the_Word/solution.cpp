@@ -41,7 +41,7 @@ public:
     for (int i = 0, cnt = 0; i < 10 && cnt < 6; ++i)
     {
       string guess = wordlist[rand() % (wordlist.size())];
-      cnt = master.guess(guess);
+      cnt = master.guess(guess);   // API call
       vector<string> t;
       for (string &word : wordlist)
       {

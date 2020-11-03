@@ -15,6 +15,7 @@ class Solution
 public:
   bool checkValidString(string s)
   {
+    // track the min/max possible open "("
     int min_op = 0;
     int max_op = 0;
 
