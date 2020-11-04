@@ -30,7 +30,9 @@ class Solution
 public:
   bool isPossible(vector<int> &nums)
   {
+    // int : min heap
     unordered_map<int, priority_queue<int, vector<int>, greater<int>>> m;
+
     int n = 0;
     for (int i : nums)
     {

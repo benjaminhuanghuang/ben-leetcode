@@ -30,17 +30,19 @@ class ExamRoom
 {
 private:
   vector<int> seats;
-  int start = 0;
+  int start;
   int end;
 
 public:
   ExamRoom(int N)
   {
     end = N - 1;
+    start = 0;
   }
 
   int seat()
   {
+    // first time, seats is empty
     if (seats.size() == 0)
     {
       seats.push_back(start);

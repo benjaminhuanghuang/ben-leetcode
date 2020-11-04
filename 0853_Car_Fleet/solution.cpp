@@ -33,15 +33,20 @@ public:
     vector<pair<int, float>> cars(position.size());
     for (int i = 0; i < position.size(); ++i)
       cars[i] = {position[i], static_cast<float>(target - position[i]) / speed[i]};
+
+    // sort descs
     sort(rbegin(cars), rend(cars));
+
     int ans{0};
     float max_t{0};
-    for (const auto &[p, t] : cars)
-      if (t > max_t)
+    for (const auto &car : cars)
+    {
+      if (car.second > max_t) // time
       {
-        max_t = t;
+        max_t = car.second;
         ++ans;
       }
+    }
     return ans;
   }
 };

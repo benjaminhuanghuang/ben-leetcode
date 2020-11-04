@@ -34,6 +34,8 @@ public:
     int months[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     string dayofweek[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
     int sum = 4; //because 31 december 1970 was thursday(4th day)
+
+    // add year
     for (int i = 1971; i < year; i++)
     {
       if (isLeap(i))
@@ -45,6 +47,7 @@ public:
         sum += 365;
       }
     }
+    // add month
     for (int i = 1; i < month; i++)
     {
       if (i == 2 && isLeap(year))
@@ -53,7 +56,9 @@ public:
       }
       sum += months[i];
     }
+    // add day
     sum += day;
+    
     return dayofweek[sum % 7];
   }
 };
