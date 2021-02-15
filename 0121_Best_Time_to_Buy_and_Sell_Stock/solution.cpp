@@ -10,6 +10,12 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 
 using namespace std;
 
+/*
+https://www.youtube.com/watch?v=8pVhUpF1INw&ab_channel=HuaHua
+
+*/
+
+
 class Solution
 {
 public:
