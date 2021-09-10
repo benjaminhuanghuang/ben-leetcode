@@ -6,33 +6,49 @@ https://leetcode.com/problems/longest-palindromic-substring/
 #include <vector>
 
 using namespace std;
+
+
 /*
+  516 - Longest Palindromic Subsequence【FLAG高频精选面试题讲解】
+  https://www.youtube.com/watch?reload=9&v=v8irqkTcJ6s
+
+  Brute force solution: (N^3)
+      generate all substring (N^2)
+      check if a string is a palindrome (N)  
+
+
   DP
-  https://www.youtube.com/watch?v=ZnzvU03HtYk
+  DP[i][j]  = s[i..j]
+  
+  base case:
+    DP[i][i-1] =0 size = 0
+    DP[i][i] =1 size = 1 
+
+  if(s[i] == s[j])
+    dp[i][j] = dp[i+1][j-1] + 2
+  else
+    dp[i][j] = max(dp[i+1][j], dp[i][j-1])
 */
 class Solution
 {
 public:
   string longestPalindrome(string s)
   {
-    if (s.empty())
-      return "";
+    if (s.size() < 2)
+      return s;
     // dp[i][j] means string[i to j] is palindromic or not
     vector<vector<bool>> dp(s.size(), vector<bool>(s.size()));
     string res;
-    int maxLen = 0;
-    for (int i = s.length() - 1; i >= 0; i--)
+
+    //  dp[start + 1][end-1]) 是start， end的左下方cell, 因此要从下向上扫描
+    for (int start = s.length() - 1; start >= 0; start--)
     {
-      for (int j = i; j < s.length(); j++)
+      for (int end = start ; end< s.length(); end++)
       {
-        if (s[i] == s[j] && (j - i <= 2 || dp[i + 1][j - 1]))
+        dp[start][end] = s[start] == s[end] && (end -start < 3 || dp[start + 1][end-1]);
+        if (dp[start][end] && end-start+1 >res.size())
         {
-          dp[i][j] = true; // single char is palin
-          if (maxLen < j - i + 1)
-          {
-            maxLen = j - i + 1;
-            res = s.substr(i, maxLen);
-          }
+            res = s.substr(start, end-start+1);
         }
       }
     }
@@ -40,8 +56,12 @@ public:
   }
 };
 
+
 /*
 https://zxi.mytechroad.com/blog/greedy/leetcode-5-longest-palindromic-substring/
+
+https://www.youtube.com/watch?v=y2BD4MJqV20&ab_channel=NickWhite
+
 Solution: Greedy   Faster than DP
 
 Try all possible i and find the longest palindromic string whose center is i (odd case) and i / i + 1 (even case).
@@ -65,13 +85,14 @@ public:
       if (l > best_len)
       {
         best_len = l;
-        start = i - (l - 1) / 2;
+        start = i - (l - 1) / 2;   // left = middle - (len-1) /2  len can be even or odd
       }
     }
     return s.substr(start, best_len);
   }
 
 private:
+  // find length of palindrom string, expand from the middle of the string
   int getLen(const string &s, int l, int r)
   {
     if (s[l] != s[r])

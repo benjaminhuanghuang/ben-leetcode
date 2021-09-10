@@ -27,4 +27,25 @@ public:
     }
     return end + 1;
   }
+  int removeDuplicates2(vector<int> &nums)
+  {
+    const int len = nums.size();
+    if (len <= 1)
+      return len;
+
+    int i = 0; // 0 ~ i-1 are processed
+    int j = 0;
+    while (j < len)
+    {
+      if (i ==0 || nums[i-1] != nums[j])
+      {
+        nums[i++] = nums[j++];
+      }
+      else{
+        j++;
+      }
+    }
+    // [0, i)
+    return i;
+  }
 };
