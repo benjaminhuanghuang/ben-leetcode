@@ -49,13 +49,14 @@ public:
 
   /*
     https://www.youtube.com/watch?v=XqA8bBoEdIY HuaHua
-    K 个list
-    
-    Time Complexity O(NKlogK) 共N*K个元素，每个出入queue一次，queue的size最大为K
+    K 个list， 假设所有linked list长度为N
+    priority_queue time complexity 为 LogN
+    Time Complexity O(NKlogK) ， 共N*K个元素，每个出入queue一次，queue的size最大为K
     Space Complexity  O(K) + O(N)
     C++ 默认priority_queue是将优先级最大的放在队列最前面，即是最大堆， lookup of the largest (by default) element
     priority_queue<int,vector<int>,less<int> > que与priority_queue<int > que是一样
-    优先队列队首指向最后，队尾指向最前面的缘故！每次入队元素进去经排序调整后，优先级最大的元素排在最前面，也就是队尾指向的位置，这时候队首指向优先级最小的元素！
+    优先队列队首指向最后，队尾指向最前面的缘故！每次入队元素进去经排序调整后，优先级最大的元素排在最前面，也就是队尾指向的位置，
+    这时候队首指向优先级最小的元素！
   */
   ListNode *mergeKLists(vector<ListNode *> &lists)
   {
@@ -65,8 +66,8 @@ public:
     //      at the expense of logarithmic insertion and extraction.
     // Compare parameter is defined such that it returns true if its first argument comes before its second
     auto comp = [](ListNode *a, ListNode *b) { return a->val > b->val; };  
-    priority_queue<ListNode, vector<ListNode *>, decltype(comp)>  // 小的元素方前面
-      pq(comp);
+    priority_queue<ListNode*, vector<ListNode *>, decltype(comp)>  // 大的元素放前面
+      pq(comp); 
 
     for (ListNode *list : lists)
     {
@@ -92,17 +93,18 @@ public:
   }
 
   /*
-    https://www.youtube.com/watch?v=XqA8bBoEdIY
+    https://www.youtube.com/watch?v=XqA8bBoEdIY  HuaHua
     Divide and conquer
 
     Time Complexity O(NKlogK) 递归深度为logK，每一层 NK元素
-    Space Complexity  O(logK)[递归实现] -> O(1)[非递归实现]
+    Space Complexity  O(logK)[递归实现 K为栈深度] -> O(1)[非递归实现]
   */
   ListNode *mergeKLists(vector<ListNode *> &lists)
   {
     return merge(lists, 0, lists.size() - 1);
   }
 
+  // Merge range
   ListNode *merge(vector<ListNode *> &lists, int l, int r)
   {
     if (l > r)
