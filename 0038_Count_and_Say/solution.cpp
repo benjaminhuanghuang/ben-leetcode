@@ -27,7 +27,7 @@ private:
     for (int end = 1; end <= len; ++end)
       if (end == len || num[start] != num[end]) {
         int count = end - start;
-        ans += '0' + count;   // convert count from int to char
+        ans += '0' + count;   // convert count from int to char   ans += 'count'num[start]
         ans += num[start];
         start = end;
       }
