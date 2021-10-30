@@ -19,6 +19,12 @@
       "program": "${fileDirname}",
       "env": {},
       "args": []
-    }
+    },
+    {
+        "name": "Launch JS code",
+    "type": "node",
+    "request": "launch",
+    "program": "${workspaceRoot}/1525_Number_of_Good_Ways_to_Split_a_String/solution.js"
+    },
   ]
 }

@@ -19,4 +19,17 @@ var twoSum = function (nums, target) {
 };
 
 
+var twoSum_es6 = function (nums, target) {
+    const hashTable = new Map();
+  
+    for (let i = 0; i < nums.length; i++) {
+      const rest = target - nums[i];
+      if (hashTable.has(rest)) {
+        return [i, hashTable.get(rest)];
+      }
+      hashTable.set(nums[i], i);
+    }
+    return [-1, -1]
+  };
+
 export { twoSum };
