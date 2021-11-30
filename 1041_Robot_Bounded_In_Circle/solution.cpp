@@ -15,6 +15,7 @@ public:
     int posX = 0, posY = 0;
     int dir = 0;
     vector<vector<int>> delta{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    // The robot performs the instructions given in order, and repeats them forever.
     for (int step = 0; step < 4; step++)
     {
       for (char c : instructions)

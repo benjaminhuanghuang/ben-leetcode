@@ -13,6 +13,8 @@ using namespace std;
 /*
   https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-4-median-of-two-sorted-arrays/
 
+  数数共有几个数，加 1，再除以 2
+
   Binary Search!!
   Time complexity: O(log(min(n1,n2)))
   Space complexity: O(1)      

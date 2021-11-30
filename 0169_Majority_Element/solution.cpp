@@ -20,6 +20,7 @@ public:
 };
 /*
   O(N)
+  https://zxi.mytechroad.com/blog/divide-and-conquer/leetcode-169-majority-element/
 */
 class Solution2 {
 public:
