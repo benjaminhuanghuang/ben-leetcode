@@ -86,7 +86,7 @@ public:
         l = m + 1;
       else
         r = m - 1;
-    } // use r
+    } // use r 
     // if (mmap[key][r].first <= timestamp)
     //     return mmap[key][r].second;
     return mmap[key][r].second;

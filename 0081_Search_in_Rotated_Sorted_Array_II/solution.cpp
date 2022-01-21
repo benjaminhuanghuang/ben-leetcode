@@ -9,7 +9,7 @@ https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 
 using namespace std;
 /*
-  s相比 #33，有重复数字
+  相比 #33，有重复数字
 */
 class Solution
 {
