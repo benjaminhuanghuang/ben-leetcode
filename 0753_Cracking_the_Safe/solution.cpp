@@ -1,6 +1,8 @@
 /*
 753. Cracking the Safe
 
+构建一个最短字符串包含所有可能的密码
+
 Level: Hard
 
 https://leetcode.com/problems/cracking-the-safe
