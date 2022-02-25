@@ -1,6 +1,9 @@
 /*
 289. Game of Life
 
+Medium
+
+
 https://leetcode.com/problems/game-of-life/
 */
 
