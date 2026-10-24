@@ -1,4 +1,4 @@
-import { minimumTotal } from "./leetcode_120_triangle";
+import { minimumTotal } from "./solution";
 
 describe("minimumTotal", () => {
   it("should return the minimum path sum from top to bottom", () => {
