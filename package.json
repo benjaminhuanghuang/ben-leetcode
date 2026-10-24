@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^26.6.3",
     "typescript": "^7.0.2",
     "vitest": "^5.0.2"

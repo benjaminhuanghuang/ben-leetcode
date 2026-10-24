@@ -1,5 +1,12 @@
 # Graph
 
+- undirected
+- directed
+- bi-directional
+- directed acyclic graph (DAG)
+
+<https://www.youtube.com/playlist?list=PLLuMmzMTgVK5gFVMpryw0LkJp4l9WTtdM>
+
 ## 4 ways to represent graph
 
 1. Edge list, simplest and common
@@ -12,7 +19,7 @@ G = [
 ];
 ```
 
-2. Adjacency Matrix
+1. Adjacency Matrix
 
 ```js
 G =
@@ -24,7 +31,7 @@ G =
 ]
 ```
 
-3. Adjacency List
+1. Adjacency List
 
 ```js
 G =
@@ -36,4 +43,4 @@ G =
 ]
 ```
 
-4. Object and Pointer
+1. Object and Pointer

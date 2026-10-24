@@ -8,9 +8,4 @@
  * @param {number} x
  * @return {number[]}
  */
-var findClosestElements = function(arr, k, x) {
-    
-};
-
-
-export { twoSum };
+export function findClosestElements(arr, k, x) {}

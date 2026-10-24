@@ -1,4 +1,4 @@
-class MinHeap<T> {
+export class MinHeap<T> {
   private data: T[] = [];
   private compare: (a: T, b: T) => boolean;
 

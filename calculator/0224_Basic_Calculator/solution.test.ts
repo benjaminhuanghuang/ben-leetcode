@@ -1,4 +1,4 @@
-import { calculate, calculate2 } from "./leetcode_224_basic-calculator";
+import { calculate, calculate2 } from "./solution";
 
 describe("Basic Calculator", () => {
   it("Test case 1", () => {

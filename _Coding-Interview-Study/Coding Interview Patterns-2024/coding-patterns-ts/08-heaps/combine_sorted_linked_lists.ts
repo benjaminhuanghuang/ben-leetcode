@@ -1,3 +1,4 @@
+import { MinHeap } from "./MinHeap";
 // Definition for singly-linked list node
 export class ListNode {
   val: number;
