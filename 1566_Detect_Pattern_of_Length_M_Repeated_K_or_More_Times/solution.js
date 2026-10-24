@@ -8,9 +8,6 @@
  * @param {number} k
  * @return {boolean}
  */
-var containsPattern = function(arr, m, k) {
-    
-};
-
+var containsPattern = function (arr, m, k) {};
 
 export { twoSum };
