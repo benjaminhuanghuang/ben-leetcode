@@ -1,5 +1,8 @@
-### C++ split string
-```
+# Cpp Code snippets
+
+## C++ split string
+
+```cpp
 #include <sstream> // stringstream, getline
 
 vector<string> splitSentence(const string &text)
@@ -16,7 +19,8 @@ vector<string> splitSentence(const string &text)
 ```
 
 ### isPrime
-```
+
+```cpp
   bool isPrime(int x) {
     if (x < 2) return false;
     if (x == 2) return true;
@@ -25,16 +29,18 @@ vector<string> splitSentence(const string &text)
     return true;
   }
 ```
+
 ### isLeap
-```
+
+```cpp
   bool isLeap(int year)
   {
     return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
   }
 ```
 
-
 ## Reverse List
+
 ```
   ListNode *prev = nullptr;
   ListNode *curr = head;
@@ -49,8 +55,10 @@ vector<string> splitSentence(const string &text)
 ```
 
 ## Binary Search
+
 - Returns the smallest m in range [l, r) such that g(m) is true.
-```
+
+```cpp
   while (l < r)
   {
     int mid = (r - l) / 2 + l;
@@ -65,7 +73,9 @@ vector<string> splitSentence(const string &text)
   }
   return l;  // NOT r   
 ```
+
 - Returns the smallest m in range [l, r] such that g(m) is true.
+
 ```
   while (l <= r)
   {
@@ -83,9 +93,10 @@ vector<string> splitSentence(const string &text)
 ```
 
 ## Direction
-874. Walking Robot Simulation
 
-```
+  1. Walking Robot Simulation
+
+```cpp
   // north, west, south, east
   vector<vector<int>> dirs{{0, 1}, {-1, 0}, {0, -1}, {1, 0}};
   // OR
@@ -95,7 +106,9 @@ vector<string> splitSentence(const string &text)
     
   }
 ```
-- 892. Surface Area of 3D Shapes
+
+- 1. Surface Area of 3D Shapes
+
 ```
 vector<int> dirs{0, -1, 0, 1, 0};
 
@@ -111,7 +124,8 @@ for (int i = 0; i < 4; ++i)
 ```
 
 ## Split string
-```
+
+```cpp
   stringstream sb(B);
   string word;
   while (sb >> word)
@@ -121,14 +135,16 @@ for (int i = 0; i < 4; ++i)
 ```
 
 ## If tow numbers have same sign
-```
+
+```cpp
   bool sign = !((dividend > 0) ^ (divisor > 0));
 ```
 
+## greatest common divisor
 
-## greatest common divisor 
-  gcd(a, b) = gcd(b, a mod b)
-```  
+gcd(a, b) = gcd(b, a mod b)
+
+```cpp
   int gcd(int x, int y)
   {
     return y == 0 ? x : gcd(y, x % y);

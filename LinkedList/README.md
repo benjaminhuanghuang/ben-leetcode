@@ -1,4 +1,4 @@
-# Linked List Solution Template
+# Linked List
 
 - Linked List链表题型解题套路和模板
   <https://www.youtube.com/watch?v=0czlvlqg5xw>

@@ -13,11 +13,11 @@ describe("Basic Calculator2", () => {
     expect(calculate2(s)).toBe(2);
   });
 
-  xit("Test case 1", () => {
+  it.skip("Test case 1", () => {
     const s = "3-(1 + 1)";
     expect(calculate2(s)).toBe(1);
   });
-  xit("Test case 2", () => {
+  it.skip("Test case 2", () => {
     const s = " 2-1 + 2 ";
     expect(calculate2(s)).toBe(3);
   });
