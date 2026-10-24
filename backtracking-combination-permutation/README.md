@@ -1,7 +1,7 @@
 # Combination vs Permutation
 
-- Permutation， 顺序不同算不同解， used[i] = true 表示 第 i 个元素已经在当前路径中使用过
-- Combination， 顺序 不重要， 每个元素 只能使用一次， 只用 startIndex 表示下一层递归从哪个位置开始选元素
+- Permutation: order matters, 顺序不同算不同解， used[i] = true 表示 第 i 个元素已经在当前路径中使用过
+- Combination: order does not matter, 顺序 不重要， 每个元素 只能使用一次， 只用 startIndex 表示下一层递归从哪个位置开始选元素
 
 ## HuanHua
 
@@ -105,14 +105,6 @@ O(n) 栈空间 + O(n × n!) 输出空间
 
 ---
 
-## (merged from _CodingTemplates/DFS-Combination and Permutation-Huahua.md)
-
-# Combination - Huahua
-
-## Combination: order does not matter
-
-花花酱 LeetCode 78. Subsets <https://www.youtube.com/watch?v=CUzm-buvH_8>
-
 Time complexity: O(N * 2^N)
 Space complexity: O(N)
 
@@ -192,38 +184,3 @@ function dfs(n, cur) {
 
 1. 数据已保证无重复且不要求顺序
 2. 明确需要保持输入顺序
-
-## Permutation
-
-time complexity O(n × n!) "O of n times n factorial."
-全排列总共有 n! 种可能, 每次构造一个长度为 n 的排列，需要 O(n) 的操作（例如 push / copy / join）
-
-space complexity
-O(n) 栈空间 + O(n × n!) 输出空间
-
-## Combination
-
-如果要求从 n 个元素中选 k 个，组合总数为：C(n,k)
-时间复杂度: O(k×C(n,k))
-
-## 全组合 Subsets
-
-时间复杂度：O(n × 2^n)
-因为： 共有 2^n 个子集, 每个最多长度 n → 构造 O(n)
-
-空间复杂度: 栈深度最大为 O(n) + 输出空间为 O(n × 2^n)
-
----
-
-## (merged from _CodingTemplates/DFS-Combination and Permutation.md)
-
-# Permutation and combination
-
-## Combination: order does not matter
-
-每个元素 只能使用一次， 只用 startIndex 表示下一层递归从哪个位置开始选元素
-
-Time complexity: O(N * 2^N): 2^N 个子集 × 拷贝 O(N)
-Space complexity: O(N) 递归栈深度：最深 N 层
-
-## Permutation(order matters)， used[i] = true 表示 第 i 个元素已经在当前路径中使用过
