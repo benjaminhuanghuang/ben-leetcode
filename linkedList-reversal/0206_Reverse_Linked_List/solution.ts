@@ -24,6 +24,8 @@ function reverseList_Iteration(head: ListNode | null): ListNode | null {
 
 /*
 Approach: Recursive
+Time complexity:  O(n) each node visited once.
+Space complexity:  complexity: O(n) — recursion stack depth equals list length
 */
 function reverseList(head: ListNode | null): ListNode | null {
   if (head == null || head.next == null) {
