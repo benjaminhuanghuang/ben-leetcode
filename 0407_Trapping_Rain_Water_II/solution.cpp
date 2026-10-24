@@ -1,10 +1,3 @@
-/*
-407. Trapping Rain Water II
-
-Level: Hard
-
-https://leetcode.com/problems/trapping-rain-water-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

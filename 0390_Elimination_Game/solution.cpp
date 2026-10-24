@@ -1,10 +1,3 @@
-/*
-390. Elimination Game
-
-Level: Medium
-
-https://leetcode.com/problems/elimination-game
-*/
 #include <iostream>
 #include <vector>
 #include <string>

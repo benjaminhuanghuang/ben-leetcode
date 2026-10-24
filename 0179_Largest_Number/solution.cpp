@@ -1,10 +1,3 @@
-/*
-179. Largest Number
-
-Level: Medium
-
-https://leetcode.com/problems/largest-number
-*/
 #include <iostream>
 #include <vector>
 #include <string>

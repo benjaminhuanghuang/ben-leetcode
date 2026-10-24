@@ -1,8 +1,3 @@
-/*
-392. Is Subsequence
-https://leetcode.com/problems/is-subsequence/
-*/
-
 function isSubsequence(s: string, t: string): boolean {
   let i = 0;
   let j = 0;

@@ -1,8 +1,3 @@
-/*
-88. Merge Sorted Array
-
-*/
-
 // Time Complexity : O(n)
 // Space Complexity: O(1)
 

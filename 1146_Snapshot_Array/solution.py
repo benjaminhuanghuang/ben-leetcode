@@ -1,11 +1,4 @@
 '''
-1146. Snapshot Array
-
-Level: Medium
-
-https://leetcode.com/problems/snapshot-array
-'''
-'''
   Solution: 
 '''
 class SnapshotArray:

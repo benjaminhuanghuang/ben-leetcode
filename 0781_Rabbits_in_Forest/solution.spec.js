@@ -1,10 +1,3 @@
-/*
-781. Rabbits in Forest
-
-Level: Medium
-
-https://leetcode.com/problems/rabbits-in-forest
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

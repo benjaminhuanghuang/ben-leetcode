@@ -1,10 +1,3 @@
-/*
-24. Swap Nodes in Pairs
-
-Level: Medium
-
-https://leetcode.com/problems/swap-nodes-in-pairs
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

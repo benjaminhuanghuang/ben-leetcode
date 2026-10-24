@@ -1,11 +1,3 @@
-
-'''
-135. Candy
-
-Level: Hard
-
-https://leetcode.com/problems/candy
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

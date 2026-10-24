@@ -1,10 +1,3 @@
-/*
-423. Reconstruct Original Digits from English
-
-Level: Medium
-
-https://leetcode.com/problems/reconstruct-original-digits-from-english
-*/
 #include <iostream>
 #include <vector>
 #include <string>

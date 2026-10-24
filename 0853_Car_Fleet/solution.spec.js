@@ -1,10 +1,3 @@
-/*
-853. Car Fleet
-
-Level: Medium
-
-https://leetcode.com/problems/car-fleet
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

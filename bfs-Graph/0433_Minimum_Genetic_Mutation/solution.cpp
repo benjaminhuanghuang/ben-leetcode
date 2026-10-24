@@ -1,10 +1,3 @@
-/*
-433. Minimum Genetic Mutation
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-genetic-mutation
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-389. Find the Difference
-
-Level: Easy
-
-https://leetcode.com/problems/find-the-difference
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

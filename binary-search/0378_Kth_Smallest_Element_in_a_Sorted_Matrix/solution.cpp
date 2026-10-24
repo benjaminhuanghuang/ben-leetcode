@@ -1,13 +1,3 @@
-/*
-378. Kth Smallest Element in a Sorted Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix
-
-# 240. Search a 2D Matrix II
-*/
-
 #include <iostream>
 #include <vector>
 #include <string>

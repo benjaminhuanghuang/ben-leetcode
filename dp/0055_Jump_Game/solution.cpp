@@ -1,10 +1,3 @@
-/*
-55. Jump Game II
-
-https://leetcode.com/problems/jump-game/
-
-[#45]
-*/
 #include <vector>
 
 using namespace std;

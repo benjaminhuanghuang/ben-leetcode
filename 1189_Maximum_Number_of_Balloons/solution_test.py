@@ -1,11 +1,3 @@
-
-'''
-1189. Maximum Number of Balloons
-
-Level: Easy
-
-https://leetcode.com/problems/maximum-number-of-balloons
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-953. Verifying an Alien Dictionary
-
-Level: Easy
-
-https://leetcode.com/problems/verifying-an-alien-dictionary
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

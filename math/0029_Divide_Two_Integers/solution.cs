@@ -1,14 +1,3 @@
-/*
-29. Divide Two Integers
-
-Divide two integers without using multiplication, division and mod operator.
-
-If it is overflow, return MAX_INT.
-
-
-Next challenges: (H) Strobogrammatic Number III  (H) Best Meeting Point  (H) Smallest Rectangle Enclosing Black Pixels
-
-*/
 using System;
 
 public class Solution029 {

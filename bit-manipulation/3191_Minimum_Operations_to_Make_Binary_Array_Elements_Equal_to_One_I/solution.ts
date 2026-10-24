@@ -1,10 +1,4 @@
 /*
-3191. Minimum Operations to Make Binary Array Elements Equal to One I
-
-https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/
-*/
-
-/*
     每次反转3个连续的元素
     We notice that the first position in the array that is 
     must undergo a flip operation, otherwise, it cannot be turned into 

@@ -1,11 +1,3 @@
-
-'''
-171. Excel Sheet Column Number
-
-Level: Easy
-
-https://leetcode.com/problems/excel-sheet-column-number
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

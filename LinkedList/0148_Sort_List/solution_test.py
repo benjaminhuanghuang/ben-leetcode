@@ -1,11 +1,3 @@
-
-'''
-148. Sort List
-
-Level: Medium
-
-https://leetcode.com/problems/sort-list
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-'''
-108. Convert Sorted Array to Binary Search Tree
-
-Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
-
-balanced means the difference of the height of left sub tree and the right sub tree <=1
-'''
-
 from data_structure.tree_node import TreeNode
 
 

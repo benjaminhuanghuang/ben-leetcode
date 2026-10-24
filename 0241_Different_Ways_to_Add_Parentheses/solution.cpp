@@ -1,10 +1,3 @@
-/*
-241. Different Ways to Add Parentheses
-
-Level: Medium
-
-https://leetcode.com/problems/different-ways-to-add-parentheses
-*/
 #include <iostream>
 #include <vector>
 #include <string>

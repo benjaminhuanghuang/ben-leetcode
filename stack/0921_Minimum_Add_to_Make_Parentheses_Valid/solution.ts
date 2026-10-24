@@ -1,9 +1,3 @@
-/*
-921. Minimum Add to Make Parentheses Valid
-
-https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
-*/
-
 function minAddToMakeValid_stack(s: string): number {
   const stack = [];
   let answer = 0;

@@ -1,8 +1,3 @@
-/*
-900. RLE Iterator
-
-https://leetcode.com/problems/rle-iterator/
-*/
 #include <vector>
 using namespace std;
 

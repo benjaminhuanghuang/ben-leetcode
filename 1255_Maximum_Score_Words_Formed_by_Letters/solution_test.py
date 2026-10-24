@@ -1,11 +1,3 @@
-
-'''
-1255. Maximum Score Words Formed by Letters
-
-Level: Hard
-
-https://leetcode.com/problems/maximum-score-words-formed-by-letters
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

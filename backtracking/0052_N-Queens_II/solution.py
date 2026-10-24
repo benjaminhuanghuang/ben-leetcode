@@ -1,12 +1,3 @@
-'''
-52. N-Queens II
-
-Follow up for N-Queens problem.
-
-Now, instead outputting board configurations, return the total number of distinct solutions.
-'''
-
-
 class Solution(object):
     # each row can only have one queen, so use [-1]*n represent the board
     # use result = [0] instead of result = 0 because array ban be modified in sub function

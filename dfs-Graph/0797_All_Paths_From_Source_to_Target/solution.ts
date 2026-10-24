@@ -1,9 +1,3 @@
-/*
-797. All Paths From Source to Target
-
-https://leetcode.com/problems/all-paths-from-source-to-target/
-*/
-
 function allPathsSourceTarget(graph: number[][]): number[][] {
   const ans: number[][] = [];
   const path: number[] = [0]; // path starts from 0

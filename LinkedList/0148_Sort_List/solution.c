@@ -1,13 +1,4 @@
 /*
-148. Sort List
-
-Level: Medium
-
-https://leetcode.com/problems/sort-list
-*/
-
-
-/*
   Solution: 
 */
 /**

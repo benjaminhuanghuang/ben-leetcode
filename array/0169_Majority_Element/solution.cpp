@@ -1,8 +1,3 @@
-/*
-169. Majority Element
-
-https://leetcode.com/problems/majority-element/
-*/
 #include <vector>
 
 using namespace std;

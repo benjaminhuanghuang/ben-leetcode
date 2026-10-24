@@ -1,10 +1,3 @@
-/*
-1396. Design Underground System
-
-Level: Medium
-
-https://leetcode.com/problems/design-underground-system
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

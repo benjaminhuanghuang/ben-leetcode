@@ -1,11 +1,3 @@
-
-'''
-1510. Stone Game IV
-
-Level: Hard
-
-https://leetcode.com/problems/stone-game-iv
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

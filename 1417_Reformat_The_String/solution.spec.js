@@ -1,10 +1,3 @@
-/*
-1417. Reformat The String
-
-Level: Easy
-
-https://leetcode.com/problems/reformat-the-string
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

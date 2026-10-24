@@ -1,10 +1,3 @@
-/*
-301. Remove Invalid Parentheses
-
-Level: Hard
-
-https://leetcode.com/problems/remove-invalid-parentheses
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,8 +1,3 @@
-/*
-86. Partition List
-https://leetcode.com/problems/partition-list/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function partition(head: ListNode | null, x: number): ListNode | null {

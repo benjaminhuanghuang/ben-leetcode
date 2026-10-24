@@ -1,11 +1,3 @@
-
-'''
-754. Reach a Number
-
-Level: Medium
-
-https://leetcode.com/problems/reach-a-number
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

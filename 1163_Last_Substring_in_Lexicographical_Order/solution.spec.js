@@ -1,10 +1,3 @@
-/*
-1163. Last Substring in Lexicographical Order
-
-Level: Hard
-
-https://leetcode.com/problems/last-substring-in-lexicographical-order
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

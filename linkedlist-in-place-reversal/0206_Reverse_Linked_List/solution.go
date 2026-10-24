@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/reverse-linked-list
 package leetcode0206
 import (
 	. "../common"

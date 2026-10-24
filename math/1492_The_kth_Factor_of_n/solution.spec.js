@@ -1,10 +1,3 @@
-/*
-1492. The kth Factor of n
-
-Level: Medium
-
-https://leetcode.com/problems/the-kth-factor-of-n
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

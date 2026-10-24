@@ -1,10 +1,3 @@
-/*
-409. Longest Palindrome
-
-Level: Easy
-
-https://leetcode.com/problems/longest-palindrome
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

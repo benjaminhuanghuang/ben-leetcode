@@ -1,11 +1,3 @@
-
-'''
-327. Count of Range Sum
-
-Level: Hard
-
-https://leetcode.com/problems/count-of-range-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

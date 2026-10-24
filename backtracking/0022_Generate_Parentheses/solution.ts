@@ -1,9 +1,4 @@
 /*
-22. Generate Parentheses
-https://leetcode.com/problems/generate-parentheses/
-*/
-
-/*
 https://www.youtube.com/watch?v=7AtTtoq6W1E
 
 N: N pairs of parentheses

@@ -1,10 +1,3 @@
-/*
-740. Delete and Earn
-
-Level: Medium
-
-https://leetcode.com/problems/delete-and-earn
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

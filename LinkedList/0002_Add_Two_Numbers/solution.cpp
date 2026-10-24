@@ -1,10 +1,3 @@
-/*
-2. Add Two Numbers
-
-Level: Medium
-
-https://leetcode.com/problems/add-two-numbers
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

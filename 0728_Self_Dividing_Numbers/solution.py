@@ -1,11 +1,4 @@
 '''
-728. Self Dividing Numbers
-
-Level: Easy
-
-https://leetcode.com/problems/self-dividing-numbers
-'''
-'''
   Solution: 
 '''
 class Solution:

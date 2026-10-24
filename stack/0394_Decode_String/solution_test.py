@@ -1,11 +1,3 @@
-
-'''
-394. Decode String
-
-Level: Medium
-
-https://leetcode.com/problems/decode-string
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

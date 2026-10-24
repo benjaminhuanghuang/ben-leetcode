@@ -1,9 +1,3 @@
-/*
-641. Design Circular Deque
-
-https://leetcode.com/problems/design-circular-deque/
-*/
-
 class MyCircularDeque {
   private capacity: number;
   private head: number;

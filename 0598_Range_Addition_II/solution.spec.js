@@ -1,10 +1,3 @@
-/*
-598. Range Addition II
-
-Level: Easy
-
-https://leetcode.com/problems/range-addition-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

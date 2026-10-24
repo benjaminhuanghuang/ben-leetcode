@@ -1,11 +1,3 @@
-
-'''
-498. Diagonal Traverse
-
-Level: Medium
-
-https://leetcode.com/problems/diagonal-traverse
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

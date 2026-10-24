@@ -1,10 +1,3 @@
-/*
-1401. Circle and Rectangle Overlapping
-
-Level: Medium
-
-https://leetcode.com/problems/circle-and-rectangle-overlapping
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

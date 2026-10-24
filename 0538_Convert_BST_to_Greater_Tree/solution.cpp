@@ -1,8 +1,3 @@
-/*
-538. Convert BST to Greater Tree
-
-https://leetcode.com/problems/convert-bst-to-greater-tree/
-*/
 #include <vector>
 #include "common/TreeNode.h"
 

@@ -1,10 +1,3 @@
-/*
-542. 01 Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/01-matrix
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,11 +1,4 @@
 '''
-1357. Apply Discount Every n Orders
-
-Level: Medium
-
-https://leetcode.com/problems/apply-discount-every-n-orders
-'''
-'''
   Solution: 
 '''
 class Cashier:

@@ -1,11 +1,3 @@
-
-'''
-1092. Shortest Common Supersequence 
-
-Level: Hard
-
-https://leetcode.com/problems/shortest-common-supersequence
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

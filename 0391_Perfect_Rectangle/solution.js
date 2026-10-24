@@ -1,12 +1,4 @@
 /*
-391. Perfect Rectangle
-
-Level: Hard
-
-https://leetcode.com/problems/perfect-rectangle
-*/
-
-/*
   Solution: 
 */
 

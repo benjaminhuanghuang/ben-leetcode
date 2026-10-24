@@ -1,10 +1,3 @@
-/*
-258. Add Digits
-
-Level: Easy
-
-https://leetcode.com/problems/add-digits
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

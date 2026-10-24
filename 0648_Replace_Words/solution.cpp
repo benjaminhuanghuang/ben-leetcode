@@ -1,10 +1,3 @@
-/*
-648. Replace Words
-
-Level: Medium
-
-https://leetcode.com/problems/replace-words
-*/
 #include <iostream>
 #include <vector>
 #include <string>

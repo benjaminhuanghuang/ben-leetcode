@@ -1,10 +1,3 @@
-/*
-486. Predict the Winner
-
-Level: Medium
-
-https://leetcode.com/problems/predict-the-winner
-*/
 #include <iostream>
 #include <vector>
 #include <string>

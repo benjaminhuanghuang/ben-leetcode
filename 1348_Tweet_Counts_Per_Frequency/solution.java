@@ -1,10 +1,3 @@
-/*
-1348. Tweet Counts Per Frequency
-
-Level: Medium
-
-https://leetcode.com/problems/tweet-counts-per-frequency
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

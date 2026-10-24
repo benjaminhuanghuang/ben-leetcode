@@ -1,15 +1,4 @@
 /*
-394. Decode String
-https://leetcode.com/problems/decode-string/
-
-
-Input: s = "3[a]2[bc]"
-Output: "aaabcbc"
-
-- 856. Score of Parentheses
-*/
-
-/*
     Category the characters into 4 groups:
     1. Digits: 0-9
     2. Open Bracket: [,  push the current number and string to the stack

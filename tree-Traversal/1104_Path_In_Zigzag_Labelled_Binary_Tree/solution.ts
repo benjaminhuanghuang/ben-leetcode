@@ -1,9 +1,3 @@
-/*
-1104. Path In Zigzag Labelled Binary Tree
-
-https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
-*/
-
 function pathInZigZagTree(label: number): number[] {
   // Initialize root level value as 1, and depth as 1
   let levelStartValue: number = 1;

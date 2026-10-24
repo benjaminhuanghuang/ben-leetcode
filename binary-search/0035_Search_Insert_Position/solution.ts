@@ -1,10 +1,4 @@
 /*
-35. Search Insert Position
-
-https://leetcode.com/problems/search-insert-position/
-*/
-
-/*
     Use huahua's template
 */
 function searchInsert(nums: number[], target: number): number {

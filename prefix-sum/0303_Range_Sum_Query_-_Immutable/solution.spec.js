@@ -1,10 +1,3 @@
-/*
-303. Range Sum Query - Immutable
-
-Level: Easy
-
-https://leetcode.com/problems/range-sum-query-immutable
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

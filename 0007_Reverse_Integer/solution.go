@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/reverse-integer
 package leetcode0007
 
 import (

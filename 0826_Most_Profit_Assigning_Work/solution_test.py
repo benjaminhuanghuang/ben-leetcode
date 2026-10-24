@@ -1,11 +1,3 @@
-
-'''
-826. Most Profit Assigning Work
-
-Level: Medium
-
-https://leetcode.com/problems/most-profit-assigning-work
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

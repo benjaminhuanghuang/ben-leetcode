@@ -1,11 +1,4 @@
 '''
-598. Range Addition II
-
-Level: Easy
-
-https://leetcode.com/problems/range-addition-ii
-'''
-'''
   Solution: 
 '''
 class Solution:

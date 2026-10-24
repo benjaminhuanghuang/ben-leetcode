@@ -1,10 +1,3 @@
-/*
-1332. Remove Palindromic Subsequences
-
-Level: Easy
-
-https://leetcode.com/problems/remove-palindromic-subsequences
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

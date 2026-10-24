@@ -1,11 +1,3 @@
-
-'''
-278. First Bad Version
-
-Level: Easy
-
-https://leetcode.com/problems/first-bad-version
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

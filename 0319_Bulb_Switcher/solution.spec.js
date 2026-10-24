@@ -1,10 +1,3 @@
-/*
-319. Bulb Switcher
-
-Level: Medium
-
-https://leetcode.com/problems/bulb-switcher
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

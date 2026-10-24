@@ -1,10 +1,3 @@
-/*
-944. Delete Columns to Make Sorted
-
-Level: Easy
-
-https://leetcode.com/problems/delete-columns-to-make-sorted
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

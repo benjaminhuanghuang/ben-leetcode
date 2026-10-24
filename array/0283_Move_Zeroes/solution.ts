@@ -1,9 +1,3 @@
-/*
-283. Move Zeroes
-
-https://leetcode.com/problems/move-zeroes/
-*/
-
 function moveZeroes(nums: number[]): void {
   if (nums.length === 0) {
     return;

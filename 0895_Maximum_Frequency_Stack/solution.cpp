@@ -1,10 +1,3 @@
-/*
-895. Maximum Frequency Stack
-
-Level: Hard
-
-https://leetcode.com/problems/maximum-frequency-stack
-*/
 #include <iostream>
 #include <vector>
 #include <string>

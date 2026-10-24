@@ -1,12 +1,4 @@
 /*
-138. Copy List with Random Pointer
-
-Level: Medium
-
-https://leetcode.com/problems/copy-list-with-random-pointer
-*/
-
-/*
   Solution: 
 */
 

@@ -1,10 +1,3 @@
-/*
-787. Cheapest Flights Within K Stops
-
-Level: Medium
-
-https://leetcode.com/problems/cheapest-flights-within-k-stops
-*/
 #include <iostream>
 #include <vector>
 #include <string>

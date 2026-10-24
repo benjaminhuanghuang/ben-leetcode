@@ -1,7 +1,3 @@
-/*
-784. Letter Case Permutation
-
-*/
 #include <vector>
 #include <string>
 

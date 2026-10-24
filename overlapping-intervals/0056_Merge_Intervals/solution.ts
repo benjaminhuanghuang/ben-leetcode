@@ -1,9 +1,3 @@
-/*
-56. Merge Intervals
-
-https://leetcode.com/problems/merge-intervals/
-*/
-
 function merge(intervals: number[][]): number[][] {
   if (intervals.length === 0) return [];
 

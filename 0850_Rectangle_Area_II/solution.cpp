@@ -1,10 +1,3 @@
-/*
-850. Rectangle Area II
-
-Level: Hard
-
-https://leetcode.com/problems/rectangle-area-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

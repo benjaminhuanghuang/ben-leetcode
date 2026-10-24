@@ -1,13 +1,4 @@
 /*
-498. Diagonal Traverse
-
-Level: Medium
-
-https://leetcode.com/problems/diagonal-traverse
-*/
-
-
-/*
   Solution: 
 */
 

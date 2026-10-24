@@ -1,10 +1,3 @@
-/*
-1572. Matrix Diagonal Sum
-
-Level: Easy
-
-https://leetcode.com/problems/matrix-diagonal-sum
-*/
 #include <iostream>
 #include <vector>
 #include <string>

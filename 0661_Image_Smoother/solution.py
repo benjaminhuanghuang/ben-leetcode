@@ -1,9 +1,3 @@
-'''
-661. Image Smoother
-
-'''
-
-
 class Solution(object):
     def imageSmoother_TLE(self, M):
         """

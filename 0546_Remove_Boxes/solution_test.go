@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/remove-boxes
 package leetcode0546
 import (
 	"testing"

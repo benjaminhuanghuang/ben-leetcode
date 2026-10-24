@@ -1,11 +1,3 @@
-
-'''
-1370. Increasing Decreasing String
-
-Level: Easy
-
-https://leetcode.com/problems/increasing-decreasing-string
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

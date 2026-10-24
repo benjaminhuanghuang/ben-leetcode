@@ -1,10 +1,3 @@
-/*
-
-133. Clone Graph
-
-https://leetcode.com/problems/clone-graph/
-*/
-
 #include <vector>
 #include <unordered_set>
 #include <unordered_map>

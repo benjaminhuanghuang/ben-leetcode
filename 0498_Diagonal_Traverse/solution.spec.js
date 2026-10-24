@@ -1,10 +1,3 @@
-/*
-498. Diagonal Traverse
-
-Level: Medium
-
-https://leetcode.com/problems/diagonal-traverse
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

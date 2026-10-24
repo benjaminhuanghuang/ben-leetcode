@@ -1,7 +1,3 @@
-/*
-394. Decode String
-
-*/
 #include <string>
 #include <stack>
 

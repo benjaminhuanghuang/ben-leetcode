@@ -1,10 +1,3 @@
-/*
-405. Convert a Number to Hexadecimal
-
-Level: Easy
-
-https://leetcode.com/problems/convert-a-number-to-hexadecimal
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

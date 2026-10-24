@@ -1,10 +1,4 @@
 /*
-918. Maximum Sum Circular Subarray
-
-https://leetcode.com/problems/maximum-sum-circular-subarray/
-*/
-
-/*
 case 1     [...][ the max subarray is in the middle][...]
 case 2     [the max subarray left][...][the max subarray right]
     for case2 we can find the min subarray sum, then answer = total sum - min subarray sum

@@ -1,12 +1,4 @@
 /*
-46. Permutations
-
-https://leetcode.com/problems/permutations/
-
-The numbers in the array are all distinct.
-*/
-
-/*
 use Huahua's template
 https://www.youtube.com/watch?v=CUzm-buvH_8
 https://zxi.mytechroad.com/blog/searching/leetcode-46-permutations/

@@ -1,12 +1,4 @@
 /*
-386. Lexicographical Numbers
-
-Level: Medium
-
-https://leetcode.com/problems/lexicographical-numbers
-*/
-
-/*
   Solution: 
 */
 

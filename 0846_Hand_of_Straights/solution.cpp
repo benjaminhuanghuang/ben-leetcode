@@ -1,10 +1,3 @@
-/*
-846. Hand of Straights
-
-Level: Medium
-
-https://leetcode.com/problems/hand-of-straights
-*/
 #include <iostream>
 #include <vector>
 #include <string>

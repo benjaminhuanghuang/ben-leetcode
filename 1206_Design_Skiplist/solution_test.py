@@ -1,11 +1,3 @@
-
-'''
-1206. Design Skiplist
-
-Level: Hard
-
-https://leetcode.com/problems/design-skiplist
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

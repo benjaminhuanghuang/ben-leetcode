@@ -1,10 +1,3 @@
-/*
-810. Chalkboard XOR Game
-
-Level: Hard
-
-https://leetcode.com/problems/chalkboard-xor-game
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

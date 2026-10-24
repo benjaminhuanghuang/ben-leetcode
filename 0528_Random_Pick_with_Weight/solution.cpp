@@ -1,10 +1,3 @@
-/*
-528. Random Pick with Weight
-
-Level: Medium
-
-https://leetcode.com/problems/random-pick-with-weight
-*/
 #include <iostream>
 #include <vector>
 #include <string>

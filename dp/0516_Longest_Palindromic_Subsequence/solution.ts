@@ -1,10 +1,4 @@
 /*
-516. Longest Palindromic Subsequence
-
-https://leetcode.com/problems/longest-palindromic-subsequence/
-*/
-
-/*
     https://www.youtube.com/watch?v=OZX1nqaQ_9M (HuaHua)
 
     Solution 1: DP

@@ -1,11 +1,3 @@
-
-'''
-264. Ugly Number II
-
-Level: Medium
-
-https://leetcode.com/problems/ugly-number-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

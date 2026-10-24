@@ -1,11 +1,3 @@
-
-'''
-646. Maximum Length of Pair Chain
-
-Level: Medium
-
-https://leetcode.com/problems/maximum-length-of-pair-chain
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

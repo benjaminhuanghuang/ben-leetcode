@@ -1,7 +1,3 @@
-/*
-591. Tag Validator
-https://leetcode.com/problems/tag-validator/
- */
 #include <string>
 #include <vector>
 #include <stack>

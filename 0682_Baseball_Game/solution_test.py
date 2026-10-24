@@ -1,11 +1,3 @@
-
-'''
-682. Baseball Game
-
-Level: Easy
-
-https://leetcode.com/problems/baseball-game
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

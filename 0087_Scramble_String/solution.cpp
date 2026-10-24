@@ -1,9 +1,3 @@
-/*
-87. Scramble String
-
-https://leetcode.com/problems/scramble-string/
- */
-
 #include <string>
 #include <vector>
 using namespace std;

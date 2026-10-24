@@ -1,10 +1,3 @@
-/*
-205. Isomorphic Strings
-
-Level: Easy
-
-https://leetcode.com/problems/isomorphic-strings
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,10 +1,4 @@
 /*
-496. Next Greater Elements I
-
-https://leetcode.com/problems/next-greater-element-i/
-*/
-
-/*
 Monotonic Stack + HashTable
 */
 function nextGreaterElement(nums1: number[], nums2: number[]): number[] {

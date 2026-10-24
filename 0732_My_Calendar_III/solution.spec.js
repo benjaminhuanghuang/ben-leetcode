@@ -1,10 +1,3 @@
-/*
-732. My Calendar III
-
-Level: Hard
-
-https://leetcode.com/problems/my-calendar-iii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

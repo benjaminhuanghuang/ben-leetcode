@@ -1,11 +1,3 @@
-
-'''
-880. Decoded String at Index
-
-Level: Medium
-
-https://leetcode.com/problems/decoded-string-at-index
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

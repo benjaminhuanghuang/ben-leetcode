@@ -1,10 +1,3 @@
-/*
-174. Dungeon Game
-
-Level: Hard
-
-https://leetcode.com/problems/dungeon-game
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

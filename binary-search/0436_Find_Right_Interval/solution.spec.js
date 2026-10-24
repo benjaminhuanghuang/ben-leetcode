@@ -1,10 +1,3 @@
-/*
-436. Find Right Interval
-
-Level: Medium
-
-https://leetcode.com/problems/find-right-interval
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-912. Sort an Array
-
-Level: Medium
-
-https://leetcode.com/problems/sort-an-array
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

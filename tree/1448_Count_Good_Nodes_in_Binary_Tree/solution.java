@@ -1,10 +1,3 @@
-/*
-1448. Count Good Nodes in Binary Tree
-
-Level: Medium
-
-https://leetcode.com/problems/count-good-nodes-in-binary-tree
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

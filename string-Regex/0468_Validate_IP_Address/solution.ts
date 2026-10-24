@@ -1,12 +1,4 @@
 /*
-468. Validate IP Address
-
-https://leetcode.com/problems/validate-ip-address/
-
-[Google]
-*/
-
-/*
 
 */
 function validIPAddress(IP: string): string {

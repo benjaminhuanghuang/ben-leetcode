@@ -1,20 +1,4 @@
 /*
-62. Unique Paths
-
-A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
-
-The robot can only move either down or right at any point in time. The robot is trying to reach 
-the bottom-right corner of the grid (marked 'Finish' in the diagram below).
-
-How many possible unique paths are there?
-
-
-Above is a 3 x 7 grid. How many possible unique paths are there?
-
-Note: m and n will be at most 100.
-*/
-
-/*
 算解个数的题多半是用DP。而这两题状态也非常显然，dp[i][j]表示从起点到位置(i, j)的路径总数。
 1. 由于只能向右和左走，所以对于(i, j)来说，只能从左边或上边的格子走下来：
 dp[i][j] = dp[i-1][j] + dp[i][j-1]

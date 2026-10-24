@@ -1,10 +1,3 @@
-/*
-56. Merge Intervals
-
-Level: Nediun
-
-https://leetcode.com/problems/merge-intervals/
-*/
 import { merge } from './solution';
 
 describe('Solution 0056 test', () => {;

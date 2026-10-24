@@ -1,11 +1,3 @@
-
-'''
-920. Number of Music Playlists
-
-Level: Hard
-
-https://leetcode.com/problems/number-of-music-playlists
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

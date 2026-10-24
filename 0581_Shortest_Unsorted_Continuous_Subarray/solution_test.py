@@ -1,11 +1,3 @@
-
-'''
-581. Shortest Unsorted Continuous Subarray
-
-Level: Easy
-
-https://leetcode.com/problems/shortest-unsorted-continuous-subarray
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-115. Distinct Subsequences
-
-Level: Hard
-
-https://leetcode.com/problems/distinct-subsequences
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

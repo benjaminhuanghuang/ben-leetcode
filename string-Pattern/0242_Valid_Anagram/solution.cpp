@@ -1,10 +1,3 @@
-/*
-242. Valid Anagram
-
-Level: Easy
-
-https://leetcode.com/problems/valid-anagram
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

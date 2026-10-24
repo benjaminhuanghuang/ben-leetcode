@@ -1,13 +1,4 @@
 /*
-40. Combination Sum II
-https://leetcode.com/problems/combination-sum-ii/
-
-Note: The solution set must not contain duplicate combinations.
-Each number in candidates may only be used once in the combination.
-
-*/
-
-/*
 HuaHua
 https://www.youtube.com/watch?v=RSatA4uVBDQ
 

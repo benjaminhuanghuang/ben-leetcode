@@ -1,9 +1,3 @@
-/*
-888. Fair Candy Swap
-
-https://leetcode.com/problems/fair-candy-swap/
-*/
-
 #include <vector>
 #include <numeric>
 #include <unordered_set>

@@ -1,10 +1,3 @@
-/*
-412. Fizz Buzz
-
-Level: Easy
-
-https://leetcode.com/problems/fizz-buzz
-*/
 package leetcode0412
 
 import (

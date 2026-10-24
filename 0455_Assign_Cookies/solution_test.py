@@ -1,11 +1,3 @@
-
-'''
-455. Assign Cookies
-
-Level: Easy
-
-https://leetcode.com/problems/assign-cookies
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-763. Partition Labels
-
-Level: Medium
-
-https://leetcode.com/problems/partition-labels
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

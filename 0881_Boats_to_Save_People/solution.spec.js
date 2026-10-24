@@ -1,10 +1,3 @@
-/*
-881. Boats to Save People
-
-Level: Medium
-
-https://leetcode.com/problems/boats-to-save-people
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,8 +1,3 @@
-/*
-761. Special Binary String
-
-https://leetcode.com/problems/special-binary-string/
-*/
 #include <string>
 #include <vector>
 #include <queue>

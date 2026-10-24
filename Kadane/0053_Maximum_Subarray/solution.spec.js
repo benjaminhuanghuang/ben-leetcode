@@ -1,10 +1,3 @@
-/*
-53. Maximum Subarray
-
-Level: Easy
-
-https://leetcode.com/problems/maximum-subarray
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

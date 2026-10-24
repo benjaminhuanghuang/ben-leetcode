@@ -1,10 +1,3 @@
-'''
-206. Reverse Linked List
-
-Hint:
-A linked list can be reversed either iteratively or recursively. Could you implement both?
-'''
-
 class Solution(object):
     def reverseList_iteratively(head):
         prev = None

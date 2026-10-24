@@ -1,9 +1,3 @@
-/*
-1347. Minimum Number of Steps to Make Two Strings Anagram
-
-https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
-*/
-
 function minSteps(s: string, t: string): number {
   const charCount = new Array(26).fill(0);
 

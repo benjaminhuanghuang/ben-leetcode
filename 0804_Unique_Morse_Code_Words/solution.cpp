@@ -1,7 +1,3 @@
-/*
-804. Unique Morse Code Words
-https://leetcode.com/problems/unique-morse-code-words/
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

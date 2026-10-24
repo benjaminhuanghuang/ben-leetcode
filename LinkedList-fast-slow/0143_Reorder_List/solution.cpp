@@ -1,10 +1,3 @@
-/*
-143. Reorder List
-
-Level: Medium
-
-https://leetcode.com/problems/reorder-list
-*/
 #include <iostream>
 #include <vector>
 #include <string>

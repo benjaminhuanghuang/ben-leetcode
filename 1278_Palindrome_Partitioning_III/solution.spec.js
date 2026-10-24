@@ -1,10 +1,3 @@
-/*
-1278. Palindrome Partitioning III
-
-Level: Hard
-
-https://leetcode.com/problems/palindrome-partitioning-iii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

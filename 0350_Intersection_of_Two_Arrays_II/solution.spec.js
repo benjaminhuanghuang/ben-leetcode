@@ -1,10 +1,3 @@
-/*
-350. Intersection of Two Arrays II
-
-Level: Easy
-
-https://leetcode.com/problems/intersection-of-two-arrays-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

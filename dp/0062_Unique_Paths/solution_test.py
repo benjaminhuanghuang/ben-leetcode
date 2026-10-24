@@ -1,11 +1,3 @@
-
-'''
-62. Unique Paths
-
-Level: Medium
-
-https://leetcode.com/problems/unique-paths
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

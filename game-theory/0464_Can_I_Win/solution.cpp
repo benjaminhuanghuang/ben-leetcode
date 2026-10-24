@@ -1,10 +1,3 @@
-/*
-464. Can I Win
-
-Level: Medium
-
-https://leetcode.com/problems/can-i-win
-*/
 #include <iostream>
 #include <vector>
 #include <string>

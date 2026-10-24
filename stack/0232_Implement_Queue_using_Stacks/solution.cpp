@@ -1,12 +1,3 @@
-/*
-232. Implement Queue using Stacks
-
-Level: Easy
-
-https://leetcode.com/problems/implement-queue-using-stacks
-
-- 225. Implement Stack using Queues
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

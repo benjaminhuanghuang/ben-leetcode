@@ -1,9 +1,4 @@
 /*
-243. Shortest Word Distance
-
-https://leetcode.com/problems/shortest-word-distance/
-*/
-/*
 两个单词之间的距离是列表中它们之间的单词数
 */
 function shortestDistance(

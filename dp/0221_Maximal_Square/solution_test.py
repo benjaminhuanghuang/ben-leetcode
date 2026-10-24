@@ -1,11 +1,3 @@
-
-'''
-221. Maximal Square
-
-Level: Medium
-
-https://leetcode.com/problems/maximal-square
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

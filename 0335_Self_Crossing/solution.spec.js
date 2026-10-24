@@ -1,10 +1,3 @@
-/*
-335. Self Crossing
-
-Level: Hard
-
-https://leetcode.com/problems/self-crossing
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

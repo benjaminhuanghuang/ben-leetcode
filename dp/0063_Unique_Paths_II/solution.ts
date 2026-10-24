@@ -1,9 +1,3 @@
-/*
-63. Unique Paths II
-
-https://leetcode.com/problems/unique-paths-ii/
-*/
-
 function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
   if (
     obstacleGrid.length === 0 ||

@@ -1,10 +1,3 @@
-/*
-1266. Minimum Time Visiting All Points
-
-Level: Easy
-
-https://leetcode.com/problems/minimum-time-visiting-all-points
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

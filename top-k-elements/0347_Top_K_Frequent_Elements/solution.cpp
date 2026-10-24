@@ -1,12 +1,3 @@
-/*
-347. Top K Frequent Elements
-
-Level: Medium
-
-https://leetcode.com/problems/top-k-frequent-elements
-
-- 692. Top K Frequent Words
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

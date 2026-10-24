@@ -1,10 +1,3 @@
-/*
-764. Largest Plus Sign
-
-Level: Medium
-
-https://leetcode.com/problems/largest-plus-sign
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-500. Keyboard Row
-
-Level: Easy
-
-https://leetcode.com/problems/keyboard-row
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

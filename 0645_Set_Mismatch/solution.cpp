@@ -1,10 +1,3 @@
-/*
-645. Set Mismatch
-
-Level: Easy
-
-https://leetcode.com/problems/set-mismatch
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

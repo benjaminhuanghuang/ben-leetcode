@@ -1,10 +1,3 @@
-/*
-1494. Parallel Courses II
-
-Level: Hard
-
-https://leetcode.com/problems/parallel-courses-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

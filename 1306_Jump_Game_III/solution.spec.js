@@ -1,10 +1,3 @@
-/*
-1306. Jump Game III
-
-Level: Medium
-
-https://leetcode.com/problems/jump-game-iii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

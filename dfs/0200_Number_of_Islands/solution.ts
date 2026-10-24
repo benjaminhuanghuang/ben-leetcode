@@ -1,9 +1,3 @@
-/*
-200. Number of Islands
-
-https://leetcode.com/problems/number-of-islands/
-*/
-
 function numIslands(grid: string[][]): number {
   const rows = grid.length;
   const cols = grid[0].length;

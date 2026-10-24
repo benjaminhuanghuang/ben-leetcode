@@ -1,9 +1,3 @@
-/*
-38. Count and Say
-
-https://leetcode.com/problems/count-and-say/
-*/
-
 function countAndSay(n: number): string {
   let ans: string = "1";
   for (let i = 1; i < n; ++i) {

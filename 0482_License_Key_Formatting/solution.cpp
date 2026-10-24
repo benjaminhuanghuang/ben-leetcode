@@ -1,10 +1,3 @@
-/*
-482. License Key Formatting
-
-Level: Easy
-
-https://leetcode.com/problems/license-key-formatting
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

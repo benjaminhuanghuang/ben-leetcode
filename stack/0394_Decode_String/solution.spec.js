@@ -1,10 +1,3 @@
-/*
-394. Decode String
-
-Level: Medium
-
-https://leetcode.com/problems/decode-string
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

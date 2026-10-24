@@ -1,10 +1,3 @@
-/*
-410. Split Array Largest Sum
-
-Level: Hard
-
-https://leetcode.com/problems/split-array-largest-sum
-*/
 #include <iostream>
 #include <vector>
 #include <string>

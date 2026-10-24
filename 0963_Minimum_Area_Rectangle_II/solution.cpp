@@ -1,8 +1,3 @@
-/*
-963. Minimum Area Rectangle II
-
-https://leetcode.com/problems/minimum-area-rectangle-ii/
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

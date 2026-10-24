@@ -1,11 +1,3 @@
-/*
-124. Binary Tree Maximum Path Sum
-
-https://leetcode.com/problems/binary-tree-maximum-path-sum/
-
-[Google]
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 /*

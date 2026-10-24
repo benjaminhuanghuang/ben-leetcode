@@ -1,10 +1,3 @@
-/*
-1451. Rearrange Words in a Sentence
-
-Level: Medium
-
-https://leetcode.com/problems/rearrange-words-in-a-sentence
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-258. Add Digits
-
-Level: Easy
-
-https://leetcode.com/problems/add-digits
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

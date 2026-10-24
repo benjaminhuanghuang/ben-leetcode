@@ -1,10 +1,3 @@
-/*
-739. Daily Temperatures
-
-Level: Medium
-
-https://leetcode.com/problems/daily-temperatures
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

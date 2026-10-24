@@ -1,9 +1,3 @@
-/*
-226. Invert Binary Tree
-
-https://leetcode.com/problems/invert-binary-tree/
-*/
-
 #include "common/TreeNode.h"
 class Solution
 {

@@ -1,11 +1,3 @@
-
-'''
-303. Range Sum Query - Immutable
-
-Level: Easy
-
-https://leetcode.com/problems/range-sum-query-immutable
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-1278. Palindrome Partitioning III
-
-Level: Hard
-
-https://leetcode.com/problems/palindrome-partitioning-iii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

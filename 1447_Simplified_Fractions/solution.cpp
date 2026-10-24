@@ -1,10 +1,3 @@
-/*
-1447. Simplified Fractions
-
-Level: Medium
-
-https://leetcode.com/problems/simplified-fractions
-*/
 #include <iostream>
 #include <vector>
 #include <string>

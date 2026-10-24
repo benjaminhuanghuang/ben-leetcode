@@ -1,11 +1,3 @@
-
-'''
-413. Arithmetic Slices
-
-Level: Medium
-
-https://leetcode.com/problems/arithmetic-slices
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

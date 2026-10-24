@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/consecutive-available-seats
 package leetcode0603
 import (
 	"testing"

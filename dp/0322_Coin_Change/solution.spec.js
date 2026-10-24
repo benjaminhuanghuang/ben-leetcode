@@ -1,10 +1,3 @@
-/*
-322. Coin Change
-
-Level: Medium
-
-https://leetcode.com/problems/coin-change
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

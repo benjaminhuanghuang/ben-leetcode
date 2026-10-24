@@ -1,10 +1,4 @@
 /*
-53. Maximum Subarray
-
-https://leetcode.com/problems/maximum-subarray/
-*/
-
-/*
     当前和为sum,如果sum >0,那么加上当前元素，否则sum=A[i] （即抛弃负数的sum，重新开始。因为负数的sum是累赘)
 */
 function maxSubArray(nums: number[]): number {

@@ -1,11 +1,3 @@
-
-'''
-160. Intersection of Two Linked Lists
-
-Level: Easy
-
-https://leetcode.com/problems/intersection-of-two-linked-lists
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

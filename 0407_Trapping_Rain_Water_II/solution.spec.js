@@ -1,10 +1,3 @@
-/*
-407. Trapping Rain Water II
-
-Level: Hard
-
-https://leetcode.com/problems/trapping-rain-water-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

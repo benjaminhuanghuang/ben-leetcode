@@ -1,11 +1,4 @@
 '''
-986. Interval List Intersections
-
-Level: Medium
-
-https://leetcode.com/problems/interval-list-intersections
-'''
-'''
   Solution: 
 '''
 class Solution:

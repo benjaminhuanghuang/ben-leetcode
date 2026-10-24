@@ -1,11 +1,3 @@
-
-'''
-1025. Divisor Game
-
-Level: Easy
-
-https://leetcode.com/problems/divisor-game
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

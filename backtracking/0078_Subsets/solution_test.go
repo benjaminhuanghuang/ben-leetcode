@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/subsets
 package leetcode0078
 import (
 	"testing"

@@ -1,9 +1,3 @@
-/*
-1329. Sort the Matrix Diagonally
-
-https://leetcode.com/problems/sort-the-matrix-diagonally/
-*/
-
 function diagonalSort(mat: number[][]): number[][] {
   const rows = mat.length;
   const cols = mat[0].length;

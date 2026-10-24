@@ -1,10 +1,3 @@
-/*
-474. Ones and Zeroes
-
-Level: Medium
-
-https://leetcode.com/problems/ones-and-zeroes
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

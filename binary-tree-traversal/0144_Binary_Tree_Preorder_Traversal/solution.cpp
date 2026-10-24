@@ -1,9 +1,3 @@
-/*
-144. Binary Tree Preorder Traversal
-https://leetcode.com/problems/binary-tree-preorder-traversal/
-
-Follow up: Recursive solution is trivial, could you do it iteratively?
- */
 #include <vector>
 #include <stack>
 using namespace std;

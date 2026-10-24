@@ -1,9 +1,4 @@
 /*
-14. Longest Common Prefix
-https://leetcode.com/problems/longest-common-prefix/
-*/
-
-/*
  Time Complexity: O(n * m^2) in the worst case. 
  N is the number of strings in the array 
  M is the length of the longest string in the array.

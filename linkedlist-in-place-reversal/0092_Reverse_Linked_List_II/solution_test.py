@@ -1,11 +1,3 @@
-
-'''
-92. Reverse Linked List II
-
-Level: Medium
-
-https://leetcode.com/problems/reverse-linked-list-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

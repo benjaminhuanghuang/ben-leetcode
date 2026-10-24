@@ -1,11 +1,3 @@
-
-'''
-19. Remove Nth Node From End of List
-
-Level: Medium
-
-https://leetcode.com/problems/remove-nth-node-from-end-of-list
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

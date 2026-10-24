@@ -1,9 +1,3 @@
-/*
-979. Distribute Coins in Binary Tree
-
-https://leetcode.com/problems/distribute-coins-in-binary-tree/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 /*
 https://zxi.mytechroad.com/blog/tree/leetcode-979-distribute-coins-in-binary-tree/ 

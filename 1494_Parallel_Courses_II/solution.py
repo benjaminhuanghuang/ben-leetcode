@@ -1,11 +1,4 @@
 '''
-1494. Parallel Courses II
-
-Level: Hard
-
-https://leetcode.com/problems/parallel-courses-ii
-'''
-'''
   Solution: 
 '''
 class Solution:

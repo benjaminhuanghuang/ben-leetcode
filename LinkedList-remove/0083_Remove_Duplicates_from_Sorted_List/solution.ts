@@ -1,9 +1,3 @@
-/*
-83. Remove Duplicates from Sorted List
-
-https://leetcode.com/problems/remove-duplicates-from-sorted-list/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function deleteDuplicates(head: ListNode | null): ListNode | null {

@@ -1,12 +1,3 @@
-/*
-
-53. Maximum Subarray
-
-Level: Easy
-
-https://leetcode.com/problems/maximum-subarray
-*/
-
 package leetcode0053
 
 /*

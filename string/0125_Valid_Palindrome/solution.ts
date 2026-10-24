@@ -1,7 +1,3 @@
-/*
-125. Valid Palindrome
-https://leetcode.com/problems/valid-palindrome/
-*/
 function isPalindrome(s: string): boolean {
   s = s.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 

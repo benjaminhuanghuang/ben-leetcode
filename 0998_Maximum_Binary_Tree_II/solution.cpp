@@ -1,9 +1,3 @@
-/*
-998. Maximum Binary Tree II
-
-https://leetcode.com/problems/maximum-binary-tree-ii/
- */
-
 #include "common/TreeNode.h"
 /*
 https://www.youtube.com/watch?time_continue=126&v=ACBdojAxPSc

@@ -1,9 +1,3 @@
-/*
-139. Word Break
-
-https://leetcode.com/problems/word-break/
-*/
-
 // Use dp[i] as the sub string s[0:i] can be segmented into a space-separated sequence of one or more dictionary words.
 // put dp[0] as empty string and it is true.
 // dp[k] =  dp[0] + string(0 – k) in dict; dp[1] + string(1 – k) in dict

@@ -1,9 +1,3 @@
-/*
-890. Find and Replace Pattern
-
-https://leetcode.com/problems/find-and-replace-pattern/
-*/
-
 function findAndReplacePattern(words: string[], pattern: string): string[] {
   return words.filter((word) => {
     const wordToPatternMap = new Map<string, number>();

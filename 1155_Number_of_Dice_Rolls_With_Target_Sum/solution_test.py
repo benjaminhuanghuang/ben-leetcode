@@ -1,11 +1,3 @@
-
-'''
-1155. Number of Dice Rolls With Target Sum
-
-Level: Medium
-
-https://leetcode.com/problems/number-of-dice-rolls-with-target-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,4 @@
 /*
-4. Median of Two Sorted Arrays
-
-https://leetcode.com/problems/median-of-two-sorted-arrays/
-*/
-
-/*
   https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-4-median-of-two-sorted-arrays/
 
   数数共有几个数，加 1，再除以 2

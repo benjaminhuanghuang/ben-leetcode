@@ -1,8 +1,3 @@
-/*
-57. Insert Interval
-
-https://leetcode.com/problems/insert-interval/
-*/
 #include <vector>
 
 using namespace std;

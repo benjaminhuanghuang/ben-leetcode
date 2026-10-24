@@ -1,10 +1,3 @@
-/*
-1357. Apply Discount Every n Orders [Facebook]
-
-Level: Medium
-
-https://leetcode.com/problems/apply-discount-every-n-orders
-*/
 #include <iostream>
 #include <vector>
 #include <string>

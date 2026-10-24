@@ -1,13 +1,4 @@
 /*
-1110. Delete Nodes And Return Forest
-
-Level: Medium
-
-https://leetcode.com/problems/delete-nodes-and-return-forest
-*/
-
-
-/*
   Solution: 
 */
 /**

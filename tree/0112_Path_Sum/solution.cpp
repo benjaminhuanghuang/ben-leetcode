@@ -1,8 +1,3 @@
-/*
-112. Path Sum
-https://leetcode.com/problems/path-sum/
- */
-
 #include "common/TreeNode.h"
 /*
 Time complexity: O(n)

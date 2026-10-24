@@ -1,13 +1,4 @@
 /*
-220. Contains Duplicate III
-
-https://leetcode.com/problems/contains-duplicate-iii/
-
-217. Contains Duplicate
-219. Contains DuplicateⅡ    use map(value, index) or use Set as sliding window
-*/
-
-/*
 Lai offer: 
 https://www.youtube.com/watch?v=yc4hCFzNNQc
 

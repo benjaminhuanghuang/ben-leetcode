@@ -1,9 +1,3 @@
-/*
-450. Delete Node in a BST [Uber]
-
-
-*/
-
 public class Solution450 {
     //https://segmentfault.com/a/1190000005032508
     public TreeNode DeleteNode(TreeNode root, int key) {

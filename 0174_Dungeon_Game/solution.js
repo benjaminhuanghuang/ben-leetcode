@@ -1,12 +1,4 @@
 /*
-174. Dungeon Game
-
-Level: Hard
-
-https://leetcode.com/problems/dungeon-game
-*/
-
-/*
   Solution: 
 */
 

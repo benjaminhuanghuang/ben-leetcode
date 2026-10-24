@@ -1,10 +1,3 @@
-/*
-1140. Stone Game II
-
-Level: Medium
-
-https://leetcode.com/problems/stone-game-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

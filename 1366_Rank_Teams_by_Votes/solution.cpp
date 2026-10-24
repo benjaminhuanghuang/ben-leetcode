@@ -1,10 +1,3 @@
-/*
-1366. Rank Teams by Votes [Google]
-
-Level: Medium
-
-https://leetcode.com/problems/rank-teams-by-votes
-*/
 #include <iostream>
 #include <vector>
 #include <string>

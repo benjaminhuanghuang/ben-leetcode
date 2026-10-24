@@ -1,10 +1,3 @@
-/*
-504. Base 7
-
-Level: Easy
-
-https://leetcode.com/problems/base-7
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

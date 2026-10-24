@@ -1,13 +1,3 @@
-/*
-304. Range Sum Query 2D - Immutable
-
-Level: Medium
-
-https://leetcode.com/problems/range-sum-query-2d-immutable
-
-# 221. Maximal Square
-
-*/
 #include <iostream>
 #include <vector>
 #include <string>

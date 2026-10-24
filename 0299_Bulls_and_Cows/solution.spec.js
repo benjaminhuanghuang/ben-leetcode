@@ -1,10 +1,3 @@
-/*
-299. Bulls and Cows
-
-Level: Easy
-
-https://leetcode.com/problems/bulls-and-cows
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

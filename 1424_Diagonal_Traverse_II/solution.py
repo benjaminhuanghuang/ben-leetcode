@@ -1,11 +1,4 @@
 '''
-1424. Diagonal Traverse II
-
-Level: Medium
-
-https://leetcode.com/problems/diagonal-traverse-ii
-'''
-'''
   Solution: 
 '''
 class Solution:

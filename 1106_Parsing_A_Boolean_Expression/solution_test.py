@@ -1,11 +1,3 @@
-
-'''
-1106. Parsing A Boolean Expression
-
-Level: Hard
-
-https://leetcode.com/problems/parsing-a-boolean-expression
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

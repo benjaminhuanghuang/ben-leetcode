@@ -1,10 +1,3 @@
-/*
-330. Patching Array
-
-Level: Hard
-
-https://leetcode.com/problems/patching-array
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

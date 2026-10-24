@@ -1,11 +1,4 @@
 /*
-60. Permutation Sequence
-
-https://leetcode.com/problems/permutation-sequence/
-
-Given n and k, return the kth permutation sequence.
-*/
-/*
 http://bangbingsyb.blogspot.com/2014/11/leetcode-permutation-sequence.html
 
 以n = 4，k = 9为例,

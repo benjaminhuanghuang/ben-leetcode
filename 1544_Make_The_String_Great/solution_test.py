@@ -1,11 +1,3 @@
-
-'''
-1544. Make The String Great
-
-Level: Easy
-
-https://leetcode.com/problems/make-the-string-great
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

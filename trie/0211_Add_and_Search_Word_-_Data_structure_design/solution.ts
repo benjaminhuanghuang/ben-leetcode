@@ -1,12 +1,3 @@
-/*
-211. Design Add and Search Words Data Structure
-https://leetcode.com/problems/design-add-and-search-words-data-structure/
-
-Note:
-word may contain dots '.' where dots can be matched with any letter.
-Use a dfs search to search for the word.
-*/
-
 class TrieNode {
   value: string | null;
   children = new Map<string, TrieNode>(); // children are stored as Map, where key is the letter and value is a TrieNode for that letter

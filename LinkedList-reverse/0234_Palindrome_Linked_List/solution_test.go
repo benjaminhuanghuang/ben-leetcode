@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/palindrome-linked-list
 package leetcode0234
 import (
 	"testing"

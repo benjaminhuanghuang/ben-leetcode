@@ -1,10 +1,3 @@
-/*
-1592. Rearrange Spaces Between Words
-
-Level: Easy
-
-https://leetcode.com/problems/rearrange-spaces-between-words
-*/
 #include <iostream>
 #include <vector>
 #include <string>

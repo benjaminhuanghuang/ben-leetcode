@@ -1,11 +1,3 @@
-
-'''
-383. Ransom Note
-
-Level: Easy
-
-https://leetcode.com/problems/ransom-note
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

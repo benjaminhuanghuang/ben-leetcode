@@ -1,9 +1,3 @@
-/*
-58. Length of Last Word
-
-https://leetcode.com/problems/length-of-last-word/
-*/
-
 function lengthOfLastWord(s: string): number {
   if (s.length === 0) {
     return 0;

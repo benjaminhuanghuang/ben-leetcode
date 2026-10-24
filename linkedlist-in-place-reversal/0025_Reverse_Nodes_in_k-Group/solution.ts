@@ -1,9 +1,3 @@
-/*
-25. Reverse Nodes in k-Group
-
-https://leetcode.com/problems/reverse-nodes-in-k-group/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function reverseKGroup(head: ListNode | null, k: number): ListNode | null {

@@ -1,11 +1,3 @@
-
-'''
-86. Partition List
-
-Level: Medium
-
-https://leetcode.com/problems/partition-list
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

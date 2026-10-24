@@ -1,10 +1,3 @@
-/*
-1124. Longest Well-Performing Interval
-
-Level: Medium
-
-https://leetcode.com/problems/longest-well-performing-interval
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

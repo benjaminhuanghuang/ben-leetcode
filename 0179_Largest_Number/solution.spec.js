@@ -1,10 +1,3 @@
-/*
-179. Largest Number
-
-Level: Medium
-
-https://leetcode.com/problems/largest-number
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

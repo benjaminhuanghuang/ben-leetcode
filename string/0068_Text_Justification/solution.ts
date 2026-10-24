@@ -1,10 +1,4 @@
 /*
-68. Text Justification
-
-https://leetcode.com/problems/text-justification/
-*/
-
-/*
   单词排成行, 尽量均匀插入空格，最后用空格填充
  */
 function fullJustify(words: string[], maxWidth: number): string[] {

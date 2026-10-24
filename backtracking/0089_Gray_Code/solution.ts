@@ -1,9 +1,3 @@
-/*
-89. Gray Code
-
-https://leetcode.com/problems/gray-code/
-*/
-
 function grayCode(n: number): number[] {
   const res: number[] = [];
   const set: Set<number> = new Set();

@@ -1,11 +1,3 @@
-
-'''
-946. Validate Stack Sequences
-
-Level: Medium
-
-https://leetcode.com/problems/validate-stack-sequences
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

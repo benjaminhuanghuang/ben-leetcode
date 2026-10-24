@@ -1,11 +1,3 @@
-
-'''
-330. Patching Array
-
-Level: Hard
-
-https://leetcode.com/problems/patching-array
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

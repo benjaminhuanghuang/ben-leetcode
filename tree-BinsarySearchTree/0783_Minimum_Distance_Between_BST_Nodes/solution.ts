@@ -1,9 +1,3 @@
-/*
-783. Minimum Distance Between BST Nodes
-
-https://leetcode.com/problems/minimum-distance-between-bst-nodes/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function minDiffInBST(root: TreeNode | null): number {

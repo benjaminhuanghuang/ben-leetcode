@@ -1,9 +1,3 @@
-/*
-685. Redundant Connection II
-
-https://leetcode.com/problems/redundant-connection/
-*/
-
 #include <vector>
 
 #include "common/DSU.h"

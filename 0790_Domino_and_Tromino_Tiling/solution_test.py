@@ -1,11 +1,3 @@
-
-'''
-790. Domino and Tromino Tiling
-
-Level: Medium
-
-https://leetcode.com/problems/domino-and-tromino-tiling
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

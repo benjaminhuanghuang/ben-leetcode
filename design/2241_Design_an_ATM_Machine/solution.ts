@@ -1,9 +1,3 @@
-/*
-2241. Design an ATM Machine
-
-https://leetcode.com/problems/design-an-atm-machine/
-*/
-
 class ATM {
   banknoteCounters: Array<number> = [0, 0, 0, 0, 0];
   denominations: Array<number> = [20, 50, 100, 200, 500];

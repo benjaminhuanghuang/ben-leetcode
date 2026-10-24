@@ -1,9 +1,3 @@
-/*
-284. Peeking Iterator
-
-https://leetcode.com/problems/peeking-iterator/
-*/
-
 interface Iterator {
   hasNext(): boolean;
   next(): number;

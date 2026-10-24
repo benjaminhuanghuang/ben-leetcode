@@ -1,10 +1,3 @@
-/*
-748. Shortest Completing Word
-
-Level: Easy
-
-https://leetcode.com/problems/shortest-completing-word
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

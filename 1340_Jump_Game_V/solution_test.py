@@ -1,11 +1,3 @@
-
-'''
-1340. Jump Game V
-
-Level: Hard
-
-https://leetcode.com/problems/jump-game-v
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

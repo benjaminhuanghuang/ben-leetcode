@@ -1,9 +1,4 @@
 /*
-763. Partition Labels
-
-https://leetcode.com/problems/partition-labels/
-*/
-/*
   Solution: Brute Force
 
     Time complexity: O(n^2)

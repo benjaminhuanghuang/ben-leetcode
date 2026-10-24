@@ -1,11 +1,3 @@
-
-'''
-1473. Paint House III
-
-Level: Hard
-
-https://leetcode.com/problems/paint-house-iii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

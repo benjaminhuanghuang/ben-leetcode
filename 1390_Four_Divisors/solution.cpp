@@ -1,10 +1,3 @@
-/*
-1390. Four Divisors
-
-Level: Medium
-
-https://leetcode.com/problems/four-divisors
-*/
 #include <iostream>
 #include <vector>
 #include <string>

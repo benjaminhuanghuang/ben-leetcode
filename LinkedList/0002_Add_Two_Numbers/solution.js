@@ -1,12 +1,4 @@
 /*
-2. Add Two Numbers
-
-Level: Medium
-
-https://leetcode.com/problems/add-two-numbers
-*/
-
-/*
   Solution: 
 */
 

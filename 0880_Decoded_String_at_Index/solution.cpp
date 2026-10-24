@@ -1,10 +1,3 @@
-/*
-880. Decoded String at Index
-
-Level: Medium
-
-https://leetcode.com/problems/decoded-string-at-index
-*/
 #include <iostream>
 #include <vector>
 #include <string>

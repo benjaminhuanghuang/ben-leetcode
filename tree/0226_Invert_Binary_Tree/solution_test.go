@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/invert-binary-tree
 package leetcode0226
 import (
 	"testing"

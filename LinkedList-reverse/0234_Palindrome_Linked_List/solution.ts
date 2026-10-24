@@ -1,9 +1,3 @@
-/*
-234. Palindrome Linked List
-
-https://leetcode.com/problems/palindrome-linked-list/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function isPalindrome(head: ListNode | null): boolean {

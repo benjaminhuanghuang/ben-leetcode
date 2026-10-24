@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/longest-palindrome
 package leetcode0409
 import (
 	"testing"

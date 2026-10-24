@@ -1,11 +1,3 @@
-/*
-75. Sort Colors
-
-Level: Medium
-
-https://leetcode.com/problems/sort-colors
-*/
-
 package leetcode0075
 
 /*

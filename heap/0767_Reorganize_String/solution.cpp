@@ -1,9 +1,3 @@
-/*
-767. Reorganize String
-https://leetcode.com/problems/reorganize-string/
-*/
-
-
 #include <string>
 #include <vector>
 

@@ -1,10 +1,3 @@
-/*
-703. Kth Largest Element in a Stream
-
-Level: Easy
-
-https://leetcode.com/problems/kth-largest-element-in-a-stream
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

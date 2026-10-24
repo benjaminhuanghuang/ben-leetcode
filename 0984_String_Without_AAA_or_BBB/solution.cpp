@@ -1,10 +1,3 @@
-/*
-984. String Without AAA or BBB
-
-Level: Medium
-
-https://leetcode.com/problems/string-without-aaa-or-bbb
-*/
 #include <iostream>
 #include <vector>
 #include <string>

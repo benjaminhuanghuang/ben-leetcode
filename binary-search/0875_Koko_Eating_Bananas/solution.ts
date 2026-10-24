@@ -1,8 +1,3 @@
-/*
-875. Koko Eating Bananas
-https://leetcode.com/problems/koko-eating-bananas/
-*/
-
 function minEatingSpeed(piles: number[], h: number): number {
   let left = 1;
   let right = Math.max(...piles) + 1;

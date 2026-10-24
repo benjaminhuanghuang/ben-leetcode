@@ -1,9 +1,3 @@
-/*
-1823. Find the Winner of the Circular Game
-
-https://leetcode.com/problems/find-the-winner-of-the-circular-game/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function findTheWinner(n: number, k: number): number {

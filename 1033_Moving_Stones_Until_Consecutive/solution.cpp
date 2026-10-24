@@ -1,9 +1,3 @@
-/*
-  1033. Moving Stones Until Consecutive
-
-  https://leetcode.com/problemset/all/?status=Todo
-*/
-
 #include <vector>
 #include <string>
 #include <unordered_set>

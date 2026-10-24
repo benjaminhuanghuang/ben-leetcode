@@ -1,9 +1,3 @@
-/*
-310. Minimum Height Trees
-
-https://leetcode.com/problems/minimum-height-trees/
-*/
-
 function findMinHeightTrees(n: number, edges: number[][]): number[] {
   if (n === 1) {
     return [0];

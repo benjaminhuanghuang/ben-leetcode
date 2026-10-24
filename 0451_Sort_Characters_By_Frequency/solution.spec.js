@@ -1,10 +1,3 @@
-/*
-451. Sort Characters By Frequency
-
-Level: Medium
-
-https://leetcode.com/problems/sort-characters-by-frequency
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

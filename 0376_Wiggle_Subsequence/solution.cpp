@@ -1,10 +1,3 @@
-/*
-376. Wiggle Subsequence
-
-Level: Medium
-
-https://leetcode.com/problems/wiggle-subsequence
-*/
 #include <iostream>
 #include <vector>
 #include <string>

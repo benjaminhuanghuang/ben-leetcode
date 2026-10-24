@@ -1,9 +1,3 @@
-/*
-700. Search in a Binary Search Tree
-
-https://leetcode.com/problems/search-in-a-binary-search-tree/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function searchBST(root: TreeNode | null, val: number): TreeNode | null {

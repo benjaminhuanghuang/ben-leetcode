@@ -1,11 +1,3 @@
-
-'''
-328. Odd Even Linked List
-
-Level: Medium
-
-https://leetcode.com/problems/odd-even-linked-list
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

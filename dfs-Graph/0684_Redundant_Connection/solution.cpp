@@ -1,9 +1,3 @@
-/*
-684. Redundant Connection
-
-https://leetcode.com/problems/redundant-connection/
-*/
-
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>

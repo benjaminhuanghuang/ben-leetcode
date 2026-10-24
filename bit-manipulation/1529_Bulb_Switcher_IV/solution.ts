@@ -1,9 +1,3 @@
-/*
-1529. Minimum Suffix Flips
-
-https://leetcode.com/problems/minimum-suffix-flips/
-*/
-
 function minFlips(target: string): number {
   let flipsCount = 0;
 

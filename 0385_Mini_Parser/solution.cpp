@@ -1,15 +1,3 @@
-/*
-385. Mini Parser
-
-https://leetcode.com/problems/mini-parser/
-
-
-similar problems:
-  Nested List Weight Sum II
-  Flatten Nested List Iterator
-  Nested List Weight Sum
-*/
-
 #include <string>
 #include <vector>
 #include <stack>

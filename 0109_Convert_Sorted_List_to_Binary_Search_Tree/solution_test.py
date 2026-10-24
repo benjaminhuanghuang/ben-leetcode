@@ -1,11 +1,3 @@
-
-'''
-109. Convert Sorted List to Binary Search Tree
-
-Level: Medium
-
-https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

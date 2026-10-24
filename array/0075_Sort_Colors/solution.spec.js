@@ -1,10 +1,3 @@
-/*
-75. Sort Colors
-
-Level: Medium
-
-https://leetcode.com/problems/sort-colors
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,12 +1,4 @@
 /*
-23. Merge k Sorted Lists
-
-Level: Hard
-
-https://leetcode.com/problems/merge-k-sorted-lists
-*/
-
-/*
   Solution: 
 */
 

@@ -1,10 +1,3 @@
-/*
-1360. Number of Days Between Two Dates
-
-Level: Easy
-
-https://leetcode.com/problems/number-of-days-between-two-dates
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

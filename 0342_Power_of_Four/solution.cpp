@@ -1,10 +1,3 @@
-/*
-342. Power of Four
-
-Level: Easy
-
-https://leetcode.com/problems/power-of-four
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

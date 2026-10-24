@@ -1,10 +1,3 @@
-/*
-1366. Rank Teams by Votes
-
-Level: Medium
-
-https://leetcode.com/problems/rank-teams-by-votes
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

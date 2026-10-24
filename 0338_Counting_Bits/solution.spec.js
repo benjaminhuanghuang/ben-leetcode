@@ -1,10 +1,3 @@
-/*
-338. Counting Bits
-
-Level: Medium
-
-https://leetcode.com/problems/counting-bits
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

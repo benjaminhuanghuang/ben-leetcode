@@ -1,12 +1,4 @@
 /*
-1195. Fizz Buzz Multithreaded
-
-Level: Medium
-
-https://leetcode.com/problems/fizz-buzz-multithreaded/
-*/
-
-/*
   Solution:
   4 Semaphores 
   https://zxi.mytechroad.com/blog/concurrent/leetcode-1195-fizz-buzz-multithreaded/

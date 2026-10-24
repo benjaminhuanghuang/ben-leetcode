@@ -1,10 +1,3 @@
-/*
-639. Decode Ways II
-
-Level: Hard
-
-https://leetcode.com/problems/decode-ways-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

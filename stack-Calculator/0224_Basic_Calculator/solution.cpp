@@ -1,10 +1,3 @@
-/*
-224. Basic Calculator
-
-Level: Hard
-
-https://leetcode.com/problems/basic-calculator
-*/
 #include <iostream>
 #include <vector>
 #include <string>

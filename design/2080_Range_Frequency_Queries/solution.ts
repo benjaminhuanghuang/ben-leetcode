@@ -1,8 +1,3 @@
-/*
-2080. Range Frequency Queries
-
-https://leetcode.com/problems/range-frequency-queries/
-*/
 class RangeFreqQuery {
   private pos: Map<number, number[]>;
 

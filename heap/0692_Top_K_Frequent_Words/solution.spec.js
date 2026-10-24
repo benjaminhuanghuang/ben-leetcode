@@ -1,10 +1,3 @@
-/*
-692. Top K Frequent Words
-
-Level: Medium
-
-https://leetcode.com/problems/top-k-frequent-words
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

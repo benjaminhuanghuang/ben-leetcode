@@ -1,10 +1,3 @@
-/*
-61. Rotate List
-
-Level: Medium
-
-https://leetcode.com/problems/rotate-list
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

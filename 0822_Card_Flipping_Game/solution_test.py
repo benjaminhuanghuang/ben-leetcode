@@ -1,11 +1,3 @@
-
-'''
-822. Card Flipping Game
-
-Level: Medium
-
-https://leetcode.com/problems/card-flipping-game
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

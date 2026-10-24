@@ -1,8 +1,3 @@
-/*
-77. Combinations
-
-https://leetcode.com/problems/combinations/
-*/
 #include <string>
 #include <vector>
 

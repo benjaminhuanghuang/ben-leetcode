@@ -1,10 +1,3 @@
-/*
-721. Accounts Merge
-
-Level: Medium
-
-https://leetcode.com/problems/accounts-merge
-*/
 #include <iostream>
 #include <vector>
 #include <string>

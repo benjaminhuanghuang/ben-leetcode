@@ -1,11 +1,3 @@
-
-'''
-692. Top K Frequent Words
-
-Level: Medium
-
-https://leetcode.com/problems/top-k-frequent-words
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-493. Reverse Pairs
-
-Level: Hard
-
-https://leetcode.com/problems/reverse-pairs
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

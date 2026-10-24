@@ -1,10 +1,3 @@
-/*
-1314. Matrix Block Sum
-
-Level: Medium
-
-https://leetcode.com/problems/matrix-block-sum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

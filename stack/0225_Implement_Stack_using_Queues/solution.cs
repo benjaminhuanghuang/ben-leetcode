@@ -1,8 +1,3 @@
-/*
-225. Implement Stack using Queues
-
-*/
-
 using System.Collections.Generic;
 
 public class Stack {

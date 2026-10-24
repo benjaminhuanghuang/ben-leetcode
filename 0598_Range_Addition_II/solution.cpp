@@ -1,10 +1,3 @@
-/*
-598. Range Addition II
-
-Level: Easy
-
-https://leetcode.com/problems/range-addition-ii
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

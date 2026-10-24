@@ -1,10 +1,4 @@
 /*
-802. Find Eventual Safe States
-
-https://leetcode.com/problems/find-eventual-safe-states/
-*/
-
-/*
   http://zxi.mytechroad.com/blog/graph/leetcode-802-find-eventual-safe-states/
   https://www.youtube.com/watch?v=v5Ni_3bHjzk
 

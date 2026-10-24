@@ -1,11 +1,3 @@
-
-'''
-149. Max Points on a Line
-
-Level: Hard
-
-https://leetcode.com/problems/max-points-on-a-line
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

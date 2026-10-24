@@ -1,12 +1,4 @@
 /*
-242. Valid Anagram
-
-Level: Easy
-
-https://leetcode.com/problems/valid-anagram
-*/
-
-/*
   Solution: 
 */
 

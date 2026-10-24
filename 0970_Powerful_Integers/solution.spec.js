@@ -1,10 +1,3 @@
-/*
-970. Powerful Integers
-
-Level: Easy
-
-https://leetcode.com/problems/powerful-integers
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-146. LRU Cache
-
-Level: Medium
-
-https://leetcode.com/problems/lru-cache
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

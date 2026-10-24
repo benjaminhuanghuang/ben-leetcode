@@ -1,10 +1,3 @@
-/*
-823. Binary Trees With Factors
-
-Level: Medium
-
-https://leetcode.com/problems/binary-trees-with-factors
-*/
 #include <iostream>
 #include <vector>
 #include <string>

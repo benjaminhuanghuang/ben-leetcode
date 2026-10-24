@@ -1,10 +1,3 @@
-/*
-887. Super Egg Drop
-
-Level: Hard
-
-https://leetcode.com/problems/super-egg-drop
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

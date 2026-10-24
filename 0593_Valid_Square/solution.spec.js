@@ -1,10 +1,3 @@
-/*
-593. Valid Square
-
-Level: Medium
-
-https://leetcode.com/problems/valid-square
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

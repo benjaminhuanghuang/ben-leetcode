@@ -1,13 +1,4 @@
 /*
-528. Random Pick with Weight
-
-Level: Medium
-
-https://leetcode.com/problems/random-pick-with-weight
-*/
-
-
-/*
   Solution: 
 */
 

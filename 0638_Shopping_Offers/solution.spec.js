@@ -1,10 +1,3 @@
-/*
-638. Shopping Offers
-
-Level: Medium
-
-https://leetcode.com/problems/shopping-offers
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

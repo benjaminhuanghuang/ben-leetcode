@@ -1,10 +1,3 @@
-/*
-1185. Day of the Week
-
-Level: Easy
-
-https://leetcode.com/problems/day-of-the-week
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

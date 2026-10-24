@@ -1,12 +1,4 @@
 /*
-399. Evaluate Division
-
-https://leetcode.com/problems/evaluate-division/
-
-Note: x/x is -1 if x is not in the graph
-*/
-
-/*
 HuaHua: Union Find
 https://www.youtube.com/watch?v=UwpvInpgFmo
 

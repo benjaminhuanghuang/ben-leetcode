@@ -1,11 +1,3 @@
-
-'''
-142. Linked List Cycle II
-
-Level: Medium
-
-https://leetcode.com/problems/linked-list-cycle-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

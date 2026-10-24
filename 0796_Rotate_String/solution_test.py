@@ -1,11 +1,3 @@
-
-'''
-796. Rotate String
-
-Level: Easy
-
-https://leetcode.com/problems/rotate-string
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

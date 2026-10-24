@@ -1,10 +1,3 @@
-/*
-1387. Sort Integers by The Power Value
-
-Level: Medium
-
-https://leetcode.com/problems/sort-integers-by-the-power-value
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

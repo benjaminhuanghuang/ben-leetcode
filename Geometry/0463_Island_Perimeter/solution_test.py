@@ -1,11 +1,3 @@
-
-'''
-463. Island Perimeter
-
-Level: Easy
-
-https://leetcode.com/problems/island-perimeter
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

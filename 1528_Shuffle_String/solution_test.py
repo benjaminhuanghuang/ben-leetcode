@@ -1,11 +1,3 @@
-
-'''
-1528. Shuffle String
-
-Level: Easy
-
-https://leetcode.com/problems/shuffle-string
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

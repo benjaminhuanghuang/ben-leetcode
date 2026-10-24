@@ -1,11 +1,3 @@
-
-'''
-119. Pascal's Triangle II
-
-Level: Easy
-
-https://leetcode.com/problems/pascals-triangle-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

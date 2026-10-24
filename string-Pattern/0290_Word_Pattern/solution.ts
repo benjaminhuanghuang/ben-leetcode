@@ -1,14 +1,4 @@
 /*
-290. Word Pattern
-
-https://leetcode.com/problems/word-pattern/
-
-Input: pattern = "abba", s = "dog cat cat dog"
-
-205. Isomorphic Strings
-*/
-
-/*
     wordPattern['constructor'] will return the constructor function of the object.
     (word in wordPattern) also has this issue.
 */

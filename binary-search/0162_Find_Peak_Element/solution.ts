@@ -1,10 +1,4 @@
 /*
-162. Find Peak Element
-
-https://leetcode.com/problems/find-peak-element/
-*/
-
-/*
 2. 如果mid处于上升区间，说明peak在右边
 3. 如果mid处于下降区间，说明peak在左边
 4. 如果mid处于peak，返回mid

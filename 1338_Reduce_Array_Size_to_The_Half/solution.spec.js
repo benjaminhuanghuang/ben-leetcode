@@ -1,10 +1,3 @@
-/*
-1338. Reduce Array Size to The Half
-
-Level: Medium
-
-https://leetcode.com/problems/reduce-array-size-to-the-half
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

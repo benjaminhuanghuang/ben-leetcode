@@ -1,11 +1,3 @@
-
-'''
-1476. Subrectangle Queries
-
-Level: Medium
-
-https://leetcode.com/problems/subrectangle-queries
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-492. Construct the Rectangle
-
-Level: Easy
-
-https://leetcode.com/problems/construct-the-rectangle
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

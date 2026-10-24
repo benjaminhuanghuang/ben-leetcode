@@ -1,10 +1,3 @@
-/*
-299. Bulls and Cows
-
-Level: Easy
-
-https://leetcode.com/problems/bulls-and-cows
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

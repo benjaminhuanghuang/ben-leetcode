@@ -1,10 +1,3 @@
-/*
-1238. Circular Permutation in Binary Representation
-
-Level: Medium
-
-https://leetcode.com/problems/circular-permutation-in-binary-representation
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

@@ -1,10 +1,3 @@
-/*
-1291. Sequential Digits
-
-Level: Medium
-
-https://leetcode.com/problems/sequential-digits
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

@@ -1,7 +1,3 @@
-'''
-937. Reorder Log Files
-
-'''
 class Solution:
     '''
     # https://blog.csdn.net/fuxuemingzhu/article/details/83961188

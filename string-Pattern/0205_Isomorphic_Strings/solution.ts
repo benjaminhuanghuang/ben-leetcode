@@ -1,12 +1,4 @@
 /*
-205. Isomorphic Strings
-
-https://leetcode.com/problems/isomorphic-strings/
-
-290. Word Pattern
-*/
-
-/*
     Use two maps to store the mapping of each character in s to t and t to s.
 */
 function isIsomorphic(s: string, t: string): boolean {

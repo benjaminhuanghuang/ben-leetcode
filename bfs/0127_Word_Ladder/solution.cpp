@@ -1,8 +1,3 @@
-/*
-127. Word Ladder
-https://leetcode.com/problems/word-ladder/
-*/
-
 #include <vector>
 #include <string>
 #include <unordered_set>

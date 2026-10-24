@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/min-stack
 package leetcode0155
 
 import (

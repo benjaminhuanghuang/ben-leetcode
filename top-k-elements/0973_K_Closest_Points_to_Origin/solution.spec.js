@@ -1,10 +1,3 @@
-/*
-973. K Closest Points to Origin
-
-Level: Medium
-
-https://leetcode.com/problems/k-closest-points-to-origin
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

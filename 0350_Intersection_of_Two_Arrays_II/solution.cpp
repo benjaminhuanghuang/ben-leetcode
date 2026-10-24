@@ -1,10 +1,3 @@
-/*
-350. Intersection of Two Arrays II
-
-Level: Easy
-
-https://leetcode.com/problems/intersection-of-two-arrays-ii
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

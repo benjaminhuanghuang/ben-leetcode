@@ -1,10 +1,3 @@
-/*
-843. Guess the Word
-
-Level: Hard
-
-https://leetcode.com/problems/guess-the-word
-*/
 #include <iostream>
 #include <vector>
 #include <string>

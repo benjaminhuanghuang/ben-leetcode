@@ -1,10 +1,3 @@
-/*
-202. Happy Number
-
-Level: Easy
-
-https://leetcode.com/problems/happy-number
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-506. Relative Ranks
-
-Level: Easy
-
-https://leetcode.com/problems/relative-ranks
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

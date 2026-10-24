@@ -1,11 +1,3 @@
-
-'''
-435. Non-overlapping Intervals
-
-Level: Medium
-
-https://leetcode.com/problems/non-overlapping-intervals
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

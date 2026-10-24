@@ -1,7 +1,3 @@
-/*
-268. Missing Number
-https://leetcode.com/problems/missing-number/s
-*/
 #include <vector>
 #include <numeric>
 using namespace std;

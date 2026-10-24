@@ -1,10 +1,3 @@
-/*
-860. Lemonade Change
-
-Level: Easy
-
-https://leetcode.com/problems/lemonade-change
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

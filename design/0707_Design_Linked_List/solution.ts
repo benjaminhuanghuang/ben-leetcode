@@ -1,10 +1,4 @@
 /*
-707. Design Linked List
-
-https://leetcode.com/problems/design-linked-list/
-*/
-
-/*
 HuaHua
 https://www.youtube.com/watch?v=dmezFFv522I
 

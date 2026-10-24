@@ -1,10 +1,3 @@
-/*
-946. Validate Stack Sequences
-
-Level: Medium
-
-https://leetcode.com/problems/validate-stack-sequences
-*/
 #include <iostream>
 #include <vector>
 #include <string>

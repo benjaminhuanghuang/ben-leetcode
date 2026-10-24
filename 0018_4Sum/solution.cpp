@@ -1,9 +1,3 @@
-/*
-18. 4Sum
-
-https://leetcode.com/problems/4sum/
-*/
-
 #include <vector>
 #include <unordered_map>
 #include <set>

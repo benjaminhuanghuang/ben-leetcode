@@ -1,10 +1,3 @@
-/*
-946. Validate Stack Sequences
-
-Level: Medium
-
-https://leetcode.com/problems/validate-stack-sequences
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

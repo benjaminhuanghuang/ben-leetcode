@@ -1,7 +1,3 @@
-/*
-583. Delete Operation for Two Strings
-https://leetcode.com/problems/delete-operation-for-two-strings/
-*/
 #include <string>
 #include <vector>
 #include <unordered_map>

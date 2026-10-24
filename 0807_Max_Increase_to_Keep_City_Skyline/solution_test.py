@@ -1,11 +1,3 @@
-
-'''
-807. Max Increase to Keep City Skyline
-
-Level: Medium
-
-https://leetcode.com/problems/max-increase-to-keep-city-skyline
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

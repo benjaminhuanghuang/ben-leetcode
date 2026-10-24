@@ -1,10 +1,3 @@
-/*
-237. Delete Node in a Linked List
-
-Level: Easy
-
-https://leetcode.com/problems/delete-node-in-a-linked-list
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

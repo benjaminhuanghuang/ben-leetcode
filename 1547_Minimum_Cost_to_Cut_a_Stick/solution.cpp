@@ -1,10 +1,3 @@
-/*
-1547. Minimum Cost to Cut a Stick
-
-Level: Hard
-
-https://leetcode.com/problems/minimum-cost-to-cut-a-stick
-*/
 #include <iostream>
 #include <vector>
 #include <string>

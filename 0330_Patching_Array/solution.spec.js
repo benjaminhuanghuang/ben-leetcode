@@ -1,10 +1,3 @@
-/*
-330. Patching Array
-
-Level: Hard
-
-https://leetcode.com/problems/patching-array
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

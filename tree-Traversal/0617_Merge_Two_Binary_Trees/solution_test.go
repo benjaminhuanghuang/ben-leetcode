@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/merge-two-binary-trees
 package leetcode0617
 import (
 	"testing"

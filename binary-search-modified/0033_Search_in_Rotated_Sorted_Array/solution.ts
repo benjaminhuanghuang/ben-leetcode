@@ -1,8 +1,3 @@
-/*
-33. Search in Rotated Sorted Array
-https://leetcode.com/problems/search-in-rotated-sorted-array/
-*/
-
 /* 
    4 5 6 7 1 0 2
    

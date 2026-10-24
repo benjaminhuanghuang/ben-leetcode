@@ -1,7 +1,3 @@
-/*
-190. Reverse Bits
-*/
-
 function reverseBits(n: number): number {
   let result: number = 0;
 

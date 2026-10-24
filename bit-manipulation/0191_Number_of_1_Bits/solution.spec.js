@@ -1,10 +1,3 @@
-/*
-191. Number of 1 Bits
-
-Level: Easy
-
-https://leetcode.com/problems/number-of-1-bits
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

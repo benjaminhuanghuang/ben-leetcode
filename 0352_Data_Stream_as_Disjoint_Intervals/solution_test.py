@@ -1,11 +1,3 @@
-
-'''
-352. Data Stream as Disjoint Intervals
-
-Level: Hard
-
-https://leetcode.com/problems/data-stream-as-disjoint-intervals
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

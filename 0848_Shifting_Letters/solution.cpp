@@ -1,8 +1,3 @@
-/*
-848. Shifting Letters
-
-https://leetcode.com/problems/shifting-letters/
-*/
 #include <string>
 #include <vector>
 using namespace std;

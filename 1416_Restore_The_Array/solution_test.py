@@ -1,11 +1,3 @@
-
-'''
-1416. Restore The Array
-
-Level: Hard
-
-https://leetcode.com/problems/restore-the-array
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

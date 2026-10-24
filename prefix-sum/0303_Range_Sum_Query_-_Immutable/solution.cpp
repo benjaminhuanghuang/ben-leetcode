@@ -1,10 +1,3 @@
-/*
-303. Range Sum Query - Immutable
-
-Level: Easy
-
-https://leetcode.com/problems/range-sum-query-immutable
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

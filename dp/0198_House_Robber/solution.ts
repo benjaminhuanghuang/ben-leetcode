@@ -1,10 +1,4 @@
 /*
-198. House Robber
-
-https://leetcode.com/problems/house-robber/
-*/
-
-/*
 每一间房子都在问： “偷我，还是继承昨天的成果？”
 */
 function rob(nums: number[]): number {

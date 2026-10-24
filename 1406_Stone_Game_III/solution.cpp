@@ -1,10 +1,3 @@
-/*
-1406. Stone Game III
-
-Level: Hard
-
-https://leetcode.com/problems/stone-game-iii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

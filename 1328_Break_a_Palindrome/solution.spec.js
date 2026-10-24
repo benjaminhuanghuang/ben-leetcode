@@ -1,10 +1,3 @@
-/*
-1328. Break a Palindrome
-
-Level: Medium
-
-https://leetcode.com/problems/break-a-palindrome
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

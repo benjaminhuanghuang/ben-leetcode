@@ -1,11 +1,3 @@
-
-'''
-756. Pyramid Transition Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/pyramid-transition-matrix
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

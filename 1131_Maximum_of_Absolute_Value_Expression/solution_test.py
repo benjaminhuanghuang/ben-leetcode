@@ -1,11 +1,3 @@
-
-'''
-1131. Maximum of Absolute Value Expression
-
-Level: Medium
-
-https://leetcode.com/problems/maximum-of-absolute-value-expression
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

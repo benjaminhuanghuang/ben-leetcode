@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/maximum-depth-of-binary-tree
 package leetcode0104
 import (
 	. "../common"

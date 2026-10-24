@@ -1,10 +1,3 @@
-/*
-778. Swim in Rising Water
-
-Level: Hard
-
-https://leetcode.com/problems/swim-in-rising-water
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-886. Possible Bipartition
-
-Level: Medium
-
-https://leetcode.com/problems/possible-bipartition
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

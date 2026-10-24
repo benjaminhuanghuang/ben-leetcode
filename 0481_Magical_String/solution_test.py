@@ -1,11 +1,3 @@
-
-'''
-481. Magical String
-
-Level: Medium
-
-https://leetcode.com/problems/magical-string
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

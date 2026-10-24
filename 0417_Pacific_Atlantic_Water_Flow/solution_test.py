@@ -1,11 +1,3 @@
-
-'''
-417. Pacific Atlantic Water Flow
-
-Level: Medium
-
-https://leetcode.com/problems/pacific-atlantic-water-flow
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,4 @@
 '''
-1080. Insufficient Nodes in Root to Leaf Paths
-
-Level: Medium
-
-https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths
-'''
-'''
   Solution: 
 '''
 # Definition for a binary tree node.

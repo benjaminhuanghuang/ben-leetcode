@@ -1,10 +1,3 @@
-/*
-823. Binary Trees With Factors
-
-Level: Medium
-
-https://leetcode.com/problems/binary-trees-with-factors
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

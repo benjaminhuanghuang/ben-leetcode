@@ -1,9 +1,3 @@
-/*
-144. Binary Tree Preorder Traversal
-
-https://leetcode.com/problems/binary-tree-preorder-traversal/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function preorderTraversal(root: TreeNode | null): number[] {

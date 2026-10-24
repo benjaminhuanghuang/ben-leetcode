@@ -1,11 +1,3 @@
-
-'''
-202. Happy Number
-
-Level: Easy
-
-https://leetcode.com/problems/happy-number
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

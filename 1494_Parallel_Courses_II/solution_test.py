@@ -1,11 +1,3 @@
-
-'''
-1494. Parallel Courses II
-
-Level: Hard
-
-https://leetcode.com/problems/parallel-courses-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

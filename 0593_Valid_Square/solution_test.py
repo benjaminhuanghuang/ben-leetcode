@@ -1,11 +1,3 @@
-
-'''
-593. Valid Square
-
-Level: Medium
-
-https://leetcode.com/problems/valid-square
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

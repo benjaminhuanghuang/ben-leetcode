@@ -1,10 +1,4 @@
 /*
-182. Duplicate Emails
-
-https://leetcode.com/problems/duplicate-emails/
- */
-
-/*
 方法1：
 注意distinct用法  <>是不等于
 */

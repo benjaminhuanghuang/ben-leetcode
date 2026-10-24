@@ -1,11 +1,3 @@
-
-'''
-301. Remove Invalid Parentheses
-
-Level: Hard
-
-https://leetcode.com/problems/remove-invalid-parentheses
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

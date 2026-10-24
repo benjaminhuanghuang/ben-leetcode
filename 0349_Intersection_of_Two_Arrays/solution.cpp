@@ -1,9 +1,3 @@
-/*
-349. Intersection of Two Arrays [Easy]
-
-https://leetcode.com/problems/intersection-of-two-arrays/
-*/
-
 #include <unordered_set>
 #include <vector>
 

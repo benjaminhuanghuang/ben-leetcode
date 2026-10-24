@@ -1,11 +1,4 @@
 '''
-1348. Tweet Counts Per Frequency
-
-Level: Medium
-
-https://leetcode.com/problems/tweet-counts-per-frequency
-'''
-'''
   Solution: 
 '''
 class TweetCounts:

@@ -1,10 +1,3 @@
-/*
-748. Shortest Completing Word
-
-Level: Easy
-
-https://leetcode.com/problems/shortest-completing-word
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

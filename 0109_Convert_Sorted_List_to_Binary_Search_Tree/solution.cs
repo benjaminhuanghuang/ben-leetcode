@@ -1,8 +1,3 @@
-/*
-109.  Convert Sorted List to Binary Search Tree  
-
-*/
-
 public class Solution109 {
     public TreeNode SortedListToBST(ListNode head) 
     {

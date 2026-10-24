@@ -1,10 +1,3 @@
-/*
-242. Valid Anagram
-
-Level: Easy
-
-https://leetcode.com/problems/valid-anagram
-*/
 import { isAnagram } from './solution';
 
 describe('Solution 242 test', () => {;

@@ -1,10 +1,3 @@
-/*
-1382. Balance a Binary Search Tree
-
-Level: Medium
-
-https://leetcode.com/problems/balance-a-binary-search-tree
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

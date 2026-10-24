@@ -1,11 +1,3 @@
-
-'''
-204. Count Primes
-
-Level: Easy
-
-https://leetcode.com/problems/count-primes
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-446. Arithmetic Slices II - Subsequence
-
-Level: Hard
-
-https://leetcode.com/problems/arithmetic-slices-ii-subsequence
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

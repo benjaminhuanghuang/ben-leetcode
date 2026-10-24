@@ -1,11 +1,3 @@
-
-'''
-976. Largest Perimeter Triangle
-
-Level: Easy
-
-https://leetcode.com/problems/largest-perimeter-triangle
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

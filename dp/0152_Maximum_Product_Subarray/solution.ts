@@ -1,9 +1,3 @@
-/*
-152. Maximum Product Subarray
-
-https://leetcode.com/problems/maximum-product-subarray/
-*/
-
 function maxProduct(nums: number[]): number {
   if (nums.length === 0) return 0;
 

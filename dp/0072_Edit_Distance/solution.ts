@@ -1,8 +1,3 @@
-/*
-72. Edit Distance
-
-https://leetcode.com/problems/edit-distance/
-*/
 function minDistance(word1: string, word2: string): number {
   const l1 = word1.length;
   const l2 = word2.length;

@@ -1,11 +1,3 @@
-
-'''
-279. Perfect Squares
-
-Level: Medium
-
-https://leetcode.com/problems/perfect-squares
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,4 @@
 '''
-837. New 21 Game
-
-Level: Medium
-
-https://leetcode.com/problems/new-21-game
-'''
-'''
   Solution: 
 '''
 class Solution:

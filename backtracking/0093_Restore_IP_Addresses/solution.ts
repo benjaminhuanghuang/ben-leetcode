@@ -1,12 +1,4 @@
 /*
-93. Restore IP Addresses
-
-https://leetcode.com/problems/restore-ip-addresses/
-
-给定一个只包含数字的字符串 s，返回所有可能的 有效 IP 地址。
-
-*/
-/*
     https://www.youtube.com/watch?v=pi-S2TLYuL4
 
     time: O(3^4)=>O(1)  space: O(n)

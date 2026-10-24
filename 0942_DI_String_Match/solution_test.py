@@ -1,11 +1,3 @@
-
-'''
-942. DI String Match
-
-Level: Easy
-
-https://leetcode.com/problems/di-string-match
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

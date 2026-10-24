@@ -1,9 +1,3 @@
-/*
-148. Sort List
-
-https://leetcode.com/problems/sort-list/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function sortList(head: ListNode | null): ListNode | null {

@@ -1,10 +1,3 @@
-/*
-234. Palindrome Linked List
-
-Level: Easy
-
-https://leetcode.com/problems/palindrome-linked-list
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

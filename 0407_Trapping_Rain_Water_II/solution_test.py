@@ -1,11 +1,3 @@
-
-'''
-407. Trapping Rain Water II
-
-Level: Hard
-
-https://leetcode.com/problems/trapping-rain-water-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

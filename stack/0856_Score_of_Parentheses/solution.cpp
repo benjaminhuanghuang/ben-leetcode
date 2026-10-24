@@ -1,8 +1,3 @@
-/*
-856. Score of Parentheses
-
-https://leetcode.com/problems/score-of-parentheses/
-*/
 #include <string>
 #include <climits>
 #include <vector>

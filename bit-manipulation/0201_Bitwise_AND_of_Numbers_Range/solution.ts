@@ -1,10 +1,4 @@
 /*
-201. Bitwise AND of Numbers Range
-
-https://leetcode.com/problems/bitwise-and-of-numbers-range/
-*/
-
-/*
     The bitwise AND of all numbers in a range is keeping the common bits of m and n from left to right until the first bit that they are different.
     The rest of the bits on the right side are all 0 after the first bit that they are different.
     For example, for number 26 and 30:

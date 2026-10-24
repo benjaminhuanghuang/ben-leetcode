@@ -1,11 +1,3 @@
-
-'''
-315. Count of Smaller Numbers After Self
-
-Level: Hard
-
-https://leetcode.com/problems/count-of-smaller-numbers-after-self
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

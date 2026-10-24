@@ -1,10 +1,3 @@
-/*
-390. Elimination Game
-
-Level: Medium
-
-https://leetcode.com/problems/elimination-game
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

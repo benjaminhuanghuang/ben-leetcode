@@ -1,10 +1,3 @@
-/*
-976. Largest Perimeter Triangle
-
-Level: Easy
-
-https://leetcode.com/problems/largest-perimeter-triangle
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

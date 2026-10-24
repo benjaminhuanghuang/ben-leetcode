@@ -1,10 +1,3 @@
-/*
-1556. Thousand Separator
-
-Level: Easy
-
-https://leetcode.com/problems/thousand-separator
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

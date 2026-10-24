@@ -1,10 +1,3 @@
-/*
-36. Valid Sudoku
-
-Level: Medium
-
-https://leetcode.com/problems/valid-sudoku
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

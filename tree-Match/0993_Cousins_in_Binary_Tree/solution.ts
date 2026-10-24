@@ -1,9 +1,3 @@
-/*
-993. Cousins in Binary Tree
-
-https://leetcode.com/problems/cousins-in-binary-tree/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function isCousins(root: TreeNode | null, x: number, y: number): boolean {

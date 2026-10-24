@@ -1,10 +1,3 @@
-/*
-1093. Statistics from a Large Sample
-
-Level: Medium
-
-https://leetcode.com/problems/statistics-from-a-large-sample
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-1105. Filling Bookcase Shelves
-
-Level: Medium
-
-https://leetcode.com/problems/filling-bookcase-shelves
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

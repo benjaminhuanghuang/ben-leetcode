@@ -1,11 +1,3 @@
-
-'''
-1074. Number of Submatrices That Sum to Target
-
-Level: Hard
-
-https://leetcode.com/problems/number-of-submatrices-that-sum-to-target
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

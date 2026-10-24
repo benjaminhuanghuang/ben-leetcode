@@ -1,10 +1,3 @@
-/*
-300. Longest Increasing Subsequence
-
-Level: Medium
-
-https://leetcode.com/problems/longest-increasing-subsequence
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

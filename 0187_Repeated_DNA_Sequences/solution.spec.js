@@ -1,10 +1,3 @@
-/*
-187. Repeated DNA Sequences
-
-Level: Medium
-
-https://leetcode.com/problems/repeated-dna-sequences
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

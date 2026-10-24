@@ -1,9 +1,3 @@
-/*
-2043. Simple Bank System
-
-https://leetcode.com/problems/simple-bank-system/
-*/
-
 class Bank {
   // The balance for each account.
   bankBalance: number[];

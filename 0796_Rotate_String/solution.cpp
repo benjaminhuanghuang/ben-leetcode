@@ -1,10 +1,3 @@
-/*
-796. Rotate String
-
-Level: Easy
-
-https://leetcode.com/problems/rotate-string
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

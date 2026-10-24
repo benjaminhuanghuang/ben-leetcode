@@ -1,10 +1,3 @@
-/*
-82. Remove Duplicates from Sorted List II
-
-Level: Medium
-
-https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

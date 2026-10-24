@@ -1,10 +1,3 @@
-/*
-939. Minimum Area Rectangle
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-area-rectangle
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

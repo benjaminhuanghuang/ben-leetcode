@@ -1,10 +1,3 @@
-/*
-728. Self Dividing Numbers
-
-Level: Easy
-
-https://leetcode.com/problems/self-dividing-numbers
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

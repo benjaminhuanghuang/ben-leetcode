@@ -1,10 +1,3 @@
-/*
-441. Arranging Coins
-
-Level: Easy
-
-https://leetcode.com/problems/arranging-coins
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

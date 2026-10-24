@@ -1,9 +1,3 @@
-/*
-938. Range Sum of BST
-
-https://leetcode.com/problems/range-sum-of-bst/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function rangeSumBST(root: TreeNode | null, low: number, high: number): number {

@@ -1,10 +1,3 @@
-/*
-338. Counting Bits
-
-Level: Medium
-
-https://leetcode.com/problems/counting-bits
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

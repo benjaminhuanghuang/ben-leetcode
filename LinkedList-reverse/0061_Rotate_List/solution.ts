@@ -1,11 +1,3 @@
-/*
-61. Rotate List
-
-Given the head of a linked list, rotate the list to the right by k places.
-
-https://leetcode.com/problems/rotate-list/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function rotateRight(head: ListNode | null, k: number): ListNode | null {

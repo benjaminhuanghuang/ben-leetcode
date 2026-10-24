@@ -1,8 +1,3 @@
-/*
-102. Binary Tree Level Order Traversal
-https://leetcode.com/problems/binary-tree-level-order-traversal/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function levelOrder(root: TreeNode | null): number[][] {

@@ -1,10 +1,3 @@
-/*
-797. All Paths From Source to Target
-
-Level: Medium
-
-https://leetcode.com/problems/all-paths-from-source-to-target
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-476. Number Complement
-
-Level: Easy
-
-https://leetcode.com/problems/number-complement
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

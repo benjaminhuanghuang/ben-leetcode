@@ -1,8 +1,3 @@
-/*
-15. 3Sum
-
-https://leetcode.com/problems/3sum/
-*/
 #include <vector>
 #include <algorithm>
 

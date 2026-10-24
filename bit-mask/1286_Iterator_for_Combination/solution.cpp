@@ -1,10 +1,3 @@
-/*
-1286. Iterator for Combination
-
-Level: Medium
-
-https://leetcode.com/problems/iterator-for-combination
-*/
 #include <iostream>
 #include <vector>
 #include <string>

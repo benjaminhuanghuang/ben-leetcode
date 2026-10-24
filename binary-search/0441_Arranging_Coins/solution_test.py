@@ -1,11 +1,3 @@
-
-'''
-441. Arranging Coins
-
-Level: Easy
-
-https://leetcode.com/problems/arranging-coins
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

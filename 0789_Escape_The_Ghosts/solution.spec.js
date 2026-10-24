@@ -1,10 +1,3 @@
-/*
-789. Escape The Ghosts
-
-Level: Medium
-
-https://leetcode.com/problems/escape-the-ghosts
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

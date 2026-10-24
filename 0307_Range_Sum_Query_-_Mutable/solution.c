@@ -1,13 +1,4 @@
 /*
-307. Range Sum Query - Mutable
-
-Level: Medium
-
-https://leetcode.com/problems/range-sum-query-mutable
-*/
-
-
-/*
   Solution: 
 */
 

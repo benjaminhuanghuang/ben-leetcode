@@ -1,13 +1,3 @@
-/*
-213. House Robber II
-
-Level: Medium
-
-https://leetcode.com/problems/house-robber-ii
-
-# 198. House Robber
-
-*/
 #include <iostream>
 #include <vector>
 #include <string>

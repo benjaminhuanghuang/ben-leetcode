@@ -1,9 +1,3 @@
-'''
-9. Palindrome Number
-Determine whether an integer is a palindrome. "Do this without extra space".
-'''
-
-
 class Solution(object):
     def isPalindrome_1(self, x):
         """

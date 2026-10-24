@@ -1,11 +1,3 @@
-
-'''
-1028. Recover a Tree From Preorder Traversal
-
-Level: Hard
-
-https://leetcode.com/problems/recover-a-tree-from-preorder-traversal
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

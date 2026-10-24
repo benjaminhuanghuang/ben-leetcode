@@ -1,10 +1,3 @@
-/*
-334. Increasing Triplet Subsequence
-
-Level: Medium
-
-https://leetcode.com/problems/increasing-triplet-subsequence
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

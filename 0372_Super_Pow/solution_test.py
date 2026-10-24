@@ -1,11 +1,3 @@
-
-'''
-372. Super Pow
-
-Level: Medium
-
-https://leetcode.com/problems/super-pow
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

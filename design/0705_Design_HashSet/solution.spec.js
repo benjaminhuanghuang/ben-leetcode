@@ -1,10 +1,3 @@
-/*
-705. Design HashSet
-
-Level: Easy
-
-https://leetcode.com/problems/design-hashset
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

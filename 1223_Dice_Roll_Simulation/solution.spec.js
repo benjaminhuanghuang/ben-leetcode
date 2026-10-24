@@ -1,10 +1,3 @@
-/*
-1223. Dice Roll Simulation
-
-Level: Medium
-
-https://leetcode.com/problems/dice-roll-simulation
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

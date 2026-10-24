@@ -1,10 +1,3 @@
-/*
-37. Sudoku Solver
-
-Level: Hard
-
-https://leetcode.com/problems/sudoku-solver
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

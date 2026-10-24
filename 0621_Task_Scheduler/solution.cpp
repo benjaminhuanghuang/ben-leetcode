@@ -1,8 +1,3 @@
-/*
-621. Task Scheduler
-
-https://leetcode.com/problems/task-scheduler/
-*/
 #include <vector>
 #include <algorithm>
 

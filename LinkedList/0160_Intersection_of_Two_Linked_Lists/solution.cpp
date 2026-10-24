@@ -1,10 +1,3 @@
-/*
-160. Intersection of Two Linked Lists
-
-Level: Easy
-
-https://leetcode.com/problems/intersection-of-two-linked-lists
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

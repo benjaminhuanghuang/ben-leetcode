@@ -1,10 +1,3 @@
-/*
-970. Powerful Integers
-
-Level: Easy
-
-https://leetcode.com/problems/powerful-integers
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

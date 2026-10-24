@@ -1,11 +1,3 @@
-
-'''
-402. Remove K Digits
-
-Level: Medium
-
-https://leetcode.com/problems/remove-k-digits
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

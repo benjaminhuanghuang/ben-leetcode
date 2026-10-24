@@ -1,12 +1,4 @@
 /*
-475. Heaters
-
-Level: Easy
-
-https://leetcode.com/problems/heaters
-*/
-
-/*
   Solution: 
 */
 

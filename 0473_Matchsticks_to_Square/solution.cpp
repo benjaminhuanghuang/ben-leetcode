@@ -1,10 +1,3 @@
-/*
-473. Matchsticks to Square
-
-Level: Medium
-
-https://leetcode.com/problems/matchsticks-to-square
-*/
 #include <iostream>
 #include <vector>
 #include <string>

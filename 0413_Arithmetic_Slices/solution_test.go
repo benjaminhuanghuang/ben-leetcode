@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/arithmetic-slices
 package leetcode0413
 import (
 	"testing"

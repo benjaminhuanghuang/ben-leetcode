@@ -1,10 +1,3 @@
-/*
-1462. Course Schedule IV
-
-Level: Medium
-
-https://leetcode.com/problems/course-schedule-iv
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

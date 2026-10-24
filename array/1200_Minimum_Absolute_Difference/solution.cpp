@@ -1,10 +1,3 @@
-/*
-1200. Minimum Absolute Difference
-
-Level: Easy
-
-https://leetcode.com/problems/minimum-absolute-difference
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

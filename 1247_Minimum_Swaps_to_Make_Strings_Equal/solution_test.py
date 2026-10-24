@@ -1,11 +1,3 @@
-
-'''
-1247. Minimum Swaps to Make Strings Equal
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-swaps-to-make-strings-equal
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

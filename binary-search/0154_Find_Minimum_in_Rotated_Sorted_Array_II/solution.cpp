@@ -1,10 +1,3 @@
-/*
-154. Find Minimum in Rotated Sorted Array II
-
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
-
-与#153 的区别： 有重复的数字
-*/
 #include <vector>
 
 using namespace std;

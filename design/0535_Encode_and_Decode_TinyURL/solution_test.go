@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/encode-and-decode-tinyurl
 package leetcode0535
 import (
 	"testing"

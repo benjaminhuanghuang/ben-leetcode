@@ -1,10 +1,3 @@
-/*
-874. Walking Robot Simulation
-
-Level: Easy
-
-https://leetcode.com/problems/walking-robot-simulation
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,4 @@
 '''
-973. K Closest Points to Origin
-
-Level: Medium
-
-https://leetcode.com/problems/k-closest-points-to-origin
-'''
-'''
   Solution: 
 '''
 class Solution:

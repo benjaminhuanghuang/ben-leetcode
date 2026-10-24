@@ -1,10 +1,3 @@
-/*
-459. Repeated Substring Pattern
-
-https://leetcode.com/problems/repeated-substring-pattern/
-
-[Google]
-*/
 function repeatedSubstringPattern(s: string): boolean {
   const n = s.length;
 

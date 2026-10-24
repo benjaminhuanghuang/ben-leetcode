@@ -1,9 +1,3 @@
-/*
-715. Range Module
-
-https://leetcode.com/problems/range-module/
-*/
-
 class RangeModule {
   private intervals: Array<[number, number]>;
 

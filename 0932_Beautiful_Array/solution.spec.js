@@ -1,10 +1,3 @@
-/*
-932. Beautiful Array
-
-Level: Medium
-
-https://leetcode.com/problems/beautiful-array
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

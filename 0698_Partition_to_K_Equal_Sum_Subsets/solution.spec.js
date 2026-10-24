@@ -1,10 +1,3 @@
-/*
-698. Partition to K Equal Sum Subsets
-
-Level: Medium
-
-https://leetcode.com/problems/partition-to-k-equal-sum-subsets
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

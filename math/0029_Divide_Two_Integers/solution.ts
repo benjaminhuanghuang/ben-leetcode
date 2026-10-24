@@ -1,9 +1,3 @@
-/*
-29. Divide Two Integers
-
-https://leetcode.com/problems/divide-two-integers/
-*/
-
 function divide(dividend: number, divisor: number): number {
   const INT_MAX = 2147483647; // 2^31 - 1
   const INT_MIN = -2147483648; // -2^31

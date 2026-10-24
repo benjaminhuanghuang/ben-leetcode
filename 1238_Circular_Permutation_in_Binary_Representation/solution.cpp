@@ -1,10 +1,3 @@
-/*
-1238. Circular Permutation in Binary Representation
-
-Level: Medium
-
-https://leetcode.com/problems/circular-permutation-in-binary-representation
-*/
 #include <iostream>
 #include <vector>
 #include <string>

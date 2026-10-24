@@ -1,9 +1,3 @@
-/*
-658. Find K Closest Elements
-
-https://leetcode.com/problems/find-k-closest-elements/
-*/
-
 function findClosestElements(arr: number[], k: number, x: number): number[] {
   let low = 0;
   let high = arr.length - 1;

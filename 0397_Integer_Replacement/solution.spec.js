@@ -1,10 +1,3 @@
-/*
-397. Integer Replacement
-
-Level: Medium
-
-https://leetcode.com/problems/integer-replacement
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

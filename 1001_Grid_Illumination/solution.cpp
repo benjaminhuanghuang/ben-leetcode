@@ -1,10 +1,3 @@
-/*
-1001. Grid Illumination
-
-https://leetcode.com/problems/grid-illumination/
-
-*/
-
 #include <vector>
 #include <string>
 #include <unordered_set>

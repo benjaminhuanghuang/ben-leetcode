@@ -1,10 +1,4 @@
 /*
-1043. Partition Array for Maximum Sum
-
-https://leetcode.com/problems/partition-array-for-maximum-sum/
-*/
-
-/*
 https://www.youtube.com/watch?v=3M8q-wB2tmw (HuaHua)
 
 */

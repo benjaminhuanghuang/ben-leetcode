@@ -1,10 +1,3 @@
-/*
-752. Open the Lock
-
-Level: Medium
-
-https://leetcode.com/problems/open-the-lock
-*/
 #include <iostream>
 #include <vector>
 #include <string>

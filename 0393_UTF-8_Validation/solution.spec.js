@@ -1,10 +1,3 @@
-/*
-393. UTF-8 Validation
-
-Level: Medium
-
-https://leetcode.com/problems/utf-8-validation
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

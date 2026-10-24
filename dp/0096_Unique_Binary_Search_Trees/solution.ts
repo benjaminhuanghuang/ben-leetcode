@@ -1,12 +1,4 @@
 /*
-96. Unique Binary Search Trees
-
-https://leetcode.com/problems/unique-binary-search-trees/
-
-95. Unique Binary Search Trees II
-*/
-
-/*
 Solution: DP
     https://www.youtube.com/watch?v=HWJEMKWzy-Q
 

@@ -1,9 +1,3 @@
-/*
-34. Find First and Last Position of Element in Sorted Array
-
-https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-*/
-
 function searchRange(nums: number[], target: number): number[] {
   if (nums.length < 1) return [-1, -1];
 

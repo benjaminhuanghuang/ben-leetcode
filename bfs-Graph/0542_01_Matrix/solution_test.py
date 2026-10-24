@@ -1,11 +1,3 @@
-
-'''
-542. 01 Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/01-matrix
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

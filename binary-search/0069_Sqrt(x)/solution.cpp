@@ -1,10 +1,3 @@
-/*
-69. Sqrt(x)
-
-Level: Easy
-
-https://leetcode.com/problems/sqrtx
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

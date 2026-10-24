@@ -1,10 +1,3 @@
-/*
-853. Car Fleet
-
-Level: Medium
-
-https://leetcode.com/problems/car-fleet
-*/
 #include <iostream>
 #include <vector>
 #include <string>

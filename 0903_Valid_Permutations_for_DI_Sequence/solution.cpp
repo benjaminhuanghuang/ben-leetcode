@@ -1,10 +1,3 @@
-/*
-903. Valid Permutations for DI Sequence
-
-Level: Hard
-
-https://leetcode.com/problems/valid-permutations-for-di-sequence
-*/
 #include <iostream>
 #include <vector>
 #include <string>

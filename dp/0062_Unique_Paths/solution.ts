@@ -1,10 +1,4 @@
 /*
-62. Unique Paths
-
-https://leetcode.com/problems/unique-paths/
-*/
-
-/*
 http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-62-unique-paths/
 DP
 

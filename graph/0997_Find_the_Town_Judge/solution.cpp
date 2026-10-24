@@ -1,9 +1,3 @@
-
-/*
-997. Find the Town Judge
-
-https://leetcode.com/problems/find-the-town-judge/
-*/
 #include <vector>
 using namespace std;
 

@@ -1,13 +1,4 @@
 /*
-  158. Read N Characters Given Read4 II
-  
-  Hard
-
-  https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
-
-*/
-
-/*
   https://www.youtube.com/watch?v=BXlwbVMXlrw&t=0s&ab_channel=CatRacketCode-LeetCodeJavaScript
 
   read buffer 经典做法

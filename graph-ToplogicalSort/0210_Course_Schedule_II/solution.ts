@@ -1,10 +1,4 @@
 /*
-210. Course Schedule II
-
-https://leetcode.com/problems/course-schedule-ii/
-*/
-
-/*
 HuaHua
 https://www.youtube.com/watch?v=Qqgck2ijUjU
 

@@ -1,10 +1,4 @@
 /*
-503. Next Greater Element II
-
-https://leetcode.com/problems/next-greater-element-ii/
-*/
-
-/*
 
 Monotonic Stack + HashTable 
 Smilar to leetcode_496_next-greater-elements-i.ts

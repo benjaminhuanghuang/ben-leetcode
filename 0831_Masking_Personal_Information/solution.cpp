@@ -1,8 +1,3 @@
-/*
-831. Masking Personal Information
-
-https://leetcode.com/problems/masking-personal-information/
-*/
 #include <vector>
 #include <string>
 #include <regex>

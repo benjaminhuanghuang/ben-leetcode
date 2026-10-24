@@ -1,10 +1,3 @@
-/*
-263. Ugly Number
-
-Level: Easy
-
-https://leetcode.com/problems/ugly-number
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

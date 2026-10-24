@@ -1,18 +1,3 @@
-/*
-40. Combination Sum II
-
-Each number in candidates may only be used once in the combination.
-Input: candidates = [10,1,2,7,6,1,5], target = 8, There are two 1s
-A solution set is:
-[
-  [1, 7],
-  [1, 2, 5],
-  [2, 6],
-  [1, 1, 6]
-]
-https://leetcode.com/problems/combination-sum-ii/
-*/
-
 #include <vector>
 #include <set>
 #include <algorithm>

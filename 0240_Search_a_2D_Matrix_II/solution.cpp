@@ -1,10 +1,3 @@
-/*
-240. Search a 2D Matrix II
-
-Level: Medium
-
-https://leetcode.com/problems/search-a-2d-matrix-ii
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

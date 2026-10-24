@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/surrounded-regions
 package leetcode0130
 import (
 	"testing"

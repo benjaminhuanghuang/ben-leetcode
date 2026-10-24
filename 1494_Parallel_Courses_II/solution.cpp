@@ -1,10 +1,3 @@
-/*
-1494. Parallel Courses II
-
-Level: Hard
-
-https://leetcode.com/problems/parallel-courses-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

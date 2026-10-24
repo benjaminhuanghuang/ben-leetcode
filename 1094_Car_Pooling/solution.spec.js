@@ -1,10 +1,3 @@
-/*
-1094. Car Pooling
-
-Level: Medium
-
-https://leetcode.com/problems/car-pooling
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

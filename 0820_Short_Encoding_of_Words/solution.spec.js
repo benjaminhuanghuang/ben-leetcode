@@ -1,10 +1,3 @@
-/*
-820. Short Encoding of Words
-
-Level: Medium
-
-https://leetcode.com/problems/short-encoding-of-words
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

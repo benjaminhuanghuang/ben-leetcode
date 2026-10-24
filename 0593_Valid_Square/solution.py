@@ -1,11 +1,4 @@
 '''
-593. Valid Square
-
-Level: Medium
-
-https://leetcode.com/problems/valid-square
-'''
-'''
   Solution: 
 '''
 class Solution:

@@ -1,10 +1,3 @@
-/*
-1488. Avoid Flood in The City
-
-Level: Medium
-
-https://leetcode.com/problems/running-sum-of-1d-array
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,11 +1,3 @@
-
-'''
-688. Knight Probability in Chessboard
-
-Level: Medium
-
-https://leetcode.com/problems/knight-probability-in-chessboard
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

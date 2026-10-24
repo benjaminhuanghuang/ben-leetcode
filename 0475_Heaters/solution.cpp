@@ -1,10 +1,3 @@
-/*
-475. Heaters
-
-Level: Easy
-
-https://leetcode.com/problems/heaters
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

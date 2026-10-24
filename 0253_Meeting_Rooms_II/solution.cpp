@@ -1,10 +1,3 @@
-/*
-253. Meeting Rooms II
-
-Level: Medium
-
-https://leetcode.com/problems/meeting-rooms-ii
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,10 +1,3 @@
-/*
-1328. Break a Palindrome
-
-Level: Medium
-
-https://leetcode.com/problems/break-a-palindrome
-*/
 #include <iostream>
 #include <vector>
 #include <string>

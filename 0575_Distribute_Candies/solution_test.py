@@ -1,11 +1,3 @@
-
-'''
-575. Distribute Candies
-
-Level: Easy
-
-https://leetcode.com/problems/distribute-candies
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

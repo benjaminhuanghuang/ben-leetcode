@@ -1,9 +1,3 @@
-/*
-705. Design HashSet
-
-https://leetcode.com/problems/design-hashset/
-*/
-
 class MyHashSet {
   private set: boolean[];
 

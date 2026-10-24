@@ -1,10 +1,3 @@
-/*
-1226. The Dining Philosophers
-
-Level: Medium
-
-https://leetcode.com/problems/the-dining-philosophers/
-*/
 #include <iostream>
 #include <vector>
 #include <string>

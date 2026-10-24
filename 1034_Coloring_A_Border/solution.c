@@ -1,13 +1,4 @@
 /*
-1034. Coloring A Border
-
-Level: Medium
-
-https://leetcode.com/problems/coloring-a-border
-*/
-
-
-/*
   Solution: 
 */
 

@@ -1,10 +1,3 @@
-/*
-1401. Circle and Rectangle Overlapping
-
-Level: Medium
-
-https://leetcode.com/problems/circle-and-rectangle-overlapping
-*/
 #include <iostream>
 #include <vector>
 #include <string>

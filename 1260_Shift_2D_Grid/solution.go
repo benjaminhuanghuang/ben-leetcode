@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/shift-2d-grid
 package leetcode1260
 /*
 	1. Move every column right, except last column

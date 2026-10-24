@@ -1,10 +1,3 @@
-/*
-1206. Design Skiplist
-
-Level: Hard
-
-https://leetcode.com/problems/design-skiplist
-*/
 #include <iostream>
 #include <vector>
 #include <string>

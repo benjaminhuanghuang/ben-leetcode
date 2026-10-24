@@ -1,11 +1,3 @@
-
-'''
-1390. Four Divisors
-
-Level: Medium
-
-https://leetcode.com/problems/four-divisors
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

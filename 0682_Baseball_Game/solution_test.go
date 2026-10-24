@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/baseball-game
 package leetcode0682
 import (
 	"testing"

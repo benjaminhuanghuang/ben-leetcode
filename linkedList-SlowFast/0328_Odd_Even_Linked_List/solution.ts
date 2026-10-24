@@ -1,9 +1,3 @@
-/*
-328. Odd Even Linked List
-
-https://leetcode.com/problems/odd-even-linked-list/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function oddEvenList(head: ListNode | null): ListNode | null {

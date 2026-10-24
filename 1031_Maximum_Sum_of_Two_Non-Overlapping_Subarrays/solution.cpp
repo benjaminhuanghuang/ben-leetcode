@@ -1,5 +1,3 @@
-// https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
-
 #include <vector>
 #include <climits>
 

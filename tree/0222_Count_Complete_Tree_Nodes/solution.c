@@ -1,13 +1,4 @@
 /*
-222. Count Complete Tree Nodes
-
-Level: Medium
-
-https://leetcode.com/problems/count-complete-tree-nodes
-*/
-
-
-/*
   Solution: 
 */
 /**

@@ -1,11 +1,3 @@
-
-'''
-1043. Partition Array for Maximum Sum
-
-Level: Medium
-
-https://leetcode.com/problems/partition-array-for-maximum-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

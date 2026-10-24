@@ -1,12 +1,4 @@
 /*
-1054. Distant Barcodes
-
-Level: Medium
-
-https://leetcode.com/problems/distant-barcodes
-*/
-
-/*
   Solution: 
 */
 

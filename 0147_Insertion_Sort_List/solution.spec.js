@@ -1,10 +1,3 @@
-/*
-147. Insertion Sort List
-
-Level: Medium
-
-https://leetcode.com/problems/insertion-sort-list
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

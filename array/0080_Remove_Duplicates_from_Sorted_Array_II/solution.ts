@@ -1,9 +1,4 @@
 /*
-80. Remove Duplicates from Sorted Array II
-
-*/
-
-/*
 https://www.youtube.com/watch?v=ycAq8iqh0TI
 */
 export function removeDuplicates(nums: number[]): number {

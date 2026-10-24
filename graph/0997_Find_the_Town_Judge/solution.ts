@@ -1,10 +1,4 @@
 /*
-997. Find the Town Judge
-
-https://leetcode.com/problems/find-the-town-judge/
-*/
-
-/*
 Approach: Graph
 
 node with degree (in_degree – out_degree) N – 1 is the judge.

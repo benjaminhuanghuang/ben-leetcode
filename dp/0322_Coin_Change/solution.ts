@@ -1,10 +1,4 @@
 /*
-322. Coin Change
-
-https://leetcode.com/problems/coin-change/
-*/
-
-/*
 LaiOffer: Naive dynamic programming
 
 https://www.youtube.com/watch?v=htdBJul3xoc

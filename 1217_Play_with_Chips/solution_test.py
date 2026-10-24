@@ -1,11 +1,3 @@
-
-'''
-1217. Play with Chips
-
-Level: Easy
-
-https://leetcode.com/problems/play-with-chips
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

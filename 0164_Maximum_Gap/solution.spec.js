@@ -1,10 +1,3 @@
-/*
-164. Maximum Gap
-
-Level: Hard
-
-https://leetcode.com/problems/maximum-gap
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

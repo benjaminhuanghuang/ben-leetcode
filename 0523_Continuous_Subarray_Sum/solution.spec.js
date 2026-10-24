@@ -1,10 +1,3 @@
-/*
-523. Continuous Subarray Sum
-
-Level: Medium
-
-https://leetcode.com/problems/continuous-subarray-sum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-1470. Shuffle the Array
-
-Level: Easy
-
-https://leetcode.com/problems/shuffle-the-array
-*/
 package leetcode1470
 
 import (

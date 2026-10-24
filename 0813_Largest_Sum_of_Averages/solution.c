@@ -1,13 +1,4 @@
 /*
-813. Largest Sum of Averages
-
-Level: Medium
-
-https://leetcode.com/problems/largest-sum-of-averages
-*/
-
-
-/*
   Solution: 
 */
 

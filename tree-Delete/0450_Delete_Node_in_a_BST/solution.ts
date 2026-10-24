@@ -1,9 +1,3 @@
-/*
-450. Delete Node in a BST
-
-https://leetcode.com/problems/delete-node-in-a-bst/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function deleteNode(root: TreeNode | null, key: number): TreeNode | null {

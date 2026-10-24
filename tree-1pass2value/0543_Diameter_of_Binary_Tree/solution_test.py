@@ -1,11 +1,3 @@
-
-'''
-543. Diameter of Binary Tree
-
-Level: Easy
-
-https://leetcode.com/problems/diameter-of-binary-tree
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

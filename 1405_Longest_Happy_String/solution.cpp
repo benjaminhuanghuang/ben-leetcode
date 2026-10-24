@@ -1,12 +1,3 @@
-/*
-1405. Longest Happy String
-
-Level: Medium
-
-https://leetcode.com/problems/longest-happy-string
-
-# 984
-*/
 #include <iostream>
 #include <vector>
 #include <string>

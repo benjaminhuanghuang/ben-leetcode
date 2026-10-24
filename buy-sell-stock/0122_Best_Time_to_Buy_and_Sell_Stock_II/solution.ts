@@ -1,12 +1,4 @@
 /*
-122. Best Time to Buy and Sell Stock II
-
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-
-can complete as many transactions as you like 
-*/
-
-/*
 
 */
 function maxProfit(prices: number[]): number {

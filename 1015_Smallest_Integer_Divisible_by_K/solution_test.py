@@ -1,11 +1,3 @@
-
-'''
-1015. Smallest Integer Divisible by K
-
-Level: Medium
-
-https://leetcode.com/problems/smallest-integer-divisible-by-k
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

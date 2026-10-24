@@ -1,10 +1,3 @@
-/*
-1356. Sort Integers by The Number of 1 Bits
-
-Level: Easy
-
-https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

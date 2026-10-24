@@ -1,9 +1,3 @@
-/*
-214. Shortest Palindrome
-
-https://leetcode.com/problems/shortest-palindrome/
-给你一个字符串你可以在它的前面添加一些字符，返回最短的回文字符串。
- */
 #include <string>
 #include <vector>
 

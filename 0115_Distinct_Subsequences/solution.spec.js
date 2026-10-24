@@ -1,10 +1,3 @@
-/*
-115. Distinct Subsequences
-
-Level: Hard
-
-https://leetcode.com/problems/distinct-subsequences
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

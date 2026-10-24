@@ -1,11 +1,3 @@
-
-'''
-491. Increasing Subsequences
-
-Level: Medium
-
-https://leetcode.com/problems/increasing-subsequences
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-218. The Skyline Problem
-
-Level: Hard
-
-https://leetcode.com/problems/the-skyline-problem
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-1201. Ugly Number III
-
-Level: Medium
-
-https://leetcode.com/problems/ugly-number-iii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

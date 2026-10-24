@@ -1,10 +1,3 @@
-/*
-504. Base 7
-
-Level: Easy
-
-https://leetcode.com/problems/base-7
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,9 +1,3 @@
-/*
-547. Friend Circles
-
-https://leetcode.com/problems/friend-circles/
-*/
-
 #include <vector>
 #include <unordered_set>
 

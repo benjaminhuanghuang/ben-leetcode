@@ -1,13 +1,4 @@
 /*
-885. Spiral Matrix III
-
-Level: Medium
-
-https://leetcode.com/problems/spiral-matrix-iii
-*/
-
-
-/*
   Solution: 
 */
 

@@ -1,10 +1,3 @@
-/*
-274. H-Index
-
-Level: Medium
-
-https://leetcode.com/problems/h-index
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-1096. Brace Expansion II
-
-Level: Hard
-
-https://leetcode.com/problems/brace-expansion-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,12 +1,4 @@
 /*
-86. Partition List
-
-Level: Medium
-
-https://leetcode.com/problems/partition-list
-*/
-
-/*
   Solution: 
 */
 

@@ -1,11 +1,3 @@
-
-'''
-720. Longest Word in Dictionary
-
-Level: Easy
-
-https://leetcode.com/problems/longest-word-in-dictionary
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

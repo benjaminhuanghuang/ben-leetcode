@@ -1,11 +1,3 @@
-
-'''
-391. Perfect Rectangle
-
-Level: Hard
-
-https://leetcode.com/problems/perfect-rectangle
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

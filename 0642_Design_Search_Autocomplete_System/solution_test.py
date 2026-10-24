@@ -1,11 +1,3 @@
-
-'''
-642. Design Search Autocomplete System
-
-Level: Hard
-
-https://leetcode.com/problems/design-search-autocomplete-system
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

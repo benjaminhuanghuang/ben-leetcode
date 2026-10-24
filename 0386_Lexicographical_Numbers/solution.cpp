@@ -1,10 +1,3 @@
-/*
-386. Lexicographical Numbers
-
-Level: Medium
-
-https://leetcode.com/problems/lexicographical-numbers
-*/
 #include <iostream>
 #include <vector>
 #include <string>

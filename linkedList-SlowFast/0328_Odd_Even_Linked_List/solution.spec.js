@@ -1,10 +1,3 @@
-/*
-328. Odd Even Linked List
-
-Level: Medium
-
-https://leetcode.com/problems/odd-even-linked-list
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

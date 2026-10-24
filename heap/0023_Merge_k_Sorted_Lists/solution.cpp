@@ -1,12 +1,3 @@
-/*
-23. Merge k Sorted Lists
-
-Level: Hard
-
-https://leetcode.com/problems/merge-k-sorted-lists
-
-21. Merge Two Sorted Lists
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

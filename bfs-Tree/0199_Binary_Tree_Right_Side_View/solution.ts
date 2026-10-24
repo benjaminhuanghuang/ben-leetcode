@@ -1,8 +1,3 @@
-/*
-199. Binary Tree Right Side View
-https://leetcode.com/problems/binary-tree-right-side-view/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function rightSideView(root: TreeNode | null): number[] {

@@ -1,10 +1,4 @@
 /*
-611. Valid Triangle Number
-
-https://leetcode.com/problems/valid-triangle-number/
-*/
-
-/*
     https://zxi.mytechroad.com/blog/math/leetcode-611-valid-triangle-number/
     Sort + Two points
     a + b > c

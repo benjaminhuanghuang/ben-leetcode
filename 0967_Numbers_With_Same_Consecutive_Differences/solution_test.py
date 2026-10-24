@@ -1,11 +1,3 @@
-
-'''
-967. Numbers With Same Consecutive Differences
-
-Level: Medium
-
-https://leetcode.com/problems/numbers-with-same-consecutive-differences
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

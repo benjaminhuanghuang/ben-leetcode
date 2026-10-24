@@ -1,11 +1,3 @@
-
-'''
-740. Delete and Earn
-
-Level: Medium
-
-https://leetcode.com/problems/delete-and-earn
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-868. Binary Gap
-
-Level: Easy
-
-https://leetcode.com/problems/binary-gap
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

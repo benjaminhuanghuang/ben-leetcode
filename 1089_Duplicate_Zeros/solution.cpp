@@ -1,7 +1,3 @@
-/*
-1089. Duplicate Zeros
-https://leetcode.com/problems/duplicate-zeros/
- */
 #include <vector>
 
 using namespace std;

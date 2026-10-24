@@ -1,10 +1,4 @@
 /*
-743. Network Delay Time
-
-https://leetcode.com/problems/network-delay-time/
-*/
-
-/*
 Approach: Dijsktra's algorithm
 
 https://www.youtube.com/watch?v=vwLYDeghs_c   (Hua hua)

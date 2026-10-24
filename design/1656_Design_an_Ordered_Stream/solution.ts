@@ -1,9 +1,3 @@
-/*
-1656. Design an Ordered Stream
-
-https://leetcode.com/problems/design-an-ordered-stream/
-*/
-
 class OrderedStream {
   // A global pointer for the current position in the stream.
   ptr: number = 0;

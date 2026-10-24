@@ -1,10 +1,3 @@
-/*
-313. Super Ugly Number
-
-Level: Medium
-
-https://leetcode.com/problems/super-ugly-number
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

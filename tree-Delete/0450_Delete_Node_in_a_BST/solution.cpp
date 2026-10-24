@@ -1,9 +1,3 @@
-
-/*
-450. Delete Node in a BST
-https://leetcode.com/problems/delete-node-in-a-bst/
-*/
-
 #include <vector>
 #include <queue>
 using namespace std;

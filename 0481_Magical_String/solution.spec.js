@@ -1,10 +1,3 @@
-/*
-481. Magical String
-
-Level: Medium
-
-https://leetcode.com/problems/magical-string
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

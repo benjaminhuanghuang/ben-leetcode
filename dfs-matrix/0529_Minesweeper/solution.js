@@ -1,12 +1,4 @@
 /*
-529. Minesweeper
-
-Level: Medium
-
-https://leetcode.com/problems/minesweeper
-*/
-
-/*
   Solution: 
 */
 

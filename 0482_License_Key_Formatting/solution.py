@@ -1,11 +1,4 @@
 '''
-482. License Key Formatting
-
-Level: Easy
-
-https://leetcode.com/problems/license-key-formatting
-'''
-'''
   Solution: 
 '''
 class Solution:

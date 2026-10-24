@@ -1,9 +1,3 @@
-/*
-2331. Evaluate Boolean Binary Tree
-
-https://leetcode.com/problems/evaluate-boolean-binary-tree/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function evaluateTree(root: TreeNode | null): boolean {

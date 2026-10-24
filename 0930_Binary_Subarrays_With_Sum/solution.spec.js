@@ -1,10 +1,3 @@
-/*
-930. Binary Subarrays With Sum
-
-Level: Medium
-
-https://leetcode.com/problems/binary-subarrays-with-sum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

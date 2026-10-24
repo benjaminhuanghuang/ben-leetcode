@@ -1,13 +1,4 @@
 /*
-519. Random Flip Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/random-flip-matrix
-*/
-
-
-/*
   Solution: 
 */
 

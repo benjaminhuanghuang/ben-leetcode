@@ -1,9 +1,3 @@
-/*
-1004. Max Consecutive Ones III
-
-https://leetcode.com/problems/max-consecutive-ones-iii/
-*/
-
 #include <vector>
 #include <string>
 #include <unordered_set>

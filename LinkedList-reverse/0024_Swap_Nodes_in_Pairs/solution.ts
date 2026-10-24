@@ -1,9 +1,3 @@
-/*
-24. Swap Nodes in Pairs
-
-https://leetcode.com/problems/swap-nodes-in-pairs/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function swapPairs(head: ListNode | null): ListNode | null {

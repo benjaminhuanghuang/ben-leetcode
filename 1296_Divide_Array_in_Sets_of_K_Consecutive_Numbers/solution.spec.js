@@ -1,10 +1,3 @@
-/*
-1296. Divide Array in Sets of K Consecutive Numbers
-
-Level: Medium
-
-https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

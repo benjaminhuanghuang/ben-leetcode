@@ -1,10 +1,4 @@
 /*
-2642. Design Graph With Shortest Path Calculator
-
-https://leetcode.com/problems/design-graph-with-shortest-path-calculator/
-*/
-
-/*
 https://github.com/wisdompeak/LeetCode/tree/master/Graph/2642.Design-Graph-With-Shortest-Path-Calculator
 
 Approach: Floyd-Warshall Algorithm

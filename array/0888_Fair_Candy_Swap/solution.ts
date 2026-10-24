@@ -1,9 +1,3 @@
-/*
-888. Fair Candy Swap
-
-https://leetcode.com/problems/fair-candy-swap/
-*/
-
 function fairCandySwap(aliceSizes: number[], bobSizes: number[]): number[] {
   // Calculate the sum of candies for both Alice and Bob.
   let sumAlice = aliceSizes.reduce(

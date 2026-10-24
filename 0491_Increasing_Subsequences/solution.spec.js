@@ -1,10 +1,3 @@
-/*
-491. Increasing Subsequences
-
-Level: Medium
-
-https://leetcode.com/problems/increasing-subsequences
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

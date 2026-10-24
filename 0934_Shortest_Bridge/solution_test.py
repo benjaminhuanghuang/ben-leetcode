@@ -1,11 +1,3 @@
-
-'''
-934. Shortest Bridge
-
-Level: Medium
-
-https://leetcode.com/problems/shortest-bridge
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

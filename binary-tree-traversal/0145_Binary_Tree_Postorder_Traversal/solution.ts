@@ -1,9 +1,3 @@
-/*
-145. Binary Tree Postorder Traversal
-
-https://leetcode.com/problems/binary-tree-postorder-traversal/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function postorderTraversal(root: TreeNode | null): number[] {

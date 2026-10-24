@@ -1,11 +1,3 @@
-
-'''
-957. Prison Cells After N Days
-
-Level: Medium
-
-https://leetcode.com/problems/prison-cells-after-n-days
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

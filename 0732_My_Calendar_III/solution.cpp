@@ -1,10 +1,3 @@
-/*
-732. My Calendar III
-
-Level: Hard
-
-https://leetcode.com/problems/my-calendar-iii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

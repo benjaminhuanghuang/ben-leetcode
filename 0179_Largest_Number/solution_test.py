@@ -1,11 +1,3 @@
-
-'''
-179. Largest Number
-
-Level: Medium
-
-https://leetcode.com/problems/largest-number
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

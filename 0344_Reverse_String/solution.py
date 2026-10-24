@@ -1,8 +1,3 @@
-'''
-344. Reverse string
-'''
-
-
 def reverse_string(str):
     char_list = list(str)
     start = 0

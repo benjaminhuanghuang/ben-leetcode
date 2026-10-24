@@ -1,7 +1,3 @@
-/*
-404. Sum of Left Leaves
-https://leetcode.com/problems/sum-of-left-leaves/
- */
 #include "common/TreeNode.h"
 #include <queue>
 

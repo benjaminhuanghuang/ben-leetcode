@@ -1,10 +1,3 @@
-/*
-447. Number of Boomerangs
-
-Level: Easy
-
-https://leetcode.com/problems/number-of-boomerangs
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

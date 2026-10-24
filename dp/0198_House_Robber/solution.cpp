@@ -1,10 +1,3 @@
-/*
-198. House Robber
-
-Level: Easy
-
-https://leetcode.com/problems/house-robber
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

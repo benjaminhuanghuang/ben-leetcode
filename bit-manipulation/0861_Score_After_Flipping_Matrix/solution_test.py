@@ -1,11 +1,3 @@
-
-'''
-861. Score After Flipping Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/score-after-flipping-matrix
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

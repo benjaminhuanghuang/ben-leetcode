@@ -1,11 +1,4 @@
 '''
-645. Set Mismatch
-
-Level: Easy
-
-https://leetcode.com/problems/set-mismatch
-'''
-'''
   Solution: 
 '''
 class Solution:

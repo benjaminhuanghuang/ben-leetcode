@@ -1,11 +1,3 @@
-
-'''
-299. Bulls and Cows
-
-Level: Easy
-
-https://leetcode.com/problems/bulls-and-cows
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

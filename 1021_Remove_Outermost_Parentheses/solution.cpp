@@ -1,8 +1,3 @@
-/*
-1021. Remove Outermost Parentheses [Easy]
-
-https://leetcode.com/problems/remove-outermost-parentheses/
-*/
 #include <string>
 #include <stack>
 using namespace std;

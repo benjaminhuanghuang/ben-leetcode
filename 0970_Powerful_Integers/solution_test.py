@@ -1,11 +1,3 @@
-
-'''
-970. Powerful Integers
-
-Level: Easy
-
-https://leetcode.com/problems/powerful-integers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,9 +1,3 @@
-/*
-652. Find Duplicate Subtrees
-
-https://leetcode.com/problems/find-duplicate-subtrees/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 /*

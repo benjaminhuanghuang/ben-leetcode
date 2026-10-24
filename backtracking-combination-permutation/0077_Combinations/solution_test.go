@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/combinations
 package leetcode0077
 import (
 	"testing"

@@ -1,10 +1,3 @@
-/*
-1140. Stone Game II
-
-Level: Medium
-
-https://leetcode.com/problems/stone-game-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-198. House Robber
-
-Level: Easy
-
-https://leetcode.com/problems/house-robber
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

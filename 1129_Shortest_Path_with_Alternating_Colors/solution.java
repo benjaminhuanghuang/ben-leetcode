@@ -1,10 +1,3 @@
-/*
-1129. Shortest Path with Alternating Colors
-
-Level: Medium
-
-https://leetcode.com/problems/shortest-path-with-alternating-colors
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

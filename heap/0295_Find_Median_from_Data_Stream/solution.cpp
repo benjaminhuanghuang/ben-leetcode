@@ -1,10 +1,3 @@
-/*
-295. Find Median from Data Stream
-
-Level: Hard
-
-https://leetcode.com/problems/find-median-from-data-stream
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

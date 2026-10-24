@@ -1,9 +1,3 @@
-/*
-367. Valid Perfect Square
-
-https://leetcode.com/problems/valid-perfect-square/
-*/
-
 function isPerfectSquare(num: number): boolean {
   if (num < 1) return false;
   if (num === 1) return true;

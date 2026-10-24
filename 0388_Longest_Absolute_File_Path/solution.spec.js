@@ -1,10 +1,3 @@
-/*
-388. Longest Absolute File Path
-
-Level: Medium
-
-https://leetcode.com/problems/longest-absolute-file-path
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

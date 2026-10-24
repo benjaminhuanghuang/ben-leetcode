@@ -1,10 +1,3 @@
-/*
-29. Divide Two Integers
-
-Level: Medium
-
-https://leetcode.com/problems/divide-two-integers
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

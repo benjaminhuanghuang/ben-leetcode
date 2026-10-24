@@ -1,12 +1,4 @@
 /*
-147. Insertion Sort List
-
-Level: Medium
-
-https://leetcode.com/problems/insertion-sort-list
-*/
-
-/*
   Solution: 
 */
 

@@ -1,9 +1,4 @@
 /*
-169. Majority Element
-https://leetcode.com/problems/majority-element/
-*/
-
-/*
     This method uses Boyer-Moore Voting Algorithm.
     The idea is to cancel out each occurrence of an element e with all the other elements that are different from e.
     This way, if an element has a majority, it will remain after all the cancellations.

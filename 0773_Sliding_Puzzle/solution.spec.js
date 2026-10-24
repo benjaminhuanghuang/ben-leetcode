@@ -1,10 +1,3 @@
-/*
-773. Sliding Puzzle
-
-Level: Hard
-
-https://leetcode.com/problems/sliding-puzzle
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,4 @@
 /*
-198. House Robber
-
-https://leetcode.com/problems/house-robber-ii/
-*/
-
-/*
 因为是环形，不能同时取第一个和最后一个房子。于是把问题 转化成两个「线性」的问题：
 
 不偷第一个房子 → 那么可以考虑偷房子 1 到 n-1（下标从 1 到最后）那一段。

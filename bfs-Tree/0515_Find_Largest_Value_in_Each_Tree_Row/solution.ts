@@ -1,9 +1,3 @@
-/*
-515. Find Largest Value in Each Tree Row
-
-https://leetcode.com/problems/find-largest-value-in-each-tree-row/
-
-*/
 import { TreeNode } from "../../common/TreeNode";
 
 function largestValues(root: TreeNode | null): number[] {

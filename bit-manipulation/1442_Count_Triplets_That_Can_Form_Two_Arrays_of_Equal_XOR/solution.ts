@@ -1,10 +1,4 @@
 /*
-1442. Count Triplets That Can Form Two Arrays of Equal XOR
-
-https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/
-*/
-
-/*
 X = a0 ^ a1 ^ ... ^ ai-1
 Y = a0 ^ a1 ^ ... ^ ai-1 ^ ai ^ ...^ aj-1
 Z = a0 ^ a1 ^ ... ^ ai-1 ^ ai ^ ...^ aj-1 ^ aj ^ ... ^ ak

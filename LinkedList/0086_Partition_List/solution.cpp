@@ -1,10 +1,3 @@
-/*
-86. Partition List
-
-Level: Medium
-
-https://leetcode.com/problems/partition-list
-*/
 #include <iostream>
 #include <vector>
 #include <string>

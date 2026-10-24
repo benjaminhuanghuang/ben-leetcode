@@ -1,10 +1,3 @@
-/*
-821. Shortest Distance to a Character
-
-Level: Easy
-
-https://leetcode.com/problems/shortest-distance-to-a-character
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

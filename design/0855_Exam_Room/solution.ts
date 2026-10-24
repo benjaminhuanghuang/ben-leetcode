@@ -1,10 +1,4 @@
 /*
-855. Exam Room
-
-https://leetcode.com/problems/exam-room/
-*/
-
-/*
 https://www.youtube.com/watch?v=-dGB1j3Pk18
 
 */

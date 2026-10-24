@@ -1,8 +1,3 @@
-/*
-44. Wildcard Matching
-
-*/
-
 public class Solution044 {
     public bool IsMatch(string s, string p) {
          return IsMatchRecursion(s, 0, p, 0);

@@ -1,10 +1,3 @@
-/*
-519. Random Flip Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/random-flip-matrix
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

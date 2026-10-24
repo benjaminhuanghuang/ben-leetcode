@@ -1,8 +1,3 @@
-/*
-622. Design Circular Queue
-https://leetcode.com/problems/design-circular-queue
-*/
-
 class MyCircularQueue_Error {
   private queue: number[];
   private front: number;

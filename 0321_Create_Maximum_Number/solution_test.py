@@ -1,11 +1,3 @@
-
-'''
-321. Create Maximum Number
-
-Level: Hard
-
-https://leetcode.com/problems/create-maximum-number
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

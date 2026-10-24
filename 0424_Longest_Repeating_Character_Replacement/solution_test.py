@@ -1,11 +1,3 @@
-
-'''
-424. Longest Repeating Character Replacement
-
-Level: Medium
-
-https://leetcode.com/problems/longest-repeating-character-replacement
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

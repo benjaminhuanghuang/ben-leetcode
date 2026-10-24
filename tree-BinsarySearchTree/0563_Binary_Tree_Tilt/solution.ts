@@ -1,9 +1,3 @@
-/*
-563. Binary Tree Tilt
-
-https://leetcode.com/problems/binary-tree-tilt/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function findTilt(root: TreeNode | null): number {

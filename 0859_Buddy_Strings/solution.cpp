@@ -1,8 +1,3 @@
-/*
-859. Buddy Strings
-
-https://leetcode.com/problems/buddy-strings/
-*/
 #include <string>
 #include <vector>
 

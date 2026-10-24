@@ -1,11 +1,3 @@
-
-'''
-300. Longest Increasing Subsequence
-
-Level: Medium
-
-https://leetcode.com/problems/longest-increasing-subsequence
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

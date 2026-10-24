@@ -1,8 +1,3 @@
-/*
-329. Longest Increasing Path in a Matrix [Hard, memoization or Topological Sort]
-
-https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
-*/
 #include <vector>
 #include <queue>
 

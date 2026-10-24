@@ -1,13 +1,4 @@
 /*
-594. Longest Harmonious Subsequence
-
-Level: Easy
-
-https://leetcode.com/problems/longest-harmonious-subsequence
-*/
-
-
-/*
   Solution: 
 */
 

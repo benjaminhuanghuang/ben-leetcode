@@ -1,10 +1,3 @@
-/*
-542. 01 Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/01-matrix
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

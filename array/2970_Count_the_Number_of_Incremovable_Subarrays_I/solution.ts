@@ -1,10 +1,4 @@
 /*
-2970. Count the Number of Incremovable Subarrays I
-
-https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/
-*/
-
-/*
 https://algo.monster/liteproblems/2970
 
 1. if the array itself is already strictly increasing, then any subarray, including an empty one, is potentially incremovable

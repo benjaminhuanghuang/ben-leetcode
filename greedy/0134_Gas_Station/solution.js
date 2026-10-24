@@ -1,7 +1,3 @@
-/*
-134. Gas Station
-*/
-
 /**
  * @param {number[]} gas
  * @param {number[]} cost

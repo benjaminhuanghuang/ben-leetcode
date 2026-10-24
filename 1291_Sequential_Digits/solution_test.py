@@ -1,11 +1,3 @@
-
-'''
-1291. Sequential Digits
-
-Level: Medium
-
-https://leetcode.com/problems/sequential-digits
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

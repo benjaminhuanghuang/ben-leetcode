@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/two-sum/
 package leetcode0001
 
 func twoSum(nums []int, target int) []int {

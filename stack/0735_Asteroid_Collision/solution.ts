@@ -1,9 +1,3 @@
-/*
-735. Asteroid Collision
-
-https://leetcode.com/problems/asteroid-collision/
-*/
-
 function asteroidCollision(asteroids: number[]): number[] {
   const stack: number[] = [];
 

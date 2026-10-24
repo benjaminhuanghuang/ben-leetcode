@@ -1,8 +1,3 @@
-/*
-104. Maximum Depth of Binary Tree
-https://leetcode.com/problems/maximum-depth-of-binary-tree/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function maxDepth(root: TreeNode | null): number {

@@ -1,11 +1,4 @@
 '''
-641. Design Circular Deque
-
-Level: Medium
-
-https://leetcode.com/problems/design-circular-deque
-'''
-'''
   Solution: 
 '''
 class MyCircularDeque:

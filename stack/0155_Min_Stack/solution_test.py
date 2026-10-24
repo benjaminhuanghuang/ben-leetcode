@@ -1,11 +1,3 @@
-
-'''
-155. Min Stack
-
-Level: Easy
-
-https://leetcode.com/problems/min-stack
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

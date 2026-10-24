@@ -1,10 +1,3 @@
-/*
-529. Minesweeper
-
-Level: Medium
-
-https://leetcode.com/problems/minesweeper
-*/
 #include <iostream>
 #include <vector>
 #include <string>

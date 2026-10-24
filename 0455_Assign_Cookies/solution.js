@@ -1,12 +1,4 @@
 /*
-455. Assign Cookies
-
-Level: Easy
-
-https://leetcode.com/problems/assign-cookies
-*/
-
-/*
   Solution: 
 */
 

@@ -1,10 +1,3 @@
-/*
-232. Implement Queue using Stacks
-
-Level: Easy
-
-https://leetcode.com/problems/implement-queue-using-stacks
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

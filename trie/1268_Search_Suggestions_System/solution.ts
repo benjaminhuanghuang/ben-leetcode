@@ -1,9 +1,3 @@
-/*
-1268. Search Suggestions System
-
-https://leetcode.com/problems/search-suggestions-system
-*/
-
 function suggestedProducts(products: string[], searchWord: string): string[][] {
   // Init trie
   const trie = new Trie();

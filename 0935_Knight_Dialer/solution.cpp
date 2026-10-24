@@ -1,12 +1,3 @@
-/*
-935. Knight Dialer
-
-Level: Medium
-
-https://leetcode.com/problems/knight-dialer
-
-# 688
-*/
 #include <iostream>
 #include <vector>
 #include <string>

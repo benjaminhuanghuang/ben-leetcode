@@ -1,11 +1,3 @@
-/*
-133. Clone Graph
-
-https://leetcode.com/problems/clone-graph/
-
-    138. Copy List with Random Pointer
-*/
-
 import { _Node } from "../../common/_Node";
 
 function cloneGraph(node: _Node | null): _Node | null {

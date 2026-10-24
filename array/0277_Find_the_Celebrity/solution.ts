@@ -1,13 +1,3 @@
-/*
-277. Find the Celebrity
-
-https://leetcode.com/problems/find-the-celebrity/
-
-A celebrity is someone whom everyone knows but who knows no one themselves.
-
-[Facebook][Amazon]
-*/
-
 declare function knows(a: number, b: number): boolean;
 /*
 Laioffer: https://www.youtube.com/watch?v=QDehNYXlCAg

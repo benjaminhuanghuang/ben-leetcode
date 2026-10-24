@@ -1,10 +1,3 @@
-/*
-641. Design Circular Deque
-
-Level: Medium
-
-https://leetcode.com/problems/design-circular-deque
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

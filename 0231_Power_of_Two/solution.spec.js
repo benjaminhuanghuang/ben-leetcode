@@ -1,10 +1,3 @@
-/*
-231. Power of Two
-
-Level: Easy
-
-https://leetcode.com/problems/power-of-two
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

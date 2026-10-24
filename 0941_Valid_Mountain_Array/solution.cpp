@@ -1,7 +1,3 @@
-/*
-941. Valid Mountain Array
-https://leetcode.com/problems/valid-mountain-array/
-*/
 #include <vector>
 using namespace std;
 

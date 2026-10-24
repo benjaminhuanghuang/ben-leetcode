@@ -1,10 +1,3 @@
-/*
-494. Target Sum
-
-Level: Medium
-
-https://leetcode.com/problems/target-sum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

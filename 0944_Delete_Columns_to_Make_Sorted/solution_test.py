@@ -1,11 +1,3 @@
-
-'''
-944. Delete Columns to Make Sorted
-
-Level: Easy
-
-https://leetcode.com/problems/delete-columns-to-make-sorted
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

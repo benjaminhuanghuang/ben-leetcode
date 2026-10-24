@@ -1,11 +1,3 @@
-
-'''
-690. Employee Importance
-
-Level: Easy
-
-https://leetcode.com/problems/employee-importance
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

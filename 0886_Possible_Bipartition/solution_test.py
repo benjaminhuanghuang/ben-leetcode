@@ -1,11 +1,3 @@
-
-'''
-886. Possible Bipartition
-
-Level: Medium
-
-https://leetcode.com/problems/possible-bipartition
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

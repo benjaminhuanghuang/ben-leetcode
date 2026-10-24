@@ -1,13 +1,3 @@
-/*
-139. Word Break
-
-Level: Medium
-
-https://leetcode.com/problems/word-break
-
-
-- 140. Word Break II
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

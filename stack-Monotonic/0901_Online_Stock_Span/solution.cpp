@@ -1,10 +1,3 @@
-/*
-901. Online Stock Span
-
-Level: Medium
-
-https://leetcode.com/problems/online-stock-span
-*/
 #include <iostream>
 #include <vector>
 #include <string>

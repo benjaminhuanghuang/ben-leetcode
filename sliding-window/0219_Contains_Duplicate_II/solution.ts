@@ -1,10 +1,4 @@
 /*
-219. Contains Duplicate II
-
-https://leetcode.com/problems/contains-duplicate-ii/
-*/
-
-/*
     Approach: Brute Force
     Time Complexity: O(N * K)
 */

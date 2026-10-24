@@ -1,7 +1,3 @@
-/*
-520. Detect Capital
-https://leetcode.com/problems/detect-capital/
-*/
 #include <string>
 #include <algorithm>
 

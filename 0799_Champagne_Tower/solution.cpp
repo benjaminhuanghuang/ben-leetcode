@@ -1,10 +1,3 @@
-/*
-799. Champagne Tower
-
-Level: Medium
-
-https://leetcode.com/problems/champagne-tower
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-883. Projection Area of 3D Shapes
-
-Level: Easy
-
-https://leetcode.com/problems/projection-area-of-3d-shapes
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

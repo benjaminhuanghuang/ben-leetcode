@@ -1,11 +1,3 @@
-
-'''
-812. Largest Triangle Area
-
-Level: Easy
-
-https://leetcode.com/problems/largest-triangle-area
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

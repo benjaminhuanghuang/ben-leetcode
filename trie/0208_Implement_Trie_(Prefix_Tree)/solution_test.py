@@ -1,11 +1,3 @@
-
-'''
-208. Implement Trie (Prefix Tree)
-
-Level: Medium
-
-https://leetcode.com/problems/implement-trie-prefix-tree
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

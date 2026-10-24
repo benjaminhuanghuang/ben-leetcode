@@ -1,10 +1,3 @@
-/*
-1111. Maximum Nesting Depth of Two Valid Parentheses Strings
-
-Level: Medium
-
-https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

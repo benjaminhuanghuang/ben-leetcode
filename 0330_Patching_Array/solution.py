@@ -1,11 +1,4 @@
 '''
-330. Patching Array
-
-Level: Hard
-
-https://leetcode.com/problems/patching-array
-'''
-'''
   Solution: 
 '''
 class Solution:

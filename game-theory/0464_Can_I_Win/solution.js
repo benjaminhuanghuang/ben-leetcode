@@ -1,12 +1,4 @@
 /*
-464. Can I Win
-
-Level: Medium
-
-https://leetcode.com/problems/can-i-win
-*/
-
-/*
   Solution: 
 
   https://www.youtube.com/watch?v=lP9qkrJu4xw

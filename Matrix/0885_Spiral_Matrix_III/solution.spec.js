@@ -1,10 +1,3 @@
-/*
-885. Spiral Matrix III
-
-Level: Medium
-
-https://leetcode.com/problems/spiral-matrix-iii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

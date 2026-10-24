@@ -1,10 +1,3 @@
-/*
-733. Flood Fill
-
-Level: Easy
-
-https://leetcode.com/problems/flood-fill
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

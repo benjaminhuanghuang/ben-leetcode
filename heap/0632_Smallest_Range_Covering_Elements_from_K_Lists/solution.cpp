@@ -1,7 +1,3 @@
-/*
-632. Smallest Range
-https://leetcode.com/problems/smallest-range/
-*/
 #include <vector>
 #include <unordered_map>
 #include <queue>

@@ -1,8 +1,3 @@
-/*
-98. Validate Binary Search Tree
-https://leetcode.com/problems/validate-binary-search-tree/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function isValidBST(root: TreeNode | null): boolean {

@@ -1,10 +1,4 @@
 /*
-529. Minesweeper
-
-https://leetcode.com/problems/minesweeper/
-*/
-
-/*
   Solution: DFS
     Time complexity: O(m*n)
     Space complexity: O(m* n)

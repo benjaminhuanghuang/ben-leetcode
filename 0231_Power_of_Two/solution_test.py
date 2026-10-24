@@ -1,11 +1,3 @@
-
-'''
-231. Power of Two
-
-Level: Easy
-
-https://leetcode.com/problems/power-of-two
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

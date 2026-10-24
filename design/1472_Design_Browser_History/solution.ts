@@ -1,9 +1,3 @@
-/*
-1472. Design Browser History
-
-https://leetcode.com/problems/design-browser-history/
-*/
-
 class BrowserHistory {
   backHistory: string[] = []; // Array to manage back navigation.
   forwardHistory: string[] = []; // Array to manage forward navigation.

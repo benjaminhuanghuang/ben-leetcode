@@ -1,8 +1,3 @@
-/*
-228. Summary Ranges
-https://leetcode.com/problems/summary-ranges/
-*/
-
 function summaryRanges(nums: number[]): string[] {
   const result: string[] = [];
   let start = 0;

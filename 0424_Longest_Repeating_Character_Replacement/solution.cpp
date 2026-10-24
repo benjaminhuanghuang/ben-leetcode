@@ -1,10 +1,3 @@
-/*
-424. Longest Repeating Character Replacement
-
-Level: Medium
-
-https://leetcode.com/problems/longest-repeating-character-replacement
-*/
 #include <iostream>
 #include <vector>
 #include <string>

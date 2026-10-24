@@ -1,11 +1,3 @@
-
-'''
-297. Serialize and Deserialize Binary Tree
-
-Level: Hard
-
-https://leetcode.com/problems/serialize-and-deserialize-binary-tree
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

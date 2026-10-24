@@ -1,10 +1,3 @@
-/*
-155. Min Stack
-
-Level: Easy
-
-https://leetcode.com/problems/min-stack
-*/
 package leetcode0155
 
 /*

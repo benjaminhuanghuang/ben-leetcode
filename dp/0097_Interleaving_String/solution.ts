@@ -1,9 +1,3 @@
-/*
-97. Interleaving String
-
-https://leetcode.com/problems/interleaving-string/
-*/
-
 function isInterleave(s1: string, s2: string, s3: string): boolean {
   const l1 = s1.length;
   const l2 = s2.length;

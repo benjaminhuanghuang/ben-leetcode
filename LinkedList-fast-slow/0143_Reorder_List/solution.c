@@ -1,13 +1,4 @@
 /*
-143. Reorder List
-
-Level: Medium
-
-https://leetcode.com/problems/reorder-list
-*/
-
-
-/*
   Solution: 
 */
 /**

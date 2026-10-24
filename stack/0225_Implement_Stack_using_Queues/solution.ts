@@ -1,11 +1,3 @@
-/*
-225. Implement Stack using Queues
-
-https://leetcode.com/problems/implement-stack-using-queues/
-
-- 232. Implement Queue using Stacks
-*/
-
 class MyStack {
   outQueue: number[] = [];
   inQueue: number[] = [];

@@ -1,10 +1,3 @@
-/*
-69. Sqrt(x)
-
-Level: Easy
-
-https://leetcode.com/problems/sqrtx
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

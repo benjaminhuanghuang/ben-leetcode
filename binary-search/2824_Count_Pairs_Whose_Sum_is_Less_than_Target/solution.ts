@@ -1,9 +1,3 @@
-/*
-2824. Count Pairs Whose Sum is Less than Target
-
-https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/
-*/
-
 function countPairs(nums: number[], target: number): number {
   nums.sort((a, b) => a - b);
   let pairCount = 0; // Initialize the count of pairs.

@@ -1,7 +1,3 @@
-/*
-7. Reverse Integer
-https://leetcode.com/problems/reverse-integer/
-*/
 #include <climits>
 
 class Solution_overflow

@@ -1,11 +1,3 @@
-
-'''
-2. Add Two Numbers
-
-Level: Medium
-
-https://leetcode.com/problems/add-two-numbers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

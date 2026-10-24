@@ -1,10 +1,4 @@
 /*
-841. Keys and Rooms
-
-https://leetcode.com/problems/keys-and-rooms/
-*/
-
-/*
   http://zxi.mytechroad.com/blog/graph/leetcode-841-keys-and-rooms/
 
   Solution: DFS, 遍历所有节点

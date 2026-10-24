@@ -1,11 +1,3 @@
-
-'''
-659. Split Array into Consecutive Subsequences
-
-Level: Medium
-
-https://leetcode.com/problems/split-array-into-consecutive-subsequences
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

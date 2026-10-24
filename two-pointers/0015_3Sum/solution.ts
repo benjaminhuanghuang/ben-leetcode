@@ -1,10 +1,4 @@
 /*
-15. 3Sum
-
-https://leetcode.com/problems/3sum/
-*/
-
-/*
 Time complexity: O(n^2)
 */
 function threeSum(nums: number[]): number[][] {

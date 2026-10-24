@@ -1,10 +1,3 @@
-/*
-1145. Binary Tree Coloring Game
-
-Level: Medium
-
-https://leetcode.com/problems/binary-tree-coloring-game
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

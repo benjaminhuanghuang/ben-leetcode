@@ -1,11 +1,3 @@
-
-'''
-781. Rabbits in Forest
-
-Level: Medium
-
-https://leetcode.com/problems/rabbits-in-forest
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

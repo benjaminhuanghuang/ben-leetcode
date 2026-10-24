@@ -1,9 +1,4 @@
 /*
- 120. Triangle
- https://leetcode.com/problems/triangle/description/
-*/
-
-/*
 DFS
 Time complexity:
 1. DFS Traversal without Memoization: each call would branch into two recursive calls, time ccomplexity is O(2^N)

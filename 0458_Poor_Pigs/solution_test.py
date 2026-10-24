@@ -1,11 +1,3 @@
-
-'''
-458. Poor Pigs
-
-Level: Hard
-
-https://leetcode.com/problems/poor-pigs
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

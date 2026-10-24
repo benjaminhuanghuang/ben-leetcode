@@ -1,9 +1,4 @@
 /*
-36. Valid Sudoku
-https://leetcode.com/problems/valid-sudoku/
-*/
-
-/*
     using 3 sets to store the numbers in each row, column, and box.
 */
 function isValidSudoku(board: string[][]): boolean {

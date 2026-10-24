@@ -1,9 +1,3 @@
-/*
-441. Arranging Coins
-
-https://leetcode.com/problems/arranging-coins/
-*/
-
 function arrangeCoins(n: number): number {
   let l = 1;
   let r = n;

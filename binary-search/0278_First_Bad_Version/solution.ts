@@ -1,9 +1,3 @@
-/*
-278. First Bad Version
-
-https://leetcode.com/problems/first-bad-version/
-*/
-
 function isBadVersion(version: number): boolean {
   return false;
 }

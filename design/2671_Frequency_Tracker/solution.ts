@@ -1,9 +1,3 @@
-/*
-2671. Frequency Tracker
-
-https://binarysearch.com/problems/Frequency-Tracker
-*/
-
 class FrequencyTracker {
   // This map keeps track of the count of each number.
   countMap: Map<number, number> = new Map();

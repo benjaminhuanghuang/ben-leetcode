@@ -1,11 +1,3 @@
-
-'''
-1286. Iterator for Combination
-
-Level: Medium
-
-https://leetcode.com/problems/iterator-for-combination
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-1592. Rearrange Spaces Between Words
-
-Level: Easy
-
-https://leetcode.com/problems/rearrange-spaces-between-words
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

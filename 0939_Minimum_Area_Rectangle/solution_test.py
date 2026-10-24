@@ -1,11 +1,3 @@
-
-'''
-939. Minimum Area Rectangle
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-area-rectangle
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

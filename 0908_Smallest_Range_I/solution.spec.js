@@ -1,10 +1,3 @@
-/*
-908. Smallest Range I
-
-Level: Easy
-
-https://leetcode.com/problems/smallest-range-i
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

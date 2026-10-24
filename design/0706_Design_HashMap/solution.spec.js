@@ -1,10 +1,3 @@
-/*
-706. Design HashMap
-
-Level: Easy
-
-https://leetcode.com/problems/design-hashmap
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

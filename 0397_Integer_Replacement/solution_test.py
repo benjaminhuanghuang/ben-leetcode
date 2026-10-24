@@ -1,11 +1,3 @@
-
-'''
-397. Integer Replacement
-
-Level: Medium
-
-https://leetcode.com/problems/integer-replacement
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

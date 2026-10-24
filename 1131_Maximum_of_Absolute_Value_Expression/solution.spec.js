@@ -1,10 +1,3 @@
-/*
-1131. Maximum of Absolute Value Expression
-
-Level: Medium
-
-https://leetcode.com/problems/maximum-of-absolute-value-expression
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

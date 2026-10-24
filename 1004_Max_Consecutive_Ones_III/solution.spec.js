@@ -1,10 +1,3 @@
-/*
-1004. Max Consecutive Ones III
-
-Level: Medium
-
-https://leetcode.com/problems/max-consecutive-ones-iii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-61. Rotate List
-
-Level: Medium
-
-https://leetcode.com/problems/rotate-list
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

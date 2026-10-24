@@ -1,15 +1,3 @@
-/*
-326. Power of Three
-
-Level: Easy
-
-https://leetcode.com/problems/power-of-three
-
-
-- 231. Power of Two       # count 1
-- 342. Power of Four
-
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

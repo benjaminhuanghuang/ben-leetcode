@@ -1,13 +1,4 @@
 /*
-535. Encode and Decode TinyURL
-
-Level: Medium
-
-https://leetcode.com/problems/encode-and-decode-tinyurl
-*/
-
-
-/*
   Solution: 
 */
 /** Encodes a URL to a shortened URL. */

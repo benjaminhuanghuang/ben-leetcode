@@ -1,10 +1,3 @@
-/*
-762. Prime Number of Set Bits in Binary Representation
-
-Level: Easy
-
-https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

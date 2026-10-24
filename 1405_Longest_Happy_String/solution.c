@@ -1,13 +1,4 @@
 /*
-1405. Longest Happy String
-
-Level: Medium
-
-https://leetcode.com/problems/longest-happy-string
-*/
-
-
-/*
   Solution: 
 */
 

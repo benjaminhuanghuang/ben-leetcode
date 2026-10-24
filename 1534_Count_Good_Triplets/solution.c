@@ -1,13 +1,4 @@
 /*
-1534. Count Good Triplets
-
-Level: Easy
-
-https://leetcode.com/problems/count-good-triplets
-*/
-
-
-/*
   Solution: 
 */
 

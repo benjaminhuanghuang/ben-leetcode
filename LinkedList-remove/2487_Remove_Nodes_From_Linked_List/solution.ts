@@ -1,9 +1,3 @@
-/*
-2487. Remove Nodes From Linked List
-
-https://leetcode.com/problems/remove-nodes-from-linked-list/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function removeNodes(head: ListNode | null): ListNode | null {

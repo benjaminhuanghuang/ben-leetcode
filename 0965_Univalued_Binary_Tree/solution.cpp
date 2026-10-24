@@ -1,7 +1,3 @@
-/*
-965. Univalued Binary Tree
-https://leetcode.com/problems/univalued-binary-tree/
- */
 #include "common/TreeNode.h"
 
 class Solution

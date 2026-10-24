@@ -1,10 +1,3 @@
-/*
-200. Number of Islands
-
-Level: Medium
-
-https://leetcode.com/problems/number-of-islands
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,11 +1,3 @@
-
-'''
-242. Valid Anagram
-
-Level: Easy
-
-https://leetcode.com/problems/valid-anagram
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

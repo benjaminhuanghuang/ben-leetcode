@@ -1,10 +1,3 @@
-/*
-1476. Subrectangle Queries
-
-Level: Medium
-
-https://leetcode.com/problems/subrectangle-queries
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

@@ -1,10 +1,4 @@
 /*
-547. Number of Provinces
-
-https://leetcode.com/problems/number-of-provinces/
-*/
-
-/*
 Huahua: Connected Components
 https://www.youtube.com/watch?v=HHiHno66j40
 

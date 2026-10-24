@@ -1,9 +1,3 @@
-/*
-775. Global and Local Inversions
-
-https://leetcode.com/problems/global-and-local-inversions/
-*/
-
 #include <vector>
 #include <numeric>
 

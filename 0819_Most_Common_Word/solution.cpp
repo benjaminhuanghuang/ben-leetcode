@@ -1,8 +1,3 @@
-/*
-819. Most Common Word
-
-https://leetcode.com/problems/most-common-word/
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

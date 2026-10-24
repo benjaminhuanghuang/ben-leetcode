@@ -1,11 +1,3 @@
-/*
-415. Add Strings
-
-https://leetcode.com/problems/add-strings/
-
-[Facebook][Google]
-*/
-
 function addStrings(num1: string, num2: string): string {
   let i = num1.length - 1;
   let j = num2.length - 1;

@@ -1,8 +1,3 @@
-/*
-90. Subsets II
-
-https://leetcode.com/problems/subsets-ii/
-*/
 #include <vector>
 
 using namespace std;

@@ -1,10 +1,4 @@
 /*
-303. Range Sum Query - Immutable
-
-https://leetcode.com/problems/range-sum-query-immutable/
-*/
-
-/*
 https://www.youtube.com/watch?v=awS9dn_XCmI (Huahua)
 
 Pre-process the data

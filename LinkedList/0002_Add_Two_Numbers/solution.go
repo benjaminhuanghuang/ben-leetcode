@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/add-two-numbers
 package leetcode0002
 
 import (

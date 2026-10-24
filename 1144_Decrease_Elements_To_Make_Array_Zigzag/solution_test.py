@@ -1,11 +1,3 @@
-
-'''
-1144. Decrease Elements To Make Array Zigzag
-
-Level: Medium
-
-https://leetcode.com/problems/decrease-elements-to-make-array-zigzag
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

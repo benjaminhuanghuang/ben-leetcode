@@ -1,8 +1,3 @@
-/*
-120. Triangle [Medium]
-
-https://leetcode.com/problems/triangle/
-*/
 #include <vector>
 #include <algorithm>
 

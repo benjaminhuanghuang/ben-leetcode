@@ -1,11 +1,3 @@
-
-'''
-640. Solve the Equation
-
-Level: Medium
-
-https://leetcode.com/problems/solve-the-equation
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

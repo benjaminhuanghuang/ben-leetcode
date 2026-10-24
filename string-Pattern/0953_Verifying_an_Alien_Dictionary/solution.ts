@@ -1,10 +1,4 @@
 /*
-953. Verifying an Alien Dictionary
-
-https://leetcode.com/problems/verifying-an-alien-dictionary/
-*/
-
-/*
   https://zxi.mytechroad.com/blog/hashtable/leetcode-953-verifying-an-alien-dictionary/
     Time complexity: O(sum(len(words[i])))
 

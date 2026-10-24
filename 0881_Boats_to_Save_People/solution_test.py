@@ -1,11 +1,3 @@
-
-'''
-881. Boats to Save People
-
-Level: Medium
-
-https://leetcode.com/problems/boats-to-save-people
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

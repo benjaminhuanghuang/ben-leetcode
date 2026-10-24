@@ -1,10 +1,3 @@
-/*
-726. Number of Atoms
-
-Level: Hard
-
-https://leetcode.com/problems/number-of-atoms
-*/
 #include <iostream>
 #include <vector>
 #include <string>

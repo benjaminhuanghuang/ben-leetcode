@@ -1,9 +1,3 @@
-/*
-49. Group Anagrams
-
-https://leetcode.com/problems/group-anagrams/
-*/
-
 function groupAnagrams(strs: string[]): string[][] {
   let map = new Map<string, string[]>();
   for (let str of strs) {

@@ -1,10 +1,3 @@
-/*
-253. Meeting Rooms II
-
-Level: Medium
-
-https://leetcode.com/problems/meeting-rooms-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

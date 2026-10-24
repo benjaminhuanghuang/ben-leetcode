@@ -1,9 +1,4 @@
 /*
-2529. Maximum Count of Positive Integer and Negative Integer
-
-https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/
-*/
-/*
 由于数组是按非降序排序的，因此所有负数（如果有）都将位于数组的开头，后面是零，然后是正数。
 可以通过查找大于或等于 的数字的第一个出现位置来确定正数的数量1。
 正数的数量就是数组的总长度减去第一个正数的索引。

@@ -1,10 +1,3 @@
-/*
-1399. Count Largest Group
-
-Level: Easy
-
-https://leetcode.com/problems/count-largest-group
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

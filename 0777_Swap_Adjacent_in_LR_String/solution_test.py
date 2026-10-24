@@ -1,11 +1,3 @@
-
-'''
-777. Swap Adjacent in LR String
-
-Level: Medium
-
-https://leetcode.com/problems/swap-adjacent-in-lr-string
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

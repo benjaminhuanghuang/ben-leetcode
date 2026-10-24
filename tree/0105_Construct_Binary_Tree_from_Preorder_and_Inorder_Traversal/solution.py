@@ -1,8 +1,3 @@
-'''
-105. Construct Binary Tree from Preorder and Inorder Traversal
-
-Given preorder and inorder traversal of a tree, construct the binary tree.
-'''
 from data_structure.tree_node import TreeNode
 
 

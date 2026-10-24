@@ -1,10 +1,3 @@
-/*
-341. Flatten Nested List Iterator
-
-Level: Medium
-
-https://leetcode.com/problems/flatten-nested-list-iterator
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,9 +1,4 @@
 /*
-9. Palindrome Number
-https://leetcode.com/problems/palindrome-number/
-*/
-
-/*
     This method involves reverting the second half of the number and comparing it to the first half 
     without converting it into a string.
 */

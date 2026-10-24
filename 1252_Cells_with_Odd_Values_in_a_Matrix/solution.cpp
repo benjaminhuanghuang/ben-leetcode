@@ -1,10 +1,3 @@
-/*
-1252. Cells with Odd Values in a Matrix
-
-Level: Easy
-
-https://leetcode.com/problems/cells-with-odd-values-in-a-matrix
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

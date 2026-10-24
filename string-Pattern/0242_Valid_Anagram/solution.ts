@@ -1,13 +1,4 @@
 /*
-242. Valid Anagram
-
-https://leetcode.com/problems/valid-anagram/
-
-An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, 
-typically using all the original letters exactly once.
-*/
-
-/*
     Count the frequency of each character in both strings.
 */
 function isAnagram(s: string, t: string): boolean {

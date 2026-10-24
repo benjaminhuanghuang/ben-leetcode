@@ -1,10 +1,3 @@
-/*
-516. Longest Palindromic Subsequence
-
-Level: Medium
-
-https://leetcode.com/problems/longest-palindromic-subsequence
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

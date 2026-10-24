@@ -1,10 +1,3 @@
-/*
-143. Reorder List
-
-Level: Medium
-
-https://leetcode.com/problems/reorder-list
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

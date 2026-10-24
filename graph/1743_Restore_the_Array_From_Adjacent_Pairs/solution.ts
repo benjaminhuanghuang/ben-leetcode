@@ -1,9 +1,3 @@
-/*
-1743. Restore the Array From Adjacent Pairs
-
-https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/
-*/
-
 function restoreArray(adjacentPairs: number[][]): number[] {
   const n: number = adjacentPairs.length + 1;
   const g: Map<number, number[]> = new Map();

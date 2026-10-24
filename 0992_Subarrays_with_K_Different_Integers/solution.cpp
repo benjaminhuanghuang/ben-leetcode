@@ -1,8 +1,3 @@
-/*
-  992. Subarrays with K Different Integers
-  https://leetcode.com/problems/subarrays-with-k-different-integers/
-*/
-
 #include <vector>
 #include <string>
 #include <unordered_set>

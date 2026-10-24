@@ -1,10 +1,3 @@
-/*
-1175. Prime Arrangements
-
-Level: Easy
-
-https://leetcode.com/problems/prime-arrangements
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,9 +1,3 @@
-/*
-1277. Count Square Submatrices with All Ones
-
-https://leetcode.com/problems/count-square-submatrices-with-all-ones/
-*/
-
 function countSquares(matrix: number[][]): number {
   const rows = matrix.length;
   const cols = matrix[0].length; // dimensions for matrix

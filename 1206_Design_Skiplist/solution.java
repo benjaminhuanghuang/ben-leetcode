@@ -1,10 +1,3 @@
-/*
-1206. Design Skiplist
-
-Level: Hard
-
-https://leetcode.com/problems/design-skiplist
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

@@ -1,10 +1,3 @@
-/*
-1302. Deepest Leaves Sum
-
-Level: Medium
-
-https://leetcode.com/problems/deepest-leaves-sum
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

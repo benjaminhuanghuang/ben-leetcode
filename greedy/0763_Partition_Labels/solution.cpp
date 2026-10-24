@@ -1,10 +1,3 @@
-/*
-763. Partition Labels
-
-Level: Medium
-
-https://leetcode.com/problems/partition-labels
-*/
 #include <iostream>
 #include <vector>
 #include <string>

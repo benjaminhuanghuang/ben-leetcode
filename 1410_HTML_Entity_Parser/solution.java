@@ -1,10 +1,3 @@
-/*
-1410. HTML Entity Parser
-
-Level: Medium
-
-https://leetcode.com/problems/html-entity-parser
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

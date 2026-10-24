@@ -1,10 +1,3 @@
-/*
-99. Recover Binary Search Tree
-
-Level: Hard
-
-https://leetcode.com/problems/recover-binary-search-tree
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

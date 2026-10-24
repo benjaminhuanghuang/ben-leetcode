@@ -1,9 +1,3 @@
-/*
-62. Unique Paths
-
-https://leetcode.com/problems/unique-paths/
-
-*/
 #include <vector>
 #include <unordered_map>
 

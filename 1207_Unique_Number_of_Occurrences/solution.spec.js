@@ -1,10 +1,3 @@
-/*
-1207. Unique Number of Occurrences
-
-Level: Easy
-
-https://leetcode.com/problems/unique-number-of-occurrences
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

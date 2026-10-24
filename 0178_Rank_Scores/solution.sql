@@ -1,10 +1,3 @@
-/*
-178. Rank Scores
-
-https://leetcode.com/problems/rank-scores/
-
-*/
-
 --- MS SQL Server
 SELECT Score,
 (SELECT COUNT(DISTINCT Score) FROM Scores WHERE Score >= s.Score) Rank

@@ -1,10 +1,3 @@
-/*
-1006. Clumsy Factorial
-
-Level: Medium
-
-https://leetcode.com/problems/clumsy-factorial
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

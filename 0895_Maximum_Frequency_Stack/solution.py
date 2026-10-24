@@ -1,11 +1,4 @@
 '''
-895. Maximum Frequency Stack
-
-Level: Hard
-
-https://leetcode.com/problems/maximum-frequency-stack
-'''
-'''
   Solution: 
 '''
 class FreqStack:

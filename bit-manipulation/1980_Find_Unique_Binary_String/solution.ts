@@ -1,10 +1,4 @@
 /*
-1980. Find Unique Binary String
-
-https://leetcode.com/problems/find-unique-binary-string/
-*/
-
-/*
 
 Let ans[i] = ‘1’ – nums[i][i], s.t. ans is at least one bit different from any strings.
 Time complexity: O(n)

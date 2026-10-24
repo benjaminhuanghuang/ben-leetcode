@@ -1,11 +1,3 @@
-
-'''
-191. Number of 1 Bits
-
-Level: Easy
-
-https://leetcode.com/problems/number-of-1-bits
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

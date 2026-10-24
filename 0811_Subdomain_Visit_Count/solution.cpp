@@ -1,10 +1,3 @@
-/*
-811. Subdomain Visit Count
-
-Level: Easy
-
-https://leetcode.com/problems/subdomain-visit-count
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

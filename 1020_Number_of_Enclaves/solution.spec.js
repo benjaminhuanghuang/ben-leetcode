@@ -1,10 +1,3 @@
-/*
-1020. Number of Enclaves
-
-Level: Medium
-
-https://leetcode.com/problems/number-of-enclaves
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

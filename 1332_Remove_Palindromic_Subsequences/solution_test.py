@@ -1,11 +1,3 @@
-
-'''
-1332. Remove Palindromic Subsequences
-
-Level: Easy
-
-https://leetcode.com/problems/remove-palindromic-subsequences
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

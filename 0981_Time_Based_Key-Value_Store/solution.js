@@ -1,12 +1,4 @@
 /*
-981. Time Based Key-Value Store
-
-Level: Medium
-
-https://leetcode.com/problems/time-based-key-value-store
-*/
-
-/*
   Solution:  Binary Search,  Upper bound
 */
 

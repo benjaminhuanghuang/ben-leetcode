@@ -1,10 +1,3 @@
-/*
-460. LFU Cache
-
-Level: Hard
-
-https://leetcode.com/problems/lfu-cache
-*/
 #include <iostream>
 #include <vector>
 #include <string>

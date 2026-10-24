@@ -1,10 +1,3 @@
-/*
-921. Minimum Add to Make Parentheses Valid
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-add-to-make-parentheses-valid
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-887. Super Egg Drop
-
-Level: Hard
-
-https://leetcode.com/problems/super-egg-drop
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

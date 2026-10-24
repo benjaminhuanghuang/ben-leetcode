@@ -1,11 +1,3 @@
-
-'''
-53. Maximum Subarray
-
-Level: Easy
-
-https://leetcode.com/problems/maximum-subarray
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

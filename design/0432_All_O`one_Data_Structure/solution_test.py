@@ -1,11 +1,3 @@
-
-'''
-432. All O`one Data Structure
-
-Level: Hard
-
-https://leetcode.com/problems/all-oone-data-structure
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

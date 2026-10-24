@@ -1,10 +1,4 @@
 /*
-74. Search a 2D Matrix
-
-https://leetcode.com/problems/search-a-2d-matrix/
-*/
-
-/*
 use huahua's template
 */
 function searchMatrix(matrix: number[][], target: number): boolean {

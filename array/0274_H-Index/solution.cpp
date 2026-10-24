@@ -1,10 +1,3 @@
-/*
-274. H-Index
-
-Level: Medium
-
-https://leetcode.com/problems/h-index
-*/
 #include <iostream>
 #include <vector>
 #include <string>

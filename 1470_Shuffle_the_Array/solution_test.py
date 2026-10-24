@@ -1,11 +1,3 @@
-
-'''
-1470. Shuffle the Array
-
-Level: Easy
-
-https://leetcode.com/problems/shuffle-the-array
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

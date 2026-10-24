@@ -1,11 +1,3 @@
-
-'''
-930. Binary Subarrays With Sum
-
-Level: Medium
-
-https://leetcode.com/problems/binary-subarrays-with-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

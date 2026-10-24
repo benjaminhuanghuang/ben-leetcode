@@ -1,9 +1,3 @@
-/*
-886. Possible Bipartition
-
-https://leetcode.com/problems/possible-bipartition/
-*/
-
 #include <string>
 #include <climits>
 #include <vector>

@@ -1,9 +1,3 @@
-/*
-191. Number of 1 Bits
-
-https://leetcode.com/problems/number-of-1-bits/
-*/
-
 function hammingWeight(n: number): number {
   // Initialize a count for the number of 1 bits
   let count: number = 0;

@@ -1,11 +1,3 @@
-
-'''
-598. Range Addition II
-
-Level: Easy
-
-https://leetcode.com/problems/range-addition-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

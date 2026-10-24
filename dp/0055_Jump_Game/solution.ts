@@ -1,12 +1,4 @@
 /*
-55. Jump Game
-
-https://leetcode.com/problems/jump-game/
-
-Determines if you are able to reach the last index.
-*/
-
-/*
 Solution: DP
 
 LeetCode DP终极学习计划！Day4 Jump Game I/II 

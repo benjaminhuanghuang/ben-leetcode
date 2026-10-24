@@ -1,11 +1,3 @@
-
-'''
-475. Heaters
-
-Level: Easy
-
-https://leetcode.com/problems/heaters
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

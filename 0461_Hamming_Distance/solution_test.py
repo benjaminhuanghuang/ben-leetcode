@@ -1,11 +1,3 @@
-
-'''
-461. Hamming Distance
-
-Level: Easy
-
-https://leetcode.com/problems/hamming-distance
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

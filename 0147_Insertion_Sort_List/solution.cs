@@ -1,9 +1,3 @@
-/*
-147. Insertion Sort List
-
-Sort a linked list using insertion sort.
-*/
-
 public class Solution147 {
     public ListNode InsertionSortList(ListNode head) {
         var fakehead = new ListNode(-1){next = head};

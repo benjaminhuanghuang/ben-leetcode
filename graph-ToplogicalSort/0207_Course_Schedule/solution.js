@@ -1,6 +1,3 @@
-/*
-207. Course Schedule
-*/
 /**
  * @param {number} numCourses
  * @param {number[][]} prerequisites

@@ -1,9 +1,3 @@
-/*
-116. Populating Next Right Pointers in Each Node
-
-*/
-
-
 using System.Collections.Generic;
 
 // class TreeLinkNode {

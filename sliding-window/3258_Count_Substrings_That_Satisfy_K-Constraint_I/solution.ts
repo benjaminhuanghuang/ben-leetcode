@@ -1,10 +1,4 @@
 /*
-3258. Count Substrings That Satisfy K-Constraint I
-
-
-*/
-
-/*
 use two variables  cnt0, cnt1
 to record the number of 0 and 1 in the current window
 */

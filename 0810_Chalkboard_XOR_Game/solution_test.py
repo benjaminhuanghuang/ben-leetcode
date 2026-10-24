@@ -1,11 +1,3 @@
-
-'''
-810. Chalkboard XOR Game
-
-Level: Hard
-
-https://leetcode.com/problems/chalkboard-xor-game
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-1324. Print Words Vertically
-
-Level: Medium
-
-https://leetcode.com/problems/print-words-vertically
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

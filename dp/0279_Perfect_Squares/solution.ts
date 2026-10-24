@@ -1,10 +1,4 @@
 /*
-279. Perfect Squares
-
-https://leetcode.com/problems/perfect-squares/
-*/
-
-/*
   Solution: 
 
   https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-279-perfect-squares/

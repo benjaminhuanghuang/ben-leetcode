@@ -1,11 +1,3 @@
-
-'''
-983. Minimum Cost For Tickets
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-cost-for-tickets
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

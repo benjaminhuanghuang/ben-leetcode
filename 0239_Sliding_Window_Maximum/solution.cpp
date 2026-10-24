@@ -1,10 +1,3 @@
-/*
-239. Sliding Window Maximum
-
-Level: Hard
-
-https://leetcode.com/problems/sliding-window-maximum
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

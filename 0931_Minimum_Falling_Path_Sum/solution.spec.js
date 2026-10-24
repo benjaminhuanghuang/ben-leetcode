@@ -1,10 +1,3 @@
-/*
-931. Minimum Falling Path Sum
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-falling-path-sum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

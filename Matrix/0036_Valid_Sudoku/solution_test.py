@@ -1,11 +1,3 @@
-
-'''
-36. Valid Sudoku
-
-Level: Medium
-
-https://leetcode.com/problems/valid-sudoku
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

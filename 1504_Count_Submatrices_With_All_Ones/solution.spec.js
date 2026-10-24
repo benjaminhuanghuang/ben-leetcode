@@ -1,10 +1,3 @@
-/*
-1504. Count Submatrices With All Ones
-
-Level: Medium
-
-https://leetcode.com/problems/count-submatrices-with-all-ones
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,4 @@
 '''
-886. Possible Bipartition
-
-Level: Medium
-
-https://leetcode.com/problems/possible-bipartition
-'''
-'''
   Solution: 
 '''
 class Solution:

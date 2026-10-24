@@ -1,9 +1,4 @@
 /*
-127. word ladder
-https://leetcode.com/problems/word-ladder/
-*/
-
-/*
   典型的 BFS问题：
 
   节点：一个单词

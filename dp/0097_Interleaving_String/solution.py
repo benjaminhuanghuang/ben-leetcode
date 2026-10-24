@@ -1,19 +1,3 @@
-'''
-97. Interleaving String
-
-Given s1, s2, s3, find whether s3 is formed by the interleaving of s1 and s2.
-
-For example,
-Given:
-s1 = "aabcc",
-s2 = "dbbca",
-
-When s3 = "aadbbcbcac", return true.
-When s3 = "aadbbbaccc", return false.
-
-'''
-
-
 class Solution(object):
     # d[i][j] means s1[0...i-1] and s2[0...j-1] can connect to s3[0...i+j-1]
     def isInterleave(self, s1, s2, s3):

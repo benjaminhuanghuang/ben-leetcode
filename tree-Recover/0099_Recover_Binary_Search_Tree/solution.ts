@@ -1,8 +1,3 @@
-/*
-99. Recover Binary Search Tree
-
-https://leetcode.com/problems/recover-binary-search-tree/
-*/
 import { TreeNode } from "../../common/TreeNode";
 
 function recoverTree(root: TreeNode | null): void {

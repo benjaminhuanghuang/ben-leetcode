@@ -1,12 +1,3 @@
-/*
-46. Permutations
-
-Given a collection of distinct integers, return all possible permutations.
-
-https://leetcode.com/problems/permutations/
-
-*/
-
 #include <vector>
 #include <algorithm>
 

@@ -1,10 +1,3 @@
-/*
-1385. Find the Distance Value Between Two Arrays
-
-Level: Easy
-
-https://leetcode.com/problems/find-the-distance-value-between-two-arrays
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

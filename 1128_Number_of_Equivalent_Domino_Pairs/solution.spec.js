@@ -1,10 +1,3 @@
-/*
-1128. Number of Equivalent Domino Pairs
-
-Level: Easy
-
-https://leetcode.com/problems/number-of-equivalent-domino-pairs
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-1105. Filling Bookcase Shelves
-
-Level: Medium
-
-https://leetcode.com/problems/filling-bookcase-shelves
-*/
 #include <iostream>
 #include <vector>
 #include <string>

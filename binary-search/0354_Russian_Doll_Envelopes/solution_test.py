@@ -1,11 +1,3 @@
-
-'''
-354. Russian Doll Envelopes
-
-Level: Hard
-
-https://leetcode.com/problems/russian-doll-envelopes
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

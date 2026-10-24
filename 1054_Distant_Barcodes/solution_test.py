@@ -1,11 +1,3 @@
-
-'''
-1054. Distant Barcodes
-
-Level: Medium
-
-https://leetcode.com/problems/distant-barcodes
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

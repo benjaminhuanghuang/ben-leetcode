@@ -1,11 +1,3 @@
-
-'''
-507. Perfect Number
-
-Level: Easy
-
-https://leetcode.com/problems/perfect-number
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

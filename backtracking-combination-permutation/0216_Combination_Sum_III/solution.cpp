@@ -1,9 +1,3 @@
-/*
-216. Combination Sum III [Medium]
-
-https://leetcode.com/problems/combination-sum-iii/
-*/
-
 #include <vector>
 
 using namespace std;

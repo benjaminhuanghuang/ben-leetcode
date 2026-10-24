@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/01-matrix
 package leetcode0542
 import (
 	"testing"

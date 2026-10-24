@@ -1,10 +1,3 @@
-/*
-799. Champagne Tower
-
-Level: Medium
-
-https://leetcode.com/problems/champagne-tower
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

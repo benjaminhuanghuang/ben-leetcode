@@ -1,11 +1,3 @@
-
-'''
-1109. Corporate Flight Bookings
-
-Level: Medium
-
-https://leetcode.com/problems/corporate-flight-bookings
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

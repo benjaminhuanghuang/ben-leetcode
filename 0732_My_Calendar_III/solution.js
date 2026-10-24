@@ -1,12 +1,4 @@
 /*
-732. My Calendar III
-
-Level: Hard
-
-https://leetcode.com/problems/my-calendar-iii
-*/
-
-/*
   Solution: 
 */
 

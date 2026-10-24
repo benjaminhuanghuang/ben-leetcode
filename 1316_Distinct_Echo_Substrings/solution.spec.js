@@ -1,10 +1,3 @@
-/*
-1316. Distinct Echo Substrings
-
-Level: Hard
-
-https://leetcode.com/problems/distinct-echo-substrings
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

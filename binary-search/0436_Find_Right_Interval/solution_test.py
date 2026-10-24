@@ -1,11 +1,3 @@
-
-'''
-436. Find Right Interval
-
-Level: Medium
-
-https://leetcode.com/problems/find-right-interval
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

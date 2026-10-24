@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer
 package leetcode1281
 import (
 	"testing"

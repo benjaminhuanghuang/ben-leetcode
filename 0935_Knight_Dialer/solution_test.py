@@ -1,11 +1,3 @@
-
-'''
-935. Knight Dialer
-
-Level: Medium
-
-https://leetcode.com/problems/knight-dialer
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-1436. Destination City
-
-Level: Easy
-
-https://leetcode.com/problems/destination-city
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

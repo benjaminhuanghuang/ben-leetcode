@@ -1,13 +1,4 @@
 /*
-1096. Brace Expansion II
-
-Level: Hard
-
-https://leetcode.com/problems/brace-expansion-ii
-*/
-
-
-/*
   Solution: 
 */
 

@@ -1,10 +1,3 @@
-/*
-592. Fraction Addition and Subtraction
-
-Level: Medium
-
-https://leetcode.com/problems/fraction-addition-and-subtraction
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

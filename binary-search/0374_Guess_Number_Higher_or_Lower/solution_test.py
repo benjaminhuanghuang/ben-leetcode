@@ -1,11 +1,3 @@
-
-'''
-374. Guess Number Higher or Lower
-
-Level: Easy
-
-https://leetcode.com/problems/guess-number-higher-or-lower
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

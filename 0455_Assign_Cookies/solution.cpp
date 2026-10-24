@@ -1,10 +1,3 @@
-/*
-455. Assign Cookies
-
-Level: Easy
-
-https://leetcode.com/problems/assign-cookies
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

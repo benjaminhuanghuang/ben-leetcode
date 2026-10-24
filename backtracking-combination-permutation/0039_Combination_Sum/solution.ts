@@ -1,11 +1,4 @@
 /*
-39. Combination Sum
-https://leetcode.com/problems/combination-sum/
-
-每个元素可以重复使用，顺序不同但数字相同的组合视为同一个结果
-*/
-
-/*
 https://www.youtube.com/watch?v=zIY2BWdsbFs
 
 combination problem,

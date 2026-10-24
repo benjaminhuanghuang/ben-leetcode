@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/permutations
 package leetcode0046
 import (
 	"testing"

@@ -1,11 +1,3 @@
-
-'''
-524. Longest Word in Dictionary through Deleting
-
-Level: Medium
-
-https://leetcode.com/problems/longest-word-in-dictionary-through-deleting
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

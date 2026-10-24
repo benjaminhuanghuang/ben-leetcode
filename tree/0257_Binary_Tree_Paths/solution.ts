@@ -1,9 +1,3 @@
-/*
-257. Binary Tree Paths
-
-https://leetcode.com/problems/binary-tree-paths/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function binaryTreePaths(root: TreeNode | null): string[] {

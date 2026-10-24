@@ -1,10 +1,3 @@
-/*
-1325. Delete Leaves With a Given Value
-
-Level: Medium
-
-https://leetcode.com/problems/delete-leaves-with-a-given-value
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

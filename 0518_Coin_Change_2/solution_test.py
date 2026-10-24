@@ -1,11 +1,3 @@
-
-'''
-518. Coin Change 2
-
-Level: Medium
-
-https://leetcode.com/problems/coin-change-2
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

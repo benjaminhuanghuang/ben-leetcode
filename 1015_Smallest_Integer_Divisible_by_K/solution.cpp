@@ -1,10 +1,3 @@
-/*
-1015. Smallest Integer Divisible by K
-
-Level: Medium
-
-https://leetcode.com/problems/smallest-integer-divisible-by-k
-*/
 #include <iostream>
 #include <vector>
 #include <string>

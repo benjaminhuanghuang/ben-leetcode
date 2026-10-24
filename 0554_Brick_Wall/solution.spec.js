@@ -1,10 +1,3 @@
-/*
-554. Brick Wall
-
-Level: Medium
-
-https://leetcode.com/problems/brick-wall
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

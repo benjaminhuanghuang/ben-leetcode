@@ -1,8 +1,3 @@
-/*
-71. Simplify Path
-https://leetcode.com/problems/simplify-path/
-*/
-
 function simplifyPath(path: string): string {
   const stack: string[] = [];
   const parts = path.split("/");

@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/valid-mountain-array
 package leetcode0941
 import (
 	"testing"

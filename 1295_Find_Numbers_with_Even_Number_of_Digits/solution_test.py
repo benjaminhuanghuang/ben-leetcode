@@ -1,11 +1,3 @@
-
-'''
-1295. Find Numbers with Even Number of Digits
-
-Level: Easy
-
-https://leetcode.com/problems/find-numbers-with-even-number-of-digits
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

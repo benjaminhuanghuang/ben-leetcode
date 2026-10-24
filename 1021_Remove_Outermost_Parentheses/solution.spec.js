@@ -1,10 +1,3 @@
-/*
-1021. Remove Outermost Parentheses
-
-Level: Easy
-
-https://leetcode.com/problems/remove-outermost-parentheses
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

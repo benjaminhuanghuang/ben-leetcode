@@ -1,13 +1,4 @@
 /*
-384. Shuffle an Array
-
-Level: Medium
-
-https://leetcode.com/problems/shuffle-an-array
-*/
-
-
-/*
   Solution: 
 */
 

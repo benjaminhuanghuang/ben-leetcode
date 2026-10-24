@@ -1,10 +1,3 @@
-/*
-1286. Iterator for Combination
-
-Level: Medium
-
-https://leetcode.com/problems/iterator-for-combination
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

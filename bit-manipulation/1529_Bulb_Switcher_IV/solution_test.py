@@ -1,11 +1,3 @@
-
-'''
-1529. Bulb Switcher IV
-
-Level: Medium
-
-https://leetcode.com/problems/bulb-switcher-iv
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

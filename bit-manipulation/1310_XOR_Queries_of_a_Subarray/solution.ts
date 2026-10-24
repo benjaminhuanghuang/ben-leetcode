@@ -1,10 +1,4 @@
 /*
-1310. XOR Queries of a Subarray
-
-https://leetcode.com/problems/xor-queries-of-a-subarray/
-*/
-
-/*
 XOR of [left...right]  = cumulative XORs right and left - 1. 
 */
 function xorQueries(arr: number[], queries: number[][]): number[] {

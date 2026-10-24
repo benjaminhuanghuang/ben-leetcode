@@ -1,10 +1,3 @@
-/*
-500. Keyboard Row
-
-Level: Easy
-
-https://leetcode.com/problems/keyboard-row
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

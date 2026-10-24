@@ -1,11 +1,3 @@
-
-'''
-884. Uncommon Words from Two Sentences
-
-Level: Easy
-
-https://leetcode.com/problems/uncommon-words-from-two-sentences
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

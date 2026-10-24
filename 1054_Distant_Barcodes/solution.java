@@ -1,10 +1,3 @@
-/*
-1054. Distant Barcodes
-
-Level: Medium
-
-https://leetcode.com/problems/distant-barcodes
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

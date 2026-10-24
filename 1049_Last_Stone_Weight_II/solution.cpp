@@ -1,9 +1,3 @@
-/*
-1049. Last Stone Weight II
-
-https://leetcode.com/problems/last-stone-weight-ii/
-*/
-
 #include <vector>
 #include <unordered_set>
 #include <algorithm>

@@ -1,12 +1,4 @@
 /*
-933. Number of Recent Calls
-
-Level: Easy
-
-https://leetcode.com/problems/number-of-recent-calls
-*/
-
-/*
   Solution: 
 */
 

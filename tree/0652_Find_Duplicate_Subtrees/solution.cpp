@@ -1,8 +1,3 @@
-/*
-652. Find Duplicate Subtrees
-
-https://leetcode.com/problems/find-duplicate-subtrees/
- */
 #include <vector>
 #include <unordered_map>
 using namespace std;

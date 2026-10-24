@@ -1,10 +1,3 @@
-/*
-554. Brick Wall
-
-Level: Medium
-
-https://leetcode.com/problems/brick-wall
-*/
 #include <iostream>
 #include <vector>
 #include <string>

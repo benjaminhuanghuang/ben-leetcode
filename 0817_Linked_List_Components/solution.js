@@ -1,12 +1,4 @@
 /*
-817. Linked List Components
-
-Level: Medium
-
-https://leetcode.com/problems/linked-list-components
-*/
-
-/*
   Solution: 
 */
 

@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/projection-area-of-3d-shapes
 package leetcode0883
 import (
 	"testing"

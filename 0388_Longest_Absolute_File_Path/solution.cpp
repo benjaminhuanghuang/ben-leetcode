@@ -1,10 +1,3 @@
-/*
-388. Longest Absolute File Path
-
-Level: Medium
-
-https://leetcode.com/problems/longest-absolute-file-path
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-1576. Replace All ?'s to Avoid Consecutive Repeating Characters
-
-Level: Easy
-
-https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

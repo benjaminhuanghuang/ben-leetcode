@@ -1,10 +1,3 @@
-/*
-172. Factorial Trailing Zeroes
-
-Level: Easy
-
-https://leetcode.com/problems/factorial-trailing-zeroes
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

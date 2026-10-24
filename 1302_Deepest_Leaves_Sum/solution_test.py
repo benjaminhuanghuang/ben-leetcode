@@ -1,11 +1,3 @@
-
-'''
-1302. Deepest Leaves Sum
-
-Level: Medium
-
-https://leetcode.com/problems/deepest-leaves-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

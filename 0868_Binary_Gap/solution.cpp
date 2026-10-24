@@ -1,10 +1,3 @@
-/*
-868. Binary Gap
-
-Level: Easy
-
-https://leetcode.com/problems/binary-gap
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

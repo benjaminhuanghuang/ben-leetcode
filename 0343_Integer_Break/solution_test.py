@@ -1,11 +1,3 @@
-
-'''
-343. Integer Break
-
-Level: Medium
-
-https://leetcode.com/problems/integer-break
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

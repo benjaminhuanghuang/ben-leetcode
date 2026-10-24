@@ -1,11 +1,3 @@
-
-'''
-1487. Making File Names Unique
-
-Level: Medium
-
-https://leetcode.com/problems/making-file-names-unique
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

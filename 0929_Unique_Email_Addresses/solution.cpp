@@ -1,8 +1,3 @@
-/*
-929. Unique Email Addresses
-
-https://leetcode.com/problems/unique-email-addresses/
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

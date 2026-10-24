@@ -1,10 +1,4 @@
 /*
-332. Reconstruct Itinerary
-
-https://leetcode.com/problems/reconstruct-itinerary/
-*/
-
-/*
 Approach: directed graph， Greedy: sort children + post order traversal
 
 https://zxi.mytechroad.com/blog/graph/leetcode-332-reconstruct-itinerary/

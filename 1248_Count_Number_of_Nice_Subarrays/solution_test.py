@@ -1,11 +1,3 @@
-
-'''
-1248. Count Number of Nice Subarrays
-
-Level: Medium
-
-https://leetcode.com/problems/count-number-of-nice-subarrays
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

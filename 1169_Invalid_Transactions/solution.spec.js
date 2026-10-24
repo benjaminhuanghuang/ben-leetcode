@@ -1,10 +1,3 @@
-/*
-1169. Invalid Transactions
-
-Level: Medium
-
-https://leetcode.com/problems/invalid-transactions
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

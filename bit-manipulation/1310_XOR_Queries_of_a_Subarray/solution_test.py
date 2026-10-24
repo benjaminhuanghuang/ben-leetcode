@@ -1,11 +1,3 @@
-
-'''
-1310. XOR Queries of a Subarray
-
-Level: Medium
-
-https://leetcode.com/problems/xor-queries-of-a-subarray
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

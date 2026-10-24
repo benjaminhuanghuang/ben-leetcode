@@ -1,13 +1,3 @@
-/*
-221. Maximal Square
-
-Level: Medium
-
-https://leetcode.com/problems/maximal-square
-
-
-- 85. Maximal Rectangle
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

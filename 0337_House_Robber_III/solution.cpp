@@ -1,9 +1,3 @@
-/*
-337. House Robber III
-https://leetcode.com/problems/house-robber-iii/
-
-给你一棵二叉树，不能同时取两个相邻的节点(parent/child)，问最多能取得的节点的值的和是多少。
- */
 #include "common/TreeNode.h"
 
 #include <algorithm>

@@ -1,10 +1,3 @@
-/*
-1268. Search Suggestions System
-
-Level: Medium
-
-https://leetcode.com/problems/search-suggestions-system
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

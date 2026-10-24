@@ -1,13 +1,4 @@
 /*
-373. Find K Pairs with Smallest Sums
-
-Level: Medium
-
-https://leetcode.com/problems/find-k-pairs-with-smallest-sums
-*/
-
-
-/*
   Solution: 
 */
 

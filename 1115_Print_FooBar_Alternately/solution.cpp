@@ -1,11 +1,4 @@
 /*
-1115. Print FooBar Alternately
-
-https://leetcode.com/problems/print-foobar-alternately/
-
-*/
-
-/*
 A std::condition_variable has a method wait(), which blocks, when it is called by a thread. 
 The condition variable is kept blocked until it is released by another thread. 
 The release works via the method notify_one() or the notify_all method. The key difference between the two methods is that notify_one will only wake up a single waiting thread while notify_all will wake up all the waiting threads at once.

@@ -1,10 +1,3 @@
-/*
-1220. Count Vowels Permutation
-
-Level: Hard
-
-https://leetcode.com/problems/count-vowels-permutation
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

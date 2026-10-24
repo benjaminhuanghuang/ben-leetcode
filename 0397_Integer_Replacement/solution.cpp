@@ -1,10 +1,3 @@
-/*
-397. Integer Replacement
-
-Level: Medium
-
-https://leetcode.com/problems/integer-replacement
-*/
 #include <iostream>
 #include <vector>
 #include <string>

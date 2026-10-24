@@ -1,11 +1,3 @@
-
-'''
-423. Reconstruct Original Digits from English
-
-Level: Medium
-
-https://leetcode.com/problems/reconstruct-original-digits-from-english
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

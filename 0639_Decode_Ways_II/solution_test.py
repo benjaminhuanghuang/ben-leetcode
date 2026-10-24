@@ -1,11 +1,3 @@
-
-'''
-639. Decode Ways II
-
-Level: Hard
-
-https://leetcode.com/problems/decode-ways-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

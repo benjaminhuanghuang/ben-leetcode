@@ -1,11 +1,3 @@
-/*
-373. Find K Pairs with Smallest Sums
-
-https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
-
-nums1 and nums2 sorted in non-decreasing order
-
-*/
 import { PriorityQueue } from "./PriorityQueue";
 
 type PairNode = {

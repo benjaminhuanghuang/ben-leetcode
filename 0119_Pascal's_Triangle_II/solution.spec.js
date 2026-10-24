@@ -1,10 +1,3 @@
-/*
-119. Pascal's Triangle II
-
-Level: Easy
-
-https://leetcode.com/problems/pascals-triangle-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

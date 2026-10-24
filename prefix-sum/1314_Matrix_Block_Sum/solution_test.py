@@ -1,11 +1,3 @@
-
-'''
-1314. Matrix Block Sum
-
-Level: Medium
-
-https://leetcode.com/problems/matrix-block-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

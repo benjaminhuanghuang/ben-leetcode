@@ -1,11 +1,3 @@
-
-'''
-622. Design Circular Queue
-
-Level: Medium
-
-https://leetcode.com/problems/design-circular-queue
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

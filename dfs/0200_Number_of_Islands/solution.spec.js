@@ -1,10 +1,3 @@
-/*
-200. Number of Islands
-
-Level: Medium
-
-https://leetcode.com/problems/number-of-islands
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

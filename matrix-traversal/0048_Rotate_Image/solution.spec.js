@@ -1,10 +1,3 @@
-/*
-48. Rotate Image
-
-Level: Medium
-
-https://leetcode.com/problems/rotate-image
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

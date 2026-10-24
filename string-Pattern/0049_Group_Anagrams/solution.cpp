@@ -1,9 +1,3 @@
-
-/*
-49. Group Anagrams
-
-https://leetcode.com/problems/group-anagrams/
-*/
 #include <vector>
 #include <string>
 #include <algorithm>

@@ -1,11 +1,3 @@
-
-'''
-594. Longest Harmonious Subsequence
-
-Level: Easy
-
-https://leetcode.com/problems/longest-harmonious-subsequence
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

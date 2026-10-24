@@ -1,10 +1,3 @@
-/*
-503. Next Greater Element II
-
-Level: Medium
-
-https://leetcode.com/problems/next-greater-element-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

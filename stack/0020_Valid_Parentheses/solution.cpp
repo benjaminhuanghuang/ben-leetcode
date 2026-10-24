@@ -1,9 +1,3 @@
-/*
-20. Valid Parentheses
-
-https://leetcode.com/problems/valid-parentheses/
-*/
-
 #include <string>
 #include <unordered_map>
 #include <stack>

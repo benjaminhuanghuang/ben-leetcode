@@ -1,11 +1,3 @@
-
-'''
-143. Reorder List
-
-Level: Medium
-
-https://leetcode.com/problems/reorder-list
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

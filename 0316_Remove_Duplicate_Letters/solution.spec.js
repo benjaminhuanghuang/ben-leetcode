@@ -1,10 +1,3 @@
-/*
-316. Remove Duplicate Letters
-
-Level: Hard
-
-https://leetcode.com/problems/remove-duplicate-letters
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

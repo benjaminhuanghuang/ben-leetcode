@@ -1,10 +1,3 @@
-/*
-130. Surrounded Regions
-
-Level: Medium
-
-https://leetcode.com/problems/surrounded-regions
-*/
 #include <iostream>
 #include <vector>
 #include <string>

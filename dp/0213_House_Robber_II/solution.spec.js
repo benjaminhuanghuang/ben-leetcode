@@ -1,10 +1,3 @@
-/*
-213. House Robber II
-
-Level: Medium
-
-https://leetcode.com/problems/house-robber-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

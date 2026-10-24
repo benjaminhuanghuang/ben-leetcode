@@ -1,13 +1,4 @@
 /*
-287. Find the Duplicate Number
-
-https://leetcode.com/problems/find-the-duplicate-number/
-
-Note: no extra space 
-
-*/
-
-/*
 Approach: Binary Search
 
 https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-287-find-the-duplicate-number/

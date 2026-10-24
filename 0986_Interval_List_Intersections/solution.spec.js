@@ -1,10 +1,3 @@
-/*
-986. Interval List Intersections
-
-Level: Medium
-
-https://leetcode.com/problems/interval-list-intersections
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

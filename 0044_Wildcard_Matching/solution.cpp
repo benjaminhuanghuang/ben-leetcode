@@ -1,8 +1,3 @@
-/*
-44. Wildcard Matching
-
-https://leetcode.com/problems/wildcard-matching/
-*/
 #include <string>
 
 using namespace std;

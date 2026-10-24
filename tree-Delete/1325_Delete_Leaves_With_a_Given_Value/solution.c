@@ -1,13 +1,4 @@
 /*
-1325. Delete Leaves With a Given Value
-
-Level: Medium
-
-https://leetcode.com/problems/delete-leaves-with-a-given-value
-*/
-
-
-/*
   Solution: 
 */
 /**

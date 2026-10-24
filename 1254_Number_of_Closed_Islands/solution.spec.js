@@ -1,10 +1,3 @@
-/*
-1254. Number of Closed Islands
-
-Level: Medium
-
-https://leetcode.com/problems/number-of-closed-islands
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

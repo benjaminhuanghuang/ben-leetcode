@@ -1,9 +1,3 @@
-/*
-64. Minimum Path Sum
-
-https://leetcode.com/problems/minimum-path-sum/
-*/
-
 function minPathSum(grid: number[][]): number {
   const rows = grid.length;
   const cols = grid[0].length;

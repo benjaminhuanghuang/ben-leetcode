@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/reverse-string
 package leetcode0344
 /*
 	

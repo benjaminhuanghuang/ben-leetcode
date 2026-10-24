@@ -1,10 +1,3 @@
-/*
-2. Add Two Numbers
-
-Level: Medium
-
-https://leetcode.com/problems/add-two-numbers
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

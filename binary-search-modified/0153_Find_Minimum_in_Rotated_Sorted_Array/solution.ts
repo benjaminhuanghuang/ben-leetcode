@@ -1,11 +1,4 @@
 /*
-153. Find Minimum in Rotated Sorted Array
-
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-
-*/
-
-/*
 https://www.youtube.com/watch?v=P4r7mF1Jd50 (Hua Hua)
 Time complexity:
 

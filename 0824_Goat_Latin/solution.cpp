@@ -1,8 +1,3 @@
-/*
-824. Goat Latin
-
-https://leetcode.com/problems/goat-latin/
-*/
 #include <vector>
 #include <string>
 #include <sstream>

@@ -1,10 +1,4 @@
 /*
-1762. Buildings With an Ocean View
-
-https://leetcode.com/problems/buildings-with-an-ocean-view/
-*/
-
-/*
 https://algo.monster/liteproblems/1762
 */
 

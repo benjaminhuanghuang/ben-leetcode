@@ -1,10 +1,3 @@
-/*
-239. Sliding Window Maximum
-
-Level: Hard
-
-https://leetcode.com/problems/sliding-window-maximum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-1446. Consecutive Characters
-
-Level: Easy
-
-https://leetcode.com/problems/consecutive-characters
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

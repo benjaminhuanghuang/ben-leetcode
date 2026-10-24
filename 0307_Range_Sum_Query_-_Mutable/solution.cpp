@@ -1,10 +1,3 @@
-/*
-307. Range Sum Query - Mutable
-
-Level: Medium
-
-https://leetcode.com/problems/range-sum-query-mutable
-*/
 #include <iostream>
 #include <vector>
 #include <string>

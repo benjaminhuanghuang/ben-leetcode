@@ -1,15 +1,3 @@
-
-/*
-  417. Pacific Atlantic Water Flow
-
-  Level: Medium
-
-  https://leetcode.com/problems/pacific-atlantic-water-flow/
-
-
-  # LC 778 
-*/
-
 #include <vector>
 #include <string>
 #include <unordered_map>

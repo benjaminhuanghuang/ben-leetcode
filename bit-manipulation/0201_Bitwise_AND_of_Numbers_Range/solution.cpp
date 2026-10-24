@@ -1,10 +1,3 @@
-/*
-201. Bitwise AND of Numbers Range
-
-Level: Medium
-
-https://leetcode.com/problems/bitwise-and-of-numbers-range
-*/
 #include <iostream>
 #include <vector>
 #include <string>

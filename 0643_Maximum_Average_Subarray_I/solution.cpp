@@ -1,13 +1,3 @@
-/*
-643. Maximum Average Subarray I
-
-https://leetcode.com/problems/maximum-average-subarray-i/
-
-Related Problems
-- 239. Sliding Window Maximum
-- 813. Largest Sum of Averages
-
-*/
 #include <vector>
 
 using namespace std;

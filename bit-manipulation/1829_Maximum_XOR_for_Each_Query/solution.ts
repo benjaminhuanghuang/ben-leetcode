@@ -1,9 +1,3 @@
-/*
-1829. Maximum XOR for Each Query
-
-https://leetcode.com/problems/maximum-xor-for-each-query/
-*/
-
 function getMaximumXor(nums: number[], maximumBit: number): number[] {
   let cumulativeXor = 0;
   for (const num of nums) {

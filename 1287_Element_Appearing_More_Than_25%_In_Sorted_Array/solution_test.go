@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array
 package leetcode1287
 import (
 	"testing"

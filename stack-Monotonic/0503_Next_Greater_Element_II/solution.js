@@ -1,12 +1,4 @@
 /*
-503. Next Greater Element II
-
-Level: Medium
-
-https://leetcode.com/problems/next-greater-element-ii
-*/
-
-/*
   Solution: 
 */
 

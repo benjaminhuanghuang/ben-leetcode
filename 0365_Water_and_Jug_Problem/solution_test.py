@@ -1,11 +1,3 @@
-
-'''
-365. Water and Jug Problem
-
-Level: Medium
-
-https://leetcode.com/problems/water-and-jug-problem
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

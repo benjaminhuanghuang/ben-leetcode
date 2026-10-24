@@ -1,10 +1,3 @@
-/*
-1487. Making File Names Unique
-
-Level: Medium
-
-https://leetcode.com/problems/making-file-names-unique
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

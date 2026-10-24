@@ -1,11 +1,3 @@
-
-'''
-75. Sort Colors
-
-Level: Medium
-
-https://leetcode.com/problems/sort-colors
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

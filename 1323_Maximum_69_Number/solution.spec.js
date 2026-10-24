@@ -1,10 +1,3 @@
-/*
-1323. Maximum 69 Number
-
-Level: Easy
-
-https://leetcode.com/problems/maximum-69-number
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

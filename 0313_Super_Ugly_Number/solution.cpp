@@ -1,10 +1,3 @@
-/*
-313. Super Ugly Number
-
-Level: Medium
-
-https://leetcode.com/problems/super-ugly-number
-*/
 #include <iostream>
 #include <vector>
 #include <string>

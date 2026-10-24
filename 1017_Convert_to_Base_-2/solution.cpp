@@ -1,9 +1,3 @@
-/*
-1017. Convert to Base -2 [Medium]
-
-https://leetcode.com/problems/convert-to-base-2/
-*/
-
 #include <string>
 #include <vector>
 

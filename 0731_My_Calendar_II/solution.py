@@ -1,11 +1,4 @@
 '''
-731. My Calendar II
-
-Level: Medium
-
-https://leetcode.com/problems/my-calendar-ii
-'''
-'''
   Solution: 
 '''
 class MyCalendarTwo:

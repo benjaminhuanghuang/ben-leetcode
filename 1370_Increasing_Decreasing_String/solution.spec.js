@@ -1,10 +1,3 @@
-/*
-1370. Increasing Decreasing String
-
-Level: Easy
-
-https://leetcode.com/problems/increasing-decreasing-string
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

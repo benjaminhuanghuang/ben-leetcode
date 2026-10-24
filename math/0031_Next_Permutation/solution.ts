@@ -1,12 +1,4 @@
 /*
-31. Next Permutation
-
-https://leetcode.com/problems/next-permutation/
-
-[Meta]
-*/
-
-/*
 Solution: 
 Find the min number that is greater than the current number.
 

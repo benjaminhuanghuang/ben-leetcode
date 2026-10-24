@@ -1,11 +1,4 @@
 '''
-706. Design HashMap
-
-Level: Easy
-
-https://leetcode.com/problems/design-hashmap
-'''
-'''
   Solution: 
 '''
 class MyHashMap:

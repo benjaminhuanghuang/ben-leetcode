@@ -1,9 +1,3 @@
-/*
-617. Merge Two Binary Trees
-
-https://leetcode.com/problems/merge-two-binary-trees/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function mergeTrees(

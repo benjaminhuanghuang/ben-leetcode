@@ -1,11 +1,3 @@
-
-'''
-147. Insertion Sort List
-
-Level: Medium
-
-https://leetcode.com/problems/insertion-sort-list
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

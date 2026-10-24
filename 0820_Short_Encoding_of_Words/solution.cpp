@@ -1,10 +1,3 @@
-/*
-820. Short Encoding of Words
-
-Level: Medium
-
-https://leetcode.com/problems/short-encoding-of-words
-*/
 #include <iostream>
 #include <vector>
 #include <string>

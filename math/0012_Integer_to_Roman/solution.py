@@ -1,17 +1,3 @@
-'''
-12. Integer to Roman
-
-Given an integer, convert it to a roman numeral.
-
-Input is guaranteed to be within the range from 1 to 3999.
-
-
-reference
-    13. Roman to Integer
-
-'''
-
-
 class Solution(object):
 
     def intToRoman(self, num):

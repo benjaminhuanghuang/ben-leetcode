@@ -1,8 +1,3 @@
-/*
-8. String to Integer (atoi)
-
-https://leetcode.com/problems/string-to-integer-atoi/
-*/
 #include <string>
 #include <climits>
 

@@ -1,11 +1,3 @@
-
-'''
-260. Single Number III
-
-Level: Medium
-
-https://leetcode.com/problems/single-number-iii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-642. Design Search Autocomplete System
-
-Level: Hard
-
-https://leetcode.com/problems/design-search-autocomplete-system
-*/
 #include <iostream>
 #include <vector>
 #include <string>

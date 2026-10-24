@@ -1,10 +1,3 @@
-/*
-1381. Design a Stack With Increment Operation
-
-Level: Medium
-
-https://leetcode.com/problems/design-a-stack-with-increment-operation
-*/
 #include <iostream>
 #include <vector>
 #include <string>

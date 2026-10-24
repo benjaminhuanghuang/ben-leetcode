@@ -1,10 +1,3 @@
-/*
-725. Split Linked List in Parts
-
-Level: Medium
-
-https://leetcode.com/problems/split-linked-list-in-parts
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

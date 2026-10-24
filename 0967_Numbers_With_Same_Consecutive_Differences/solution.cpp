@@ -1,10 +1,3 @@
-/*
-967. Numbers With Same Consecutive Differences
-
-Level: Medium
-
-https://leetcode.com/problems/numbers-with-same-consecutive-differences
-*/
 #include <iostream>
 #include <vector>
 #include <string>

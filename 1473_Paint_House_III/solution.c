@@ -1,13 +1,4 @@
 /*
-1473. Paint House III
-
-Level: Hard
-
-https://leetcode.com/problems/paint-house-iii
-*/
-
-
-/*
   Solution: 
 */
 

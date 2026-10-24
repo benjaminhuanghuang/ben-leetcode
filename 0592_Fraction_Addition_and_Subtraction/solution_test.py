@@ -1,11 +1,3 @@
-
-'''
-592. Fraction Addition and Subtraction
-
-Level: Medium
-
-https://leetcode.com/problems/fraction-addition-and-subtraction
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

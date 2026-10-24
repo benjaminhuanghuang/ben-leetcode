@@ -1,10 +1,3 @@
-/*
-486. Predict the Winner
-
-Level: Medium
-
-https://leetcode.com/problems/predict-the-winner
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

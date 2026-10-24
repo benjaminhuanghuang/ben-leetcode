@@ -1,11 +1,3 @@
-
-'''
-504. Base 7
-
-Level: Easy
-
-https://leetcode.com/problems/base-7
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-983. Minimum Cost For Tickets
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-cost-for-tickets
-*/
 #include <iostream>
 #include <vector>
 #include <string>

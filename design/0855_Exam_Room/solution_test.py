@@ -1,11 +1,3 @@
-
-'''
-855. Exam Room
-
-Level: Medium
-
-https://leetcode.com/problems/exam-room
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

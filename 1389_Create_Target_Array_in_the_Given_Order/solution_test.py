@@ -1,11 +1,3 @@
-
-'''
-1389. Create Target Array in the Given Order
-
-Level: Easy
-
-https://leetcode.com/problems/create-target-array-in-the-given-order
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

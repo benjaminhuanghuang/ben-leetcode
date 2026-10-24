@@ -1,11 +1,3 @@
-/*
-437. Path Sum III
-
-Level: Easy
-
-https://leetcode.com/problems/path-sum-iii
-*/
-
 package leetcode0437
 
 /*

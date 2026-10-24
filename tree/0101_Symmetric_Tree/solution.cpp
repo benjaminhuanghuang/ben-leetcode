@@ -1,5 +1,3 @@
-//https://leetcode.com/problems/symmetric-tree/submissions/
-
 #include "common/TreeNode.h"
 
 class Solution {

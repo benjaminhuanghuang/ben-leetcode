@@ -1,10 +1,3 @@
-/*
-135. Candy
-
-Level: Hard
-
-https://leetcode.com/problems/candy
-*/
 #include <iostream>
 #include <vector>
 #include <string>

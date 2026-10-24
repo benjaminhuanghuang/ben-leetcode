@@ -1,10 +1,3 @@
-/*
-234. Palindrome Linked List
-
-Level: Easy
-
-https://leetcode.com/problems/palindrome-linked-list
-*/
 package leetcode0234
 
 import (

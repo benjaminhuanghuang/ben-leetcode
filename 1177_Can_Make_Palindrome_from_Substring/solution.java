@@ -1,10 +1,3 @@
-/*
-1177. Can Make Palindrome from Substring
-
-Level: Medium
-
-https://leetcode.com/problems/can-make-palindrome-from-substring
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

@@ -1,11 +1,3 @@
-
-'''
-1316. Distinct Echo Substrings
-
-Level: Hard
-
-https://leetcode.com/problems/distinct-echo-substrings
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

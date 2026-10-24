@@ -1,11 +1,3 @@
-
-'''
-525. Contiguous Array
-
-Level: Medium
-
-https://leetcode.com/problems/contiguous-array
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

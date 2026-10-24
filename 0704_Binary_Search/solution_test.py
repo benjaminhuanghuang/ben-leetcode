@@ -1,11 +1,3 @@
-
-'''
-704. Binary Search
-
-Level: Easy
-
-https://leetcode.com/problems/binary-search
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

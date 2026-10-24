@@ -1,10 +1,4 @@
 /*
-161. One Edit Distance
-
-https://leetcode.com/problems/one-edit-distance/
-*/
-
-/*
     https://algo.monster/liteproblems/161
 */
 // Check if string 's' can be converted to string 't' with exactly one edit

@@ -1,11 +1,3 @@
-/*
-91. Decode Ways
-
-https://leetcode.com/problems/decode-ways/
-
-一个加密的数字字符串，一共有多少种不同的解密方式。
-*/
-
 #include <string>
 #include <vector>
 

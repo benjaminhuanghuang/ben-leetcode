@@ -1,11 +1,3 @@
-
-'''
-392. Is Subsequence
-
-Level: Easy
-
-https://leetcode.com/problems/is-subsequence
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

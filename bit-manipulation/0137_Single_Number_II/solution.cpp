@@ -1,10 +1,3 @@
-/*
-137. Single Number II
-
-Level: Medium
-
-https://leetcode.com/problems/single-number-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

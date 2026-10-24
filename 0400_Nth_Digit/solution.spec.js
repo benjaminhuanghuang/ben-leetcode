@@ -1,10 +1,3 @@
-/*
-400. Nth Digit
-
-Level: Medium
-
-https://leetcode.com/problems/nth-digit
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

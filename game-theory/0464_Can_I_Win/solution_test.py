@@ -1,11 +1,3 @@
-
-'''
-464. Can I Win
-
-Level: Medium
-
-https://leetcode.com/problems/can-i-win
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

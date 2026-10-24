@@ -1,10 +1,3 @@
-/*
-95. Unique Binary Search Trees II
-
-Level: Medium
-
-https://leetcode.com/problems/unique-binary-search-trees-ii
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

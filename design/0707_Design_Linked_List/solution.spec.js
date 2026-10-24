@@ -1,10 +1,3 @@
-/*
-707. Design Linked List
-
-Level: Medium
-
-https://leetcode.com/problems/design-linked-list
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

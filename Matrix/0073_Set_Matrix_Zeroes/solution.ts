@@ -1,9 +1,4 @@
 /*
-73. Set Matrix Zeroes
-https://leetcode.com/problems/set-matrix-zeroes/
-*/
-
-/*
     This method involves using the first row and column to store the information of the whole matrix.
 */
 function setZeroes(matrix: number[][]): void {

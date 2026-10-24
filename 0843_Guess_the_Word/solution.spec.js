@@ -1,10 +1,3 @@
-/*
-843. Guess the Word
-
-Level: Hard
-
-https://leetcode.com/problems/guess-the-word
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

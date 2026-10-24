@@ -1,13 +1,4 @@
 /*
-355. Design Twitter
-
-Level: Medium
-
-https://leetcode.com/problems/design-twitter
-*/
-
-
-/*
   Solution: 
 */
 

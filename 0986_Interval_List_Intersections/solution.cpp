@@ -1,10 +1,3 @@
-/*
-986. Interval List Intersections
-
-Level: Medium
-
-https://leetcode.com/problems/interval-list-intersections
-*/
 #include <iostream>
 #include <vector>
 #include <string>

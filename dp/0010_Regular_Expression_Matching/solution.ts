@@ -1,10 +1,4 @@
 /*
-10. Regular Expression Matching
-
-https://leetcode.com/problems/regular-expression-matching/
-*/
-
-/*
 DP
 dp[i][j]表示 s[0..i-1] 是否匹配p[0..j-1].    i, j are length
 

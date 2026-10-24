@@ -1,11 +1,3 @@
-
-'''
-130. Surrounded Regions
-
-Level: Medium
-
-https://leetcode.com/problems/surrounded-regions
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-994. Rotting Oranges
-
-Level: Medium
-
-https://leetcode.com/problems/rotting-oranges
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

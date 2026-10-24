@@ -1,11 +1,3 @@
-
-'''
-386. Lexicographical Numbers
-
-Level: Medium
-
-https://leetcode.com/problems/lexicographical-numbers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

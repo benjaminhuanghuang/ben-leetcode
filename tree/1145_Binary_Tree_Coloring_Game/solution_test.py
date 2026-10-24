@@ -1,11 +1,3 @@
-
-'''
-1145. Binary Tree Coloring Game
-
-Level: Medium
-
-https://leetcode.com/problems/binary-tree-coloring-game
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

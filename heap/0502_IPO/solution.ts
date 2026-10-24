@@ -1,10 +1,3 @@
-/*
-502. IPO
-
-https://leetcode-cn.com/problems/ipo/
-
-[Microsoft]
-*/
 import { PriorityQueue } from "./PriorityQueue";
 
 /*

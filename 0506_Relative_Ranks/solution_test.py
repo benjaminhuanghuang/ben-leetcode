@@ -1,11 +1,3 @@
-
-'''
-506. Relative Ranks
-
-Level: Easy
-
-https://leetcode.com/problems/relative-ranks
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

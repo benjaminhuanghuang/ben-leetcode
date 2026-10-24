@@ -1,10 +1,3 @@
-/*
-682. Baseball Game
-
-Level: Easy
-
-https://leetcode.com/problems/baseball-game
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

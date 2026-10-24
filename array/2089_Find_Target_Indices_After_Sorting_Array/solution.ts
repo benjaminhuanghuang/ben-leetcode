@@ -1,9 +1,3 @@
-/*
-2089. Find Target Indices After Sorting Array
-
-https://leetcode.com/problems/find-target-indices-after-sorting-array/
-*/
-
 function targetIndices(nums: number[], target: number): number[] {
   // Sort the array in ascending order.
   nums.sort((a, b) => a - b);

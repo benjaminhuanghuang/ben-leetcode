@@ -1,11 +1,3 @@
-
-'''
-350. Intersection of Two Arrays II
-
-Level: Easy
-
-https://leetcode.com/problems/intersection-of-two-arrays-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

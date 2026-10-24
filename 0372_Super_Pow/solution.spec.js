@@ -1,10 +1,3 @@
-/*
-372. Super Pow
-
-Level: Medium
-
-https://leetcode.com/problems/super-pow
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

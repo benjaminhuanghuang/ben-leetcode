@@ -1,11 +1,3 @@
-
-'''
-223. Rectangle Area
-
-Level: Medium
-
-https://leetcode.com/problems/rectangle-area
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

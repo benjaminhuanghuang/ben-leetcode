@@ -1,8 +1,3 @@
-/*
-441. Arranging Coins
-
-
-*/
 using System;
 
 public class Solution441 {

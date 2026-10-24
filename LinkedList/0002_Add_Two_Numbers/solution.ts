@@ -1,8 +1,3 @@
-/*
-2. Add Two Numbers
-https://leetcode.com/problems/add-two-numbers/description/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function addTwoNumbers(

@@ -1,11 +1,3 @@
-
-'''
-1128. Number of Equivalent Domino Pairs
-
-Level: Easy
-
-https://leetcode.com/problems/number-of-equivalent-domino-pairs
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

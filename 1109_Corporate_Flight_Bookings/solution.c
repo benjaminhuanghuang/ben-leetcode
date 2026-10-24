@@ -1,13 +1,4 @@
 /*
-1109. Corporate Flight Bookings
-
-Level: Medium
-
-https://leetcode.com/problems/corporate-flight-bookings
-*/
-
-
-/*
   Solution: 
 */
 

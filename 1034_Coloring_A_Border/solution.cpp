@@ -1,9 +1,3 @@
-/*
-1034. Coloring A Border
-
-https://leetcode.com/problems/coloring-a-border/
-*/
-
 #include <vector>
 #include <string>
 #include <unordered_set>

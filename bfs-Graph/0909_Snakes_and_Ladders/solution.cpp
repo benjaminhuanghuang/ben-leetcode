@@ -1,10 +1,3 @@
-/*
-909. Snakes and Ladders
-
-Level: Medium
-
-https://leetcode.com/problems/snakes-and-ladders
-*/
 #include <iostream>
 #include <vector>
 #include <string>

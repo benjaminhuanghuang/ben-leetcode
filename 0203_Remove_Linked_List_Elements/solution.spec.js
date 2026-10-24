@@ -1,10 +1,3 @@
-/*
-203. Remove Linked List Elements
-
-Level: Easy
-
-https://leetcode.com/problems/remove-linked-list-elements
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

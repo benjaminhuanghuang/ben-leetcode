@@ -1,10 +1,3 @@
-/*
-592. Fraction Addition and Subtraction
-
-Level: Medium
-
-https://leetcode.com/problems/fraction-addition-and-subtraction
-*/
 #include <iostream>
 #include <vector>
 #include <string>

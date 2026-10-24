@@ -1,10 +1,3 @@
-/*
-1446. Consecutive Characters
-
-Level: Easy
-
-https://leetcode.com/problems/consecutive-characters
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

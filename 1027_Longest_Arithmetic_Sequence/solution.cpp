@@ -1,9 +1,3 @@
-/*
-    1027. Longest Arithmetic Sequence
-    
-    https://leetcode.com/problems/longest-arithmetic-sequence/
-*/
-
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>

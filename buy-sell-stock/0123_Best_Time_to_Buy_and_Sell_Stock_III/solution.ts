@@ -1,12 +1,4 @@
 /*
-123. Best Time to Buy and Sell Stock III
-
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
-
-Buy and sell stock at most 2 times
-*/
-
-/*
 
 */
 function maxProfit(prices: number[], index: number): number {

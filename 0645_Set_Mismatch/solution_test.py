@@ -1,11 +1,3 @@
-
-'''
-645. Set Mismatch
-
-Level: Easy
-
-https://leetcode.com/problems/set-mismatch
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

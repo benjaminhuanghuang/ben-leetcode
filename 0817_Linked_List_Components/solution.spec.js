@@ -1,10 +1,3 @@
-/*
-817. Linked List Components
-
-Level: Medium
-
-https://leetcode.com/problems/linked-list-components
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

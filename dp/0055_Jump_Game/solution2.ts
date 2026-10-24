@@ -1,12 +1,4 @@
 /*
-55. Jump Game
-
-https://leetcode.com/problems/jump-game/
-
-Determines if you are able to reach the last index.
-*/
-
-/*
 Greedy Solution
 
 https://www.youtube.com/watch?v=Yan0cv2cLy8

@@ -1,11 +1,3 @@
-
-'''
-232. Implement Queue using Stacks
-
-Level: Easy
-
-https://leetcode.com/problems/implement-queue-using-stacks
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

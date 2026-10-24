@@ -1,10 +1,3 @@
-/*
-86. Partition List
-
-Level: Medium
-
-https://leetcode.com/problems/partition-list
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

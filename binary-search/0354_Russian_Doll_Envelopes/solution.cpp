@@ -1,12 +1,3 @@
-/*
-354. Russian Doll Envelopes
-
-Level: Hard
-
-https://leetcode.com/problems/russian-doll-envelopes
-
-# 300
-*/
 #include <iostream>
 #include <vector>
 #include <string>

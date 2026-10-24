@@ -1,9 +1,3 @@
-/*
-463. Island Perimeter
-
-https://leetcode.com/problems/island-perimeter/
-*/
-
 function islandPerimeter(grid: number[][]): number {
   let perimeter = 0;
   let m = grid.length;

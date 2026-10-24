@@ -1,11 +1,3 @@
-/*
-69. Sqrt(x)
-
-Implement int sqrt(int x).
-
-Compute and return the square root of x.
-*/
-
 public class Solution069 {
     public int MySqrt(int x) {
         var res = 0;

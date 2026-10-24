@@ -1,11 +1,3 @@
-
-'''
-233. Number of Digit One
-
-Level: Hard
-
-https://leetcode.com/problems/number-of-digit-one
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

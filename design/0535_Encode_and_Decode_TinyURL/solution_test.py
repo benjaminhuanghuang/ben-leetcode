@@ -1,11 +1,3 @@
-
-'''
-535. Encode and Decode TinyURL
-
-Level: Medium
-
-https://leetcode.com/problems/encode-and-decode-tinyurl
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

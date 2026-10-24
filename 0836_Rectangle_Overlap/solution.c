@@ -1,13 +1,4 @@
 /*
-836. Rectangle Overlap
-
-Level: Easy
-
-https://leetcode.com/problems/rectangle-overlap
-*/
-
-
-/*
   Solution: 
 */
 

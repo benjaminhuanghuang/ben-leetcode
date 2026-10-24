@@ -1,8 +1,3 @@
-/*
-1035. Uncrossed Lines
-
-https://leetcode.com/problems/uncrossed-lines/
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

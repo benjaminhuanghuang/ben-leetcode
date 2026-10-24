@@ -1,9 +1,3 @@
-/*
-1007. Minimum Domino Rotations For Equal Row
-
-https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
-
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

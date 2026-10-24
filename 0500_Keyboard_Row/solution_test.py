@@ -1,11 +1,3 @@
-
-'''
-500. Keyboard Row
-
-Level: Easy
-
-https://leetcode.com/problems/keyboard-row
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

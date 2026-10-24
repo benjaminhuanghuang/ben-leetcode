@@ -1,8 +1,3 @@
-/*
-457. Circular Array Loop
-
-https://leetcode.com/problems/circular-array-loop/
-*/
 #include <vector>
 #include <unordered_map>
 

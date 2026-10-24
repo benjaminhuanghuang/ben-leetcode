@@ -1,10 +1,3 @@
-/*
-284. Peeking Iterator
-
-Level: Medium
-
-https://leetcode.com/problems/peeking-iterator
-*/
 #include <iostream>
 #include <vector>
 #include <string>

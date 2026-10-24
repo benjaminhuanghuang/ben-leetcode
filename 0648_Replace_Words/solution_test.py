@@ -1,11 +1,3 @@
-
-'''
-648. Replace Words
-
-Level: Medium
-
-https://leetcode.com/problems/replace-words
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-375. Guess Number Higher or Lower II
-
-Level: Medium
-
-https://leetcode.com/problems/guess-number-higher-or-lower-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

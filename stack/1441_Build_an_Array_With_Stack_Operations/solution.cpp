@@ -1,10 +1,3 @@
-/*
-1441. Build an Array With Stack Operations
-
-Level: Easy
-
-https://leetcode.com/problems/build-an-array-with-stack-operations
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

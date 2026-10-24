@@ -1,9 +1,3 @@
-/*
-911. Online Election
-
-https://leetcode.com/problems/online-election/
-*/
-
 class TopVotedCandidate {
   private times: number[];
   private wins: number[];

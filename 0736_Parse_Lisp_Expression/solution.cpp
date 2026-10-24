@@ -1,8 +1,3 @@
-/*
-736. Parse Lisp Expression
-
-https://leetcode.com/problems/parse-lisp-expression/
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

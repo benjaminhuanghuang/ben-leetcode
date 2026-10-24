@@ -1,10 +1,3 @@
-/*
-738. Monotone Increasing Digits
-
-Level: Medium
-
-https://leetcode.com/problems/monotone-increasing-digits
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

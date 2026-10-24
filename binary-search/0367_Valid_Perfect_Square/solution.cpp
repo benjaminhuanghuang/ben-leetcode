@@ -1,10 +1,3 @@
-/*
-367. Valid Perfect Square
-
-Level: Easy
-
-https://leetcode.com/problems/valid-perfect-square
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

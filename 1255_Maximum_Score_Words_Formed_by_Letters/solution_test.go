@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/maximum-score-words-formed-by-letters
 package leetcode1255
 import (
 	"testing"

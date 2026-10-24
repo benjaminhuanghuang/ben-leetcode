@@ -1,9 +1,3 @@
-/*
-436. Find Right Interval
-
-https://leetcode.com/problems/find-right-interval/
-*/
-
 function findRightInterval(intervals: number[][]): number[] {
   const n = intervals.length;
   const original: Map<number, number> = new Map(); // start: index

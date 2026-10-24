@@ -1,8 +1,3 @@
-/*
-103. Binary Tree Zigzag Level Order Traversal
-https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function zigzagLevelOrder(root: TreeNode | null): number[][] {

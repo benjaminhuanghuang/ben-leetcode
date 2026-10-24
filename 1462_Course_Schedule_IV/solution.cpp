@@ -1,10 +1,3 @@
-/*
-1462. Course Schedule IV
-
-Level: Medium
-
-https://leetcode.com/problems/course-schedule-iv
-*/
 #include <iostream>
 #include <vector>
 #include <string>

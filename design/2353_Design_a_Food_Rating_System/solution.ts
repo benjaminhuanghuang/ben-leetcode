@@ -1,9 +1,3 @@
-/*
-2353. Design a Food Rating System
-
-https://leetcode.com/problems/design-a-food-rating-system/
-*/
-
 class FoodRatings {
   private foodRatings: Map<string, { rating: number; cuisine: string }>;
   private cuisineToFoods: Map<string, Set<string>>;

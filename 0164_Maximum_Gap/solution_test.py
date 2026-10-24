@@ -1,11 +1,3 @@
-
-'''
-164. Maximum Gap
-
-Level: Hard
-
-https://leetcode.com/problems/maximum-gap
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

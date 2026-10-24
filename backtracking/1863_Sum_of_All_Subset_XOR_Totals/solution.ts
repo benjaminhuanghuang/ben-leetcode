@@ -1,14 +1,4 @@
 /*
-1863. Sum of All Subset XOR Totals
-
-https://leetcode.com/problems/sum-of-all-subset-xor-totals/
-
-Given an array nums, return the sum of all XOR totals for every subset of nums. 
-
-[Meta]
-*/
-
-/*
 https://algo.monster/liteproblems/1863
 
 Time Complexity: O(2^N)  2^N subsets

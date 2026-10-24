@@ -1,10 +1,3 @@
-/*
-377. Combination Sum IV
-
-Level: Medium
-
-https://leetcode.com/problems/combination-sum-iv
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-1400. Construct K Palindrome Strings
-
-Level: Medium
-
-https://leetcode.com/problems/construct-k-palindrome-strings
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

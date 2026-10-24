@@ -1,10 +1,3 @@
-/*
-808. Soup Servings
-
-Level: Medium
-
-https://leetcode.com/problems/soup-servings
-*/
 #include <iostream>
 #include <vector>
 #include <string>

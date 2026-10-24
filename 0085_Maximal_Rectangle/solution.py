@@ -1,19 +1,3 @@
-'''
-85. Maximal Rectangle
-
-Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.
-
-For example, given the following matrix:
-
-1 0 1 0 0
-1 0 1 1 1
-1 1 1 1 1
-1 0 0 1 0
-
-Return 6.
-'''
-
-
 # http://www.jianshu.com/p/cffdc94c9c19
 class Solution(object):
     # https://www.tianmaying.com/tutorial/LC85

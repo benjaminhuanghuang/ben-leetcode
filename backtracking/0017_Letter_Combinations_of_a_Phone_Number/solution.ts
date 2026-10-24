@@ -1,10 +1,4 @@
 /*
-17. Letter Combinations of a Phone Number
-
-https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-*/
-
-/*
     The time complexity is O(4^N x N), N is the length of the input, 4 is count of the letter a digit can map,
     4^N 是组合数量, N is the time to build each combination string.
     The space complexity is also O(4^N * N) because we store all the possible combinations of letters.

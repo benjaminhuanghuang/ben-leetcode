@@ -1,8 +1,3 @@
-/*
-  969. Pancake Sorting
-
-  https://leetcode.com/problems/pancake-sorting/
-*/
 #include <vector>
 #include <queue>
 

@@ -1,11 +1,3 @@
-/*
-28. Implement strStr()
-
-Implement strStr().
-
-Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
-*/
-
 public class Solution028 {
     public int StrStr(string haystack, string needle) {
         if (string.IsNullOrEmpty(needle))

@@ -1,8 +1,3 @@
-/*
-1011. Capacity To Ship Packages Within D Days [Medium]
-
-https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
-*/
 #include <vector>
 #include <algorithm>
 #include <numeric>

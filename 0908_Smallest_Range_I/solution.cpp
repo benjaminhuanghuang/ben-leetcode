@@ -1,10 +1,3 @@
-/*
-908. Smallest Range I
-
-Level: Easy
-
-https://leetcode.com/problems/smallest-range-i
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

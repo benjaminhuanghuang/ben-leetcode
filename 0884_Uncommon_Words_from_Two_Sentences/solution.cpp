@@ -1,10 +1,3 @@
-/*
-884. Uncommon Words from Two Sentences
-
-Level: Easy
-
-https://leetcode.com/problems/uncommon-words-from-two-sentences
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

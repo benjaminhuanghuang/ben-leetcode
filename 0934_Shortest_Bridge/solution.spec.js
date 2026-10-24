@@ -1,10 +1,3 @@
-/*
-934. Shortest Bridge
-
-Level: Medium
-
-https://leetcode.com/problems/shortest-bridge
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

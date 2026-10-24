@@ -1,11 +1,4 @@
 '''
-1572. Matrix Diagonal Sum
-
-Level: Easy
-
-https://leetcode.com/problems/matrix-diagonal-sum
-'''
-'''
   Solution: 
 '''
 class Solution:

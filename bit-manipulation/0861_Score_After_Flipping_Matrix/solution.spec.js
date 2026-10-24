@@ -1,10 +1,3 @@
-/*
-861. Score After Flipping Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/score-after-flipping-matrix
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/longest-repeating-character-replacement
 package leetcode0424
 import (
 	"testing"

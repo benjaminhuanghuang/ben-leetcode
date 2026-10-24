@@ -1,11 +1,4 @@
 '''
-1024. Video Stitching
-
-Level: Medium
-
-https://leetcode.com/problems/video-stitching
-'''
-'''
   Solution: 
 '''
 class Solution:

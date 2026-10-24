@@ -1,10 +1,3 @@
-/*
-1125. Smallest Sufficient Team
-
-Level: Hard
-
-https://leetcode.com/problems/smallest-sufficient-team
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

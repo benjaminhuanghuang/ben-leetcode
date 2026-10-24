@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/minimum-area-rectangle
 package leetcode0939
 import (
 	"testing"

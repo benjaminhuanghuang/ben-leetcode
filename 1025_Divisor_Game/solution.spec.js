@@ -1,10 +1,3 @@
-/*
-1025. Divisor Game
-
-Level: Easy
-
-https://leetcode.com/problems/divisor-game
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

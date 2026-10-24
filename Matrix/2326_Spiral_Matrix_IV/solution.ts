@@ -1,9 +1,3 @@
-/*
-2326. Spiral Matrix IV
-
-https://leetcode.com/problems/spiral-matrix-iv/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function spiralMatrix(m: number, n: number, head: ListNode | null): number[][] {

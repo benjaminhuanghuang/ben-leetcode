@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/regular-expression-matching
 package leetcode0010
 import (
 	"testing"

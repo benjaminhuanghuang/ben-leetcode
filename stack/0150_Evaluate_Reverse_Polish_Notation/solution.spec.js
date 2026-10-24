@@ -1,10 +1,3 @@
-/*
-150. Evaluate Reverse Polish Notation
-
-Level: Medium
-
-https://leetcode.com/problems/evaluate-reverse-polish-notation
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

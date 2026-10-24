@@ -1,10 +1,3 @@
-/*
-812. Largest Triangle Area
-
-Level: Easy
-
-https://leetcode.com/problems/largest-triangle-area
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,10 +1,3 @@
-/*
-836. Rectangle Overlap
-
-Level: Easy
-
-https://leetcode.com/problems/rectangle-overlap
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-/*
-21. Merge Two Sorted Lists
-
-[#88]
-
-
-23. Merge k Sorted Lists
-*/
 #include "common/ListNode.h"
 /*
   Solution:

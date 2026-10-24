@@ -1,10 +1,3 @@
-/*
-855. Exam Room
-
-Level: Medium
-
-https://leetcode.com/problems/exam-room
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

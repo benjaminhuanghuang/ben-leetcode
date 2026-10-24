@@ -1,10 +1,3 @@
-/*
-1297. Maximum Number of Occurrences of a Substring
-
-Level: Medium
-
-https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

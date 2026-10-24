@@ -1,10 +1,3 @@
-/*
-1261. Find Elements in a Contaminated Binary Tree
-
-Level: Medium
-
-https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

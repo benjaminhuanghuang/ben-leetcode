@@ -1,11 +1,3 @@
-
-'''
-239. Sliding Window Maximum
-
-Level: Hard
-
-https://leetcode.com/problems/sliding-window-maximum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

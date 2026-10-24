@@ -1,10 +1,3 @@
-/*
-221. Maximal Square
-
-Level: Medium
-
-https://leetcode.com/problems/maximal-square
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

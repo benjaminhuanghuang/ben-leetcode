@@ -1,8 +1,3 @@
-/*
-14. Longest Common Prefix
-
-https://leetcode.com/problems/longest-common-prefix/
-*/
 #include <string>
 #include <unordered_map>
 #include <vector>

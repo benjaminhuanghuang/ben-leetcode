@@ -1,10 +1,3 @@
-/*
-300. Longest Increasing Subsequence
-
-Level: Medium
-
-https://leetcode.com/problems/longest-increasing-subsequence
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,13 +1,4 @@
 /*
-567. Permutation in String
-
-Level: Medium
-
-https://leetcode.com/problems/permutation-in-string
-*/
-
-
-/*
   Solution: 
 */
 

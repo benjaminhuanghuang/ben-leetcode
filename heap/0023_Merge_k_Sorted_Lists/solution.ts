@@ -1,10 +1,4 @@
 /*
-23. Merge K Sorted Lists
-
-https://leetcode.com/problems/merge-k-sorted-lists/
-*/
-
-/*
    https://www.youtube.com/watch?v=XqA8bBoEdIY HuaHua
    K 个list， 假设所有linked list长度为N
    priority_queue time complexity 为 LogN

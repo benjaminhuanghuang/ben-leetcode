@@ -1,10 +1,3 @@
-/*
-437. Path Sum III
-
-Level: Easy
-
-https://leetcode.com/problems/path-sum-iii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

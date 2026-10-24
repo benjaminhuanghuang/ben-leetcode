@@ -1,11 +1,3 @@
-
-'''
-1448. Count Good Nodes in Binary Tree
-
-Level: Medium
-
-https://leetcode.com/problems/count-good-nodes-in-binary-tree
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-69. Sqrt(x)
-
-Level: Easy
-
-https://leetcode.com/problems/sqrtx
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

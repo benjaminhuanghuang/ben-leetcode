@@ -1,18 +1,3 @@
-'''
-48. Rotate Image
-
-You are given an n x n 2D matrix representing an image.
-
-Rotate the image by 90 degrees (clockwise).
-
-Follow up:
-Could you do this in-place?
-
-Hints:
-https://www.youtube.com/watch?v=flTKZiE25M8
-'''
-
-
 class Solution(object):
     # http://www.tianmaying.com/tutorial/LC48
     # [i, j] -> [j, n-i-1] -> [n-i-1, n-j-1] -> [n-j-1, i] -> [i, j]

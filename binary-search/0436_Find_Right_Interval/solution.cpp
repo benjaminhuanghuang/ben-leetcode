@@ -1,10 +1,3 @@
-/*
-436. Find Right Interval
-
-Level: Medium
-
-https://leetcode.com/problems/find-right-interval
-*/
 #include <iostream>
 #include <vector>
 #include <string>

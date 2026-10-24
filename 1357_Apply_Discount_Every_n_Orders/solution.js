@@ -1,12 +1,4 @@
 /*
-1357. Apply Discount Every n Orders
-
-Level: Medium
-
-https://leetcode.com/problems/apply-discount-every-n-orders
-*/
-
-/*
   Solution: 
   https://www.youtube.com/watch?v=MZ3oKJb_6C0
 */

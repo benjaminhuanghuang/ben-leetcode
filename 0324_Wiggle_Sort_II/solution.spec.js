@@ -1,10 +1,3 @@
-/*
-324. Wiggle Sort II
-
-Level: Medium
-
-https://leetcode.com/problems/wiggle-sort-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

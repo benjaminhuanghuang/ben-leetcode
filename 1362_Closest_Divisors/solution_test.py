@@ -1,11 +1,3 @@
-
-'''
-1362. Closest Divisors
-
-Level: Medium
-
-https://leetcode.com/problems/closest-divisors
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

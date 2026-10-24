@@ -1,11 +1,3 @@
-
-'''
-846. Hand of Straights
-
-Level: Medium
-
-https://leetcode.com/problems/hand-of-straights
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

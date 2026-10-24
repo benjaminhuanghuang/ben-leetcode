@@ -1,15 +1,4 @@
 /*
-733. Flood Fill
-
-https://leetcode.com/problems/flood-fill/
-
-
-- 200. Number of Islands
-- 547. Friend Circles
-- 695. Max Area of Island
-*/
-
-/*
 https://www.youtube.com/watch?v=ln_mc5LtL5M (Huahua)
 Time Complexity: O(M * N)
 

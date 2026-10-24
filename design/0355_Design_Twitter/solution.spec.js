@@ -1,10 +1,3 @@
-/*
-355. Design Twitter
-
-Level: Medium
-
-https://leetcode.com/problems/design-twitter
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-1154. Day of the Year
-
-Level: Easy
-
-https://leetcode.com/problems/day-of-the-year
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

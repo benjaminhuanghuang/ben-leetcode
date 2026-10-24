@@ -1,10 +1,3 @@
-/*
-641. Design Circular Deque
-
-Level: Medium
-
-https://leetcode.com/problems/design-circular-deque
-*/
 #include <iostream>
 #include <vector>
 #include <string>

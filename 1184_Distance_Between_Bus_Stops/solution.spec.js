@@ -1,10 +1,3 @@
-/*
-1184. Distance Between Bus Stops
-
-Level: Easy
-
-https://leetcode.com/problems/distance-between-bus-stops
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

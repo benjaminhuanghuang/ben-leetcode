@@ -1,10 +1,3 @@
-/*
-282. Expression Add Operators
-
-Level: Hard
-
-https://leetcode.com/problems/expression-add-operators
-*/
 #include <iostream>
 #include <vector>
 #include <string>

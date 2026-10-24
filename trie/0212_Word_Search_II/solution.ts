@@ -1,9 +1,4 @@
 /*
-212. Word Search II
-https://leetcode.com/problems/word-search-ii/
-*/
-
-/*
 Insert O(L) - L is the length of the word
 Search O(L) - L is the length of the word
 

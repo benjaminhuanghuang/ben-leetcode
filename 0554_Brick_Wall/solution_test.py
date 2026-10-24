@@ -1,11 +1,3 @@
-
-'''
-554. Brick Wall
-
-Level: Medium
-
-https://leetcode.com/problems/brick-wall
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

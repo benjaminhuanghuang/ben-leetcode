@@ -1,11 +1,3 @@
-
-'''
-838. Push Dominoes
-
-Level: Medium
-
-https://leetcode.com/problems/push-dominoes
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,4 @@
 '''
-432. All O`one Data Structure
-
-Level: Hard
-
-https://leetcode.com/problems/all-oone-data-structure
-'''
-'''
   Solution: 
 '''
 class AllOne:

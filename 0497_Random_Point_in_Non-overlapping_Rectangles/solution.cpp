@@ -1,10 +1,3 @@
-/*
-497. Random Point in Non-overlapping Rectangles
-
-Level: Medium
-
-https://leetcode.com/problems/random-point-in-non-overlapping-rectangles
-*/
 #include <iostream>
 #include <vector>
 #include <string>

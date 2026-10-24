@@ -1,11 +1,3 @@
-
-'''
-134. Gas Station
-
-Level: Medium
-
-https://leetcode.com/problems/gas-station
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

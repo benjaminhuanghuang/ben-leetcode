@@ -1,13 +1,4 @@
 /*
-134. Gas Station
-
-Level: Medium
-
-https://leetcode.com/problems/gas-station
-*/
-
-
-/*
   Solution: 
 */
 

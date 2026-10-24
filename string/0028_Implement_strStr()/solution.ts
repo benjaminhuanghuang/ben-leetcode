@@ -1,9 +1,3 @@
-/*
-28. Find the Index of the First Occurrence in a String
-
-https://leetcode.com/problems/implement-strstr/
-*/
-
 function strStr(haystack: string, needle: string): number {
   if (!needle) {
     return 0;

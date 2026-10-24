@@ -1,10 +1,3 @@
-/*
-384. Shuffle an Array
-
-Level: Medium
-
-https://leetcode.com/problems/shuffle-an-array
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-410. Split Array Largest Sum
-
-Level: Hard
-
-https://leetcode.com/problems/split-array-largest-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

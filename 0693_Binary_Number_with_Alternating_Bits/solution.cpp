@@ -1,10 +1,3 @@
-/*
-693. Binary Number with Alternating Bits
-
-Level: Easy
-
-https://leetcode.com/problems/binary-number-with-alternating-bits
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,11 +1,3 @@
-
-'''
-48. Rotate Image
-
-Level: Medium
-
-https://leetcode.com/problems/rotate-image
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

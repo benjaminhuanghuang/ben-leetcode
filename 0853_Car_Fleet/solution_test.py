@@ -1,11 +1,3 @@
-
-'''
-853. Car Fleet
-
-Level: Medium
-
-https://leetcode.com/problems/car-fleet
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-638. Shopping Offers
-
-Level: Medium
-
-https://leetcode.com/problems/shopping-offers
-*/
 #include <iostream>
 #include <vector>
 #include <string>

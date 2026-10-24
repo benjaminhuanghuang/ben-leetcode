@@ -1,11 +1,3 @@
-
-'''
-452. Minimum Number of Arrows to Burst Balloons
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

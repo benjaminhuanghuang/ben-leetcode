@@ -1,10 +1,3 @@
-/*
-224. Basic Calculator
-
-Level: Hard
-
-https://leetcode.com/problems/basic-calculator
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

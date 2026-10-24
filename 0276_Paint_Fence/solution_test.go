@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/paint-fence
 package leetcode0276
 import (
 	"testing"

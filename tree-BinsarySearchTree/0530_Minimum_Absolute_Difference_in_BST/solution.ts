@@ -1,8 +1,3 @@
-/*
-530. Minimum Absolute Difference in BST
-
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 /*

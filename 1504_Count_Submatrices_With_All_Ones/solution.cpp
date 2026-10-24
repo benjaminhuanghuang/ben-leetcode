@@ -1,10 +1,3 @@
-/*
-1504. Count Submatrices With All Ones
-
-Level: Medium
-
-https://leetcode.com/problems/count-submatrices-with-all-ones
-*/
 #include <iostream>
 #include <vector>
 #include <string>

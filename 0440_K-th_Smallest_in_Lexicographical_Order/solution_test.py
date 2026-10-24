@@ -1,11 +1,3 @@
-
-'''
-440. K-th Smallest in Lexicographical Order
-
-Level: Hard
-
-https://leetcode.com/problems/k-th-smallest-in-lexicographical-order
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

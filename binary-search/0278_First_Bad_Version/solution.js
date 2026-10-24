@@ -1,12 +1,4 @@
 /*
-278. First Bad Version
-
-Level: Easy
-
-https://leetcode.com/problems/first-bad-version
-*/
-
-/*
   Solution: 
 */
 

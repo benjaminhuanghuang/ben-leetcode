@@ -1,10 +1,3 @@
-/*
-838. Push Dominoes
-
-Level: Medium
-
-https://leetcode.com/problems/push-dominoes
-*/
 #include <iostream>
 #include <vector>
 #include <string>

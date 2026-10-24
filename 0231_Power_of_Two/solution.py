@@ -1,11 +1,3 @@
-'''
-231. Power of Two
-
-Given an integer, write a function to determine if it is a power of two.
-
-'''
-
-
 # http://www.cnblogs.com/grandyang/p/4623394.html
 # The power of 2 only have one "1" ant most left bit
 def is_power_of_2(n):

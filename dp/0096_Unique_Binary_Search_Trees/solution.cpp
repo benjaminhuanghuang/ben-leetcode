@@ -1,9 +1,4 @@
 /*
-96. Unique Binary Search Trees
-https://leetcode.com/problems/unique-binary-search-trees/
- */
-
-/*
     https://www.youtube.com/watch?v=HWJEMKWzy-Q
     1 to n , every number x can be the root of the tree
     left sub tree can have x - 1 nodes, right sub tree can have n - x nodes

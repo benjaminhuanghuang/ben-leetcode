@@ -1,10 +1,4 @@
 /*
-1286. Iterator for Combination
-
-https://leetcode.com/problems/iterator-for-combination/
-*/
-
-/*
 https://zxi.mytechroad.com/blog/bit/leetcode-1286-iterator-for-combination/
 
 Use a bitmask to represent the chars selected.

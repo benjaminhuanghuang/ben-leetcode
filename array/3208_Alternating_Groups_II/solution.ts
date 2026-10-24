@@ -1,12 +1,4 @@
 /*
-3208. Alternating Groups II
-
-https://leetcode.com/problems/alternating-groups-ii/
-
-- 3206. Alternating Groups I
-*/
-
-/*
 We can unfold the ring into an array of length 2n and then traverse this array from left to right. 
 We
 use a variable ent to record the current length of the alternating group. 

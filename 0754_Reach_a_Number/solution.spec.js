@@ -1,10 +1,3 @@
-/*
-754. Reach a Number
-
-Level: Medium
-
-https://leetcode.com/problems/reach-a-number
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

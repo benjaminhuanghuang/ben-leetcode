@@ -1,13 +1,3 @@
-/*
-344. Reverse String
-
-Write a function that takes a string as input and returns the string reversed.
-
-Example:
-Given s = "hello", return "olleh".
-*/
-
-
 public class Solution344 {
     public string ReverseString(string s) {
         if (s.Length == 0)

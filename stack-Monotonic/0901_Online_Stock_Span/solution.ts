@@ -1,9 +1,3 @@
-/*
-901. Online Stock Span
-
-https://leetcode.com/problems/online-stock-span
-*/
-
 class StockSpanner {
   // 栈中每个元素是 [price, span]，span 表示这个 price 的"跨度"（包括自己及之前连续 ≤ price 的天数）
   private stack: [number, number][] = [];

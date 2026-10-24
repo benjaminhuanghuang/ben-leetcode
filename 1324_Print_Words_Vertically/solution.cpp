@@ -1,10 +1,3 @@
-/*
-1324. Print Words Vertically
-
-Level: Medium
-
-https://leetcode.com/problems/print-words-vertically
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,11 +1,3 @@
-
-'''
-789. Escape The Ghosts
-
-Level: Medium
-
-https://leetcode.com/problems/escape-the-ghosts
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

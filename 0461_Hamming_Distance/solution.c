@@ -1,13 +1,4 @@
 /*
-461. Hamming Distance
-
-Level: Easy
-
-https://leetcode.com/problems/hamming-distance
-*/
-
-
-/*
   Solution: 
 */
 

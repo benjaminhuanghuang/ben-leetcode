@@ -1,8 +1,3 @@
-/*
-88. Merge Sorted Array
-
-[#21]
-*/
 #include <vector>
 using namespace std;
 

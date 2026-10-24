@@ -1,11 +1,3 @@
-
-'''
-1311. Get Watched Videos by Your Friends
-
-Level: Medium
-
-https://leetcode.com/problems/get-watched-videos-by-your-friends
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

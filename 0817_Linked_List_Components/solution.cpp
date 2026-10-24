@@ -1,10 +1,3 @@
-/*
-817. Linked List Components
-
-Level: Medium
-
-https://leetcode.com/problems/linked-list-components
-*/
 #include <iostream>
 #include <vector>
 #include <string>

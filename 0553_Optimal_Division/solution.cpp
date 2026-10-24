@@ -1,11 +1,3 @@
-/*
-553. Optimal Division
-
-https://leetcode.com/problems/optimal-division/
-
-Given a list of positive integers, the adjacent integers will perform the float division. 
-For example, [2,3,4] -> 2 / 3 / 4.
-*/
 #include <string>
 #include <vector>
 using namespace std;

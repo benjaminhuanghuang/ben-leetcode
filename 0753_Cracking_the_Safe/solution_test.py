@@ -1,11 +1,3 @@
-
-'''
-753. Cracking the Safe
-
-Level: Hard
-
-https://leetcode.com/problems/cracking-the-safe
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

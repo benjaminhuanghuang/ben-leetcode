@@ -1,11 +1,3 @@
-/*
-48. Rotate Image
-
-https://leetcode.com/problems/rotate-image/
-
-rotate the image by 90 degrees (clockwise).
-*/
-
 // Rotate the matrix layer by layer
 function rotate(matrix: number[][]): void {
   const n = matrix.length;

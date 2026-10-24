@@ -1,13 +1,4 @@
 /*
-225. Implement Stack using Queues
-
-Level: Easy
-
-https://leetcode.com/problems/implement-stack-using-queues
-*/
-
-
-/*
   Solution: 
 */
 

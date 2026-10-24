@@ -1,9 +1,3 @@
-/*
-50. Pow(x, n)
-Implement pow(x, n).
-*/
-
-
 public class Solution050 {
     public double MyPow(double x, int n) {
         if (n>=0)

@@ -1,8 +1,3 @@
-/*
-38. Count and Say
-https://leetcode.com/problems/count-and-say/
-*/
-
 #include <string>
 
 using namespace std;

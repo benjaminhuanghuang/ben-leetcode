@@ -1,10 +1,4 @@
 /*
-743. Network Delay Time
-
-https://leetcode.com/problems/network-delay-time/
-*/
-
-/*
 https://www.youtube.com/watch?v=vwLYDeghs_c   (Hua hua)
 https://zxi.mytechroad.com/blog/graph/leetcode-743-network-delay-time/
 

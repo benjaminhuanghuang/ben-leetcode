@@ -1,10 +1,3 @@
-/*
-923. 3Sum With Multiplicity
-
-Level: Medium
-
-https://leetcode.com/problems/3sum-with-multiplicity
-*/
 #include <iostream>
 #include <vector>
 #include <string>

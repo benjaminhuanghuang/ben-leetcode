@@ -1,10 +1,3 @@
-/*
-475. Heaters
-
-Level: Easy
-
-https://leetcode.com/problems/heaters
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

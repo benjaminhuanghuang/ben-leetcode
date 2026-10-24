@@ -1,11 +1,3 @@
-
-'''
-341. Flatten Nested List Iterator
-
-Level: Medium
-
-https://leetcode.com/problems/flatten-nested-list-iterator
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

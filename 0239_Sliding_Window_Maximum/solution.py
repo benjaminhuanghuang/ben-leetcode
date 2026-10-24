@@ -1,11 +1,4 @@
 '''
-239. Sliding Window Maximum
-
-Level: Hard
-
-https://leetcode.com/problems/sliding-window-maximum
-'''
-'''
   Solution: 
 '''
 class Solution:

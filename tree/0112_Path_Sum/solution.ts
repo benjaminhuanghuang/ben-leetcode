@@ -1,9 +1,3 @@
-/*
-112. Path Sum
-
-https://leetcode.com/problems/path-sum/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function hasPathSum(root: TreeNode | null, targetSum: number): boolean {

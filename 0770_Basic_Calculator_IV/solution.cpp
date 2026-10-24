@@ -1,7 +1,3 @@
-/*
-770. Basic Calculator IV
- https://leetcode.com/problems/basic-calculator-iv/
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,10 +1,3 @@
-/*
-279. Perfect Squares
-
-Level: Medium
-
-https://leetcode.com/problems/perfect-squares
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

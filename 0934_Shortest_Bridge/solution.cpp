@@ -1,10 +1,3 @@
-/*
-934. Shortest Bridge
-
-Level: Medium
-
-https://leetcode.com/problems/shortest-bridge
-*/
 #include <iostream>
 #include <vector>
 #include <string>

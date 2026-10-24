@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/merge-two-sorted-lists
 package leetcode0021
 import (
 	"testing"

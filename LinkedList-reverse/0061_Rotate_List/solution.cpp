@@ -1,10 +1,3 @@
-/*
-61. Rotate List
-
-Level: Medium
-
-https://leetcode.com/problems/rotate-list
-*/
 #include <iostream>
 #include <vector>
 #include <string>

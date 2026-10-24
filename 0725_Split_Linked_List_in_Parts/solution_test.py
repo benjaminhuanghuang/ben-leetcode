@@ -1,11 +1,3 @@
-
-'''
-725. Split Linked List in Parts
-
-Level: Medium
-
-https://leetcode.com/problems/split-linked-list-in-parts
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

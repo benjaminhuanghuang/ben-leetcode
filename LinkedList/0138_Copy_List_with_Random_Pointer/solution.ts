@@ -1,10 +1,3 @@
-/*
-138. Copy List with Random Pointer
-https://leetcode.com/problems/copy-list-with-random-pointer/
-
-- 133. Clone Graph
-*/
-
 class _Node {
   val: number;
   next: _Node | null;

@@ -1,10 +1,3 @@
-/*
-1288. Remove Covered Intervals
-
-Level: Medium
-
-https://leetcode.com/problems/remove-covered-intervals
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

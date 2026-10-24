@@ -1,10 +1,3 @@
-/*
-1169. Invalid Transactions
-
-Level: Medium
-
-https://leetcode.com/problems/invalid-transactions
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

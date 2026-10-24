@@ -1,10 +1,3 @@
-/*
-461. Hamming Distance
-
-Level: Easy
-
-https://leetcode.com/problems/hamming-distance
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

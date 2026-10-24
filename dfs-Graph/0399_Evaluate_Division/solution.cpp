@@ -1,9 +1,3 @@
-/*
-399. Evaluate Division
-
-https://leetcode.com/problems/evaluate-division/
-*/
-
 #include <vector>
 #include <string>
 #include <unordered_map>

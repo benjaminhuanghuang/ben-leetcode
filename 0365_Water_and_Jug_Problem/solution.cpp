@@ -1,10 +1,3 @@
-/*
-365. Water and Jug Problem
-
-Level: Medium
-
-https://leetcode.com/problems/water-and-jug-problem
-*/
 #include <iostream>
 #include <vector>
 #include <string>

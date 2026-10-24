@@ -1,9 +1,3 @@
-/*
-103. Binary Tree Zigzag Level Order Traversal
-https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
- */
-
-
 #include <vector>
 #include <queue>
 #include <algorithm>

@@ -1,10 +1,3 @@
-/*
-389. Find the Difference
-
-Level: Easy
-
-https://leetcode.com/problems/find-the-difference
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

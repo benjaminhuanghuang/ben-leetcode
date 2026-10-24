@@ -1,11 +1,3 @@
-
-'''
-1598. Crawler Log Folder
-
-Level: Easy
-
-https://leetcode.com/problems/crawler-log-folder
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

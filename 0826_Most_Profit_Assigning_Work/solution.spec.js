@@ -1,10 +1,3 @@
-/*
-826. Most Profit Assigning Work
-
-Level: Medium
-
-https://leetcode.com/problems/most-profit-assigning-work
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

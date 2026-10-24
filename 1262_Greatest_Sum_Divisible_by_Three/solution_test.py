@@ -1,11 +1,3 @@
-
-'''
-1262. Greatest Sum Divisible by Three
-
-Level: Medium
-
-https://leetcode.com/problems/greatest-sum-divisible-by-three
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,9 +1,3 @@
-/*
-221. Maximal Square
-
-https://leetcode.com/problems/maximal-square/
-*/
-
 function maximalSquare(matrix: string[][]): number {
   if (matrix.length === 0 || matrix[0].length === 0) {
     return 0;

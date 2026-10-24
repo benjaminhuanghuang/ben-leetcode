@@ -1,10 +1,3 @@
-/*
-204. Count Primes
-
-Level: Easy
-
-https://leetcode.com/problems/count-primes
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-234. Palindrome Linked List
-
-Level: Easy
-
-https://leetcode.com/problems/palindrome-linked-list
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

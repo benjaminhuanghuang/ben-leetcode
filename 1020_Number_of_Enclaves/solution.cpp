@@ -1,10 +1,3 @@
-/*
-1020. Number of Enclaves
-
-Level: Medium
-
-https://leetcode.com/problems/number-of-enclaves
-*/
 #include <iostream>
 #include <vector>
 #include <string>

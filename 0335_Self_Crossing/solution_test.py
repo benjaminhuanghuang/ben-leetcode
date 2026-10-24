@@ -1,11 +1,3 @@
-
-'''
-335. Self Crossing
-
-Level: Hard
-
-https://leetcode.com/problems/self-crossing
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

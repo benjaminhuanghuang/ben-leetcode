@@ -1,11 +1,3 @@
-
-'''
-1572. Matrix Diagonal Sum
-
-Level: Easy
-
-https://leetcode.com/problems/matrix-diagonal-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

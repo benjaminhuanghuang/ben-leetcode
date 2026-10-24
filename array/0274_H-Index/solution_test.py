@@ -1,11 +1,3 @@
-
-'''
-274. H-Index
-
-Level: Medium
-
-https://leetcode.com/problems/h-index
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

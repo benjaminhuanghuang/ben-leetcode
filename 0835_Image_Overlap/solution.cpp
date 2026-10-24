@@ -1,8 +1,3 @@
-/*
-835. Image Overlap
-https://leetcode.com/problems/image-overlap/
-*/
-
 #include <vector>
 #include <unordered_map>
 #include <string>

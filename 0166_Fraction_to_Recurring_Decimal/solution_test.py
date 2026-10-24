@@ -1,11 +1,3 @@
-
-'''
-166. Fraction to Recurring Decimal
-
-Level: Medium
-
-https://leetcode.com/problems/fraction-to-recurring-decimal
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

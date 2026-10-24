@@ -1,8 +1,3 @@
-/*
-71. Simplify Path
-https://leetcode.com/problems/simplify-path/
-*/
-
 #include <string>
 #include <vector>
 #include <sstream>

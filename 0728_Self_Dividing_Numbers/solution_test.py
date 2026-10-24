@@ -1,11 +1,3 @@
-
-'''
-728. Self Dividing Numbers
-
-Level: Easy
-
-https://leetcode.com/problems/self-dividing-numbers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

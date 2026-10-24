@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60
 package leetcode1010
 import (
 	"testing"

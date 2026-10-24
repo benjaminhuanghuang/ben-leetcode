@@ -1,9 +1,3 @@
-/*
-1791. Find Center of Star Graph
-
-https://leetcode.com/problems/find-center-of-star-graph/
-*/
-
 function findCenter(edges: number[][]): number {
   // id -> indegree
   const degrees: Map<number, number> = new Map();

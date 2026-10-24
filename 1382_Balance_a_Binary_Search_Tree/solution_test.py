@@ -1,11 +1,3 @@
-
-'''
-1382. Balance a Binary Search Tree
-
-Level: Medium
-
-https://leetcode.com/problems/balance-a-binary-search-tree
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

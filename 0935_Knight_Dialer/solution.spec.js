@@ -1,10 +1,3 @@
-/*
-935. Knight Dialer
-
-Level: Medium
-
-https://leetcode.com/problems/knight-dialer
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

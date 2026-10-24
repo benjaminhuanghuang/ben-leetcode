@@ -1,12 +1,4 @@
 /*
-622. Design Circular Queue
-
-Level: Medium
-
-https://leetcode.com/problems/design-circular-queue
-*/
-
-/*
   Solution: 
 */
 

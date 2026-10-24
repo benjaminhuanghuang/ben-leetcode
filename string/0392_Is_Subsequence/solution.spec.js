@@ -1,10 +1,3 @@
-/*
-392. Is Subsequence
-
-Level: Easy
-
-https://leetcode.com/problems/is-subsequence
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

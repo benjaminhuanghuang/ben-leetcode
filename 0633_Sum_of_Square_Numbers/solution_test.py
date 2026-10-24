@@ -1,11 +1,3 @@
-
-'''
-633. Sum of Square Numbers
-
-Level: Easy
-
-https://leetcode.com/problems/sum-of-square-numbers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

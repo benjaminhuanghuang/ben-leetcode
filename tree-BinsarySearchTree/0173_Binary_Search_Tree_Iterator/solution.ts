@@ -1,10 +1,3 @@
-/*
-173. Binary Search Tree Iterator
-https://leetcode.com/problems/binary-search-tree-iterator/
-
-94. Binary Tree Inorder Traversal
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 /*
 Use a stack to simulate the inorder traversal of the BST.

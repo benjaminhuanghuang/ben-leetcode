@@ -1,12 +1,4 @@
 /*
-62. Unique Paths
-
-Level: Medium
-
-https://leetcode.com/problems/unique-paths
-*/
-
-/*
   Solution: 
 */
 

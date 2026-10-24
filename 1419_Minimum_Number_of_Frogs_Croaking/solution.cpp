@@ -1,10 +1,3 @@
-/*
-1419. Minimum Number of Frogs Croaking
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-number-of-frogs-croaking
-*/
 #include <iostream>
 #include <vector>
 #include <string>

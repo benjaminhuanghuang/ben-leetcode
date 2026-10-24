@@ -1,11 +1,3 @@
-
-'''
-433. Minimum Genetic Mutation
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-genetic-mutation
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/minesweeper
 package leetcode0529
 import (
 	"testing"

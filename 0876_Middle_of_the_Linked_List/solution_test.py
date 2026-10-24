@@ -1,11 +1,3 @@
-
-'''
-876. Middle of the Linked List
-
-Level: Easy
-
-https://leetcode.com/problems/middle-of-the-linked-list
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

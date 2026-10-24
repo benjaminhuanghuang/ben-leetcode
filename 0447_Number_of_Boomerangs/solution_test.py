@@ -1,11 +1,3 @@
-
-'''
-447. Number of Boomerangs
-
-Level: Easy
-
-https://leetcode.com/problems/number-of-boomerangs
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

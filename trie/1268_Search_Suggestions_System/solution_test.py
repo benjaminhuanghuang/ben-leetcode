@@ -1,11 +1,3 @@
-
-'''
-1268. Search Suggestions System
-
-Level: Medium
-
-https://leetcode.com/problems/search-suggestions-system
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

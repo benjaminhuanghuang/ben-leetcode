@@ -1,10 +1,3 @@
-/*
-1436. Destination City
-
-Level: Easy
-
-https://leetcode.com/problems/destination-city
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

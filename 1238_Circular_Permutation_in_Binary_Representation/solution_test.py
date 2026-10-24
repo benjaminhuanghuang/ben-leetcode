@@ -1,11 +1,3 @@
-
-'''
-1238. Circular Permutation in Binary Representation
-
-Level: Medium
-
-https://leetcode.com/problems/circular-permutation-in-binary-representation
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-403. Frog Jump
-
-Level: Hard
-
-https://leetcode.com/problems/frog-jump
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

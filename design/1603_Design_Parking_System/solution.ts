@@ -1,9 +1,3 @@
-/*
-1603. Design Parking System
-
-https://leetcode.com/problems/design-parking-system/
-*/
-
 class ParkingSystem {
   spaces: number[];
   constructor(big: number, medium: number, small: number) {

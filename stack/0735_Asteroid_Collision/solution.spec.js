@@ -1,10 +1,3 @@
-/*
-735. Asteroid Collision
-
-Level: Medium
-
-https://leetcode.com/problems/asteroid-collision
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

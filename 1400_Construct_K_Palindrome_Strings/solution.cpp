@@ -1,10 +1,3 @@
-/*
-1400. Construct K Palindrome Strings
-
-Level: Medium
-
-https://leetcode.com/problems/construct-k-palindrome-strings
-*/
 #include <iostream>
 #include <vector>
 #include <string>

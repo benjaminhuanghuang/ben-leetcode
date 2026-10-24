@@ -1,10 +1,3 @@
-/*
-987. Vertical Order Traversal of a Binary Tree
-
-Level: Medium
-
-https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree
-*/
 #include <iostream>
 #include <vector>
 #include <string>

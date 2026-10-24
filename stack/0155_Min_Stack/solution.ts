@@ -1,7 +1,3 @@
-/*
-155. Min Stack
-*/
-
 class MinStack {
   stack: number[];
   minStack: number[];

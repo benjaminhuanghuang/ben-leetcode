@@ -1,10 +1,3 @@
-/*
-594. Longest Harmonious Subsequence
-
-Level: Easy
-
-https://leetcode.com/problems/longest-harmonious-subsequence
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

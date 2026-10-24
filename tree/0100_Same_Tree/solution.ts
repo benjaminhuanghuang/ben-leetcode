@@ -1,10 +1,3 @@
-/*
-
-100. Same Tree
-https://leetcode.com/problems/same-tree/
-
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function isSameTree(p: TreeNode | null, q: TreeNode | null): boolean {

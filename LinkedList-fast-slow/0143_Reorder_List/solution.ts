@@ -1,9 +1,3 @@
-/*
-143. Reorder List
-
-https://leetcode.com/problems/reorder-list/
-*/
-
 import { ListNode } from "../../common/ListNode";
 
 function reorderList(head: ListNode | null): void {

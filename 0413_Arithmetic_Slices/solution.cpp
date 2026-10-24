@@ -1,10 +1,3 @@
-/*
-413. Arithmetic Slices
-
-Level: Medium
-
-https://leetcode.com/problems/arithmetic-slices
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,11 +1,3 @@
-
-'''
-347. Top K Frequent Elements
-
-Level: Medium
-
-https://leetcode.com/problems/top-k-frequent-elements
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

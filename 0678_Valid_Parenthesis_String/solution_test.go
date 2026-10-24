@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/valid-parenthesis-string
 package leetcode0678
 import (
 	"testing"

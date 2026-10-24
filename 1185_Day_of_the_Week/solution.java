@@ -1,10 +1,3 @@
-/*
-1185. Day of the Week
-
-Level: Easy
-
-https://leetcode.com/problems/day-of-the-week
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

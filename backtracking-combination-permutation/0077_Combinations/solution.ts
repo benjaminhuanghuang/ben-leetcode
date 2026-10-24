@@ -1,13 +1,4 @@
 /*
- 77. Combinations
-
- https://leetcode.com/problems/combinations
-
- 返回 [1,2,...,n] 中所有长度为 k 的组合
-
-*/
-
-/*
 Use the Huanhuan template
 https://www.youtube.com/watch?v=CUzm-buvH_8
 */

@@ -1,10 +1,4 @@
 /*
-3222. Find the Winning Player in Coin Game
-
-https://leetcode.com/problems/find-the-winning-player-in-coin-game/
-*/
-
-/*
 Each round of operation consumes 2 coins valued at 75 and 8 coins valued at 10
 The max of rounds k = min(x/2, y/8), and then update the values of x and y, where x and y are the remaining
 number of coins after k rounds of operations.

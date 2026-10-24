@@ -1,10 +1,3 @@
-/*
-416. Partition Equal Subset Sum
-
-Level: Medium
-
-https://leetcode.com/problems/partition-equal-subset-sum
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

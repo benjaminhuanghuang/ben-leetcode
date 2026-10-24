@@ -1,10 +1,3 @@
-/*
-496. Next Greater Element I
-
-Level: Easy
-
-https://leetcode.com/problems/next-greater-element-i
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

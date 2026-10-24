@@ -1,10 +1,4 @@
 /*
-1351. Count Negative Numbers in a Sorted Matrix
-
-https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
-*/
-
-/*
 [[4,3,2,-1],
  [3,2,1,-1],
  [1,1,-1,-2],

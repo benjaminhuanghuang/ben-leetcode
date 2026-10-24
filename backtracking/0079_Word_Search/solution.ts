@@ -1,8 +1,3 @@
-/*
-79. Word Search
-https://leetcode.com/problems/word-search/
-*/
-
 function exist(board: string[][], word: string): boolean {
   const rows = board.length;
   const cols = board[0].length;

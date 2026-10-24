@@ -1,10 +1,3 @@
-/*
-335. Self Crossing
-
-Level: Hard
-
-https://leetcode.com/problems/self-crossing
-*/
 #include <iostream>
 #include <vector>
 #include <string>

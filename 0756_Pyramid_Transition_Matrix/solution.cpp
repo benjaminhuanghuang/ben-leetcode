@@ -1,10 +1,3 @@
-/*
-756. Pyramid Transition Matrix
-
-Level: Medium
-
-https://leetcode.com/problems/pyramid-transition-matrix
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,7 +1,3 @@
-/*
-28. Implement strStr()
-https://leetcode.com/problems/implement-strstr/
-*/
 #include <string>
 
 using namespace std;

@@ -1,10 +1,3 @@
-/*
-319. Bulb Switcher
-
-Level: Medium
-
-https://leetcode.com/problems/bulb-switcher
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-948. Bag of Tokens
-
-Level: Medium
-
-https://leetcode.com/problems/bag-of-tokens
-*/
 #include <iostream>
 #include <vector>
 #include <string>

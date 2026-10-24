@@ -1,12 +1,4 @@
 /*
-773. Sliding Puzzle
-
-Level: Hard
-
-https://leetcode.com/problems/sliding-puzzle
-*/
-
-/*
   Solution: 
 */
 

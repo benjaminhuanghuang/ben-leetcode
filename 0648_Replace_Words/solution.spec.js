@@ -1,10 +1,3 @@
-/*
-648. Replace Words
-
-Level: Medium
-
-https://leetcode.com/problems/replace-words
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

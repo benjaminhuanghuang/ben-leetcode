@@ -1,14 +1,4 @@
 /*
-37. Sudoku Solver
-
-https://leetcode.com/problems/sudoku-solver/
-
-- 36. Valid Sudoku
-- 51. N-Queens
-- 52. N-Queens II
-*/
-
-/*
 Hua Hua
 https://www.youtube.com/watch?v=ucugbKwjtRs
 https://zxi.mytechroad.com/blog/searching/leetcode-37-sudoku-solver/

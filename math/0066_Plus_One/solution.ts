@@ -1,9 +1,3 @@
-/*
-66. Plus One
-
-https://leetcode.com/problems/plus-one/
-*/
-
 function plusOne(digits: number[]): number[] {
   let carry = 1; // add the 1 to the carry in the beginning
 

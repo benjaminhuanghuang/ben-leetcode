@@ -1,9 +1,3 @@
-/*
-691. Stickers to Spell Word
-
-https://leetcode.com/problems/stickers-to-spell-word/
-*/
-
 #include <vector>
 #include <string>
 #include <map>

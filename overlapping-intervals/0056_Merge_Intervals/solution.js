@@ -1,12 +1,4 @@
 /*
-56. Merge Intervals
-
-Level: Nediun
-
-https://leetcode.com/problems/merge-intervals/
-*/
-
-/*
   Solution: 
 */
 

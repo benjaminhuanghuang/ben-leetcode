@@ -1,10 +1,3 @@
-/*
-458. Poor Pigs
-
-Level: Hard
-
-https://leetcode.com/problems/poor-pigs
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

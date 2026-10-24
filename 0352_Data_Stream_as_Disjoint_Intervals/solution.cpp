@@ -1,10 +1,3 @@
-/*
-352. Data Stream as Disjoint Intervals
-
-Level: Hard
-
-https://leetcode.com/problems/data-stream-as-disjoint-intervals
-*/
 #include <iostream>
 #include <vector>
 #include <string>

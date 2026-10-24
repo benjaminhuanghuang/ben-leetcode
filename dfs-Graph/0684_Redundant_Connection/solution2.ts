@@ -1,10 +1,4 @@
 /*
-684. Redundant Connection
-
-https://leetcode.com/problems/redundant-connection/
-*/
-
-/*
 https://www.youtube.com/watch?v=4hJ721ce010 (HuaHua)
 
 Union Find

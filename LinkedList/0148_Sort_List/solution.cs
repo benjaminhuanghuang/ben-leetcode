@@ -1,8 +1,3 @@
-/*
-148. Sort List
-
-*/
-
 public class Solution148 {
     public ListNode SortList(ListNode head) {
         if (head == null || head.next == null)

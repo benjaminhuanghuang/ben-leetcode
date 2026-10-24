@@ -1,10 +1,3 @@
-/*
-460. LFU Cache
-
-Level: Hard
-
-https://leetcode.com/problems/lfu-cache
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

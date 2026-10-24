@@ -1,11 +1,3 @@
-/*
-3026. Maximum Good Subarray Sum
-
-https://leetcode.com/problems/maximum-good-subarray-sum/
-
-the subarray nums[i..j] is good if |nums[i] - nums[j]| == k.
-*/
-
 function maximumSubarraySum(nums: number[], k: number): number {
   // Initialize a map to keep track of prefix sums and their indices
   const prefixSumIndices: Map<number, number> = new Map();

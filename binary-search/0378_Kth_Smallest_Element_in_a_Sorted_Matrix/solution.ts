@@ -1,10 +1,4 @@
 /*
-378. Kth Smallest Element in a Sorted Matrix
-
-https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
-*/
-
-/*
    is similar to 240. Search a 2D Matrix II. 
    The start point of such a sorted matrix is left-bottom corner.
   */

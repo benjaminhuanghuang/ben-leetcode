@@ -1,10 +1,3 @@
-/*
-860. Lemonade Change
-
-Level: Easy
-
-https://leetcode.com/problems/lemonade-change
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

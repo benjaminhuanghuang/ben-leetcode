@@ -1,10 +1,4 @@
 /*
-134. Gas Station
-
-https://leetcode.com/problems/gas-station/
-*/
-
-/*
     gas     1  2  3  4  5
     cost    3  4  5  1  2
     gasLeft -2 -2 -2 3  3

@@ -1,11 +1,3 @@
-
-'''
-215. Kth Largest Element in an Array
-
-Level: Medium
-
-https://leetcode.com/problems/kth-largest-element-in-an-array
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

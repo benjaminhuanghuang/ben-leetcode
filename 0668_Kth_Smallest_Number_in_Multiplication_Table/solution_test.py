@@ -1,11 +1,3 @@
-
-'''
-668. Kth Smallest Number in Multiplication Table
-
-Level: Hard
-
-https://leetcode.com/problems/kth-smallest-number-in-multiplication-table
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-1207. Unique Number of Occurrences
-
-Level: Easy
-
-https://leetcode.com/problems/unique-number-of-occurrences
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

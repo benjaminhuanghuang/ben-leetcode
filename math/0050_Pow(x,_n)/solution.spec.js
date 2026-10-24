@@ -1,10 +1,3 @@
-/*
-50. Pow(x, n)
-
-Level: Medium
-
-https://leetcode.com/problems/powx-n
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

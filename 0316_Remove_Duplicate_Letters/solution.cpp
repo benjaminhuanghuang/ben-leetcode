@@ -1,10 +1,3 @@
-/*
-316. Remove Duplicate Letters
-
-Level: Hard
-
-https://leetcode.com/problems/remove-duplicate-letters
-*/
 #include <iostream>
 #include <vector>
 #include <string>

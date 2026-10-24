@@ -1,10 +1,3 @@
-/*
-409. Longest Palindrome
-
-Level: Easy
-
-https://leetcode.com/problems/longest-palindrome
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

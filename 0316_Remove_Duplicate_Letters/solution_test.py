@@ -1,11 +1,3 @@
-
-'''
-316. Remove Duplicate Letters
-
-Level: Hard
-
-https://leetcode.com/problems/remove-duplicate-letters
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

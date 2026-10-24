@@ -1,11 +1,3 @@
-
-'''
-137. Single Number II
-
-Level: Medium
-
-https://leetcode.com/problems/single-number-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

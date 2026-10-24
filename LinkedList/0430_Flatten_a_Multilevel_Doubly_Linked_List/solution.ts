@@ -1,9 +1,3 @@
-/*
-430. Flatten a Multilevel Doubly Linked List
-
-https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
-*/
-
 class _Node {
   val: number;
   prev: _Node | null;

@@ -1,11 +1,3 @@
-
-'''
-932. Beautiful Array
-
-Level: Medium
-
-https://leetcode.com/problems/beautiful-array
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

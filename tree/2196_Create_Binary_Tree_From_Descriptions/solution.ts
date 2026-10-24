@@ -1,8 +1,3 @@
-/*
-2196. Create Binary Tree From Descriptions
-
-https://leetcode.com/problems/create-binary-tree-from-descriptions/
-*/
 import { TreeNode } from "../../common/TreeNode";
 
 function createBinaryTree(descriptions: number[][]): TreeNode | null {

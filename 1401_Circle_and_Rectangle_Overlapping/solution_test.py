@@ -1,11 +1,3 @@
-
-'''
-1401. Circle and Rectangle Overlapping
-
-Level: Medium
-
-https://leetcode.com/problems/circle-and-rectangle-overlapping
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

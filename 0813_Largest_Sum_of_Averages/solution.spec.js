@@ -1,10 +1,3 @@
-/*
-813. Largest Sum of Averages
-
-Level: Medium
-
-https://leetcode.com/problems/largest-sum-of-averages
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

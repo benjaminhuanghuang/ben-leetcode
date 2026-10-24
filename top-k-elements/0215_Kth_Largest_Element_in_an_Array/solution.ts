@@ -1,8 +1,3 @@
-/*
-215. Kth Largest Element in an Array
-https://leetcode.com/problems/kth-largest-element-in-an-array/
-*/
-
 import { PriorityQueue } from "./PriorityQueue";
 import { MinHeap } from "./MinHeap";
 /*

@@ -1,10 +1,3 @@
-/*
-312. Burst Balloons
-
-Level: Hard
-
-https://leetcode.com/problems/burst-balloons
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

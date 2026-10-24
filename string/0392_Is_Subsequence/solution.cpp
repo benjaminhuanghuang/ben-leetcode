@@ -1,10 +1,3 @@
-/*
-392. Is Subsequence
-
-Level: Easy
-
-https://leetcode.com/problems/is-subsequence
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,12 +1,4 @@
 /*
-692. Top K Frequent Words
-
-Level: Medium
-
-https://leetcode.com/problems/top-k-frequent-words
-*/
-
-/*
   Solution: 
 */
 

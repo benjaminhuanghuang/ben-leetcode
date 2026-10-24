@@ -1,11 +1,3 @@
-
-'''
-371. Sum of Two Integers
-
-Level: Easy
-
-https://leetcode.com/problems/sum-of-two-integers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

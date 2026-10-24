@@ -1,11 +1,3 @@
-
-'''
-1386. Cinema Seat Allocation
-
-Level: Medium
-
-https://leetcode.com/problems/cinema-seat-allocation
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

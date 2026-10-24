@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/sales-analysis-i
 package leetcode1082
 import (
 	"testing"

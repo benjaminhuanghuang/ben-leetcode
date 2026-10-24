@@ -1,8 +1,3 @@
-/*
-744. Find Smallest Letter Greater Than Target
-
-https://leetcode.com/problems/find-smallest-letter-greater-than-target/
-*/
 function nextGreatestLetter(letters: string[], target: string): string {
   let left = 0;
   let right = letters.length;

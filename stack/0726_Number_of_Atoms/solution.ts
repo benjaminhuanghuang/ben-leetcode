@@ -1,11 +1,3 @@
-/*
-726. Number of Atoms
-
-https://leetcode.com/problems/number-of-atoms/
-
-[Google]
-*/
-
 function countOfAtoms(formula: string): string {
   let i = 0;
   const len = formula.length;

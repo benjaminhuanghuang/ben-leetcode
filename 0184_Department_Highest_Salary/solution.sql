@@ -1,8 +1,3 @@
-/*
-184. Department Highest Salary
-
-https://leetcode.com/problems/department-highest-salary/
- */
 select
 d.Name as Department, e.Name as Employee, e.Salary as Salary
 from Department d, Employee e,

@@ -1,10 +1,4 @@
 /*
-51. N-Queens
-https://leetcode.com/problems/n-queens/
-
-*/
-
-/*
     https://www.youtube.com/watch?v=Xa-yETqFNEQ
 
     Hint: each row has one queen, each column has one queen, each diagonal has one queen

@@ -1,10 +1,3 @@
-/*
-1416. Restore The Array
-
-Level: Hard
-
-https://leetcode.com/problems/restore-the-array
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

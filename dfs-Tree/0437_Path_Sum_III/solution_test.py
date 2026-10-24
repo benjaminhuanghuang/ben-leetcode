@@ -1,11 +1,3 @@
-
-'''
-437. Path Sum III
-
-Level: Easy
-
-https://leetcode.com/problems/path-sum-iii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

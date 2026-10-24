@@ -1,10 +1,3 @@
-/*
-1491. Average Salary Excluding the Minimum and Maximum Salary
-
-Level: Easy
-
-https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

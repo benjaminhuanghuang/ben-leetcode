@@ -1,10 +1,3 @@
-/*
-1006. Clumsy Factorial
-
-Level: Medium
-
-https://leetcode.com/problems/clumsy-factorial
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

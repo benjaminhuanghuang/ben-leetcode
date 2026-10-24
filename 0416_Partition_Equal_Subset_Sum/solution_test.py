@@ -1,11 +1,3 @@
-
-'''
-416. Partition Equal Subset Sum
-
-Level: Medium
-
-https://leetcode.com/problems/partition-equal-subset-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,9 +1,3 @@
-/*
-861. Score After Flipping Matrix
-
-https://leetcode.com/problems/score-after-flipping-matrix/
-*/
-
 function matrixScore(grid: number[][]): number {
   const rows = grid.length; // number of rows in the grid
   const cols = grid[0].length; // number of columns in the grid

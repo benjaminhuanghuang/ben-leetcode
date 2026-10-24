@@ -1,10 +1,3 @@
-/*
-1255. Maximum Score Words Formed by Letters
-
-Level: Hard
-
-https://leetcode.com/problems/maximum-score-words-formed-by-letters
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

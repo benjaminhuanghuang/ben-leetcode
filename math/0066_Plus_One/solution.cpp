@@ -1,8 +1,3 @@
-/*
-66. Plus One
-
-https://leetcode.com/problems/plus-one/
-*/
 #include <vector>
 
 using namespace std;

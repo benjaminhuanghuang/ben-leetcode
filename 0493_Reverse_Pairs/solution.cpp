@@ -1,10 +1,3 @@
-/*
-493. Reverse Pairs
-
-Level: Hard
-
-https://leetcode.com/problems/reverse-pairs
-*/
 #include <iostream>
 #include <vector>
 #include <string>

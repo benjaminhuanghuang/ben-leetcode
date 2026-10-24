@@ -1,10 +1,3 @@
-/*
-575. Distribute Candies
-
-Level: Easy
-
-https://leetcode.com/problems/distribute-candies
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

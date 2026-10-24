@@ -1,8 +1,3 @@
-/*
-653. Two Sum IV - Input is a BST
-https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
-*/
-
 #include <vector>
 #include <unordered_set>
 #include "common/TreeNode.h"

@@ -1,10 +1,3 @@
-/*
-373. Find K Pairs with Smallest Sums
-
-Level: Medium
-
-https://leetcode.com/problems/find-k-pairs-with-smallest-sums
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

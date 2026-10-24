@@ -1,11 +1,3 @@
-
-'''
-1550. Three Consecutive Odds
-
-Level: Easy
-
-https://leetcode.com/problems/three-consecutive-odds
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

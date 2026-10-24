@@ -1,8 +1,3 @@
-/*
-995. Minimum Number of K Consecutive Bit Flips
-
-https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

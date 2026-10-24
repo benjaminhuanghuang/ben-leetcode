@@ -1,10 +1,3 @@
-/*
-410. Split Array Largest Sum
-
-Level: Hard
-
-https://leetcode.com/problems/split-array-largest-sum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

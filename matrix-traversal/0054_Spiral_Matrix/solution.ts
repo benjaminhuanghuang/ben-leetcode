@@ -1,9 +1,3 @@
-/*
-54. Spiral Matrix
-
-https://leetcode.com/problems/spiral-matrix/
-*/
-
 function spiralOrder(matrix: number[][]): number[] {
   let left = 0;
   let right = matrix[0].length - 1;

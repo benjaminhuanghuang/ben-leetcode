@@ -1,10 +1,3 @@
-/*
-1247. Minimum Swaps to Make Strings Equal
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-swaps-to-make-strings-equal
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

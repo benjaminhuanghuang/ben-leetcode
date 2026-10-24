@@ -1,10 +1,3 @@
-/*
-593. Valid Square
-
-Level: Medium
-
-https://leetcode.com/problems/valid-square
-*/
 #include <iostream>
 #include <vector>
 #include <string>

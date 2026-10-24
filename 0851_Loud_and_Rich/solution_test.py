@@ -1,11 +1,3 @@
-
-'''
-851. Loud and Rich
-
-Level: Medium
-
-https://leetcode.com/problems/loud-and-rich
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

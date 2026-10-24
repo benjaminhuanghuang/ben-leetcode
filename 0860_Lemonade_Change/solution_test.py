@@ -1,11 +1,3 @@
-
-'''
-860. Lemonade Change
-
-Level: Easy
-
-https://leetcode.com/problems/lemonade-change
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

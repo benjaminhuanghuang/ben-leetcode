@@ -1,10 +1,3 @@
-/*
-567. Permutation in String
-
-Level: Medium
-
-https://leetcode.com/problems/permutation-in-string
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

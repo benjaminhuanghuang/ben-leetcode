@@ -1,10 +1,3 @@
-/*
-805. Split Array With Same Average
-
-Level: Hard
-
-https://leetcode.com/problems/split-array-with-same-average
-*/
 #include <iostream>
 #include <vector>
 #include <string>

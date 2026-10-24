@@ -1,15 +1,4 @@
 /*
-47. Permutations II
-
-https://leetcode.com/problems/permutations-ii/
-
-
-The array might contain duplicates
-
-核心区别就是 排序 + 判断前一个重复数字是否已用 来保证不产生重复排列。
-*/
-
-/*
 https://zxi.mytechroad.com/blog/searching/leetcode-47-permutations-ii/
 
 Time complexity: O(n!)

@@ -1,11 +1,3 @@
-
-'''
-869. Reordered Power of 2
-
-Level: Medium
-
-https://leetcode.com/problems/reordered-power-of-2
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,8 +1,3 @@
-/*
-564. Find the Closest Palindrome
-https://leetcode.com/problems/find-the-closest-palindrome/
- */
-
 #include <string>
 #include <unordered_set>
 #include <climits>

@@ -1,10 +1,3 @@
-/*
-233. Number of Digit One
-
-Level: Hard
-
-https://leetcode.com/problems/number-of-digit-one
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

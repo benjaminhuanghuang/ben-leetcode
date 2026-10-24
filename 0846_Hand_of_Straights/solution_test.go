@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/hand-of-straights
 package leetcode0846
 import (
 	"testing"

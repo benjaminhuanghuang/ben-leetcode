@@ -1,11 +1,3 @@
-
-'''
-773. Sliding Puzzle
-
-Level: Hard
-
-https://leetcode.com/problems/sliding-puzzle
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

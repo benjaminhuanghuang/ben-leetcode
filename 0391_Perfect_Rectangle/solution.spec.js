@@ -1,10 +1,3 @@
-/*
-391. Perfect Rectangle
-
-Level: Hard
-
-https://leetcode.com/problems/perfect-rectangle
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

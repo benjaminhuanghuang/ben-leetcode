@@ -1,10 +1,4 @@
 /*
-739. Daily Temperatures
-
-https://leetcode.com/problems/daily-temperatures/
-*/
-
-/*
   Solution: 
   https://zxi.mytechroad.com/blog/algorithms/array/leetcode-739-daily-temperatures/
 

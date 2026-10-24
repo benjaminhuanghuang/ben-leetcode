@@ -1,11 +1,3 @@
-
-'''
-403. Frog Jump
-
-Level: Hard
-
-https://leetcode.com/problems/frog-jump
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

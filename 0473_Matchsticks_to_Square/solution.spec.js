@@ -1,10 +1,3 @@
-/*
-473. Matchsticks to Square
-
-Level: Medium
-
-https://leetcode.com/problems/matchsticks-to-square
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

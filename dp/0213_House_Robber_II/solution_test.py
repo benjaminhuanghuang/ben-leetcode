@@ -1,11 +1,3 @@
-
-'''
-213. House Robber II
-
-Level: Medium
-
-https://leetcode.com/problems/house-robber-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

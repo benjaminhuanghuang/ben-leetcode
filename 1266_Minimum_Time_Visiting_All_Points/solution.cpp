@@ -1,10 +1,3 @@
-/*
-1266. Minimum Time Visiting All Points
-
-Level: Easy
-
-https://leetcode.com/problems/minimum-time-visiting-all-points
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

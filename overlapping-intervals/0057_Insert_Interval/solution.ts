@@ -1,9 +1,3 @@
-/*
-57. Insert Interval
-
-https://leetcode.com/problems/insert-interval/
-*/
-
 function insert(intervals: number[][], newInterval: number[]): number[][] {
   // sort the intervals by start time
   intervals.sort((a, b) => a[0] - b[0]);

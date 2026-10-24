@@ -1,11 +1,3 @@
-
-'''
-904. Fruit Into Baskets
-
-Level: Medium
-
-https://leetcode.com/problems/fruit-into-baskets
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

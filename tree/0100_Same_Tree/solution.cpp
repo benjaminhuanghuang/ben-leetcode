@@ -1,8 +1,3 @@
-/*
-100. Same Tree
- 
- https://leetcode.com/problems/same-tree/
- */
 #include "common/TreeNode.h"
 
 class Solution

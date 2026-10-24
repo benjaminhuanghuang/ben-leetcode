@@ -1,12 +1,4 @@
 /*
-70. Climbing Stairs
-
-https://leetcode.com/problems/climbing-stairs/
-
-step i = step i - 1 + step i - 2
-*/
-
-/*
  */
 function climbStairs(n: number): number {
   if (n <= 2) return n;

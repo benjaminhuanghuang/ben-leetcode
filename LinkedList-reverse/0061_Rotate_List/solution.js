@@ -1,12 +1,4 @@
 /*
-61. Rotate List
-
-Level: Medium
-
-https://leetcode.com/problems/rotate-list
-*/
-
-/*
   Solution: 
 */
 

@@ -1,10 +1,3 @@
-/*
-1446. Consecutive Characters
-
-Level: Easy
-
-https://leetcode.com/problems/consecutive-characters
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

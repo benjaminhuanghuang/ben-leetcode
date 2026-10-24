@@ -1,8 +1,3 @@
-/*
-526. Beautiful Arrangement
-
-https://leetcode.com/problems/beautiful-arrangement/
-*/
 #include <vector>
 
 using namespace std;

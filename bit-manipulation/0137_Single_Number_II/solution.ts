@@ -1,10 +1,4 @@
 /*
-137. Single Number II
-
-https://leetcode.com/problems/single-number-ii/
-*/
-
-/*
 可以为每个位上1的数目计数。然后将该计数%3，剩下的1肯定是单独的数字贡献的。
 */
 function singleNumber(nums: number[]): number {

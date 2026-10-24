@@ -1,13 +1,4 @@
 /*
-658. Find K Closest Elements
-
-Level: Medium
-
-https://leetcode.com/problems/find-k-closest-elements
-*/
-
-
-/*
   Solution: 
 */
 

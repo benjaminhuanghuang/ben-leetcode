@@ -1,9 +1,3 @@
-'''
-147. Insertion Sort List
-
-Sort a linked list using insertion sort.
-
-'''
 from data_structure.list_node import ListNode
 
 

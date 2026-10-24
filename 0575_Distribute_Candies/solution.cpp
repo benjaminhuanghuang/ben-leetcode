@@ -1,10 +1,3 @@
-/*
-575. Distribute Candies
-
-Level: Easy
-
-https://leetcode.com/problems/distribute-candies
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

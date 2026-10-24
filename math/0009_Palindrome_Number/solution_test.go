@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/palindrome-number
 package leetcode0009
 
 import (

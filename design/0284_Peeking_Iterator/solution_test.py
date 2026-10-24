@@ -1,11 +1,3 @@
-
-'''
-284. Peeking Iterator
-
-Level: Medium
-
-https://leetcode.com/problems/peeking-iterator
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

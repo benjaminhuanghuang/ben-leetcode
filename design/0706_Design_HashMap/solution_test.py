@@ -1,11 +1,3 @@
-
-'''
-706. Design HashMap
-
-Level: Easy
-
-https://leetcode.com/problems/design-hashmap
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

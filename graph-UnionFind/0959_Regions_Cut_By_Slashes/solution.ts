@@ -1,10 +1,4 @@
 /*
-959. Regions Cut By Slashes
-
-https://leetcode.com/problems/regions-cut-by-slashes/
-*/
-
-/*
 https://youtu.be/n3s9Q7GtfB4 (Huahua)
 */
 

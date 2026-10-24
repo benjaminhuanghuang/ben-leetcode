@@ -1,11 +1,3 @@
-
-'''
-874. Walking Robot Simulation
-
-Level: Easy
-
-https://leetcode.com/problems/walking-robot-simulation
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

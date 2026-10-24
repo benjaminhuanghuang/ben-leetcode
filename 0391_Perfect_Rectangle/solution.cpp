@@ -1,10 +1,3 @@
-/*
-391. Perfect Rectangle
-
-Level: Hard
-
-https://leetcode.com/problems/perfect-rectangle
-*/
 #include <iostream>
 #include <vector>
 #include <string>

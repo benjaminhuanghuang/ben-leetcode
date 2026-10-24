@@ -1,11 +1,3 @@
-
-'''
-912. Sort an Array
-
-Level: Medium
-
-https://leetcode.com/problems/sort-an-array
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

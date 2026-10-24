@@ -1,8 +1,3 @@
-/*
-788. Rotated Digits
-
-https://leetcode.com/problems/rotated-digits/
-*/
 #include <string>
 using namespace std;
 

@@ -1,10 +1,3 @@
-/*
-1190. Reverse Substrings Between Each Pair of Parentheses
-
-Level: Medium
-
-https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses
-*/
 #include <iostream>
 #include <vector>
 #include <string>

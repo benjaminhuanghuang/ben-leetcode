@@ -1,10 +1,3 @@
-/*
-264. Ugly Number II
-
-Level: Medium
-
-https://leetcode.com/problems/ugly-number-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

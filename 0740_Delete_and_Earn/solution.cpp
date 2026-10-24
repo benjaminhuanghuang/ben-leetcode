@@ -1,12 +1,3 @@
-/*
-740. Delete and Earn
-
-Level: Medium
-
-https://leetcode.com/problems/delete-and-earn
-
-# 198. House Robber
-*/
 #include <iostream>
 #include <vector>
 #include <string>

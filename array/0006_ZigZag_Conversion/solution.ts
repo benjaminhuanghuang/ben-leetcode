@@ -1,8 +1,3 @@
-/*
-6. Zigzag Conversion
-https://leetcode.com/problems/zigzag-conversion/
-*/
-
 function convert(s: string, numRows: number): string {
   if (numRows === 1) return s;
 

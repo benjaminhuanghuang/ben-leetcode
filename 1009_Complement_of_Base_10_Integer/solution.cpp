@@ -1,10 +1,3 @@
-/*
-1009. Complement of Base 10 Integer
-
-Level: Easy
-
-https://leetcode.com/problems/complement-of-base-10-integer
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

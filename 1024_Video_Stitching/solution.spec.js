@@ -1,10 +1,3 @@
-/*
-1024. Video Stitching
-
-Level: Medium
-
-https://leetcode.com/problems/video-stitching
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

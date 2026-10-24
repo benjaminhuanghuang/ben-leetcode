@@ -1,11 +1,3 @@
-
-'''
-1417. Reformat The String
-
-Level: Easy
-
-https://leetcode.com/problems/reformat-the-string
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

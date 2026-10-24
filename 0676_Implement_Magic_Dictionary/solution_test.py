@@ -1,11 +1,3 @@
-
-'''
-676. Implement Magic Dictionary
-
-Level: Medium
-
-https://leetcode.com/problems/implement-magic-dictionary
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-1539. Kth Missing Positive Number
-
-Level: Easy
-
-https://leetcode.com/problems/kth-missing-positive-number
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

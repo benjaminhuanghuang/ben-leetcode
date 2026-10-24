@@ -1,9 +1,4 @@
 /*
-5. Longest Palindromic Substring
-
-https://leetcode.com/problems/longest-palindromic-substring/
-*/
-/*
   516 - Longest Palindromic Subsequence【FLAG高频精选面试题讲解】
   https://www.youtube.com/watch?reload=9&v=v8irqkTcJ6s
 

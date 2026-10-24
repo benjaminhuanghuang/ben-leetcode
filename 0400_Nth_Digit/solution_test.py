@@ -1,11 +1,3 @@
-
-'''
-400. Nth Digit
-
-Level: Medium
-
-https://leetcode.com/problems/nth-digit
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

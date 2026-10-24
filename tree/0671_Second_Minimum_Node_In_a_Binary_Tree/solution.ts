@@ -1,11 +1,3 @@
-/*
-671. Second Minimum Node In a Binary Tree
-
-https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
-
-More formally, the property root.val = min(root.left.val, root.right.val) always holds.
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function findSecondMinimumValue(root: TreeNode | null): number {

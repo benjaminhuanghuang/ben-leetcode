@@ -1,10 +1,3 @@
-/*
-172. Factorial Trailing Zeroes
-
-Level: Easy
-
-https://leetcode.com/problems/factorial-trailing-zeroes
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

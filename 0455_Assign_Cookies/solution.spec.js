@@ -1,10 +1,3 @@
-/*
-455. Assign Cookies
-
-Level: Easy
-
-https://leetcode.com/problems/assign-cookies
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

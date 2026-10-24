@@ -1,10 +1,3 @@
-/*
-1200. Minimum Absolute Difference
-
-Level: Easy
-
-https://leetcode.com/problems/minimum-absolute-difference
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

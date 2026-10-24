@@ -1,10 +1,3 @@
-/*
-23. Merge k Sorted Lists
-
-Level: Hard
-
-https://leetcode.com/problems/merge-k-sorted-lists
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

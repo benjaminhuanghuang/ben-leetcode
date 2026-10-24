@@ -1,8 +1,3 @@
-/*
-746. Min Cost Climbing Stairs
-
-https://leetcode.com/problems/min-cost-climbing-stairs/
-*/
 #include <vector>
 
 using namespace std;

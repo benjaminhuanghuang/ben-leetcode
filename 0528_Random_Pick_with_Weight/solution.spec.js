@@ -1,10 +1,3 @@
-/*
-528. Random Pick with Weight
-
-Level: Medium
-
-https://leetcode.com/problems/random-pick-with-weight
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

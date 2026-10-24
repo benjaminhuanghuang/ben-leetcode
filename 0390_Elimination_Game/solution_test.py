@@ -1,11 +1,3 @@
-
-'''
-390. Elimination Game
-
-Level: Medium
-
-https://leetcode.com/problems/elimination-game
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

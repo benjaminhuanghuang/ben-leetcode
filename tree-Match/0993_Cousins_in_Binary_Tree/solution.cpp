@@ -1,8 +1,3 @@
-/*
-993. Cousins in Binary Tree
-
-https://leetcode.com/problems/cousins-in-binary-tree/
-*/
 #include <vector>
 #include <queue>
 #include "common/TreeNode.h"

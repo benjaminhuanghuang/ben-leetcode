@@ -1,13 +1,4 @@
 /*
-  157. Read N Characters Given Read4
-  
-  Easy
-
-  https://leetcode.com/problems/read-n-characters-given-read4/
-
-*/
-
-/*
   https://www.youtube.com/watch?v=BXlwbVMXlrw&t=0s&ab_channel=CatRacketCode-LeetCodeJavaScript
 
   read buffer 经典做法

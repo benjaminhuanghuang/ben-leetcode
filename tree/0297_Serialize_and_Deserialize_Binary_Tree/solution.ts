@@ -1,8 +1,3 @@
-/*
-297. Serialize and Deserialize Binary Tree
-https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 /*
  * Encodes a tree to a single string.

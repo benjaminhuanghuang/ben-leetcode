@@ -1,10 +1,3 @@
-/*
-850. Rectangle Area II
-
-Level: Hard
-
-https://leetcode.com/problems/rectangle-area-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

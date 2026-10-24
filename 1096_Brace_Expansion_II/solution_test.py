@@ -1,11 +1,3 @@
-
-'''
-1096. Brace Expansion II
-
-Level: Hard
-
-https://leetcode.com/problems/brace-expansion-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

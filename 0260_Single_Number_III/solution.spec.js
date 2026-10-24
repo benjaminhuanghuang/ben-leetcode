@@ -1,10 +1,3 @@
-/*
-260. Single Number III
-
-Level: Medium
-
-https://leetcode.com/problems/single-number-iii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-204. Count Primes
-
-Level: Easy
-
-https://leetcode.com/problems/count-primes
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

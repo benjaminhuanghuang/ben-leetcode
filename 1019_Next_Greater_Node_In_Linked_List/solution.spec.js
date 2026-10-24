@@ -1,10 +1,3 @@
-/*
-1019. Next Greater Node In Linked List
-
-Level: Medium
-
-https://leetcode.com/problems/next-greater-node-in-linked-list
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

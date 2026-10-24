@@ -1,10 +1,4 @@
 /*
-130. Surrounded Regions
-
-https://leetcode.com/problems/surrounded-regions/
-*/
-
-/*
     1. DFS find all 'O' connect to the edge and mark them as '#'
     2. Loop through the board and mark all 'O' as 'X' and '#' as 'O'
 

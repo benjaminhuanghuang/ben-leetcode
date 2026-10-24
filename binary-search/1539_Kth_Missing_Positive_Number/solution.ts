@@ -1,9 +1,3 @@
-/*
-1539. Kth Missing Positive Number
-
-https://leetcode.com/problems/kth-missing-positive-number/
-*/
-
 function findKthPositive(arr: number[], k: number): number {
   // If the first element in the array is greater than k,
   // then the kth missing number must be k itself.

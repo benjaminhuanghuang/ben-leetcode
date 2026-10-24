@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/same-tree/
 package leetcode0100
 
 import (

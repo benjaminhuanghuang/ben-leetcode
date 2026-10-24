@@ -1,9 +1,3 @@
-/*
-226. Invert Binary Tree
-
-
-*/
-
 public class Solution226 {
     public TreeNode InvertTree(TreeNode root) {
         if(root == null)

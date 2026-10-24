@@ -1,13 +1,4 @@
 /*
-911. Online Election
-
-Level: Medium
-
-https://leetcode.com/problems/online-election
-*/
-
-
-/*
   Solution: 
 */
 

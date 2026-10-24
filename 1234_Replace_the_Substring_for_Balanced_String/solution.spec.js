@@ -1,10 +1,3 @@
-/*
-1234. Replace the Substring for Balanced String
-
-Level: Medium
-
-https://leetcode.com/problems/replace-the-substring-for-balanced-string
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

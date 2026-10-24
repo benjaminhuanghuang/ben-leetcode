@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/divide-chocolate
 package leetcode1231
 import (
 	"testing"

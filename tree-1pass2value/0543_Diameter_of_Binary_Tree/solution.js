@@ -1,12 +1,4 @@
 /*
-543. Diameter of Binary Tree
-
-Level: Easy
-
-https://leetcode.com/problems/diameter-of-binary-tree
-*/
-
-/*
   Solution: 
 */
 

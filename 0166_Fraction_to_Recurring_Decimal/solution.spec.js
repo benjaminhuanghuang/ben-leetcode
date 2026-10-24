@@ -1,10 +1,3 @@
-/*
-166. Fraction to Recurring Decimal
-
-Level: Medium
-
-https://leetcode.com/problems/fraction-to-recurring-decimal
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-1539. Kth Missing Positive Number
-
-Level: Easy
-
-https://leetcode.com/problems/kth-missing-positive-number
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-1436. Destination City
-
-Level: Easy
-
-https://leetcode.com/problems/destination-city
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-735. Asteroid Collision
-
-Level: Medium
-
-https://leetcode.com/problems/asteroid-collision
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

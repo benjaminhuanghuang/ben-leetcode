@@ -1,11 +1,3 @@
-/*
-1313. Decompress Run-Length Encoded List
-
-Level: Easy
-
-https://leetcode.com/problems/decompress-run-length-encoded-list/
-
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

@@ -1,10 +1,3 @@
-/*
-726. Number of Atoms
-
-Level: Hard
-
-https://leetcode.com/problems/number-of-atoms
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

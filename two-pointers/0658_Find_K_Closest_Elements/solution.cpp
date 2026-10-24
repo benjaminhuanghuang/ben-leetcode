@@ -1,10 +1,3 @@
-/*
-658. Find K Closest Elements
-
-Level: Medium
-
-https://leetcode.com/problems/find-k-closest-elements
-*/
 #include <iostream>
 #include <vector>
 #include <string>

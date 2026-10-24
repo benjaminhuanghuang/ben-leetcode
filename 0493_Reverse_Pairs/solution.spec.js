@@ -1,10 +1,3 @@
-/*
-493. Reverse Pairs
-
-Level: Hard
-
-https://leetcode.com/problems/reverse-pairs
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

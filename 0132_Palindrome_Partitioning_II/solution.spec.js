@@ -1,10 +1,3 @@
-/*
-132. Palindrome Partitioning II
-
-Level: Hard
-
-https://leetcode.com/problems/palindrome-partitioning-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

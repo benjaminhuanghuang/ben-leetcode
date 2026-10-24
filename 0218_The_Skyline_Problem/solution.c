@@ -1,13 +1,4 @@
 /*
-218. The Skyline Problem
-
-Level: Hard
-
-https://leetcode.com/problems/the-skyline-problem
-*/
-
-
-/*
   Solution: 
 */
 

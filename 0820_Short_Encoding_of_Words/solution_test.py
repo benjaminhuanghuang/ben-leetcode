@@ -1,11 +1,3 @@
-
-'''
-820. Short Encoding of Words
-
-Level: Medium
-
-https://leetcode.com/problems/short-encoding-of-words
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

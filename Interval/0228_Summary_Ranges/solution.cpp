@@ -1,6 +1,3 @@
-/*
-228. Summary Ranges
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

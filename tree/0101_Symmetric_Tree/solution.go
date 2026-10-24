@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/symmetric-tree/
 package leetcode0101
 
 import (

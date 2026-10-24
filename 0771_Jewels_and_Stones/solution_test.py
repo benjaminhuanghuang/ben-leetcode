@@ -1,11 +1,3 @@
-
-'''
-771. Jewels and Stones
-
-Level: Easy
-
-https://leetcode.com/problems/jewels-and-stones
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

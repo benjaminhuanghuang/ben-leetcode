@@ -1,10 +1,4 @@
 /*
-560. Subarray Sum Equals K
-
-https://leetcode.com/problems/subarray-sum-equals-k/
-*/
-
-/*
     Approach 1: Brute Force
     Time Complexity: O(n^3)
 */

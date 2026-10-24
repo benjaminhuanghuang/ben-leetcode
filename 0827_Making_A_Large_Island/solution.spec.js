@@ -1,10 +1,3 @@
-/*
-827. Making A Large Island
-
-Level: Hard
-
-https://leetcode.com/problems/making-a-large-island
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

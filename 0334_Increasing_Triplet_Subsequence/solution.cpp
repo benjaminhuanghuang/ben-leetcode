@@ -1,10 +1,3 @@
-/*
-334. Increasing Triplet Subsequence
-
-Level: Medium
-
-https://leetcode.com/problems/increasing-triplet-subsequence
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-141. Linked List Cycle
-
-Level: Easy
-
-https://leetcode.com/problems/linked-list-cycle
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,8 +1,3 @@
-/*
-199. Binary Tree Right Side View
-https://leetcode.com/problems/binary-tree-right-side-view/
- */
-
 #include <vector>
 #include <queue>
 using namespace std;

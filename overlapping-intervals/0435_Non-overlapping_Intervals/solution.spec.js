@@ -1,10 +1,3 @@
-/*
-435. Non-overlapping Intervals
-
-Level: Medium
-
-https://leetcode.com/problems/non-overlapping-intervals
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

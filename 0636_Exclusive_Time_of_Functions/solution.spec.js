@@ -1,10 +1,3 @@
-/*
-636. Exclusive Time of Functions
-
-Level: Medium
-
-https://leetcode.com/problems/exclusive-time-of-functions
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

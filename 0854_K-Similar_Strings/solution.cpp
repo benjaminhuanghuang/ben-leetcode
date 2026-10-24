@@ -1,8 +1,3 @@
-/*
-854. K-Similar Strings [Hard]
-
-https://leetcode.com/problems/k-similar-strings/
-*/
 #include <string>
 #include <climits>
 #include <vector>

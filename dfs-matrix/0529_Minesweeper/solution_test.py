@@ -1,11 +1,3 @@
-
-'''
-529. Minesweeper
-
-Level: Medium
-
-https://leetcode.com/problems/minesweeper
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

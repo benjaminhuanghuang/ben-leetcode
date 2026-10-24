@@ -1,8 +1,3 @@
-/*
-561. Array Partition I
-
-https://leetcode.com/problems/array-partition-i/
-*/
 #include <vector>
 
 using namespace std;

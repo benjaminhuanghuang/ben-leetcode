@@ -1,10 +1,3 @@
-/*
-525. Contiguous Array
-
-Level: Medium
-
-https://leetcode.com/problems/contiguous-array
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-855. Exam Room
-
-Level: Medium
-
-https://leetcode.com/problems/exam-room
-*/
 #include <iostream>
 #include <vector>
 #include <string>

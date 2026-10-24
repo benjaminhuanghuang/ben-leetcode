@@ -1,11 +1,3 @@
-
-'''
-1139. Largest 1-Bordered Square
-
-Level: Medium
-
-https://leetcode.com/problems/largest-1-bordered-square
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,9 +1,3 @@
-/*
-11. Container With Most Water
-
-https://leetcode.com/problems/container-with-most-water/
-*/
-
 function maxArea(height: number[]): number {
   let max = 0;
   let left = 0;

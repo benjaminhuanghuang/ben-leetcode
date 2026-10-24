@@ -1,10 +1,3 @@
-/*
-753. Cracking the Safe
-
-Level: Hard
-
-https://leetcode.com/problems/cracking-the-safe
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

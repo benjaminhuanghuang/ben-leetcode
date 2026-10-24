@@ -1,10 +1,3 @@
-/*
-1370. Increasing Decreasing String
-
-Level: Easy
-
-https://leetcode.com/problems/increasing-decreasing-string
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

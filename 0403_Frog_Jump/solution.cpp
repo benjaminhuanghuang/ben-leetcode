@@ -1,10 +1,3 @@
-/*
-403. Frog Jump
-
-Level: Hard
-
-https://leetcode.com/problems/frog-jump
-*/
 #include <iostream>
 #include <vector>
 #include <string>

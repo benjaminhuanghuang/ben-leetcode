@@ -1,10 +1,3 @@
-/*
-371. Sum of Two Integers
-
-Level: Easy
-
-https://leetcode.com/problems/sum-of-two-integers
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

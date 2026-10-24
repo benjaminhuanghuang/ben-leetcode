@@ -1,11 +1,3 @@
-
-'''
-205. Isomorphic Strings
-
-Level: Easy
-
-https://leetcode.com/problems/isomorphic-strings
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

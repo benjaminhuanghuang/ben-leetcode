@@ -1,11 +1,3 @@
-
-'''
-117. Populating Next Right Pointers in Each Node II
-
-Level: Medium
-
-https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

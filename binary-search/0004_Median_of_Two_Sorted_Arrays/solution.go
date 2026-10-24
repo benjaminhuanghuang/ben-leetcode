@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/median-of-two-sorted-arrays/
 package leetcode0004
 
 

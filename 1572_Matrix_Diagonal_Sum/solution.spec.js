@@ -1,10 +1,3 @@
-/*
-1572. Matrix Diagonal Sum
-
-Level: Easy
-
-https://leetcode.com/problems/matrix-diagonal-sum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

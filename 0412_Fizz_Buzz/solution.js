@@ -1,12 +1,4 @@
 /*
-412. Fizz Buzz
-
-Level: Easy
-
-https://leetcode.com/problems/fizz-buzz
-*/
-
-/*
   Solution: 
 */
 

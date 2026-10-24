@@ -1,12 +1,4 @@
 /*
-856. Score of Parentheses
-
-https://leetcode.com/problems/score-of-parentheses/
-
-- 394. Decode String
-*/
-
-/*
 Time complexity: O(N)
 
 Space complexity: O(n)

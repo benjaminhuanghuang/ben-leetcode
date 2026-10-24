@@ -1,9 +1,3 @@
-/*
-401. Binary Watch
-
-https://leetcode.com/problems/binary-watch/
-*/
-
 function readBinaryWatch(num: number): string[] {
   const result: string[] = [];
   const hours: number[] = [8, 4, 2, 1];

@@ -1,11 +1,3 @@
-
-'''
-738. Monotone Increasing Digits
-
-Level: Medium
-
-https://leetcode.com/problems/monotone-increasing-digits
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

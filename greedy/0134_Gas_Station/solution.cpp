@@ -1,10 +1,3 @@
-/*
-134. Gas Station
-
-Level: Medium
-
-https://leetcode.com/problems/gas-station
-*/
 #include <iostream>
 #include <vector>
 #include <string>

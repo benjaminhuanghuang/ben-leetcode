@@ -1,12 +1,4 @@
 /*
-1727. Largest Submatrix With Rearrangements
-
-https://leetcode.com/problems/largest-submatrix-with-rearrangements/
-
-85. Maximal Rectangle
-*/
-
-/*
 https://www.youtube.com/watch?v=eX0lXwGu3OE&t=174s (HuaHua
 
 matrix[i][j] := height of consecutive ones of column [j] with row[i] as the base.

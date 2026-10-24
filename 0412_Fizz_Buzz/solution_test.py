@@ -1,11 +1,3 @@
-
-'''
-412. Fizz Buzz
-
-Level: Easy
-
-https://leetcode.com/problems/fizz-buzz
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

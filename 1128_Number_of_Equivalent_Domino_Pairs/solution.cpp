@@ -1,10 +1,3 @@
-/*
-1128. Number of Equivalent Domino Pairs
-
-Level: Easy
-
-https://leetcode.com/problems/number-of-equivalent-domino-pairs
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

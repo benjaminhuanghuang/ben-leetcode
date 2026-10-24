@@ -1,9 +1,3 @@
-/*
-1200. Minimum Absolute Difference
-
-https://leetcode.com/problems/minimum-absolute-difference/
-*/
-
 function minimumAbsDifference(arr: number[]): number[][] {
   let ans: number[][] = [];
   arr.sort((a, b) => a - b);

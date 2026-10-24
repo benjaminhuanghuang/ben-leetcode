@@ -1,10 +1,3 @@
-/*
-650. 2 Keys Keyboard
-
-Level: Medium
-
-https://leetcode.com/problems/2-keys-keyboard
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

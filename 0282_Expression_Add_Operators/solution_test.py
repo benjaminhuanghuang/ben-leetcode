@@ -1,11 +1,3 @@
-
-'''
-282. Expression Add Operators
-
-Level: Hard
-
-https://leetcode.com/problems/expression-add-operators
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

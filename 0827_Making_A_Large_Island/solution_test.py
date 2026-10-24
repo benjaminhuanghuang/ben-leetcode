@@ -1,11 +1,3 @@
-
-'''
-827. Making A Large Island
-
-Level: Hard
-
-https://leetcode.com/problems/making-a-large-island
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

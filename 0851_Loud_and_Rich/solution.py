@@ -1,11 +1,4 @@
 '''
-851. Loud and Rich
-
-Level: Medium
-
-https://leetcode.com/problems/loud-and-rich
-'''
-'''
   Solution: 
 '''
 class Solution:

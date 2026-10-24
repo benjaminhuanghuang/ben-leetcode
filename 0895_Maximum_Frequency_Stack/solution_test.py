@@ -1,11 +1,3 @@
-
-'''
-895. Maximum Frequency Stack
-
-Level: Hard
-
-https://leetcode.com/problems/maximum-frequency-stack
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

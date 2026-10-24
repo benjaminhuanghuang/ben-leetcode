@@ -1,8 +1,3 @@
-/*
-687. Longest Univalue Path
-
-https://leetcode.com/problems/longest-univalue-path/
- */
 #include <algorithm>
 using namespace std;
 

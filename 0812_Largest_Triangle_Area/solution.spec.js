@@ -1,10 +1,3 @@
-/*
-812. Largest Triangle Area
-
-Level: Easy
-
-https://leetcode.com/problems/largest-triangle-area
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

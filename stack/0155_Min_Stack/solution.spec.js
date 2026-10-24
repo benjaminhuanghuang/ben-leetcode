@@ -1,10 +1,3 @@
-/*
-155. Min Stack
-
-Level: Easy
-
-https://leetcode.com/problems/min-stack
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

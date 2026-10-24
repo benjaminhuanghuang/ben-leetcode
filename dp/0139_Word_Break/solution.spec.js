@@ -1,10 +1,3 @@
-/*
-139. Word Break
-
-Level: Medium
-
-https://leetcode.com/problems/word-break
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

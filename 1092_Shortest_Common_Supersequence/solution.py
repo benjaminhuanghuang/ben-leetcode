@@ -1,11 +1,4 @@
 '''
-1092. Shortest Common Supersequence 
-
-Level: Hard
-
-https://leetcode.com/problems/shortest-common-supersequence
-'''
-'''
   Solution: 
 '''
 class Solution:

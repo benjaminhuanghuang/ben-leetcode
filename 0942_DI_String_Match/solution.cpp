@@ -1,10 +1,3 @@
-/*
-942. DI String Match
-
-Level: Easy
-
-https://leetcode.com/problems/di-string-match
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

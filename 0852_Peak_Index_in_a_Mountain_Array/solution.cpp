@@ -1,10 +1,3 @@
-/*
-852. Peak Index in a Mountain Array
-
-Level: Easy
-
-https://leetcode.com/problems/peak-index-in-a-mountain-array
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

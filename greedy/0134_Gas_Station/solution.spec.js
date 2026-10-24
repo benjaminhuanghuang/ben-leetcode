@@ -1,10 +1,3 @@
-/*
-134. Gas Station
-
-Level: Medium
-
-https://leetcode.com/problems/gas-station
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

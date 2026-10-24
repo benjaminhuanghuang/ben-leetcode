@@ -1,10 +1,3 @@
-/*
-278. First Bad Version
-
-Level: Easy
-
-https://leetcode.com/problems/first-bad-version
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

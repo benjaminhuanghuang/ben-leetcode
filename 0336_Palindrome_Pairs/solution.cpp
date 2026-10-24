@@ -1,7 +1,3 @@
-/*
-336. Palindrome Pairs
-https://leetcode.com/problems/palindrome-pairs/
-*/
 #include <vector>
 #include <string>
 

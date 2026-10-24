@@ -1,10 +1,3 @@
-/*
-14. Longest Common Prefix
-
-Write a function to find the longest common prefix string amongst an array of strings.
-
-*/
-
 public class Solution014 {
     public string LongestCommonPrefix(string[] strs) {
         if(strs == null || strs.Length == 0)  

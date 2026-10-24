@@ -1,10 +1,3 @@
-'''
-413. Arithmetic Slices
-
-
-'''
-
-
 class Solution(object):
     def numberOfArithmeticSlices(self, A):
         """

@@ -1,10 +1,3 @@
-/*
-456. 132 Pattern
-
-Level: Medium
-
-https://leetcode.com/problems/132-pattern
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

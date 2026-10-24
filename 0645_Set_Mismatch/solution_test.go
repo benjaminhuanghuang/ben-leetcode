@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/set-mismatch
 package leetcode0645
 import (
 	"testing"

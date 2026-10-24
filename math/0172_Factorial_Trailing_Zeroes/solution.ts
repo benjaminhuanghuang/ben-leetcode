@@ -1,11 +1,3 @@
-/*
-172. Factorial Trailing Zeroes
-
-https://leetcode.com/problems/factorial-trailing-zeroes/
-
-Given an integer n, return the number of trailing zeroes in n!
-*/
-
 /* n! = 1*2*3*4... *n
     The number of trailing 0 = the count of 2*5 pair
     也就是要找乘数中10的个数，而10可分解为2和5，而我们可知2的数量又远大于5的数量，那么此题即便为找出5的个数。

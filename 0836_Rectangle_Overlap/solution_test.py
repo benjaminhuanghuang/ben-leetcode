@@ -1,11 +1,3 @@
-
-'''
-836. Rectangle Overlap
-
-Level: Easy
-
-https://leetcode.com/problems/rectangle-overlap
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

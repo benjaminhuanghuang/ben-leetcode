@@ -1,10 +1,3 @@
-/*
-529. Minesweeper
-
-Level: Medium
-
-https://leetcode.com/problems/minesweeper
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

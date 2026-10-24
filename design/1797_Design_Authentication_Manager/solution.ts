@@ -1,9 +1,3 @@
-/*
-1797. Design Authentication Manager
-
-https://leetcode.com/problems/design-authentication-manager/
-*/
-
 class AuthenticationManager {
   timeToLive: number;
   tokenMap: Map<string, number> = new Map(); // Map to store the token and its expiry time.

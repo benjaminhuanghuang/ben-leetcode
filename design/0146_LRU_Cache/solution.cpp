@@ -1,12 +1,3 @@
-/*
-146. LRU Cache
-
-Level: Medium
-
-https://leetcode.com/problems/lru-cache
-
-- 460. LFU Cache
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

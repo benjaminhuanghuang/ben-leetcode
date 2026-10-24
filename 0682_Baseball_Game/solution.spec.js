@@ -1,10 +1,3 @@
-/*
-682. Baseball Game
-
-Level: Easy
-
-https://leetcode.com/problems/baseball-game
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

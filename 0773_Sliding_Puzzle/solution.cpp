@@ -1,10 +1,3 @@
-/*
-773. Sliding Puzzle
-
-Level: Hard
-
-https://leetcode.com/problems/sliding-puzzle
-*/
 #include <iostream>
 #include <vector>
 #include <string>

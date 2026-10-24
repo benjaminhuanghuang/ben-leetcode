@@ -1,12 +1,4 @@
 /*
-37. Sudoku Solver
-
-Level: Hard
-
-https://leetcode.com/problems/sudoku-solver
-*/
-
-/*
   Solution: 
 */
 

@@ -1,10 +1,3 @@
-/*
-677. Map Sum Pairs
-
-Level: Medium
-
-https://leetcode.com/problems/map-sum-pairs
-*/
 #include <iostream>
 #include <vector>
 #include <string>

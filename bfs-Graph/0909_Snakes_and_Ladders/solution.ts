@@ -1,10 +1,4 @@
 /*
-909. Snakes and Ladders
-
-https://leetcode.com/problems/snakes-and-ladders/
-*/
-
-/*
 大富翁，某些点会直接跳到另一个点
 */
 function snakesAndLadders(board: number[][]): number {

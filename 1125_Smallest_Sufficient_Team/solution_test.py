@@ -1,11 +1,3 @@
-
-'''
-1125. Smallest Sufficient Team
-
-Level: Hard
-
-https://leetcode.com/problems/smallest-sufficient-team
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

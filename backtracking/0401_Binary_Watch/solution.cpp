@@ -1,10 +1,3 @@
-/*
-
-401. Binary Watch
-
-https://leetcode.com/problems/binary-watch/
-
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

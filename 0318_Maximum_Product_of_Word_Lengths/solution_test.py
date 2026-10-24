@@ -1,11 +1,3 @@
-
-'''
-318. Maximum Product of Word Lengths
-
-Level: Medium
-
-https://leetcode.com/problems/maximum-product-of-word-lengths
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

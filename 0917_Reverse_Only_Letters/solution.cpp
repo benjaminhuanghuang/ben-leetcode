@@ -1,7 +1,3 @@
-/*
-917. Reverse Only Letters
-https://leetcode.com/problems/reverse-only-letters/
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

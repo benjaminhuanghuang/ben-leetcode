@@ -1,9 +1,3 @@
-/*
-872. Leaf-Similar Trees
-
-https://leetcode.com/problems/leaf-similar-trees/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 /*

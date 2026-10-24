@@ -1,11 +1,3 @@
-
-'''
-494. Target Sum
-
-Level: Medium
-
-https://leetcode.com/problems/target-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

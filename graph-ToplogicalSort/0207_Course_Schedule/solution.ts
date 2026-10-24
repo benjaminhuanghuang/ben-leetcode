@@ -1,9 +1,4 @@
 /*
-207. Course Schedule
-https://leetcode.com/problems/course-schedule/
-*/
-
-/*
     This method involves using in-degrees to represent the number of prerequisites for each course.
 */
 function canFinish(numCourses: number, prerequisites: number[][]): boolean {

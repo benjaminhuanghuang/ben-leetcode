@@ -1,10 +1,3 @@
-/*
-994. Rotting Oranges
-
-Level: Medium
-
-https://leetcode.com/problems/rotting-oranges
-*/
 #include <iostream>
 #include <vector>
 #include <string>

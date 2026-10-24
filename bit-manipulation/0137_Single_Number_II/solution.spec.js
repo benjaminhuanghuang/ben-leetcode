@@ -1,10 +1,3 @@
-/*
-137. Single Number II
-
-Level: Medium
-
-https://leetcode.com/problems/single-number-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

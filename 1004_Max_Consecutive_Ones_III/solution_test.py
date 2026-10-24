@@ -1,11 +1,3 @@
-
-'''
-1004. Max Consecutive Ones III
-
-Level: Medium
-
-https://leetcode.com/problems/max-consecutive-ones-iii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-704. Binary Search
-
-Level: Easy
-
-https://leetcode.com/problems/binary-search
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

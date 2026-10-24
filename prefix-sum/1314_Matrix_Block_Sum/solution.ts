@@ -1,10 +1,4 @@
 /*
-1314. Matrix Block Sum
-
-https://leetcode.com/problems/matrix-block-sum/
-*/
-
-/*
     K is the size of the block
 */
 function matrixBlockSum(mat: number[][], k: number): number[][] {

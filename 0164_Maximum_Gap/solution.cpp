@@ -1,10 +1,3 @@
-/*
-164. Maximum Gap
-
-Level: Hard
-
-https://leetcode.com/problems/maximum-gap
-*/
 #include <iostream>
 #include <vector>
 #include <string>

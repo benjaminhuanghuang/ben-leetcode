@@ -1,11 +1,3 @@
-
-'''
-732. My Calendar III
-
-Level: Hard
-
-https://leetcode.com/problems/my-calendar-iii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

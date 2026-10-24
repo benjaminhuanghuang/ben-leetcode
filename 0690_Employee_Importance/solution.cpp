@@ -1,10 +1,3 @@
-/*
-690. Employee Importance
-
-Level: Easy
-
-https://leetcode.com/problems/employee-importance
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

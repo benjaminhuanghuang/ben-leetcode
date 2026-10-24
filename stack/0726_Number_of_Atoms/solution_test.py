@@ -1,11 +1,3 @@
-
-'''
-726. Number of Atoms
-
-Level: Hard
-
-https://leetcode.com/problems/number-of-atoms
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

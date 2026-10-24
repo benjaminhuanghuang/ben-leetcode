@@ -1,12 +1,4 @@
 /*
-1382. Balance a Binary Search Tree
-
-Level: Medium
-
-https://leetcode.com/problems/balance-a-binary-search-tree
-*/
-
-/*
   Solution: 
 */
 

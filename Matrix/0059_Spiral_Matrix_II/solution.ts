@@ -1,9 +1,3 @@
-/*
-59. Spiral Matrix II
-
-https://leetcode.com/problems/spiral-matrix-ii/
-*/
-
 function generateMatrix(n: number): number[][] {
   const matrix: number[][] = new Array(n)
     .fill(0)

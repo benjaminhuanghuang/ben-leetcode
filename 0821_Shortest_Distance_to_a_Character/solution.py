@@ -1,11 +1,4 @@
 '''
-821. Shortest Distance to a Character
-
-Level: Easy
-
-https://leetcode.com/problems/shortest-distance-to-a-character
-'''
-'''
   Solution: 
 '''
 class Solution:

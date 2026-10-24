@@ -1,10 +1,3 @@
-/*
-279. Perfect Squares
-
-Level: Medium
-
-https://leetcode.com/problems/perfect-squares
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

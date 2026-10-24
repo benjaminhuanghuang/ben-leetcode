@@ -1,8 +1,3 @@
-/*
-374. Guess Number Higher or Lower
-
-https://leetcode.com/problems/guess-number-higher-or-lower/
-*/
 var guess = function (num: number): number {
   return 0;
 };

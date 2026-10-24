@@ -1,11 +1,3 @@
-
-'''
-877. Stone Game
-
-Level: Medium
-
-https://leetcode.com/problems/stone-game
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

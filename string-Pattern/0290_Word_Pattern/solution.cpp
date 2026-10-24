@@ -1,10 +1,3 @@
-/*
-290. Word Pattern
-
-Level: Easy
-
-https://leetcode.com/problems/word-pattern
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

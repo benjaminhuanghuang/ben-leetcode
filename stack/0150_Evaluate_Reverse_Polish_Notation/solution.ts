@@ -1,8 +1,3 @@
-/*
-150. Evaluate Reverse Polish Notation
-https://leetcode.com/problems/evaluate-reverse-polish-notation/
-*/
-
 function evalRPN(tokens: string[]): number {
   const stack: number[] = [];
   // Helper function to check if a string is a numeric value.

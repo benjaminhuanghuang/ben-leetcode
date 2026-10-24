@@ -1,10 +1,3 @@
-/*
-992. Subarrays with K Different Integers
-
-Level: Hard
-
-https://leetcode.com/problems/subarrays-with-k-different-integers
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

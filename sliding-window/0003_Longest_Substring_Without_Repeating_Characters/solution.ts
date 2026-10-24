@@ -1,10 +1,4 @@
 /*
-3. Longest Substring Without Repeating Characters
-
-https://leetcode.com/problems/longest-substring-without-repeating-characters/
-*/
-
-/*
     Sliding Window + Hash Map
     Time complexity: O(n)
     https://www.youtube.com/watch?v=fBiiKy8kwaY

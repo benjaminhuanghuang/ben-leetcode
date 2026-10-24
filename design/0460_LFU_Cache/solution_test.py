@@ -1,11 +1,3 @@
-
-'''
-460. LFU Cache
-
-Level: Hard
-
-https://leetcode.com/problems/lfu-cache
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

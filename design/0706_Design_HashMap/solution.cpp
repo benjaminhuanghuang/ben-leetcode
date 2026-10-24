@@ -1,10 +1,3 @@
-/*
-706. Design HashMap
-
-Level: Easy
-
-https://leetcode.com/problems/design-hashmap
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

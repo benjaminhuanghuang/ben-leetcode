@@ -1,10 +1,3 @@
-/*
-703. Kth Largest Element in a Stream
-
-Level: Easy
-
-https://leetcode.com/problems/kth-largest-element-in-a-stream
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,10 +1,3 @@
-/*
-790. Domino and Tromino Tiling
-
-Level: Medium
-
-https://leetcode.com/problems/domino-and-tromino-tiling
-*/
 #include <iostream>
 #include <vector>
 #include <string>

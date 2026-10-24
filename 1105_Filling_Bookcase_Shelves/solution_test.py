@@ -1,11 +1,3 @@
-
-'''
-1105. Filling Bookcase Shelves
-
-Level: Medium
-
-https://leetcode.com/problems/filling-bookcase-shelves
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-417. Pacific Atlantic Water Flow
-
-Level: Medium
-
-https://leetcode.com/problems/pacific-atlantic-water-flow
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-721. Accounts Merge
-
-Level: Medium
-
-https://leetcode.com/problems/accounts-merge
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

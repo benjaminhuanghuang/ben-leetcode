@@ -1,10 +1,3 @@
-/*
-1217. Play with Chips
-
-Level: Easy
-
-https://leetcode.com/problems/play-with-chips
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

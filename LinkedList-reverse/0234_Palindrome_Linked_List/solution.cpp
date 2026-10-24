@@ -1,14 +1,3 @@
-/*
-234. Palindrome Linked List
-
-Level: Easy
-
-https://leetcode.com/problems/palindrome-linked-list
-
-
-- 206. Reverse Linked List
-
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

@@ -1,10 +1,3 @@
-/*
-535. Encode and Decode TinyURL
-
-Level: Medium
-
-https://leetcode.com/problems/encode-and-decode-tinyurl
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

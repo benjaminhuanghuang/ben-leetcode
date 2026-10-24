@@ -1,11 +1,3 @@
-
-'''
-1203. Sort Items by Groups Respecting Dependencies
-
-Level: Hard
-
-https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

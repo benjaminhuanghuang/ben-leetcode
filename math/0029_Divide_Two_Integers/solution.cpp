@@ -1,10 +1,3 @@
-/*
-29. Divide Two Integers
-
-Level: Medium
-
-https://leetcode.com/problems/divide-two-integers
-*/
 #include <iostream>
 #include <vector>
 #include <string>

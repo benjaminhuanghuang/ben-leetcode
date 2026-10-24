@@ -1,10 +1,3 @@
-/*
-264. Ugly Number II
-
-Level: Medium
-
-https://leetcode.com/problems/ugly-number-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

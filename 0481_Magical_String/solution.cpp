@@ -1,10 +1,3 @@
-/*
-481. Magical String
-
-Level: Medium
-
-https://leetcode.com/problems/magical-string
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-1332. Remove Palindromic Subsequences
-
-Level: Easy
-
-https://leetcode.com/problems/remove-palindromic-subsequences
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

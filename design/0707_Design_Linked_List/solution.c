@@ -1,13 +1,4 @@
 /*
-707. Design Linked List
-
-Level: Medium
-
-https://leetcode.com/problems/design-linked-list
-*/
-
-
-/*
   Solution: 
 
   Tracking head/tail and size of the list.

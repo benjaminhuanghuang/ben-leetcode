@@ -1,9 +1,3 @@
-/*
-  78. Subsets
-
-  https://leetcode.com/problems/subsets/
-*/
-
 #include <vector>
 #include <algorithm>
 

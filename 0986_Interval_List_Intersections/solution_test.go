@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/interval-list-intersections
 package leetcode0986
 import (
 	"testing"

@@ -1,12 +1,3 @@
-/*
-126. Word Ladder II
-
-https://leetcode.com/problems/word-ladder-ii/
-
-127. word ladder (BFS)
-
-*/
-
 function findLadders(
   beginWord: string,
   endWord: string,

@@ -1,11 +1,4 @@
 '''
-1340. Jump Game V
-
-Level: Hard
-
-https://leetcode.com/problems/jump-game-v
-'''
-'''
   Solution: 
 '''
 class Solution:

@@ -1,10 +1,3 @@
-/*
-1351. Count Negative Numbers in a Sorted Matrix
-
-Level: Easy
-
-https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

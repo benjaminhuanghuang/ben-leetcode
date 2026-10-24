@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/sort-array-by-parity
 package leetcode0905
 import (
 	"testing"

@@ -1,10 +1,3 @@
-/*
-1145. Binary Tree Coloring Game
-
-Level: Medium
-
-https://leetcode.com/problems/binary-tree-coloring-game
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

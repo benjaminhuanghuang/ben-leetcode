@@ -1,11 +1,3 @@
-
-'''
-283. Move Zeroes
-
-Level: Easy
-
-https://leetcode.com/problems/move-zeroes
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

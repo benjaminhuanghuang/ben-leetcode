@@ -1,11 +1,3 @@
-
-'''
-218. The Skyline Problem
-
-Level: Hard
-
-https://leetcode.com/problems/the-skyline-problem
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

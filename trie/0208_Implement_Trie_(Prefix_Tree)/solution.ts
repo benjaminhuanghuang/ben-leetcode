@@ -1,9 +1,4 @@
 /*
-208. Implement Trie (Prefix Tree)
-https://leetcode.com/problems/implement-trie-prefix-tree/
-*/
-
-/*
     Time complexity - O(N) - N as number of words in the trie
     Space complexity - O(N) - N as number of words in the trie
 */

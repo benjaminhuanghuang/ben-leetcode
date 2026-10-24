@@ -1,8 +1,3 @@
-/*
-701. Insert into a Binary Search Tree
-https://leetcode.com/problems/insert-into-a-binary-search-tree/
- */
-
 #include "common/TreeNode.h"
 /*
 https://zxi.mytechroad.com/blog/tree/leetcode-701-insert-into-a-binary-search-tree/

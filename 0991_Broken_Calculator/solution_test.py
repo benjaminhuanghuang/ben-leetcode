@@ -1,11 +1,3 @@
-
-'''
-991. Broken Calculator
-
-Level: Medium
-
-https://leetcode.com/problems/broken-calculator
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

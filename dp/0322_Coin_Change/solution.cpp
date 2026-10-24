@@ -1,10 +1,3 @@
-/*
-322. Coin Change
-
-Level: Medium
-
-https://leetcode.com/problems/coin-change
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

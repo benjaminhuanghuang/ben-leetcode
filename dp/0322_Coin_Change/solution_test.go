@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/coin-change
 package leetcode0322
 import (
 	"testing"

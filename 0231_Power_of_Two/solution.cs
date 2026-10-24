@@ -1,9 +1,3 @@
-/*
-231. Power of Two
-Given an integer, write a function to determine if it is a power of two.
-
-*/
-
 public class Solution231
 {
     // The power of 2 only have one "1" ant most left bit

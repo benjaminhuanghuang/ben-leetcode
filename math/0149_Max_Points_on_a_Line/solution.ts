@@ -1,9 +1,3 @@
-/*
-149. Max Points on a Line
-
-https://leetcode.com/problems/max-points-on-a-line/
-*/
-
 // for each point, calculate the slope with other point. put slope into hash table,
 // then we know points with same slope in a line.
 // points with same x and y. in that case, slope does not work.

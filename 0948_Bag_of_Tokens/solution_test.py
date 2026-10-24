@@ -1,11 +1,3 @@
-
-'''
-948. Bag of Tokens
-
-Level: Medium
-
-https://leetcode.com/problems/bag-of-tokens
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

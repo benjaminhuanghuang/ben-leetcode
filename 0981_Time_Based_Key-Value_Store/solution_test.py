@@ -1,11 +1,3 @@
-
-'''
-981. Time Based Key-Value Store
-
-Level: Medium
-
-https://leetcode.com/problems/time-based-key-value-store
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,12 +1,4 @@
 /*
-208. Implement Trie (Prefix Tree)
-
-Level: Medium
-
-https://leetcode.com/problems/implement-trie-prefix-tree
-*/
-
-/*
   Solution: 
 */
 

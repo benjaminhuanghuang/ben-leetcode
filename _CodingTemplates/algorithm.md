@@ -1,7 +1,0 @@
-# Algorithm
-
-## Template
-
-## Complexity
-
-## Sample

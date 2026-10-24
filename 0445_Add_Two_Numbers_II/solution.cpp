@@ -1,10 +1,3 @@
-/*
-445. Add Two Numbers II
-
-Level: Medium
-
-https://leetcode.com/problems/add-two-numbers-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

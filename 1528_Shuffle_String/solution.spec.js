@@ -1,10 +1,3 @@
-/*
-1528. Shuffle String
-
-Level: Easy
-
-https://leetcode.com/problems/shuffle-string
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

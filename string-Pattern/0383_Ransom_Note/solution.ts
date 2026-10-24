@@ -1,10 +1,4 @@
 /*
-383. Ransom Note
-
-https://leetcode.com/problems/ransom-note/
-*/
-
-/*
     Count the frequency of each character in the magazine.
     Then, check if the ransomNote can be constructed using the characters in the magazine.
 */

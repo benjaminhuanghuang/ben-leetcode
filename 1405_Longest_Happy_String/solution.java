@@ -1,10 +1,3 @@
-/*
-1405. Longest Happy String
-
-Level: Medium
-
-https://leetcode.com/problems/longest-happy-string
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

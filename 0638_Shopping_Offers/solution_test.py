@@ -1,11 +1,3 @@
-
-'''
-638. Shopping Offers
-
-Level: Medium
-
-https://leetcode.com/problems/shopping-offers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

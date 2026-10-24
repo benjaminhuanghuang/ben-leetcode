@@ -1,8 +1,3 @@
-/*
-730. Count Different Palindromic Subsequences
- https://leetcode.com/problems/count-different-palindromic-subsequences/
-*/
-
 #include <vector>
 #include <string>
 #include <unordered_map>

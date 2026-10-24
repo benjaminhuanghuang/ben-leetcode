@@ -1,8 +1,4 @@
 /*
-  27. Remove Element
-*/
-
-/*
     Two-point & same direction, 
     One pointer for iteration, while the other pointer marks the completed section.
 */

@@ -1,13 +1,4 @@
 /*
-763. Partition Labels
-
-Level: Medium
-
-https://leetcode.com/problems/partition-labels
-*/
-
-
-/*
   Solution: 
 */
 

@@ -1,8 +1,3 @@
-/*
-670. Maximum Swap
-
-https://leetcode.com/problems/maximum-swap/
-*/
 #include <numeric>
 #include <string>
 using namespace std;

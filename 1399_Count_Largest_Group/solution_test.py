@@ -1,11 +1,3 @@
-
-'''
-1399. Count Largest Group
-
-Level: Easy
-
-https://leetcode.com/problems/count-largest-group
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

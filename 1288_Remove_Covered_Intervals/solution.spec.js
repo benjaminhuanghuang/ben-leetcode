@@ -1,10 +1,3 @@
-/*
-1288. Remove Covered Intervals
-
-Level: Medium
-
-https://leetcode.com/problems/remove-covered-intervals
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

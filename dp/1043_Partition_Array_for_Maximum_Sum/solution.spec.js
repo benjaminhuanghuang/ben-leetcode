@@ -1,10 +1,3 @@
-/*
-1043. Partition Array for Maximum Sum
-
-Level: Medium
-
-https://leetcode.com/problems/partition-array-for-maximum-sum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

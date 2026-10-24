@@ -1,8 +1,3 @@
-/*
-299. Bulls and Cows
-
-*/
-
 public class Solution299 {
     public string GetHint(string secret, string guess) {
         if (secret == null || guess == null || secret.Length != guess.Length) {

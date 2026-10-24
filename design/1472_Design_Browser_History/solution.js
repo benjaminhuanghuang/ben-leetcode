@@ -1,12 +1,4 @@
 /*
-1472. Design Browser History
-
-Level: Medium
-
-https://leetcode.com/problems/design-browser-history
-*/
-
-/*
   Solution: 
 */
 

@@ -1,11 +1,3 @@
-/*
-189. Rotate Array
-
-https://leetcode.com/problems/rotate-array/
-
-rotate the array to the right by k steps, where k is non-negative.
-*/
-
 function rotate(nums: number[], k: number): void {
   k %= nums.length;
   reverse(nums, 0, nums.length - 1); // reverse the whole array

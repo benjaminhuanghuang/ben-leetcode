@@ -1,12 +1,4 @@
 /*
-500. Keyboard Row
-
-Level: Easy
-
-https://leetcode.com/problems/keyboard-row
-*/
-
-/*
   Solution: 
 */
 

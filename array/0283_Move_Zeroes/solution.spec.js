@@ -1,10 +1,3 @@
-/*
-283. Move Zeroes
-
-Level: Easy
-
-https://leetcode.com/problems/move-zeroes
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

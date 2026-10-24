@@ -1,7 +1,3 @@
-/*
-637. Average of Levels in Binary Tree
-https://leetcode.com/problems/average-of-levels-in-binary-tree/
- */
 #include <vector>
 #include <queue>
 #include "common/TreeNode.h"

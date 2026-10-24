@@ -1,13 +1,4 @@
 /*
-75. Sort Colors
-
-https://leetcode.com/problems/sort-colors/
-
-
-[Facebook][Meta]
-*/
-
-/*
 The algorithm used here is the Dutch National Flag problem algorithm proposed by Edsger W. Dijkstra
 https://en.wikipedia.org/wiki/Dutch_national_flag_problem
 

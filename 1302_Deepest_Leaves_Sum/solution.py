@@ -1,11 +1,4 @@
 '''
-1302. Deepest Leaves Sum
-
-Level: Medium
-
-https://leetcode.com/problems/deepest-leaves-sum
-'''
-'''
   Solution: 
 '''
 # Definition for a binary tree node.

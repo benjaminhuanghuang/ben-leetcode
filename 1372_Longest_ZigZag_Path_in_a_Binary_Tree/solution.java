@@ -1,10 +1,3 @@
-/*
-1372. Longest ZigZag Path in a Binary Tree
-
-Level: Medium
-
-https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

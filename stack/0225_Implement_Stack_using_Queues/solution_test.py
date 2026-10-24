@@ -1,11 +1,3 @@
-
-'''
-225. Implement Stack using Queues
-
-Level: Easy
-
-https://leetcode.com/problems/implement-stack-using-queues
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

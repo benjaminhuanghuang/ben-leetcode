@@ -1,10 +1,3 @@
-/*
-1514. Path with Maximum Probability
-
-Level: Medium
-
-https://leetcode.com/problems/path-with-maximum-probability
-*/
 package cn.huang.leetcode;
 
 import java.util.HashMap;

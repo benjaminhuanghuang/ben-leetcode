@@ -1,11 +1,3 @@
-
-'''
-236. Lowest Common Ancestor of a Binary Tree
-
-Level: Medium
-
-https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

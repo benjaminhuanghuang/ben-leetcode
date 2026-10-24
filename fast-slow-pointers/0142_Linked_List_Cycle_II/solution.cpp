@@ -1,10 +1,3 @@
-/*
-142. Linked List Cycle II
-
-Level: Medium
-
-https://leetcode.com/problems/linked-list-cycle-ii
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

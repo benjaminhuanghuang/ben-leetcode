@@ -1,8 +1,3 @@
-/*
-332. Reconstruct Itinerary
-
-https://leetcode.com/problems/reconstruct-itinerary/
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

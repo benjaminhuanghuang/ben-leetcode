@@ -1,10 +1,4 @@
 /*
-32. Longest Valid Parentheses
-
-https://leetcode.com/problems/longest-valid-parentheses/
-*/
-
-/*
 dp
 dp[i]表示以当前位置为终点的最长长度，则只能在）处更新，
 

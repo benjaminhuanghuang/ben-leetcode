@@ -1,10 +1,3 @@
-/*
-142. Linked List Cycle II
-
-Level: Medium
-
-https://leetcode.com/problems/linked-list-cycle-ii
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

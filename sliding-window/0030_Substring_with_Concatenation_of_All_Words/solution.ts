@@ -1,19 +1,4 @@
 /*
-30. Substring with Concatenation of All Words
-
-https://leetcode.com/problems/substring-with-concatenation-of-all-words/
-
-Input: s = "barfoothefoobarman", words = ["foo","bar"]
-
-Output: [0,9]
-
-convert the question to:
-Find substring, which contains all words in the list, and the order of words doesn't matter.
-The length of the substring = words.length * word.length
-
-*/
-
-/*
 
 https://algo.monster/liteproblems/30
 

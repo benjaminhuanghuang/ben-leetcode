@@ -1,10 +1,3 @@
-/*
-343. Integer Break
-
-Level: Medium
-
-https://leetcode.com/problems/integer-break
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

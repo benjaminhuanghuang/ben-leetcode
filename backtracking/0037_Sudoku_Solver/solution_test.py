@@ -1,11 +1,3 @@
-
-'''
-37. Sudoku Solver
-
-Level: Hard
-
-https://leetcode.com/problems/sudoku-solver
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

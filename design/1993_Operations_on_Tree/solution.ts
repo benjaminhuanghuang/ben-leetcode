@@ -1,10 +1,4 @@
 /*
-1993. Operations on Tree
-
-https://leetcode.com/problems/operations-on-tree/
-*/
-
-/*
     https://www.youtube.com/watch?v=qK4PtjrVD0U
 */
 class LockingTree {

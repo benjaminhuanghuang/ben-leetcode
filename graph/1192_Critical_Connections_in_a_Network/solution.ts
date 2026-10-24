@@ -1,12 +1,4 @@
 /*
-1192. Critical Connections in a Network
-
-https://leetcode.com/problems/critical-connections-in-a-network/
-
-[Amazon]
-*/
-
-/*
     Find bridges in a graph, remove them will increase the nubmer of
     connected components. 
     https://www.youtube.com/watch?v=mKUsbABiwBI

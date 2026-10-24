@@ -1,11 +1,3 @@
-
-'''
-857. Minimum Cost to Hire K Workers
-
-Level: Hard
-
-https://leetcode.com/problems/minimum-cost-to-hire-k-workers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

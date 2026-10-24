@@ -1,10 +1,3 @@
-/*
-1510. Stone Game IV
-
-Level: Hard
-
-https://leetcode.com/problems/stone-game-iv
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

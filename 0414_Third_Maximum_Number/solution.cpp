@@ -1,7 +1,3 @@
-/*
-414. Third Maximum Number
-https://leetcode.com/problems/third-maximum-number/
-*/
 #include <vector>
 #include <set>
 using namespace std;

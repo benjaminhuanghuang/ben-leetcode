@@ -1,12 +1,3 @@
-/*
-36. Valid Sudoku
-
-Level: Medium
-
-https://leetcode.com/problems/valid-sudoku
-
-- 37. Sudoku Solver
-*/
 #include <iostream>
 #include <vector>
 #include <string>

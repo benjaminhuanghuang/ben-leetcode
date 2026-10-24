@@ -1,10 +1,3 @@
-/*
-1054. Distant Barcodes
-
-Level: Medium
-
-https://leetcode.com/problems/distant-barcodes
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

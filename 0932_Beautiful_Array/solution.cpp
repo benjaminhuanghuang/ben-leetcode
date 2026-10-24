@@ -1,10 +1,3 @@
-/*
-932. Beautiful Array
-
-Level: Medium
-
-https://leetcode.com/problems/beautiful-array
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,10 +1,3 @@
-/*
-223. Rectangle Area
-
-Level: Medium
-
-https://leetcode.com/problems/rectangle-area
-*/
 #include <iostream>
 #include <vector>
 #include <string>

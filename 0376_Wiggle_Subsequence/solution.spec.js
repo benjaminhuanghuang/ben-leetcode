@@ -1,10 +1,3 @@
-/*
-376. Wiggle Subsequence
-
-Level: Medium
-
-https://leetcode.com/problems/wiggle-subsequence
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

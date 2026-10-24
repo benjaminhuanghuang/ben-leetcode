@@ -1,11 +1,3 @@
-
-'''
-292. Nim Game
-
-Level: Easy
-
-https://leetcode.com/problems/nim-game
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

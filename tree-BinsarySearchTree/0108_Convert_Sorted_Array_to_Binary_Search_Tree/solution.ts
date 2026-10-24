@@ -1,8 +1,3 @@
-/*
-108. Convert Sorted Array to Binary Search Tree
-
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 /*

@@ -1,11 +1,3 @@
-
-'''
-1402. Reducing Dishes
-
-Level: Hard
-
-https://leetcode.com/problems/reducing-dishes
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

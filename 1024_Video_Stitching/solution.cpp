@@ -1,11 +1,3 @@
-/*
-1024. Video Stitching 
-
-Level: Medium
-
-https://leetcode.com/problems/video-stitching/
-*/
-
 #include <vector>
 #include <algorithm>
 

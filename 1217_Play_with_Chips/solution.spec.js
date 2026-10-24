@@ -1,10 +1,3 @@
-/*
-1217. Play with Chips
-
-Level: Easy
-
-https://leetcode.com/problems/play-with-chips
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

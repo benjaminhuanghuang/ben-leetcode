@@ -1,10 +1,3 @@
-/*
-622. Design Circular Queue
-
-Level: Medium
-
-https://leetcode.com/problems/design-circular-queue
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,11 +1,3 @@
-
-'''
-396. Rotate Function
-
-Level: Medium
-
-https://leetcode.com/problems/rotate-function
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-1027. Longest Arithmetic Sequence
-
-Level: Medium
-
-https://leetcode.com/problems/longest-arithmetic-sequence
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

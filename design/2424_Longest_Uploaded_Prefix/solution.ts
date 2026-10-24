@@ -1,9 +1,3 @@
-/*
-2424. Longest Uploaded Prefix
-
-https://leetcode.com/problems/longest-uploaded-prefix/
-*/
-
 class LUPrefix {
   // A set to keep track of which videos have been uploaded.
   uploadedVideos: Set<number> = new Set();

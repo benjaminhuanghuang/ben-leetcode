@@ -1,10 +1,4 @@
 /*
-135. Candy
-
-https://leetcode.com/problems/candy/
-*/
-
-/*
  give each child at least one candy. 
  Then, for each child, check if the child has a higher rating than 
  the previous child.

@@ -1,9 +1,3 @@
-/*
-870. Advantage Shuffle
-
-https://leetcode.com/problems/advantage-shuffle/
-*/
-
 #include <vector>
 #include <set>
 #include <string>

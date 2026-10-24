@@ -1,11 +1,3 @@
-
-'''
-901. Online Stock Span
-
-Level: Medium
-
-https://leetcode.com/problems/online-stock-span
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

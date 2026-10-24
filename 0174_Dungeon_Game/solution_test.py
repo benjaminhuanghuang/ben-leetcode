@@ -1,11 +1,3 @@
-
-'''
-174. Dungeon Game
-
-Level: Hard
-
-https://leetcode.com/problems/dungeon-game
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

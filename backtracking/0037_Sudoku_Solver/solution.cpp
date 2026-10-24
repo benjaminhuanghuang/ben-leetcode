@@ -1,12 +1,3 @@
-/*
-37. Sudoku Solver
-
-https://leetcode.com/problems/sudoku-solver/
-
-- 36. Valid Sudoku
-- 51. N-Queens
-*/
-
 #include <vector>
 
 using namespace std;

@@ -1,10 +1,3 @@
-/*
-851. Loud and Rich
-
-Level: Medium
-
-https://leetcode.com/problems/loud-and-rich
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

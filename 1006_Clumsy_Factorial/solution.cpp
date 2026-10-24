@@ -1,11 +1,4 @@
 /*
-1006. Clumsy Factorial
-https://leetcode.com/problems/clumsy-factorial/
-
-*/
-
-
-/*
 https://zxi.mytechroad.com/blog/simulation/leetcode-1006-clumsy-factorial/
 */
 class Solution

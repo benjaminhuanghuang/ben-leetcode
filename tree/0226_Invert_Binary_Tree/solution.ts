@@ -1,8 +1,3 @@
-/*
-226. Invert Binary Tree
-https://leetcode.com/problems/invert-binary-tree/
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function invertTree(root: TreeNode | null): TreeNode | null {

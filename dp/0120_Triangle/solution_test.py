@@ -1,11 +1,3 @@
-
-'''
-120. Triangle
-
-Level: Medium
-
-https://leetcode.com/problems/triangle
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

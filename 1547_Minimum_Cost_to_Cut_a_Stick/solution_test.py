@@ -1,11 +1,3 @@
-
-'''
-1547. Minimum Cost to Cut a Stick
-
-Level: Hard
-
-https://leetcode.com/problems/minimum-cost-to-cut-a-stick
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

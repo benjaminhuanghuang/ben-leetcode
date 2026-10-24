@@ -1,10 +1,3 @@
-/*
-1219. Path with Maximum Gold
-
-Level: Medium
-
-https://leetcode.com/problems/path-with-maximum-gold
-*/
 #include <iostream>
 #include <vector>
 #include <string>

@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/lru-cache
 package leetcode0146
 import (
 	"testing"

@@ -1,11 +1,3 @@
-
-'''
-733. Flood Fill
-
-Level: Easy
-
-https://leetcode.com/problems/flood-fill
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/defanging-an-ip-address
 package leetcode1108
 
 import (

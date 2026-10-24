@@ -1,9 +1,3 @@
-/*
-1019. Next Greater Node In Linked List [Medium]
-
-https://leetcode.com/problems/next-greater-node-in-linked-list/
-*/
-
 #include <vector>
 #include <stack>
 #include <algorithm>

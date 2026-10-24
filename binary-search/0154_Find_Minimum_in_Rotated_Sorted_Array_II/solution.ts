@@ -1,16 +1,4 @@
 /*
-154. Find Minimum in Rotated Sorted Array II
-
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
-
-Rotating the array means moving the last element to the front.
-
--33. Search in Rotated Sorted Array
--153. Find Minimum in Rotated Sorted Array
-区别： 有重复的数字
-*/
-
-/*
 https://www.youtube.com/watch?v=aCb1zKMimDQ (Hua Hua)
 
 

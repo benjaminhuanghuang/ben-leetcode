@@ -1,8 +1,3 @@
-/*
-435. Non-overlapping Intervals
-    
-https://leetcode.com/problems/non-overlapping-intervals/
-*/
 function eraseOverlapIntervals(intervals: number[][]): number {
   // 1. sort by start
   intervals.sort((i1, i2) => i1[0] - i2[0]);

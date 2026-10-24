@@ -1,10 +1,4 @@
 /*
-1700. Number of Students Unable to Eat Lunch
-
-https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/
-*/
-
-/*
  certain type of sandwich could not be taken by any student in the queue
 */
 function countStudents(students: number[], sandwiches: number[]): number {

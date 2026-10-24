@@ -1,10 +1,3 @@
-/*
-822. Card Flipping Game
-
-Level: Medium
-
-https://leetcode.com/problems/card-flipping-game
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

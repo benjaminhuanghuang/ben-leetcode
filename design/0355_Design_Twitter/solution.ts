@@ -1,9 +1,3 @@
-/*
-355. Design Twitter
-
-https://leetcode.com/problems/design-twitter/
-*/
-
 class Twitter {
   // Global time variable
   private time: number;

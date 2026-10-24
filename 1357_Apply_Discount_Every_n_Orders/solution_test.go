@@ -1,10 +1,3 @@
-/*
-1357. Apply Discount Every n Orders
-
-Level: Medium
-
-https://leetcode.com/problems/apply-discount-every-n-orders
-*/
 package leetcode1357
 
 import (

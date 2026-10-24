@@ -1,11 +1,3 @@
-
-'''
-482. License Key Formatting
-
-Level: Easy
-
-https://leetcode.com/problems/license-key-formatting
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-324. Wiggle Sort II
-
-Level: Medium
-
-https://leetcode.com/problems/wiggle-sort-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

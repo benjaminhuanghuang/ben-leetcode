@@ -1,11 +1,3 @@
-
-'''
-744. Find Smallest Letter Greater Than Target
-
-Level: Easy
-
-https://leetcode.com/problems/find-smallest-letter-greater-than-target
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

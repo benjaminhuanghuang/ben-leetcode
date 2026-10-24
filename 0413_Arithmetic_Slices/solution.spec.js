@@ -1,10 +1,3 @@
-/*
-413. Arithmetic Slices
-
-Level: Medium
-
-https://leetcode.com/problems/arithmetic-slices
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

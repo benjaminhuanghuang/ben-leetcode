@@ -1,8 +1,3 @@
-/*
-125. Valid Palindrome
-
-https://leetcode.com/problems/valid-palindrome/
-*/
 #include <string>
 
 using namespace std;

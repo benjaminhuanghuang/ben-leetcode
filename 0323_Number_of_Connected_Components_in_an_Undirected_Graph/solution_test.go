@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph
 package leetcode0323
 import (
 	"testing"

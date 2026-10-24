@@ -1,10 +1,4 @@
 /*
-45. Jump Game II
-
-https://leetcode.com/problems/jump-game-ii/
-*/
-
-/*
 The differnec between this problem and leetcode_55_jump-game.ts is that 
 this problem asks for the minimum number of jumps to reach the last index.
 */

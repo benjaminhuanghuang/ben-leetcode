@@ -1,15 +1,4 @@
 /*
-13. Roman to Integer
-
-https://leetcode.com/problems/roman-to-integer/
-
-
-To "VII", we use the [additive notation], 'V' + 'I' + 'I' = 5 + 1 + 1 = 7.
-To "IV" we use the [subtractive  notation]. 'V' - 'I' = 5 - 1 = 4.
-
-*/
-
-/*
   current < next => - current,
   current >= next => + current,
   "IV"→ -1+5，"VI"→ 5+1

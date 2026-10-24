@@ -1,10 +1,3 @@
-/*
-705. Design HashSet
-
-Level: Easy
-
-https://leetcode.com/problems/design-hashset
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

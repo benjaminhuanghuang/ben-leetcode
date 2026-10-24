@@ -1,10 +1,3 @@
-/*
-866. Prime Palindrome
-
-Level: Medium
-
-https://leetcode.com/problems/prime-palindrome
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

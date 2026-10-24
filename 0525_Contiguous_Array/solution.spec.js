@@ -1,10 +1,3 @@
-/*
-525. Contiguous Array
-
-Level: Medium
-
-https://leetcode.com/problems/contiguous-array
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

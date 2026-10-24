@@ -1,10 +1,3 @@
-/*
-1367. Linked List in Binary Tree
-
-Level: Medium
-
-https://leetcode.com/problems/linked-list-in-binary-tree
-*/
 #include <iostream>
 #include <vector>
 #include <string>

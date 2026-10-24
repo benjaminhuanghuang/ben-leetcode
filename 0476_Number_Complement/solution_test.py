@@ -1,11 +1,3 @@
-
-'''
-476. Number Complement
-
-Level: Easy
-
-https://leetcode.com/problems/number-complement
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

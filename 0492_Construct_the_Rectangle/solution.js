@@ -1,12 +1,4 @@
 /*
-492. Construct the Rectangle
-
-Level: Easy
-
-https://leetcode.com/problems/construct-the-rectangle
-*/
-
-/*
   Solution: 
 */
 

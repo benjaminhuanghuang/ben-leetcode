@@ -1,11 +1,3 @@
-
-'''
-910. Smallest Range II
-
-Level: Medium
-
-https://leetcode.com/problems/smallest-range-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-1463. Cherry Pickup II
-
-Level: Hard
-
-https://leetcode.com/problems/cherry-pickup-ii
-*/
 #include <iostream>
 #include <vector>
 #include <string>

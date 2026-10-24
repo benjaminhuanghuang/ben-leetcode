@@ -1,9 +1,3 @@
-/*
-765. Couples Holding Hands
-
-https://leetcode.com/problems/couples-holding-hands/
-*/
-
 #include <string>
 #include <climits>
 #include <vector>

@@ -1,11 +1,3 @@
-
-'''
-29. Divide Two Integers
-
-Level: Medium
-
-https://leetcode.com/problems/divide-two-integers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

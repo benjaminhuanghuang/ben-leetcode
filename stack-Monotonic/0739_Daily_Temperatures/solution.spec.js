@@ -1,10 +1,3 @@
-/*
-739. Daily Temperatures
-
-Level: Medium
-
-https://leetcode.com/problems/daily-temperatures
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

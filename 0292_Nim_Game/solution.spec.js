@@ -1,10 +1,3 @@
-/*
-292. Nim Game
-
-Level: Easy
-
-https://leetcode.com/problems/nim-game
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

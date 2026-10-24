@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/palindrome-number
 package leetcode0009
 
 func isPalindrome(x int) bool {

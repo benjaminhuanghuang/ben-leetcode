@@ -1,10 +1,3 @@
-/*
-342. Power of Four
-
-Level: Easy
-
-https://leetcode.com/problems/power-of-four
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

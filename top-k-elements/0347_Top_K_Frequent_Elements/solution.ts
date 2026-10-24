@@ -1,11 +1,3 @@
-/*
-347. Top K Frequent Elements
-
-https://leetcode.com/problems/top-k-frequent-elements/
-
-692. Top K Frequent Words
-*/
-
 import { PriorityQueue } from "./PriorityQueue";
 
 function topKFrequent(nums: number[], k: number): number[] {

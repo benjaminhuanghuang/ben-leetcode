@@ -1,11 +1,3 @@
-
-'''
-523. Continuous Subarray Sum
-
-Level: Medium
-
-https://leetcode.com/problems/continuous-subarray-sum
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,4 @@
 /*
-452. Minimum Number of Arrows to Burst Balloons
-
-https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
-*/
-
-/*
     sort the balloons based on their end times and then iterates through them, 
     counting the number of non-overlapping balloons. 
     The result is the minimum number of arrows required to burst all the balloons.

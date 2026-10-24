@@ -1,10 +1,3 @@
-/*
-1184. Distance Between Bus Stops
-
-Level: Easy
-
-https://leetcode.com/problems/distance-between-bus-stops
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

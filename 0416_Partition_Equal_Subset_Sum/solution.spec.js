@@ -1,10 +1,3 @@
-/*
-416. Partition Equal Subset Sum
-
-Level: Medium
-
-https://leetcode.com/problems/partition-equal-subset-sum
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

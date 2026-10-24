@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/jewels-and-stones
 package leetcode0771
 
 import (

@@ -1,10 +1,3 @@
-/*
-147. Insertion Sort List
-
-Level: Medium
-
-https://leetcode.com/problems/insertion-sort-list
-*/
 #include <iostream>
 #include <vector>
 #include <string>

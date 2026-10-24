@@ -1,12 +1,4 @@
 /*
-720. Longest Word in Dictionary
-
-https://leetcode.com/problems/longest-word-in-dictionary/
-
-[Google]
-*/
-
-/*
     HuaHua
     https://www.youtube.com/watch?v=TqrZg4wYP1U
 

@@ -1,11 +1,4 @@
 /*
-224. Basic Calculator
-
-https://leetcode.com/problems/basic-calculator/
-
-*/
-
-/*
 https://algo.monster/liteproblems/224
 */
 function calculate(s: string): number {

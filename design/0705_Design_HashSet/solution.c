@@ -1,13 +1,4 @@
 /*
-705. Design HashSet
-
-Level: Easy
-
-https://leetcode.com/problems/design-hashset
-*/
-
-
-/*
   Solution: 
 */
 

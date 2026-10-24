@@ -1,10 +1,3 @@
-/*
-1464. Maximum Product of Two Elements in an Array
-
-Level: Easy
-
-https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

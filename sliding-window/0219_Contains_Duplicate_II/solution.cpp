@@ -1,8 +1,3 @@
-/*
-219. Contains Duplicate II
-
-https://leetcode.com/problems/contains-duplicate-ii/s
-*/
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>

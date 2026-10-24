@@ -1,11 +1,3 @@
-
-'''
-258. Add Digits
-
-Level: Easy
-
-https://leetcode.com/problems/add-digits
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

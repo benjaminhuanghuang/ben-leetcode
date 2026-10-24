@@ -1,12 +1,3 @@
-/*
-297. Serialize and Deserialize Binary Tree
-
-Level: Hard
-
-https://leetcode.com/problems/serialize-and-deserialize-binary-tree
-
-- 449. Serialize and Deserialize BST
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,11 +1,3 @@
-
-'''
-1080. Insufficient Nodes in Root to Leaf Paths
-
-Level: Medium
-
-https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

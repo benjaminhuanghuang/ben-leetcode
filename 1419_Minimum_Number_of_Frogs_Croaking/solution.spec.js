@@ -1,10 +1,3 @@
-/*
-1419. Minimum Number of Frogs Croaking
-
-Level: Medium
-
-https://leetcode.com/problems/minimum-number-of-frogs-croaking
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

@@ -1,11 +1,3 @@
-
-'''
-1463. Cherry Pickup II
-
-Level: Hard
-
-https://leetcode.com/problems/cherry-pickup-ii
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

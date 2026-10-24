@@ -1,9 +1,3 @@
-/*
-  1025. Divisor Game
-
-  https://leetcode.com/problems/divisor-game/
-*/
-
 #include <vector>
 using namespace std;
 

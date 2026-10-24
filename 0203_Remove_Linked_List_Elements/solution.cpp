@@ -1,10 +1,3 @@
-/*
-203. Remove Linked List Elements
-
-Level: Easy
-
-https://leetcode.com/problems/remove-linked-list-elements
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

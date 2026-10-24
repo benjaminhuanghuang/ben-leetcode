@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/largest-number
 package leetcode0179
 import (
 	"testing"

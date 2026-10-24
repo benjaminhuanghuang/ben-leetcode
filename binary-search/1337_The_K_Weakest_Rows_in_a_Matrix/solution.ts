@@ -1,9 +1,3 @@
-/*
-1337. The K Weakest Rows in a Matrix
-
-https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
-*/
-
 function kWeakestRows(mat: number[][], k: number): number[] {
   function indexOfLastSolider(row: number[]): number {
     if (row[0] === 0) {

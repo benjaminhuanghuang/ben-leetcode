@@ -1,11 +1,3 @@
-
-'''
-567. Permutation in String
-
-Level: Medium
-
-https://leetcode.com/problems/permutation-in-string
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

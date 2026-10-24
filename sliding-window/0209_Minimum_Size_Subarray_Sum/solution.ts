@@ -1,11 +1,4 @@
 /*
-209. Minimum Size Subarray Sum
-
-https://leetcode.com/problems/minimum-size-subarray-sum/
-
-minimal length of a  subarray whose sum is greater than or equal to target. 
-*/
-/*
 Sliding window: move right pointer, when check the sum >= target, move left pointer to find the minimal length.
 
 Time complexity: O(n) 

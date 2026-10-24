@@ -1,11 +1,3 @@
-/*
-95. Unique Binary Search Trees II
-
-https://leetcode.com/problems/unique-binary-search-trees-ii/
-
-96. Unique Binary Search Trees (DP)
-*/
-
 import { TreeNode } from "../../common/TreeNode";
 
 function generateTrees(n: number): Array<TreeNode | null> {

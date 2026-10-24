@@ -1,9 +1,3 @@
-/*
-1079. Letter Tile Possibilities
-
-https://leetcode.com/problems/letter-tile-possibilities/
-*/
-
 function numTilePossibilities(tiles: string): number {
   const count: number[] = new Array(26).fill(0);
   for (const tile of tiles) {

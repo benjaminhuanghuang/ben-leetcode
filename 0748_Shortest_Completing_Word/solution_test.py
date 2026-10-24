@@ -1,11 +1,3 @@
-
-'''
-748. Shortest Completing Word
-
-Level: Easy
-
-https://leetcode.com/problems/shortest-completing-word
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,9 +1,4 @@
 /*
-69. Sqrt(x)
-https://leetcode.com/problems/sqrtx/
-*/
-
-/*
     Use Huahua's template
     https://www.youtube.com/watch?v=v57lNF2mb_s&t=212s
  */

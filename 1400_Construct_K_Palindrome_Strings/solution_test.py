@@ -1,11 +1,3 @@
-
-'''
-1400. Construct K Palindrome Strings
-
-Level: Medium
-
-https://leetcode.com/problems/construct-k-palindrome-strings
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

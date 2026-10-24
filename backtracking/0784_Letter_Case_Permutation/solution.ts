@@ -1,10 +1,4 @@
 /*
-784. Letter Case Permutation
-
-https://leetcode.com/problems/letter-case-permutation/
-*/
-
-/*
   http://zxi.mytechroad.com/blog/searching/leetcode-784-letter-case-permutation/
 */
 function letterCasePermutation(s: string): string[] {

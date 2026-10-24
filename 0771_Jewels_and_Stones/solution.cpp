@@ -1,10 +1,3 @@
-/*
-771. Jewels and Stones
-
-Level: Easy
-
-https://leetcode.com/problems/jewels-and-stones
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

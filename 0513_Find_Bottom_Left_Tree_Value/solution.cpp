@@ -1,10 +1,3 @@
-/*
-513. Find Bottom Left Tree Value
-
-https://leetcode.com/problems/find-bottom-left-tree-value/
-
-返回左下角（最后一行最左面）的节点的值。
- */
 #include "common/TreeNode.h"
 /*
  Using max_row

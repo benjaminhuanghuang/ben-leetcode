@@ -1,11 +1,3 @@
-
-'''
-326. Power of Three
-
-Level: Easy
-
-https://leetcode.com/problems/power-of-three
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

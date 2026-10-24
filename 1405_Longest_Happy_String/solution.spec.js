@@ -1,10 +1,3 @@
-/*
-1405. Longest Happy String
-
-Level: Medium
-
-https://leetcode.com/problems/longest-happy-string
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

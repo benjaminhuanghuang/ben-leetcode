@@ -1,11 +1,4 @@
 '''
-1401. Circle and Rectangle Overlapping
-
-Level: Medium
-
-https://leetcode.com/problems/circle-and-rectangle-overlapping
-'''
-'''
   Solution: 
 '''
 class Solution:

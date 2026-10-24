@@ -1,11 +1,3 @@
-
-'''
-787. Cheapest Flights Within K Stops
-
-Level: Medium
-
-https://leetcode.com/problems/cheapest-flights-within-k-stops
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

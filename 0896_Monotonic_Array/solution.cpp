@@ -1,8 +1,3 @@
-/*
-896. Monotonic Array
-https://leetcode.com/problems/monotonic-array/
-*/
-
 #include <vector>
 using namespace std;
 

@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/nth-digit
 package leetcode0400
 import (
 	"testing"

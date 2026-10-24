@@ -1,10 +1,3 @@
-/*
-976. Largest Perimeter Triangle
-
-Level: Easy
-
-https://leetcode.com/problems/largest-perimeter-triangle
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

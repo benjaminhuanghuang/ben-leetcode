@@ -1,10 +1,3 @@
-/*
-811. Subdomain Visit Count
-
-Level: Easy
-
-https://leetcode.com/problems/subdomain-visit-count
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

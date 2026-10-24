@@ -1,9 +1,3 @@
-/*
-268. Missing Number
-
-https://leetcode.com/problems/missing-number/
-*/
-
 function missingNumber(nums: number[]): number {
   const n = nums.length;
   let x = 0;

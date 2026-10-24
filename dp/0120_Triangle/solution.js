@@ -1,12 +1,4 @@
 /*
-120. Triangle
-
-Level: Medium
-
-https://leetcode.com/problems/triangle
-*/
-
-/*
   Solution: 
 */
 

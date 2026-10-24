@@ -1,11 +1,3 @@
-
-'''
-1223. Dice Roll Simulation
-
-Level: Medium
-
-https://leetcode.com/problems/dice-roll-simulation
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

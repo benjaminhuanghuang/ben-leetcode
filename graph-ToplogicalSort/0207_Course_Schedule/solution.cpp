@@ -1,12 +1,3 @@
-/*
-207. Course Schedule
-
-https://leetcode.com/problems/course-schedule/
-
-Hints:
-This problem is equivalent to finding if a cycle exists in a directed graph. 
-If a cycle exists, no topological ordering exists and therefore it will be impossible to take all courses.
-*/
 #include <vector>
 #include <queue>
 #include <unordered_map>

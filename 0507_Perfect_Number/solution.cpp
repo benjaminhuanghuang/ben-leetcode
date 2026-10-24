@@ -1,10 +1,3 @@
-/*
-507. Perfect Number
-
-Level: Easy
-
-https://leetcode.com/problems/perfect-number
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,11 +1,3 @@
-
-'''
-1376. Time Needed to Inform All Employees
-
-Level: Medium
-
-https://leetcode.com/problems/time-needed-to-inform-all-employees
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

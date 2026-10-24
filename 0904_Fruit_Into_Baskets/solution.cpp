@@ -1,10 +1,3 @@
-/*
-904. Fruit Into Baskets
-
-Level: Medium
-
-https://leetcode.com/problems/fruit-into-baskets
-*/
 #include <iostream>
 #include <vector>
 #include <string>

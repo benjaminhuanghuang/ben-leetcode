@@ -1,11 +1,4 @@
 '''
-146. LRU Cache
-
-Level: Medium
-
-https://leetcode.com/problems/lru-cache
-'''
-'''
   Solution: 
 '''
 class LRUCache:

@@ -1,10 +1,3 @@
-/*
-136. Single Number
-
-Level: Easy
-
-https://leetcode.com/problems/single-number
-*/
 #include <vector>
 #include <string>
 #include <unordered_set>

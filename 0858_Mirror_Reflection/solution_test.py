@@ -1,11 +1,3 @@
-
-'''
-858. Mirror Reflection
-
-Level: Medium
-
-https://leetcode.com/problems/mirror-reflection
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

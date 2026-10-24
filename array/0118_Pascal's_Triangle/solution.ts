@@ -1,10 +1,4 @@
 /*
-118. Pascal's Triangle
-
-https://leetcode.com/problems/pascals-triangle/
-*/
-
-/*
 [
   [1],
   [1,1],

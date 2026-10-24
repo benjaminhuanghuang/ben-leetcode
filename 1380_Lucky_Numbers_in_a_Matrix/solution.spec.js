@@ -1,10 +1,3 @@
-/*
-1380. Lucky Numbers in a Matrix
-
-Level: Easy
-
-https://leetcode.com/problems/lucky-numbers-in-a-matrix
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

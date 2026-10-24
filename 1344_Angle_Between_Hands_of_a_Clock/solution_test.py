@@ -1,11 +1,3 @@
-
-'''
-1344. Angle Between Hands of a Clock
-
-Level: Medium
-
-https://leetcode.com/problems/angle-between-hands-of-a-clock
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

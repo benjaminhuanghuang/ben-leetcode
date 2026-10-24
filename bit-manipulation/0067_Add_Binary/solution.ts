@@ -1,10 +1,4 @@
 /*
-67. Add Binary
-
-https://leetcode.com/problems/add-binary/
-*/
-
-/*
 https://algo.monster/liteproblems/67
 */
 function addBinary(a: string, b: string): string {

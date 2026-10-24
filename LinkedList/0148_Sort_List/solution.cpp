@@ -1,10 +1,3 @@
-/*
-148. Sort List
-
-Level: Medium
-
-https://leetcode.com/problems/sort-list
-*/
 #include <vector>
 #include <string>
 #include <unordered_map>

@@ -1,9 +1,4 @@
 /*
-12. Integer to Roman
-https://leetcode.com/problems/integer-to-roman/
-*/
-
-/*
 Create a list of values and symbols. 
 Then we iterate through the values
 */

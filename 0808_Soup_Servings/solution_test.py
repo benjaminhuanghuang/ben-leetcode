@@ -1,11 +1,3 @@
-
-'''
-808. Soup Servings
-
-Level: Medium
-
-https://leetcode.com/problems/soup-servings
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,11 +1,3 @@
-
-'''
-1220. Count Vowels Permutation
-
-Level: Hard
-
-https://leetcode.com/problems/count-vowels-permutation
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

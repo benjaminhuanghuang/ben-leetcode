@@ -1,11 +1,3 @@
-
-'''
-1324. Print Words Vertically
-
-Level: Medium
-
-https://leetcode.com/problems/print-words-vertically
-'''
 import unittest
 
 class TestSum(unittest.TestCase):

@@ -1,10 +1,3 @@
-/*
-284. Peeking Iterator
-
-Level: Medium
-
-https://leetcode.com/problems/peeking-iterator
-*/
 import { twoSum } from './solution';
 
 describe('Solution 0001 test', () => {;

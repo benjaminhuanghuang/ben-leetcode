@@ -1,11 +1,3 @@
-
-'''
-992. Subarrays with K Different Integers
-
-Level: Hard
-
-https://leetcode.com/problems/subarrays-with-k-different-integers
-'''
 import unittest
 
 class TestSum(unittest.TestCase):
