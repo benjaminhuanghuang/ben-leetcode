@@ -1,5 +1,5 @@
-import { PriorityQueue } from "./PriorityQueue";
-import { MinHeap } from "./MinHeap";
+import { PriorityQueue } from "../PriorityQueue";
+import { MinHeap } from "../MinHeap";
 /*
 Time complexity is O(NlogK), 
 where N is the number of elements in the array and K is the size of the MinHeap.
