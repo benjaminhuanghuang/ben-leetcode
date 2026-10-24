@@ -22,8 +22,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.compactFolders": false,
-  "prisma-smart-formatter.typescript.defaultFormatter": "esbenp.prettier-vscode",
-  "prisma-smart-formatter.typescriptreact.defaultFormatter": "esbenp.prettier-vscode",
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
