@@ -6,7 +6,7 @@ https://leetcode.com/problems/clone-graph/
     138. Copy List with Random Pointer
 */
 
-import { _Node } from "../Common/_Node";
+import { _Node } from "../../common/_Node";
 
 function cloneGraph(node: _Node | null): _Node | null {
   //uses a map, maps old graph nodes with new graph ones

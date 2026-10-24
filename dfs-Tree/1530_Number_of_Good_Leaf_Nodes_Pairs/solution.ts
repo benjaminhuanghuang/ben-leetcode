@@ -4,7 +4,7 @@
 https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 https://youtu.be/g8AVmVhNTkM (HuaHua)

@@ -4,7 +4,7 @@
 https://leetcode.com/problems/find-mode-in-binary-search-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
     Approach: Inorder Traversal 2 passes

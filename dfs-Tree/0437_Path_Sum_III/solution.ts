@@ -4,7 +4,7 @@
 https://leetcode.com/problems/path-sum-iii/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 https://zxi.mytechroad.com/blog/tree/leetcode-437-path-sum-iii/

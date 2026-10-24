@@ -2,7 +2,7 @@
 101. Symmetric Tree
 https://leetcode.com/problems/symmetric-tree/
 */
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function isSymmetric(root: TreeNode | null): boolean {
   if (root === null) {

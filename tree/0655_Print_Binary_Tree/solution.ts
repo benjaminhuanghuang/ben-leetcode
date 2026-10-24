@@ -3,7 +3,7 @@
 
 https://leetcode.com/problems/print-binary-tree/
 */
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 https://zxi.mytechroad.com/blog/tree/leetcode-655-print-binary-tree/

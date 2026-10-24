@@ -3,7 +3,7 @@
 
 https://leetcode.com/problems/binary-tree-coloring-game/
 */
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
     https://youtu.be/0MGbvRHYZxc (HuaHua)

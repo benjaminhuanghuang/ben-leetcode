@@ -4,7 +4,7 @@
 https://leetcode.com/problems/intersection-of-two-linked-lists/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 /*
 维护两个指针，假设有一个相交结点P,

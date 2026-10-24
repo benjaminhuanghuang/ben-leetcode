@@ -4,7 +4,7 @@
 https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function pairSum(head: ListNode | null): number {
   let slow: ListNode | null = head;

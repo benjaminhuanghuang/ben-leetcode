@@ -3,7 +3,7 @@
 https://leetcode.com/problems/validate-binary-search-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function isValidBST(root: TreeNode | null): boolean {
   function validate(

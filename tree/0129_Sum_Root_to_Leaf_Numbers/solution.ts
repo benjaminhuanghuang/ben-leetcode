@@ -4,7 +4,7 @@
 https://leetcode.com/problems/sum-root-to-leaf-numbers/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
  The root is the higest digit and the leaf is the lowest digit.

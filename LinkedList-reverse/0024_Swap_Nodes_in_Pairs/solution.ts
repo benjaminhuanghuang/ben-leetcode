@@ -4,7 +4,7 @@
 https://leetcode.com/problems/swap-nodes-in-pairs/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function swapPairs(head: ListNode | null): ListNode | null {
   if (!head || !head.next) {

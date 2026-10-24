@@ -4,7 +4,7 @@
 https://leetcode.com/problems/binary-tree-preorder-traversal/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function preorderTraversal(root: TreeNode | null): number[] {
   const result: number[] = [];

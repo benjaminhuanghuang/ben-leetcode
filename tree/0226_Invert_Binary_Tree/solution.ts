@@ -3,7 +3,7 @@
 https://leetcode.com/problems/invert-binary-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function invertTree(root: TreeNode | null): TreeNode | null {
   if (root === null) {

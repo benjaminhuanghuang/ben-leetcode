@@ -3,7 +3,7 @@
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 

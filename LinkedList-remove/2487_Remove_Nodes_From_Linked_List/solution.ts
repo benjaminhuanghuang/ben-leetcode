@@ -4,7 +4,7 @@
 https://leetcode.com/problems/remove-nodes-from-linked-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function removeNodes(head: ListNode | null): ListNode | null {
   if (head == null) return null;

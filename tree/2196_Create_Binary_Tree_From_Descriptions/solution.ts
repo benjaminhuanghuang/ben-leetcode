@@ -3,7 +3,7 @@
 
 https://leetcode.com/problems/create-binary-tree-from-descriptions/
 */
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function createBinaryTree(descriptions: number[][]): TreeNode | null {
   const hasParent: Set<number> = new Set();

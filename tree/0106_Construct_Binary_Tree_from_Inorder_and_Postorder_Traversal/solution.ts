@@ -2,7 +2,7 @@
 106. Construct Binary Tree from Inorder and Postorder Traversal
 https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 */
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
  inorder:   [-left-][root][--right--]

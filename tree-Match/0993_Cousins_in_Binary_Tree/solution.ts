@@ -4,7 +4,7 @@
 https://leetcode.com/problems/cousins-in-binary-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function isCousins(root: TreeNode | null, x: number, y: number): boolean {
   let parentX: TreeNode | null = null;

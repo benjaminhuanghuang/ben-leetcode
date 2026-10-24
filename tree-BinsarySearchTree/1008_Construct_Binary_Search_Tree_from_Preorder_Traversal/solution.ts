@@ -4,7 +4,7 @@
 https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
     in the preorder: 第一个元素表示树的根。根后面的元素随后被分成两个子数组：左子树元素和右子树。

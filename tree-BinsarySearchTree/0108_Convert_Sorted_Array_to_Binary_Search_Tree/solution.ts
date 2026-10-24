@@ -3,7 +3,7 @@
 
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 Time Complexity: O(n)

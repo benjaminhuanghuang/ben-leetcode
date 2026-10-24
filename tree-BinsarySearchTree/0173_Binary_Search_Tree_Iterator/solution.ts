@@ -5,7 +5,7 @@ https://leetcode.com/problems/binary-search-tree-iterator/
 94. Binary Tree Inorder Traversal
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 /*
 Use a stack to simulate the inorder traversal of the BST.
 Time complexity: amortized O(1) for next() call.

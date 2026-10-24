@@ -6,7 +6,7 @@ Given the head of a linked list, rotate the list to the right by k places.
 https://leetcode.com/problems/rotate-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function rotateRight(head: ListNode | null, k: number): ListNode | null {
   if (head == null || k == 0) return head;

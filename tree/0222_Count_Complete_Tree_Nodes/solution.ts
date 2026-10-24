@@ -5,7 +5,7 @@ https://leetcode.com/problems/count-complete-tree-nodes/
 Design an algorithm that runs in less than O(n) time complexity.
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
     Time complexity - 0(n)

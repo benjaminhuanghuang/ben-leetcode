@@ -4,7 +4,7 @@
 https://leetcode.com/problems/binary-tree-postorder-traversal/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function postorderTraversal(root: TreeNode | null): number[] {
   const result: number[] = [];

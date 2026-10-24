@@ -6,7 +6,7 @@ https://leetcode.com/problems/binary-tree-maximum-path-sum/
 [Google]
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 LaiOffer

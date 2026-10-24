@@ -4,7 +4,7 @@
 https://leetcode.com/problems/path-sum-ii/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
     Find all the paths from root to leaf

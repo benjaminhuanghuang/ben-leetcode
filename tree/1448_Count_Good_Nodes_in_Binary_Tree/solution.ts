@@ -4,7 +4,7 @@
 https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 pre-order traversal, pass the maximum value from the root to the current node

@@ -4,7 +4,7 @@
 https://leetcode.com/problems/search-in-a-binary-search-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function searchBST(root: TreeNode | null, val: number): TreeNode | null {
   if (root == null) return null;

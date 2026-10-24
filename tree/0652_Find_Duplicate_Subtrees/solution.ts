@@ -4,7 +4,7 @@
 https://leetcode.com/problems/find-duplicate-subtrees/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 https://www.youtube.com/watch?v=LYU3y0-59_k FLAG高频精选面试题讲解

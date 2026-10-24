@@ -4,7 +4,7 @@
 https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 Collect and sort

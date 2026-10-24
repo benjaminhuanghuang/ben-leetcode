@@ -4,7 +4,7 @@
 https://leetcode.com/problems/delete-leaves-with-a-given-value/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function removeLeafNodes(
   root: TreeNode | null,

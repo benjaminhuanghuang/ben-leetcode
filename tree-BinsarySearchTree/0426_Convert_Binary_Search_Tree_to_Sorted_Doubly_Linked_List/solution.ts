@@ -17,7 +17,7 @@ is the first element.
 114. Flatten Binary Tree to Linked List
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 Approach: In-Order Traversal

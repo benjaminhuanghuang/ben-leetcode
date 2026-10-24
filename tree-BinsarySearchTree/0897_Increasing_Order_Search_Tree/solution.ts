@@ -6,7 +6,7 @@ https://leetcode.com/problems/increasing-order-search-tree/
 Conver BST to a 右孩链表
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 Approach: Inorder Traversal

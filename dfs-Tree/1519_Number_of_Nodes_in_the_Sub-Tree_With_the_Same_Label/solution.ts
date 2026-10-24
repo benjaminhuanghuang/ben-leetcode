@@ -4,7 +4,7 @@
 https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 https://www.youtube.com/watch?v=FgLmFu_OwNA

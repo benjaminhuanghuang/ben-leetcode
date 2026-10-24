@@ -4,7 +4,7 @@
 https://leetcode.com/problems/linked-list-cycle/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 /*
     slow pointer moves 1 step, fast pointer moves 2 steps

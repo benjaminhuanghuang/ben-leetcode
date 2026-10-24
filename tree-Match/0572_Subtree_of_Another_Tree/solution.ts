@@ -3,7 +3,7 @@
 
 https://leetcode.com/problems/subtree-of-another-tree/
 */
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 Time Complexity: O(m*n), 

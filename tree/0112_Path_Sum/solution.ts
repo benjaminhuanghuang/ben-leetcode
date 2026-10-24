@@ -4,7 +4,7 @@
 https://leetcode.com/problems/path-sum/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
   if (root === null) {

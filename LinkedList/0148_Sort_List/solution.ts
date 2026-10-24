@@ -4,7 +4,7 @@
 https://leetcode.com/problems/sort-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function sortList(head: ListNode | null): ListNode | null {
   if (!head || !head.next) {

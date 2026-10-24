@@ -4,7 +4,7 @@
 https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 

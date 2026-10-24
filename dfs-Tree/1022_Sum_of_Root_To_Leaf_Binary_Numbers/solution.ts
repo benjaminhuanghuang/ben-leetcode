@@ -4,7 +4,7 @@
 https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function sumRootToLeaf(root: TreeNode | null): number {
   function dfs(node: TreeNode | null, currentNumber: number): number {

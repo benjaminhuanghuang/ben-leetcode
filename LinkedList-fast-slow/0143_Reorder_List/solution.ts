@@ -4,7 +4,7 @@
 https://leetcode.com/problems/reorder-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function reorderList(head: ListNode | null): void {
   if (!head || !head.next) {

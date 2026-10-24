@@ -4,7 +4,7 @@
 https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function minDiffInBST(root: TreeNode | null): number {
   let minDiff = Number.MAX_SAFE_INTEGER;

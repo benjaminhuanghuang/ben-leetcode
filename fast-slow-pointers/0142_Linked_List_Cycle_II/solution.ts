@@ -4,7 +4,7 @@
 https://leetcode.com/problems/linked-list-cycle-ii/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 /*
      https://www.jianshu.com/p/0420720ce32f

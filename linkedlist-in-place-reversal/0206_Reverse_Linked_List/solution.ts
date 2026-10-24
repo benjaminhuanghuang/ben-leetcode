@@ -4,7 +4,7 @@
 https://leetcode.com/problems/reverse-linked-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 /*
 Approach 1: Iterative 

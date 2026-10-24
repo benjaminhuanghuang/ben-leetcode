@@ -4,7 +4,7 @@
 https://leetcode.com/problems/palindrome-linked-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function isPalindrome(head: ListNode | null): boolean {
   if (head === null) return true;

@@ -3,7 +3,7 @@
 https://leetcode.com/problems/merge-two-sorted-lists/description/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function mergeTwoLists(
   list1: ListNode | null,

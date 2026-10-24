@@ -4,7 +4,7 @@
 https://leetcode.com/problems/binary-tree-tilt/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function findTilt(root: TreeNode | null): number {
   return helper(root)[0];

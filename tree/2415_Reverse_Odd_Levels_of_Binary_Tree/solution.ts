@@ -4,7 +4,7 @@
 https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
     Approach: Level Order Traversal, 

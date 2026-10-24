@@ -4,7 +4,7 @@
 https://leetcode.com/problems/inorder-successor-in-bst-ii/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 class Node {
   val: number;
   left: Node | null;

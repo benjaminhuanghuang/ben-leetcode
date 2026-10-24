@@ -3,7 +3,7 @@
 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function zigzagLevelOrder(root: TreeNode | null): number[][] {
   if (root === null) {

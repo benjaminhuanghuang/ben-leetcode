@@ -6,7 +6,7 @@ https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 426. Convert Binary Search Tree to Sorted Doubly Linked List
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function flatten(root: TreeNode | null): void {
   if (root === null) {

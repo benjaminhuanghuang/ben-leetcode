@@ -4,7 +4,7 @@
 https://leetcode.com/problems/binary-tree-paths/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function binaryTreePaths(root: TreeNode | null): string[] {
   const res: string[] = [];

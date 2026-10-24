@@ -3,7 +3,7 @@
 https://leetcode.com/problems/binary-tree-right-side-view/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function rightSideView(root: TreeNode | null): number[] {
   const res: number[] = [];

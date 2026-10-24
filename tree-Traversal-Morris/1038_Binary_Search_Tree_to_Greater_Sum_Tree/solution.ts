@@ -3,7 +3,7 @@
 
 https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 */
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 BST: 左子树 < 当前节点 < 右子树

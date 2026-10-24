@@ -4,7 +4,7 @@
 https://leetcode.com/problems/spiral-matrix-iv/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function spiralMatrix(m: number, n: number, head: ListNode | null): number[][] {
   const ans: number[][] = Array.from({ length: m }, () => Array(n).fill(-1));

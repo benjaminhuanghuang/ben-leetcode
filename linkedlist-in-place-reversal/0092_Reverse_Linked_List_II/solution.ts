@@ -5,7 +5,7 @@ https://leetcode.com/problems/reverse-linked-list-ii/
 reverse the nodes of the list from position left to position right, and return the reversed list.
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function reverseBetween(
   head: ListNode | null,

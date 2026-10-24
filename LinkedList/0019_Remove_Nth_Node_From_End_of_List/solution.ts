@@ -3,7 +3,7 @@
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   let dummy = new ListNode(0);

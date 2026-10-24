@@ -4,7 +4,7 @@
 https://leetcode.com/problems/merge-two-binary-trees/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function mergeTrees(
   root1: TreeNode | null,

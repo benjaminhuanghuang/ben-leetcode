@@ -3,7 +3,7 @@
 
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 https://www.youtube.com/watch?v=0JHrHh_mIIw

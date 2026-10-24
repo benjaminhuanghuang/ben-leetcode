@@ -4,7 +4,7 @@
 https://leetcode.com/problems/insert-into-a-binary-search-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 Time complexity: O(logn ~ n)

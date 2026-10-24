@@ -4,7 +4,7 @@
 https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 To case where path(start, end) goes through the root. 

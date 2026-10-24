@@ -16,7 +16,7 @@ https://leetcode.com/problems/merge-k-sorted-lists/
    优先队列队首指向最后，队尾指向最前面的缘故！每次入队元素进去经排序调整后，优先级最大的元素排在最前面，也就是队尾指向的位置，
    这时候队首指向优先级最小的元素！
  */
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 import { PriorityQueue } from "./PriorityQueue";
 function mergeKLists(lists: ListNode[]): ListNode | null {

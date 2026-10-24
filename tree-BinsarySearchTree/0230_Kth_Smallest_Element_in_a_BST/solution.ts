@@ -3,7 +3,7 @@
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
     Using inorder traversal to get the kth smallest element

@@ -3,7 +3,7 @@
 https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 /*
  * Encodes a tree to a single string.
  * Pre-order traversal is used to serialize the tree

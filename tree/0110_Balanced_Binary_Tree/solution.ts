@@ -4,7 +4,7 @@
 https://leetcode.com/problems/balanced-binary-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 O(N)

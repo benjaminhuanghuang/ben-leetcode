@@ -7,7 +7,7 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 - 236. Lowest Common Ancestor of a Binary Tree 
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function lowestCommonAncestor(
   root: TreeNode | null,

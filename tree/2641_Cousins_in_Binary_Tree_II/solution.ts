@@ -8,7 +8,7 @@ Two nodes of a binary tree are cousins if they have the same depth with differen
 - 993. Cousins in Binary Tree
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function replaceValueInTree(root: TreeNode | null): TreeNode | null {
   // An array to store the sum of values at each depth.

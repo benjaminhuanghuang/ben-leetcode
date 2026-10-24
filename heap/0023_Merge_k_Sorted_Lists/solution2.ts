@@ -3,7 +3,7 @@
 
 https://leetcode.com/problems/merge-k-sorted-lists/
 */
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 /*
 // 最简单的办法就是扫一遍k个链表的开头，哪个最小就把它移除，加入到结果链表中。这样时间复杂度是kn

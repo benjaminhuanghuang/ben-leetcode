@@ -4,7 +4,7 @@
 https://leetcode.com/problems/diameter-of-binary-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
     对根节点递归计算左右子树的Diameter，通过和类内的变量 diameter 进行比较，保存较大值。

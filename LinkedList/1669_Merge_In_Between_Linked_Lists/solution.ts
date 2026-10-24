@@ -4,7 +4,7 @@
 https://leetcode.com/problems/merge-in-between-linked-lists/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function mergeInBetween(
   list1: ListNode | null,

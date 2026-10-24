@@ -4,7 +4,7 @@
 https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function deleteDuplicates(head: ListNode | null): ListNode | null {
   let curr: ListNode | null = head;

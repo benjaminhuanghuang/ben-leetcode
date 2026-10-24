@@ -5,7 +5,7 @@ https://leetcode.com/problems/same-tree/
 
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function isSameTree(p: TreeNode | null, q: TreeNode | null): boolean {
   if (p === null && q === null) {

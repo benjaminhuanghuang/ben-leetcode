@@ -3,7 +3,7 @@
 https://leetcode.com/problems/partition-list/
 */
 
-import { ListNode } from "../Common/ListNode";
+import { ListNode } from "../../common/ListNode";
 
 function partition(head: ListNode | null, x: number): ListNode | null {
   let headSmall = new ListNode(0);

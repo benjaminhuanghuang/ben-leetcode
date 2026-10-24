@@ -4,7 +4,7 @@
 https://leetcode.com/problems/find-largest-value-in-each-tree-row/
 
 */
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function largestValues(root: TreeNode | null): number[] {
   if (!root) return [];

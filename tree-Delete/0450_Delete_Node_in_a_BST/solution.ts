@@ -4,7 +4,7 @@
 https://leetcode.com/problems/delete-node-in-a-bst/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function deleteNode(root: TreeNode | null, key: number): TreeNode | null {
   if (root === null) {

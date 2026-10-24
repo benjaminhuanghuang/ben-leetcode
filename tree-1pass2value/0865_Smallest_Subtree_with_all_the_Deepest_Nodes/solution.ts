@@ -7,7 +7,7 @@ https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 https://www.youtube.com/watch?v=q1zk8vZIDw0 (HuaHua)

@@ -4,7 +4,7 @@
 https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 https://algo.monster/liteproblems/1261

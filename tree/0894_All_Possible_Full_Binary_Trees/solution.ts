@@ -4,7 +4,7 @@
 https://leetcode.com/problems/all-possible-full-binary-trees/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 /*
 https://www.youtube.com/watch?v=noVVstnQvyY (HuaHua)
 

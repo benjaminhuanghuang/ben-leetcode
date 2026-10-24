@@ -6,7 +6,7 @@ https://leetcode.com/problems/serialize-and-deserialize-bst/
 - 297. Serialize and Deserialize Binary Tree
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function serialize(root: TreeNode | null): string {
   if (!root) {

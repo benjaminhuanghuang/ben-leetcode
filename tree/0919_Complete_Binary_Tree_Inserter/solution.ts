@@ -7,7 +7,7 @@ CBTInserter.insert(int v) 将 TreeNode 插入到存在值为 node.val = v 的树
 并返回插入的 TreeNode 的父结点的值；
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 class CBTInserter {
   private root: TreeNode;

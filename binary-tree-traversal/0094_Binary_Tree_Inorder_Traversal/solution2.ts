@@ -3,7 +3,7 @@
 https://leetcode.com/problems/binary-tree-inorder-traversal/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 iterative approach 

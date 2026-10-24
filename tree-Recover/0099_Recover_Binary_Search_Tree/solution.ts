@@ -3,7 +3,7 @@
 
 https://leetcode.com/problems/recover-binary-search-tree/
 */
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 function recoverTree(root: TreeNode | null): void {
   let first: TreeNode | null = null;

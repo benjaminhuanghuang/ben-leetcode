@@ -4,7 +4,7 @@
 https://leetcode.com/problems/delete-nodes-and-return-forest/
 */
 
-import { TreeNode } from "../Common/TreeNode";
+import { TreeNode } from "../../common/TreeNode";
 
 /*
 https://algo.monster/liteproblems/1110
