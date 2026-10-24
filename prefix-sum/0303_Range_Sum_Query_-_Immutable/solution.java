@@ -1,9 +1,9 @@
 package cn.huang.leetcode;
 
 /*
-303. Range Sum Query - Immutable
 
- */
+
+*/
 public class LC_0303_RangeSumQuery_Immutable {
     /*
     sums[i] = nums[0] + nums[1] + … + nums[i]
