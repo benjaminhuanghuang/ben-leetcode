@@ -1,7 +1,0 @@
-# prefixSum
-
-## Template
-
-## Complexity
-
-## Sample

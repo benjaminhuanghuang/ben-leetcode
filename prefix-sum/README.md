@@ -23,3 +23,15 @@ sum(x1,y1,x2,y2) = prefixSum[x2][y2] - prefixSum[x1-1][y2] - prefixSum[x2][y1-1]
 
 时间复杂度：O(n)
 空间复杂度：O(n)
+
+---
+
+## (merged from _CodingTemplates/prefixSum.md)
+
+# prefixSum
+
+## Template
+
+## Complexity
+
+## Sample
