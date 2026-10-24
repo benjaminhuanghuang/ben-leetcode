@@ -1,10 +1,3 @@
-/*
-419. Battleships in a Board
-
-Level: Medium
-
-https://leetcode.com/problems/battleships-in-a-board
-*/
 #include <iostream>
 #include <vector>
 #include <string>
