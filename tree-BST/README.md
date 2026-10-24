@@ -1,12 +1,12 @@
-# Binary Search tree
+# Binary Search Tree
 
-BST property:
-Vals are sorted if trevase the tree in-order
-func in-ordert(root):
-in-order (left)
-print(root.val)
-in-order (right)
+- The values are sorted when the tree is traversed in in-order.
 
-## Calculate multiple values (sum, tile) in on dfs function
-
-- 563. Binary Tree Tilt
+```js
+function inOrder(root) {
+  if (root === null) return;
+  inOrder(root.left);
+  console.log(root.val);
+  inOrder(root.right);
+}
+```
