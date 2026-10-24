@@ -21,3 +21,5 @@ function isValid(s: string): boolean {
 
   return stack.length === 0;
 }
+
+export {};
