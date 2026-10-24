@@ -1,10 +1,9 @@
 /*
     Time complexity:  N*Lg(N)
     
-    Spce complexity: Extra space is allocated for the partitioning step (e.g., allocating additional arrays for left and right partitions), 
+    Space complexity: Extra space is allocated for the partitioning step (e.g., allocating additional arrays for left and right partitions), 
     the space complexity can increase to O(N).
     O(n) in the worst case, particularly if the partitioning is done using auxiliary arrays or lists.
-
 */
 
 function quickSortNonInPlace(arr: number[]): number[] {

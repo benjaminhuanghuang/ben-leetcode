@@ -54,8 +54,8 @@ function slidingWindowFlexibleShortest(input) {
 
 ## Leetcode list
 
-209. Minimum Size Subarray Sum
+  1. Minimum Size Subarray Sum
 
-210. Contains Duplicate II
+  2. Contains Duplicate II
 
-211. Maximum Sum of Distinct Subarrays With Length K
+  3. Maximum Sum of Distinct Subarrays With Length K

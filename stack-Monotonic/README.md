@@ -1,6 +1,7 @@
 # Monotonic Stack
 
-Key words:
+## Key words
+
 the minimum index such that j > i and prices[j] <= prices[i]
 
 For each element, find the first smaller/bigger element
