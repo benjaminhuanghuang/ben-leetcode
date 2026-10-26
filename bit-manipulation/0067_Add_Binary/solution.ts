@@ -31,3 +31,21 @@ function addBinary(a: string, b: string): string {
   // Since we stored the result in reverse, reverse it back to get the actual result
   return result.reverse().join("");
 }
+
+function addBinary2(a: string, b: string): string {
+  let indexA = a.length - 1;
+  let indexB = b.length - 1;
+  const len = Math.max(a.length, b.length) + 1;
+  const result = new Array<string>(len); // better
+  let pos = len - 1;
+  let carry = 0;
+
+  while (indexA >= 0 || indexB >= 0 || carry > 0) {
+    if (indexA >= 0) carry += a.charCodeAt(indexA--) - 48;
+    if (indexB >= 0) carry += b.charCodeAt(indexB--) - 48;
+    result[pos--] = carry & 1 ? "1" : "0";
+    carry >>= 1;
+  }
+
+  return result.slice(pos + 1).join("");
+}

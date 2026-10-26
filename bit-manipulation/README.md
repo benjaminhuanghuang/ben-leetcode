@@ -4,6 +4,21 @@
 一个数字与 0 进行异或得到该数字本身。
 XOR 操作顺序不影响结果。
 
+## js 中 >> 和 >>>  的区别
+
+JavaScript 里这两个操作都先把数字转成 32-bit integer（32 位整数） 再移位，区别只在左边空出来的位填什么：
+
+`>>` signed right shift（有符号右移）：左边填符号位 — 正数填 0，负数填 1。所以负数移完还是负数
+`>>>` unsigned right shift（无符号右移，也叫 zero-fill right shift）：左边永远填 0。负数移完会变成一个很大的正数
+
+-8 的 32 位表示: 11111111 11111111 11111111 11111000
+
+-8 >> 2   左边填 1: 11111111 11111111 11111111 11111110  = -2
+-8 >>> 2  左边填 0: 00111111 11111111 11111111 11111110  = 1073741822
+
+-1 >>> 0  // 4294967295
+是把任何数转成 uint32（无符号 32 位整数） 的惯用写法
+
 ## sets all bits after the lowest set bit to 1
 
 ```js
@@ -25,7 +40,7 @@ i-1 = 11 -> 1011
 i & (i-1) = 1100 & 1011 = 1000
 ```
 
-338. Counting Bits
+  1. Counting Bits
 
 应用1:把一个整数用二进制表示时,其中二进制1的个数;
 
@@ -51,7 +66,7 @@ i & (i-1) = 1100 & 1011 = 1000
 let diff = start ^ goal;
 ```
 
-- 2220. Minimum Bit Flips to Convert Number
+- 1. Minimum Bit Flips to Convert Number
 
 ## Flip a bit: 1 to 0 or 0 to 1
 
@@ -59,7 +74,7 @@ let diff = start ^ goal;
 nums[i] ^= 1;
 ```
 
-- 3200. Maximum Height of a Triangle: switch color between red and blue
+- 1. Maximum Height of a Triangle: switch color between red and blue
 
 ## Cancel the number
 
@@ -71,5 +86,5 @@ for (let i = 0; i < arrayLength; ++i) {
 }
 ```
 
-- 136. Single Number
-- 268. Missing Number
+- 1. Single Number
+- 1. Missing Number
