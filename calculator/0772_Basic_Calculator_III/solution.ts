@@ -1,3 +1,7 @@
+/*
+Time complexity O(N^2)
+Space complexity O(N)
+*/
 function calculate(s: string): number {
   const stack: number[] = [];
   let num: number = 0;
