@@ -4,6 +4,29 @@
 - LC 227 Basic Calculator II: +, -, *, /
 - LC 772 Basic Calculator III: +, -, *, /, ()
 
+## Talking point
+
+Opening（先说思路，别动笔）"The idea is recursive descent. An expression has two levels of precedence, so I write two functions. One handles plus and minus, one handles multiply and divide. Each one calls the level below it."
+"Think of it as a grammar. AddSub is built from MulDiv terms, and MulDiv is built from single values. The lower the function, the tighter it binds. That's why multiplication gets computed first — it's deeper in the call chain."
+
+"First, a helper to skip spaces, so I don't repeat that everywhere."
+"parseValue reads one value. If it sees a plus or minus sign first, that's a unary sign — it belongs to this value, so I handle it here, recursively. Otherwise I read the full number digit by digit."
+"calculateMulDiv gets a value, then while the next operator is times or divide, it takes the next value and folds it in immediately."
+"calculateAddSub does the same one level up, with plus and minus."
+"The main function just calls calculateAddSub once."
+
+"For division, the problem asks to truncate toward zero, so I use Math.trunc. In JavaScript, minus three divided by two must give minus one, not minus two."
+"Unary signs can appear at the start, or right after an operator, like three times minus two. Handling them inside parseValue covers both cases with one rule."
+
+Complexity: "Time is O of n. There is one shared index that only moves forward, so every character is read once. Space is O of one extra — I don't keep a stack of numbers, just the three function layers on the call stack."
+
+Test: "Let me test it. 'Three plus two times two' — I expect seven, because the two times two folds first. 'Three plus five divided by two' — five divided by two truncates to two, so five. Both pass."
+
+Follow up
+加括号？→ "I add one branch in parseValue: on an opening parenthesis, I call calculateAddSub recursively and skip the closing one. The rest doesn't change — that's why I picked this structure."
+
+为什么不用 number stack？→ "The stack version is shorter for this problem alone. Recursive descent matches the grammar, so it extends without restructuring."
+
 ## Recursive Descent Parser
 
 一种自顶向下（top-down）的语法解析方法，为语法中每一条"规则"（优先级层级）写一个对应的函数，函数之间按优先级从低到高逐层调用（recursive descent = 递归地往下钻）。
