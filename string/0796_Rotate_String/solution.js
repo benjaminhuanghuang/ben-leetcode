@@ -7,9 +7,6 @@
  * @param {string} B
  * @return {boolean}
  */
-var rotateString = function(A, B) {
-    
-};
-
+var rotateString = function (A, B) {};
 
 export { twoSum };
