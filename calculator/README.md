@@ -6,8 +6,8 @@
 
 ## Talking point
 
-Opening（先说思路，别动笔）"The idea is recursive descent. An expression has two levels of precedence, so I write two functions. One handles plus and minus, one handles multiply and divide. Each one calls the level below it."
-"Think of it as a grammar. AddSub is built from MulDiv terms, and MulDiv is built from single values. The lower the function, the tighter it binds. That's why multiplication gets computed first — it's deeper in the call chain."
+Opening（先说思路，别动笔）""The idea is recursive descent. I start with the lowest-precedence operators, plus and minus. That function calls the multiply-and-divide level, which calls the function that reads a single value."
+Think of it as a grammar. AddSub is built from MulDiv terms, and MulDiv is built from single values. Plus and minus sit at the top and bind the loosest, so they are computed last. Multiplication sits deeper in the call chain and binds tighter, so it is computed first.
 
 "First, a helper to skip spaces, so I don't repeat that everywhere."
 "parseValue reads one value. If it sees a plus or minus sign first, that's a unary sign — it belongs to this value, so I handle it here, recursively. Otherwise I read the full number digit by digit."
