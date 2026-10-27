@@ -11,8 +11,8 @@
    这时候队首指向优先级最小的元素！
  */
 import { ListNode } from "../../common/ListNode";
+import { PriorityQueue } from "../PriorityQueue";
 
-import { PriorityQueue } from "./PriorityQueue";
 function mergeKLists(lists: ListNode[]): ListNode | null {
   const pq = new PriorityQueue<ListNode>((a, b) => a.val < b.val);
 

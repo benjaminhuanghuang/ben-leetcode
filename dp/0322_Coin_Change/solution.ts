@@ -1,17 +1,4 @@
 /*
-LaiOffer: Naive dynamic programming
-
-https://www.youtube.com/watch?v=htdBJul3xoc
-
-n = number of types of coins
-m = desired amount
-
-If [1][j] represents min number of coins needed to make up amount j with only coins(i..n-1]
-
-
-*/
-
-/*
 huahua
 https://www.youtube.com/watch?v=uUETHdijzkA
 
@@ -54,7 +41,7 @@ function coinChange2(coins: number[], amount: number): number {
   for (const coin of coins) {
     // 遍历所有可以用当前硬币产生的金额i
     for (let i = coin; i <= amount; i++) {
-      // 如果我想用 coin 凑出金额 i, 可以从 i - coin 这个金额加一枚 coin 来得到
+      // 如果想用 coin 凑出金额 i, 可以从 i - coin 这个金额加一枚 coin 来得到
       dp[i] = Math.min(dp[i], dp[i - coin] + 1);
     }
   }

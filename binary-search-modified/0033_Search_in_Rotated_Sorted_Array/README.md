@@ -1,6 +1,6 @@
 # 33. Search in Rotated Sorted Array
 
-https://leetcode.com/problems/search-in-rotated-sorted-array/
+<https://leetcode.com/problems/search-in-rotated-sorted-array/>
 
 Suppose a sorted array is rotated at some pivot unknown to you beforehand.
 
