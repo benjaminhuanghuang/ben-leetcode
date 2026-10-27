@@ -2,7 +2,7 @@
 
 Difficulty: Medium
 
-https://leetcode.com/problems/number-of-islands
+<https://leetcode.com/problems/number-of-islands>
 
 Given a 2d grid map of '1's (land) and '0's (water), count the number of islands.
 An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically.
@@ -24,6 +24,5 @@ Example 2:
 00011
 Answer: 3
 
-
 Reference:
-    http://www.tangjikai.com/algorithms/leetcode-200-number-of-islands
+    <http://www.tangjikai.com/algorithms/leetcode-200-number-of-islands>

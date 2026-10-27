@@ -1,14 +1,5 @@
 /*
-146. LRU Cache
-
-Least recently used (LRU)
-
-The functions get and put must each run in O(1) average time complexity.
-*/
-
-/*
 https://algo.monster/liteproblems/146
-
 */
 
 /*
@@ -118,3 +109,5 @@ class LRUCache {
     }
   }
 }
+
+export {};
