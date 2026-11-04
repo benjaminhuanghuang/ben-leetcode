@@ -14,9 +14,6 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var goodNodes = function(root) {
-    
-};
-
+var goodNodes = function (root) {};
 
 export { twoSum };

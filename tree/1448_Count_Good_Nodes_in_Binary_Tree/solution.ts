@@ -5,6 +5,7 @@ pre-order traversal, pass the maximum value from the root to the current node
 */
 function goodNodes(root: TreeNode | null): number {
   let goodNodesCount = 0;
+
   // pre-order traversal
   function dfs(node: TreeNode | null, maxSoFar: number): void {
     if (!node) {
@@ -20,5 +21,6 @@ function goodNodes(root: TreeNode | null): number {
   }
 
   dfs(root, Number.MIN_SAFE_INTEGER); // Start DFS with the lowest possible value
+
   return goodNodesCount; // Return the count of good nodes
 }
