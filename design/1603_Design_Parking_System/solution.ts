@@ -1,5 +1,6 @@
 class ParkingSystem {
   spaces: number[];
+
   constructor(big: number, medium: number, small: number) {
     this.spaces = [big, medium, small];
   }
