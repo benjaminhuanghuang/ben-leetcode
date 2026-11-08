@@ -2,12 +2,12 @@
 
 Difficulty: Medium
 
-https://leetcode.com/problems/coin-change-2
+<https://leetcode.com/problems/coin-change-2>
 
-#322. Coin Change
+Relevant: LC 322. Coin Change
 
-You are given coins of different denominations and a total amount of money. Write a function to 
-compute the number of combinations that make up that amount. You may assume that you have infinite 
+You are given coins of different denominations and a total amount of money. Write a function to
+compute the number of combinations that make up that amount. You may assume that you have infinite
 number of each kind of coin.
 
 Note: You can assume that
@@ -32,5 +32,10 @@ Output: 0
 Explanation: the amount of 3 cannot be made up just with coins of 2.
 Example 3:
 
-Input: amount = 10, coins = [10] 
+Input: amount = 10, coins = [10]
 Output: 1
+
+## Solution
+
+dp[i] = 组成金额 i 的不同组合数量
+dp[i]+= dp[i-coin]
