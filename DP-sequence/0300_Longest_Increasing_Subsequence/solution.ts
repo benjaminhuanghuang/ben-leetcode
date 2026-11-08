@@ -1,19 +1,12 @@
 /*
-300. Longest Increasing Subsequence
+  Brute force: O(2^n)
+  DP: dp[i] means the length of the LIS ending with nums[i]
+  Init: dp[i] = 1
+  Transition: dp[i] = max(dp[i], dp[j] + 1) for 0 <= j < i and nums[j] < nums[i]
 
-https://leetcode.com/problems/longest-increasing-subsequence/
-
-O(n^2) solution -> O(nlogn) solution
-*/
-/*
-    Brute force: O(2^n)
-    DP: dp[i] means the length of the LIS ending with nums[i]
-    Init: dp[i] = 1
-    Transition: dp[i] = max(dp[i], dp[j] + 1) for 0 <= j < i and nums[j] < nums[i]
-
-    answer = max(dp)
-    Time complexity: O(n^2)
-    Space complexity: O(n)
+  answer = max(dp)
+  Time complexity: O(n^2)
+  Space complexity: O(n)
 */
 function lengthOfLIS(nums: number[]): number {
   if (nums.length === 0) return 0;
