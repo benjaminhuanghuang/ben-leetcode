@@ -2,4 +2,4 @@
 
 Difficulty: Medium
 
-https://leetcode.com/problems/triangle
+<https://leetcode.com/problems/triangle>
