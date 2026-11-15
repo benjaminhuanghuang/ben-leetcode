@@ -1,4 +1,4 @@
-import { PriorityQueue } from "./PriorityQueue";
+import { PriorityQueue } from "../PriorityQueue";
 
 function topKFrequent(nums: number[], k: number): number[] {
   // count the frequency of each element
