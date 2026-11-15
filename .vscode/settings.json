@@ -1,7 +1,8 @@
 {
   "files.associations": {
     "vector": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "**/z_playground/**": "plaintext"
   },
   "python.pythonPath": "/Users/bhuang/ben-github/ben-leetcode/venv3/bin/python3",
   "python.formatting.provider": "yapf",
@@ -25,5 +26,17 @@
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-  "workbench.browser.openLocalhostLinks": false
+  "workbench.browser.openLocalhostLinks": false,
+  "[plaintext]": {
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.hover.enabled": "off"
+  }
 }
