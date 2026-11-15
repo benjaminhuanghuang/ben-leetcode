@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=Qqgck2ijUjU
 
 Topological sort
 
-DFS, add the node the visited array befr popping the stack.
+DFS, add the node the visited array before popping the stack.
 If a node is already added to visited, there is a cycle.
 Answer is the reverse of the visited array.
 
