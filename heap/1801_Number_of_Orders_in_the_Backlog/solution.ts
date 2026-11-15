@@ -10,9 +10,7 @@ function getNumberOfBacklogOrders(orders: number[][]): number {
   // sellBacklog: min-heap by price, lowest sell price matches first
   const sellBacklog = new PriorityQueue<Order>((a, b) => a[0] < b[0]);
 
-  for (const [price, amountRaw, orderType] of orders) {
-    let amount = amountRaw;
-
+  for (let [price, amount, orderType] of orders) {
     if (orderType === 0) {
       // buy order: match against cheapest sell orders in the backlog
       while (
@@ -24,7 +22,7 @@ function getNumberOfBacklogOrders(orders: number[][]): number {
         const matched = Math.min(amount, top[1]);
         amount -= matched;
         top[1] -= matched;
-        if (top[1] === 0) sellBacklog.poll();
+        if (top[1] === 0) sellBacklog.poll(); // remove from heap
       }
       if (amount > 0) buyBacklog.add([price, amount]);
     } else {
@@ -45,9 +43,12 @@ function getNumberOfBacklogOrders(orders: number[][]): number {
   }
 
   let total = 0;
-  let order: Order | undefined;
-  while ((order = buyBacklog.poll())) total = (total + order[1]) % MOD;
-  while ((order = sellBacklog.poll())) total = (total + order[1]) % MOD;
+  while (!buyBacklog.isEmpty()) {
+    total = (total + buyBacklog.poll()![1]) % MOD;
+  }
+  while (!sellBacklog.isEmpty()) {
+    total = (total + sellBacklog.poll()![1]) % MOD;
+  }
 
   return total;
 }
