@@ -8,7 +8,7 @@
    O(n log k) / O(n)
 */
 
-import { PriorityQueue } from "./PriorityQueue";
+import { PriorityQueue } from "../PriorityQueue";
 
 function topKFrequent(words: string[], k: number): string[] {
   const count: Map<string, number> = new Map();
