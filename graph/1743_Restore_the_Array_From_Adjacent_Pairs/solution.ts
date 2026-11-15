@@ -1,7 +1,8 @@
 function restoreArray(adjacentPairs: number[][]): number[] {
-  const n: number = adjacentPairs.length + 1;
+  const n = adjacentPairs.length + 1;
   const g: Map<number, number[]> = new Map();
 
+  // build the graph
   for (const [a, b] of adjacentPairs) {
     if (!g.has(a)) {
       g.set(a, []);
