@@ -2,4 +2,6 @@
 
 Difficulty: Medium
 
-https://leetcode.com/problems/count-good-meals
+[robinhood]
+
+<https://leetcode.com/problems/count-good-meals>

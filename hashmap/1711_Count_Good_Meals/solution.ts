@@ -1,3 +1,7 @@
+/*
+Time complexity O(n x 22)
+
+*/
 const MOD = 1_000_000_007;
 
 function countPairs(deliciousness: number[]): number {
