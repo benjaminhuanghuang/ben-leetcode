@@ -1,26 +1,45 @@
 /**
- * @param {number[][]} intervals
- * @return {number[][]}
+ * @param {string} s
+ * @param {string} t
+ * @return {string}
  */
-function merge(intervals) {
-  // TODO: implement
-  if (!intervals || intervals.length === 0) return [];
+function minWindow(s, t) {
+  const need = new Map();
+  const window = new Map();
 
-  intervals.sort((a, b) => a[0] - b[0]);
+  for (const c of t) {
+    need.set(c, (need.get(c) || 0) + 1);
+  }
 
-  const ans = [];
-  let curr = intervals[0];
+  let left = 0;
+  let formed = 0;
 
-  for (let i = 1; i < intervals.length; i++) {
-    if (intervals[i][0] > curr[1]) {
-      ans.push(curr);
-      curr = intervals[i];
-    } else {
-      curr[1] = Math.max(curr[1], intervals[i][1]);
+  const required = need.size;
+  let minLength = Infinity;
+  let start = 0;
+
+  // Expand window
+  for (let right = 0; right < s.length; right++) {
+    const char = s[right];
+    window.set(char, (window.get(char) || 0) + 1);
+    if (need.has(char) && window.get(char) === need.get(char)) formed++;
+
+    //Shrink window
+    while (formed === required) {
+      if (right - left + 1 < minLength) {
+        minLength = right - left + 1;
+        start = left;
+      }
+
+      const leftChar = s[left];
+      window.set(leftChar, window.get(leftChar) - 1);
+      // window invalid
+      if (need.has(leftChar) && window.get(leftChar) < need.get(leftChar)) {
+        formed--;
+      }
+      left++;
     }
   }
 
-  ans.push(curr);
-
-  return ans;
+  return minLength === Infinity ? "" : s.slice(start, start + minLength);
 }
