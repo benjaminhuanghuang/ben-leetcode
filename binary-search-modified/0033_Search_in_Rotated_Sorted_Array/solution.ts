@@ -14,9 +14,8 @@ function search(nums: number[], target: number): number {
     if (nums[mid] === target) {
       return mid;
     }
-
+    // Left half is sorted
     if (nums[left] <= nums[mid]) {
-      // mid located in left part, which is increasing
       if (nums[left] <= target && target < nums[mid]) {
         //  target located between left and mid
         right = mid - 1;
