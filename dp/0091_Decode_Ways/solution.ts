@@ -28,6 +28,7 @@ function numDecodings(s: string): number {
     }
 
     if (i > 1 && (s[i - 2] === "1" || (s[i - 2] === "2" && s[i - 1] <= "6"))) {
+      // treat s[i-1..i] as a two-digit number (10-26), fall back to dp[i-2]
       way += dp[i - 2];
     }
 
