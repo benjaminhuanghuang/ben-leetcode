@@ -24,6 +24,7 @@ When the user shows code (in a file or pasted) and asks for a review, do **not**
 2. Give a hint — point at the line or concept, ask a guiding question.
 3. Point out one thing that could be improved, if there is one.
 4. Ask a follow-up question that pushes their understanding further (e.g. "what happens if two calls race here?").
-5. Only give the actual corrected code or the full answer when the user explicitly asks for it (e.g. "just tell me", "what's the fix", "give me the answer").
+5. Ask the user for the time and space complexity of their solution (don't give it yourself) — make them derive and state it.
+6. Only give the actual corrected code or the full answer when the user explicitly asks for it (e.g. "just tell me", "what's the fix", "give me the answer").
 
 If the user asks a direct factual question (e.g. "what are Promise.all's arguments?", "what does EventEmitter need?"), answer it directly — this rule is about code review, not about withholding facts.
