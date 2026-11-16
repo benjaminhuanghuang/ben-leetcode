@@ -1,45 +1,30 @@
 /**
  * @param {string} s
- * @param {string} t
- * @return {string}
+ * @return {number}
  */
-function minWindow(s, t) {
-  const need = new Map();
-  const window = new Map();
+function numDecodings(s) {
+  const n = s.length;
 
-  for (const c of t) {
-    need.set(c, (need.get(c) || 0) + 1);
-  }
+  const dp = new Array(n + 1).fill(0);
 
-  let left = 0;
-  let formed = 0;
+  // Base case
+  dp[0] = 1;
 
-  const required = need.size;
-  let minLength = Infinity;
-  let start = 0;
+  for (let i = 1; i <= n; i++) {
+    // Case 1: Decode one digit
+    if (s[i - 1] !== "0") {
+      dp[i] += dp[i - 1];
+    }
 
-  // Expand window
-  for (let right = 0; right < s.length; right++) {
-    const char = s[right];
-    window.set(char, (window.get(char) || 0) + 1);
-    if (need.has(char) && window.get(char) === need.get(char)) formed++;
+    // Case 2: Decode two digits
+    if (i >= 2) {
+      const twoDigits = Number(s.slice(i - 2, i));
 
-    //Shrink window
-    while (formed === required) {
-      if (right - left + 1 < minLength) {
-        minLength = right - left + 1;
-        start = left;
+      if (twoDigits >= 10 && twoDigits <= 26) {
+        dp[i] += dp[i - 2];
       }
-
-      const leftChar = s[left];
-      window.set(leftChar, window.get(leftChar) - 1);
-      // window invalid
-      if (need.has(leftChar) && window.get(leftChar) < need.get(leftChar)) {
-        formed--;
-      }
-      left++;
     }
   }
 
-  return minLength === Infinity ? "" : s.slice(start, start + minLength);
+  return dp[n];
 }
